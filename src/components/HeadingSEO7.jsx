@@ -282,14 +282,102 @@ export const HeadingSEO7 = () => {
 
 
         Det här verktyget är användbart då det gör det möjligt att
+        <strong class="text-rose-300"> göra en testkörning av hur Google går igenom och visar en specifik URL på webbplatsen </strong>
+        i fråga. Det är ett bra sätt att se till att botarna får tillgång till en sida som annars skulle kunna förbises. Vill du ha tillgång till koden för webbplats går du vidare till ”Visa testad sida”. Här får du en skärmdump på
+        <em> HTML-koden </em>
+        och eventuella spårningsfel. Detta visades tidigare som en egen rapport, medan den nu finns i URL-inspektionen under
+        <em> ”Täckning”</em>
+        .
         </li>
+
+
+        <li class="pb-5">
+        <strong class=" text-base">
+        Tester av Robots.txt /  Robots.txt Tests
+        </strong>
+        <br />
+
+        Om du använder en
+        <em> robot.txt-fil </em>
+        för att
+        <strong class="text-rose-300"> blockera Googles crawlers från en viss resurs, </strong>
+        kan du med detta verktyg dubbelkolla att allt fungerar. Skulle du exempelvis av någon anledning ha en bild som du inte vill ska visas i en
+        <em> Google Image Search, </em>
+        kan du här testa din robot.txt för att se till att bilden inte dyker upp där du inte vill att den ska visas. Genom att testa detta får du antingen meddelandet
+        <em> ”Accepterad” </em>
+        eller
+        <em> ”Blockerad” </em>
+        , och kan sedan redigera därefter.
+        </li>
+
+
+        <li class="pb-5">
+        <strong class=" text-base">
+        URL-parametrar / URL Parameters
+        </strong>
+        <br />
+
+        Google rekommenderar att man använder det här verktyget med försiktighet, eftersom en felaktig URL-parameter kan ha en negativ inverkan på hur webbplatsen genomsöks. Att använda detta låter dig 
+        <strong  class='text-rose-300'> hålla koll på adressers prestanda </strong>
+        och se till att de inte pekar sökbotarna i fel riktning.
+
+        </li>
+
+
+
     </ul>
 
+    <p class="text-sm text pb-5">
+    Som du förstår ger Google Search Console
+    <strong class='text-rose-300'> en bra inblick i hur din webbplats fungerar och presteras i sökmotorernas ögon. </strong>
+    Det låter dig veta vad du kan göra för att behålla Googles uppmärksamhet och hur du ska 
+    <strong class="text-rose-300"> göra din sajt både mer användarvänlig. </strong>
+    När du väl har lärt dig grunderna i hur verktyget fungerar, kan du sedan gå vidare till att använda datan som samlas in till att förbättra hemsidan och få din trafik att öka.
+    </p>
 
     </div>
 
-    </section>
+    
 
+   
+
+    </section>
+    <div class="whitedivider pb-20">
+    </div>
+
+    <div class="heading-container text-white">
+      
+      <h1 class="text-center uppercase text-2xl pb-10">Varför ska man anlita en SEO-byrå?</h1>
+
+      <p class="text-sm pb-10">Om du har pengar i din budget för digital marknadsföring, finns det många goda skäl att anlita en SEO-byrå för att hjälpa till med saker som meta-nyckelordsfraser, stärka din länkprofil och skapande av bra content:</p>
+      
+      <ul class="list-disc text-base pb-10">
+        <li>
+        Du har inte tid att sköta din webbplats.
+        </li>
+        <li>
+        Du vill hålla dig uppdaterad inom SEO-branschen.
+        </li>
+        <li>
+        Du vill ha hjälp med att söka efter sökord som ger resultat.
+        </li>
+        <li>
+        Du vill öka din organiska trafik till hemsidan.
+        </li>
+        <li>
+        Du vill hålla nere kostnaderna med bra optimerade annonser.
+        </li>
+        <li>
+        Du vill bli utbildad av en byrå som kan sökmotoroptimering.
+        </li>
+      </ul>
+      <p class="text-sm pb-5">
+      Men du bör inte anlita en SEO-byrå som lovar att snabbt ge dig topplaceringar. Även om de på något sätt lyckas få din webbplats på första plats, kommer dina placeringar att sjunka utan en stark grund att stå på, och du förlorar i längder mer än du har vunnit.
+      </p>
+      <p class="text-sm pb-5">
+      SEO är för långsiktigt inriktade digitala entreprenörer som har bestämt sig för att hjälpa användarna att hitta de svar de behöver, samt för att öka tillväxten på lång sikt.
+      </p>
+    </div>
     </>
   )
 }

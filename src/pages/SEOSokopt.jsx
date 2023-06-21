@@ -16,6 +16,7 @@ import { HeadingCity4 } from '../components/HeadingCity4'
 import { HeadingSEO6 } from '../components/HeadingSEO6'
 import { HeadingCity5 } from '../components/HeadingCity5'
 import { HeadingSEO7 } from '../components/HeadingSEO7'
+import { HeadingSEO8 } from '../components/HeadingSEO8'
 
 export default function SEOSokopt() {
   return (
@@ -38,6 +39,8 @@ export default function SEOSokopt() {
     <HeadingSEO6 />
     <HeadingCity5 />
     <HeadingSEO7 />
+    <ContactForm />
+    <HeadingSEO8 />
     </>
   )
 }
