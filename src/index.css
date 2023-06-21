@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway",Helvetica,Arial,Lucida,sans-serif;
+    
+}
+body{
+    background-color: #212121;
+}
+.logo{
+width: 75px;
+}
+.spanNav-touch{ 
+ font-weight: 500;
+ font-size: 15px;
+}
+.navbar-padding{
+    padding-top: 8px;
+    padding-right: 10%;
+    padding-bottom: 8px;
+    padding-left: 10%;
+    margin-top: 0px ;
+    margin-bottom: 0px;
+}
+header{
+    z-index: 4;
+}
+
+.cards-video{
+    padding-top: 8px;
+    padding-right: 10%;
+    padding-bottom: 8px;
+    padding-left: 10%;
+    margin-top: 0px ;
+    margin-bottom: 0px;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.standard-padding{
+    padding-top: 8px;
+    padding-right: 10%;
+    padding-bottom: 8px;
+    padding-left: 10%;
+    margin-top: 0px ;
+    margin-bottom: 0px;
+}
+
+.button-no-back{
+    background: none;
+}

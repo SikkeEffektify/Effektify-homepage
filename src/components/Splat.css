@@ -1,0 +1,53 @@
+.splat-container{
+    background-image: url(../assets/splat.svg);
+    background-size: calc(100% + 2px) calc(100% + 2px);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    overflow: hidden;
+
+    
+}
+.splat-main{
+    height: 500px;
+}
+
+.splat-content {
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif!important;
+    padding-top: 8px;
+    padding-right: 10%;
+    padding-bottom: 8px;
+    padding-left: 10%;
+    margin-top: 0px ;
+    margin-bottom: 0px;
+    font-size: 16px;
+    
+}
+
+
+.splat-bold{
+    font-size: 14px;
+    font-weight: 900;
+    color: #333;
+
+}
+
+.splat-button{
+    color: #424242;
+    border-color: #424242;
+    border-radius: 0px;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 900;
+    background-color: RGBA(255,255,255,0);
+    padding-right: 25px;
+    padding-left: 25px;
+    padding: 0.3em 1em;
+    border: 2px solid;
+    border-width: 7px;
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.3);
+    transition: background-color 300ms ease 0ms,border-radius 300ms ease 0ms;
+
+
+    
+}

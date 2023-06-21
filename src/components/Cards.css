@@ -1,0 +1,84 @@
+.cards-container{
+    padding-top: 8px;
+    padding-right: 10%;
+    padding-bottom: 8px;
+    padding-left: 10%;
+    margin-top: 0px ;
+    margin-bottom: 0px;
+}
+
+.cards-title{
+    font-size: 35px;
+}
+
+.cards-under-title{
+    font-size: 18px;
+}
+
+.cards2-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.cards2-under-title{
+    font-size: 18px;
+}
+
+
+.cards-under-desc{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+.cards2-1 .custom-back{
+    background-image: linear-gradient(180deg,rgba(0,0,0,.3) 0%,rgba(0,0,0,.8) 100%),url(https://cdn-djlbl.nitrocdn.com/vvLIgfkJzrwFbFdtNdlsbBlCOwYgFDNW/assets/images/optimized/rev-1d39e53/wp-content/uploads/2022/05/pooltime-pooler.jpeg);
+    background-size: cover;
+    border-width: 4px;
+}
+
+.cards2-2 .custom-back{
+    background-image: linear-gradient(180deg,rgba(0,0,0,.3) 0%,rgba(0,0,0,.8) 100%),url(../assets/ekstrands.webp);
+    background-size: cover;
+    background-position: 60% 75%;
+    border-width: 4px;
+}
+
+.cards2-3 .custom-back{
+    background-image: linear-gradient(180deg,rgba(0,0,0,.3) 0%,rgba(0,0,0,.8) 100%),url(../assets/gipsholm.webp);
+    background-size: cover;
+    border-width: 4px;
+}
+
+.cards2-4 .custom-back{
+    background-image: linear-gradient(180deg,rgba(0,0,0,.3) 0%,rgba(0,0,0,.8) 100%),url(../assets/bordtennis.webp);
+    background-size: cover;
+    background-position: right;
+    border-width: 4px;
+}
+
+.cards5-1 .custom-back{
+    background-image: url(../assets/marknadsforing-annonser-3.jpeg);
+    background-size: cover;
+    background-position: right;
+    
+}
+
+
+.cards2-4 h3{
+    font-size: 35px
+}
+
+.cards-bottom-divider div {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSI4MHB4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iIzIxMjEyMSI+PHBhdGggZD0iTTY0MCAxNDBMMTI4MCAwSDB6IiBmaWxsLW9wYWNpdHk9Ii41Ii8+PHBhdGggZD0iTTY0MCA5OGw2NDAtOThIMHoiLz48L2c+PC9zdmc+);
+    background-size: 100% 80px;
+    top: 0;
+    height: 80px;
+    z-index: 1;
+    transform: scale(1,1);
+}
+
+.cards-social-icon{
+    width: 50px;
+    height: 50px;
+}

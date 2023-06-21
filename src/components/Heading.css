@@ -1,0 +1,112 @@
+.heading-title{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1em;
+ 
+}
+
+.heading-title2{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1em;
+ 
+}
+
+.heading-title3{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1em;
+ 
+}
+
+.heading-title4{
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1em;
+}
+
+.heading-title5{
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1em;
+}
+
+.heading-text{
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+.heading-container{
+    padding-top: 8px;
+    padding-right: 10%;
+    padding-bottom: 8px;
+    padding-left: 10%;
+    margin-top: 0px ;
+    margin-bottom: 0px;
+}
+
+.heading2-title{
+    font-size: 18px;
+}
+
+
+.heading4-desc{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.heading-webb-desc{
+    color: rgba(255,255,255,.8);
+}
+
+.flower{
+    width: 67.32px;
+    height: 85.43px;
+}
+
+.heading5-title{
+    font-size: 40px;
+}
+
+.headingSEO-card{
+    background-image: linear-gradient(156deg,#f37ebd 0%,#96389d 100%);
+    min-height: 304px;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,.3);
+    transition: max-width 300ms ease 0ms;
+}
+
+.headingSEO-card2{
+    background-image: linear-gradient(156deg,#4487c8 0%,#33a851 100%);
+    min-height: 304px;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,.3);
+    transition: max-width 300ms ease 0ms;
+    
+}
+
+.headingSEO-card3{
+    background-image:  linear-gradient(156deg,#c13584 0%,#5851db 100%);
+    min-height: 304px;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,.3);
+    transition: max-width 300ms ease 0ms;
+    
+}
+
+.headingSEO-card4{
+    background-image:  linear-gradient(156deg,#f9ab00 0%,#e37400 100%);
+    min-height: 304px;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,.3);
+    transition: max-width 300ms ease 0ms;
+    
+}
+
+.headingSEO-card5{
+    background-image:  linear-gradient(156deg,#01bdd3 0%,#0096ef 100%);
+    min-height: 304px;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,.3);
+    transition: max-width 300ms ease 0ms;
+    
+}
