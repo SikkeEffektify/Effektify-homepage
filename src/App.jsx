@@ -13,6 +13,7 @@ import AppApple from './pages/AppApple'
 import AppAndroid from './pages/AppAndroid'
 import Career from './pages/Career'
 import SEOSokopt from './pages/SEOSokopt'
+import SEOHalmstad from './pages/SEOHalmstad'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
         <Route path='/en/ladda-ner-appen-for-android' element={ <AppAndroid />} />
         <Route path='/karriar' element={ <Career />} />
         <Route path='/seo-sokmotoroptimering' element={ <SEOSokopt />} />
+        <Route path='/seo-sokmotoroptimering-halmstad' element={ <SEOHalmstad/>} />
       </Routes>
     <Cat />
     <Footer />
