@@ -19,6 +19,7 @@ import SEOVaxjo from './pages/SEOVaxjo'
 import SEOUppsala from './pages/SEOUppsala'
 import SEOGavle from './pages/SEOGavle'
 import SEOVarberg from './pages/SEOVarberg'
+import SEOFalkenberg from './pages/SEOFalkenberg'
 
 function App() {
 
@@ -38,7 +39,7 @@ function App() {
         <Route path='/en/download-the-app-for-apple' element={ <AppApple />} />
         <Route path='/en/ladda-ner-appen-for-android' element={ <AppAndroid />} />
         <Route path='/karriar' element={ <Career />} />
-        
+
         <Route path='/seo-sokmotoroptimering' element={ <SEOSokopt />} />
         <Route path='/seo-sokmotoroptimering-halmstad' element={ <SEOHalmstad/>} />
         <Route path='/seo-sokmotoroptimering-boras' element={ <SEOBoras/>} />
@@ -46,6 +47,8 @@ function App() {
         <Route path='/seo-sokmotoroptimering-uppsala' element={ <SEOUppsala/>} />
         <Route path='/seo-sokmotoroptimering-gavle' element={ <SEOGavle/>} />
         <Route path='/seo-sokmotoroptimering-varberg' element={ <SEOVarberg/>} />
+
+        <Route path='/seo-sokmotoroptimering-falkenberg' element={ <SEOFalkenberg/>} />
       </Routes>
     <Cat />
     <Footer />
