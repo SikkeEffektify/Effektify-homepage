@@ -24,6 +24,7 @@ import SEOEskilstuna from './pages/SEOEskilstuna'
 import SEOVasteras from './pages/SEOVasteras'
 import SEOUpplandsvasby from './pages/SEOUpplandsvasby'
 import SEOUmea from './pages/SEOUmea'
+import SEOSundsvall from './pages/SEOSundsvall'
 
 function App() {
 
@@ -56,6 +57,7 @@ function App() {
         <Route path='/seo-sokmotoroptimering-vasteras' element={ <SEOVasteras/>} />
         <Route path='/seo-sokmotoroptimering-upplands-vasby' element={ <SEOUpplandsvasby/>} />
         <Route path='/seo-sokmotoroptimering-umea' element={ <SEOUmea/>} />
+        <Route path='/seo-sokmotoroptimering-sundsvall' element={ <SEOSundsvall/>} />
       </Routes>
     <Cat />
     <Footer />
