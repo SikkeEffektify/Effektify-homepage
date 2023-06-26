@@ -12,8 +12,8 @@ export default function SEOBoras() {
    <div className='hero '>
     <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg} />
     <div class="vidContent2 hero-image-text pb-40  bg-black/60">
-        <h1 class='text-2xl pl-4 text-left uppercase text-white pb-10'>Seo Borås<span class="text-rose-300">.</span></h1>
-        <p class='text-left text-sm text-white'>
+        <h1 class='text-6xl pl-4 text-left uppercase text-white pb-10'>Seo Borås<span class="text-rose-300">.</span></h1>
+        <p class='text-left text-lg text-white'>
         Som SEO-byrå har vi på Effektify som mål att hjälpa företag med allt inom digital marknadsföring, oavsett om du befinner dig i Borås eller någon annanstans i Sverige. När det kommer till sökmotoroptimering/SEO, annonsering genom Google Ads, sociala medier och optimering av hemsidor har vi bred kunskap och vi håller oss uppdaterade och utvecklas ständigt eftersom vi ser sökmotoroptimering som ett sätt att skapa rätt förutsättningar för alla som vill driva en framgångsrik verksamhet. 
         </p>   
     </div>
@@ -31,7 +31,7 @@ export default function SEOBoras() {
     </h1>
     <p class="text-left pb-5 text-sm">
     Har du också ett företag i Borås och behöver hjälp med 
-    <a class="text-rose-300" target="_blank" rel="noopener noreferrer" href="/seo-sokmotoroptimering/"> SEO </a>
+    <a class="text-rose-300 underline" target="_blank" rel="noopener noreferrer" href="/seo-sokmotoroptimering/"> SEO </a>
     ? På samma sätt som du lyckades hitta vår hemsida när du sökte efter SEO Borås kan vi analysera och förbättra din hemsida så att den syns bättre för potentiella kunder som söker efter de produkter eller tjänster som du erbjuder. Vi har lång erfarenhet och bred kunskap inom sökmotoroptimering/SEO och erbjuder våra tjänster till alla som vill ranka högt på Googles organiska sökresultat eller som behöver hjälp med annonsering genom Google Ads eller på sociala medier. Vi säger inte bara att kan SEO, vi kommer att driva mer relevant trafik till din webbplats med Borås sökmotoroptimering.
     </p>
  
