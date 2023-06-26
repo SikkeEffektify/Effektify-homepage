@@ -126,7 +126,7 @@ export default function SEOSundsvall() {
     <p class="text-left pb-10 text-sm">
     Om du driver ett lokalt företag som verkar inom ett avgränsat geografiskt område är det av stor vikt för dig att finnas på Google My Business. Det är viktigt då Google My Business är det resultat som Google visar om du söker efter lokala företag. Google visar det som en lista av de olika relevanta lokala företagen ovanför de organiska sökresultaten. Tjänsten är kostnadsfri, och är lämpligt att använda som ett skyltfönster till ditt företag. Du kan, på ett professionellt sätt, presentera ditt företag med hjälp av detta verktyg, du kan lägga till dina öppettider, adress och telefonnummer. Med denna tjänst kommer du inte enbart synas i Googles sökresultat, du kommer även synas i Google Maps. Om någon exempelvis gör en sökning på ”frisör” + ort, så syns företag som är registrerade i GMB på Google Maps. Dessa typer av kunder är ofta nära ett köpbeslut, och därför är det viktigt att du finns med bland alternativen.
     </p>
-
+    
     <h1 class="text-2xl uppercase pb-10">
     Om Sundsvall
     </h1>
