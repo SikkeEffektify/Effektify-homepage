@@ -14,6 +14,7 @@ import AppAndroid from './pages/AppAndroid'
 import Career from './pages/Career'
 import SEOSokopt from './pages/SEOSokopt'
 import SEOHalmstad from './pages/SEOHalmstad'
+import SEOBoras from './pages/SEOBoras'
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
         <Route path='/karriar' element={ <Career />} />
         <Route path='/seo-sokmotoroptimering' element={ <SEOSokopt />} />
         <Route path='/seo-sokmotoroptimering-halmstad' element={ <SEOHalmstad/>} />
+        <Route path='/seo-sokmotoroptimering-boras' element={ <SEOBoras/>} />
       </Routes>
     <Cat />
     <Footer />

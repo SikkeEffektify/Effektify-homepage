@@ -10,7 +10,7 @@ export const Hero2 = () => {
     <div class="vidContent2">
         <h1 class="text-rose-300 uppercase text-center"><span class="text-white">We’re ready <br /> for takeoff</span>.</h1>
         <h1 class='uppercase pb-5'>Are you?</h1>
-        <a class="vidButton" href='/'> Launch</a>
+        <a class="vidButton" href='/kontakt'> Launch</a>
     </div>
    </div>
     </section>
