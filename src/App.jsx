@@ -28,6 +28,7 @@ import SEOSundsvall from './pages/SEOSundsvall'
 import SEOSollentuna from './pages/SEOSollentuna'
 import SEOSodertalje from './pages/SEOSodertalje'
 import SEOSkelleftea from './pages/SEOSkelleftea'
+import SEOOstersund from './pages/SEOOstersund'
 
 function App() {
 
@@ -64,6 +65,7 @@ function App() {
         <Route path='/seo-sokmotoroptimering-sollentuna' element={ <SEOSollentuna/>} />
         <Route path='/seo-sokmotoroptimering-sodertalje' element={ <SEOSodertalje/>} />
         <Route path='/seo-sokmotoroptimering-skelleftea' element={ <SEOSkelleftea/>} />
+        <Route path='/seo-sokmotoroptimering-ostersund' element={ <SEOOstersund/>} />
       </Routes>
     <Cat />
     <Footer />
