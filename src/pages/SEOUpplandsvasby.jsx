@@ -12,7 +12,7 @@ export default function SEOUpplandsvasby() {
    <div className='hero '>
     <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg} />
     <div class="vidContent2 hero-image-text pb-40  bg-black/60">
-        <h1 class='text-5xl pl-4 text-left uppercase text-white pb-10'>Seo Upplands Väsby<span class="text-rose-300">.</span></h1>
+        <h1 class='text-5xl pl-4 text-left uppercase text-white pt-5 pb-10'>Seo Upplands Väsby<span class="text-rose-300">.</span></h1>
         <p class='text-left text-lg text-white'>
         Synlighet skapar möjligheter för företag, både genom traditionell marknadsföring och digital marknadsföring. Att öka din synlighet online ökar också dina chanser att få ökad trafik från fler besökare till din hemsida, vilket i sin tur leder till fler kunder och en ökad försäljning. Det finns många sätt att använda sig av digital marknadsföring men det måste göras på rätt sätt för att det ska effekt.
         </p>   
