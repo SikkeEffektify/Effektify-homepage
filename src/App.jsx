@@ -33,6 +33,7 @@ import SEONorrtalje from './pages/SEONorrtalje'
 import SEONorrkoping from './pages/SEONorrkoping'
 import SEOLund from './pages/SEOLund'
 import SEOLulea from './pages/SEOLulea'
+import SEOLinkoping from './pages/SEOLinkoping'
 
 function App() {
 
@@ -74,6 +75,7 @@ function App() {
         <Route path='/seo-sokmotoroptimering-norrkoping' element={ <SEONorrkoping/>} />
         <Route path='/seo-sokmotoroptimering-lund' element={ <SEOLund/>} />
         <Route path='/seo-sokmotoroptimering-lulea' element={ <SEOLulea/>} />
+        <Route path='/seo-sokmotoroptimering-linkoping' element={ <SEOLinkoping/>} />
       </Routes>
     <Cat />
     <Footer />
