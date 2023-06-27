@@ -1,20 +1,20 @@
 import React from 'react'
-import bg from '../assets/SEO-norrkoping.webp'
+import bg from '../assets/SEO-orebro.webp'
 import stats from '../assets/Effektify-hjalper-foretag-med-lokal-SEO.webp'
 import stats2 from '../assets/Effektify-hjalper-foretag-med-lokal-sokmotoroptimering.webp'
 import stats3 from '../assets/Effektify-hjalper-dig-med-SEO-lokalt.webp'
 import ContactForm from '../components/ContactForm'
 
-export default function SEONorrkoping() {
+export default function SEOOrebro() {
   return (
     <>
     <section>
    <div className='hero '>
     <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg} />
     <div class="vidContent2 hero-image-text pb-40  bg-black/60">
-        <h1 class='text-5xl pl-4 text-left uppercase text-white pt-5 pb-10'>Seo Norrköping<span class="text-rose-300">.</span></h1>
+        <h1 class='text-5xl pl-4 text-left uppercase text-white pt-5 pb-10'>Seo Örebro<span class="text-rose-300">.</span></h1>
         <p class='text-left text-base text-white'>
-        Behöver du hjälp med SEO i Norrköping? SEO kan vara krångligt, kontakta därför vår SEO-byrå, Effektify! På samma sätt som du lyckades hitta vår hemsida när du sökte efter SEO Norrköping kan vi hjälpa dig och din verksamhet synas när dina potentiella kunder söker efter produkter eller tjänster som du erbjuder. Vi har lång erfarenhet och bred kunskap inom sökmotoroptimering/SEO och vi är det givna valet för dig som letar efter en SEO-byrå som kan hjälpa dig med optimering av din webbplats så att den syns bättre på de olika sökmotorerna.Vi har lång erfarenhet av att hjälpa kunder med att förbättra deras hemsidor och dess synlighet på Google (och andra sökmotorer). 
+        Behöver du hjälp med SEO i Örebro? SEO är komplicerat, därför finns vår byrå! På samma sätt som du lyckades hitta vår hemsida när du sökte efter SEO Örebro kan vi hjälpa dig synas när dina potentiella kunder söker efter produkter eller tjänster som du erbjuder på din e-handel. Vi har lång erfarenhet och bred kunskap inom sökmotoroptimering/SEO. Örebro är bara en av alla städer som vi verkar i, kontakta oss för hjälp med att öka din trafik online och bästa möjliga ranking på sökmotorerna. 
         </p>   
     </div>
    </div>
@@ -24,7 +24,7 @@ export default function SEONorrkoping() {
     <div class='pt-20 heading-container text-center text-black bg-white'>
     <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats} alt="" />
     <p class="text-left pt-5 text-base pb-10">
-    Det är ingen nyhet att synlighet skapar möjligheter för företag – både genom traditionell marknadsföring och digital marknadsföring. Att öka din digitala synlighet ökar också dina chanser att få fler besökare till din webbplats, och därmed fler kunder som sedan genererar större försäljning. Det finns många sätt att arbeta med digital marknadsföring på, och Effektify är inte enbart en SEO-byrå, vi är en webbyrå som arbetar med allt inom digital marknadsföring, både i Norrköping och resterande Sverige. Kontakta oss så hjälper vi dig nå de resultat du önskar för din webbplats.
+    Det är ingen nyhet att synlighet skapar möjligheter för företag – både genom traditionell marknadsföring och digital marknadsföring. Att öka din synlighet online ökar också dina chanser att få fler besökare till din webbplats, och därmed fler kunder som sedan genererar större försäljning. Det finns många sätt att använda sig av digital marknadsföring på, och Effektify är inte enbart en SEO-byrå, vi hjälper våra kunder med allt inom digital marknadsföring, så som att bygga hemsidor och Google Ads, både i Örebro och resterande Sverige. 
     </p>
     </div>
     </section>
@@ -32,7 +32,7 @@ export default function SEONorrkoping() {
     <section>
     <div class='pt-20 heading-container text-center text-black bg-gray-100'>
     <h1 class="text-2xl uppercase pb-10">
-    Hur fungerar SEO i Norrköping?
+    Hur fungerar SEO i Örebro?
     </h1>
     <p class="text-left pb-5 text-sm">
     <a href="https://effektify.com/seo-sokmotoroptimering/" class="text-rose-300" title="SEO">SEO </a>
@@ -85,21 +85,13 @@ export default function SEONorrkoping() {
     </p>
 
     <h1 class="text-2xl uppercase pb-10">
-    Lokal SEO – Norrköping
+    Lokal SEO – Örebro
     </h1>
     <p class="text-left pb-5 text-sm">
-    Lokal SEO, eller lokal sökmotoroptimering som det också kallas, skiljer sig något från SEO på nationell nivå. Den största skillnaden är konkurrensen, den är betydligt större på nationell nivå. För många branscher är det relevant att enbart synas lokalt online då deras tjänster eller produkter är avsedda att säljas lokalt. Om du exempelvis behöver hjälp av en rörmokare så kommer du troligtvis söka på ”rörmokare” plus din stad eftersom det är vad som är relevant för dig.
+    Lokal SEO, eller lokal sökmotoroptimering som det också kallas, skiljer sig något från SEO på nationell nivå. Den största skillnaden är konkurrensen, den är betydligt större på nationell nivå. För många branscher är det enbart relevant att synas lokalt online då deras tjänster eller produkter är avsedda att säljas lokalt. Om du exempelvis behöver hjälp av en rörmokare så kommer du troligtvis söka på ”rörmokare” plus din stad eftersom det är vad som är relevant för dig.
     </p>
     <p class="text-left pb-10 text-sm">
-    En viktig del av lokal SEO är att tydliggöra var du befinner dig och i vilka orter du verkar på din hemsida, både för dina kunders skull, men också för Google så att sökmotorn anser din hemsida vara relevant när den gör en analys av den. För att lyckas med lokal SEO i Norrköping behövs det även tas hänsyn till vissa tekniska åtgärder bakom hemsidan. Detta gör det lättare för Google att begripa vilka geografiska områden sökmotorn ska förknippa dig och ditt företag med.
-    </p>
-
-
-    <h1 class="text-2xl uppercase pb-10">
-    Ranka högre med rätt innehåll
-    </h1>
-    <p class="text-left pb-10 text-sm">
-    Innehållet på din hemsida är en viktig del av SEO då det ska vara relevant för att driva digital trafik till din hemsida, men samtidigt måste man också arbeta med att implementera relevanta sökord i texten för att få hemsidan att ranka högre. Det är även viktigt att arbeta utifrån sin målgrupp och se till att webbplatsen är riktad mot den. Det är mycket att tänka på, därför hjälper vi dig gärna med detta och alla andra delar av sökmotoroptimering i Norrköping.
+    En viktig del av lokal SEO är att tydliggöra var du befinner dig och i vilka orter du verkar på din hemsida, både för dina kunders skull, men också för Google så att sökmotorn anser din hemsida vara relevant. För att lyckas med lokal SEO behövs det även tas hänsyn till vissa tekniska åtgärder bakom hemsidan. Detta gör det lättare för Google att begripa vilka geografiska områden sökmotorn ska förknippa dig och ditt företag med.
     </p>
 
     </div>
@@ -122,22 +114,22 @@ export default function SEONorrkoping() {
     </p>
     
     <h1 class="text-2xl uppercase pb-10">
-    Om Norrköping
+    Om Örebro
     </h1>
     <p class="text-left pb-5 text-sm">
-    Norrköping är en tätort i Östergötland, och invånarantalet i staden uppgick till
-    <a href="https://www.norrkoping.se/organisation/statistik/statistik-befolkning/befolkningsutveckling-norrkoping-manadsdata" class='text-rose-300' title="Läs mer om Norrköping här" rel="nofollow noopener" target="_blank"> 143 640 </a>
-    den 21 mars 2021. Norrköping är sedan länge tillbaka en industri-, handels- och sjöfartsstad, och fram tills 1960-talet var även textilindustrin basen i stadens näringsliv. Textilindustrin var grundläggande för Norrköping i 400 år och staden växte fram kring denna industri, men numera är all textiltillverkning borta.
-   </p>
-    <p class="text-left pb-5 text-sm">
-    Norrköping hade sin storhetstid under 1600-talet, det var på den tiden många industrier, klädesfabriker och skeppsvarv grundades. På denna tid var Norrköping Sveriges näst största stad, sett befolkningsmässigt.
+    Örebro är en tätort i Närke, och i slutet av år 2020 bodde det
+    <a href="https://www.orebro.se/fordjupning/fordjupning/fakta-statistik-priser--utmarkelser/statistik/befolkningsprognoser.html#" class='text-rose-300' title="Läs mer om Örebro här" rel="nofollow noopener" target="_blank"> 156 381 invånare </a>
+    i staden vilket gör det till Sveriges sjätte största stad befolkningsmässigt.
     </p>
     <p class="text-left pb-5 text-sm">
-    I Norrköping finns det något för alla, allt från finns shopping och mysiga caféer och restauranger till Kolmården och sightseeing-rundor.
+    Örebro är drygt 700 år gammalt, och med sitt strategiska läge, 200 km ifrån Stockholm och 280 km ifrån Göteborg har Örebro blivit en handels- och logistiskstad. Man kan även klassa Örebro som en universitetsstad då det är ca 17 000 studenter som studerar på Örebro universitet. Det är även 130 professorer och 500 doktorander som verkar på Örebro universitet.
+    </p>
+    <p class="text-left pb-5 text-sm">
+    I Örebro finns det mycket att sysselsätta sig med, det finns många mysiga caféer och restauranger, shopping och sevärdheter.
     </p>
 
     <p class="text-left pb-10 text-sm">
-    Har du ett företag i Norrköping och vill att nya kunder ska hitta din hemsida? Vår webbyrå hjälper dig gärna med sökmotoroptimering i Norrköping! Vi hjälper företag i hela Sverige att förbättra sina resultat och uppnå sina mål genom digital marknadsföring, våra tjänster inkluderar allt från SEO och Google Ads till att bygga hemsidor. Kontakta oss för hjälp med digitala lösningar till ditt företag i Norrköping. Sökmotoroptimering/SEO kan vara krångligt, låt därför oss utföra det arbetet åt dig!
+    Har du ett företag i Örebro och vill öka din digitala trafik? Vi på Effektify hjälper dig gärna! Vi hjälper företag i hela Sverige att förbättra sina resultat, uppnå sina mål och få så bra ranking som möjligt genom digital marknadsföring. Våra tjänster inkluderar allt från SEO och Google Ads till att bygga hemsidor. Kontakta oss för hjälp med digitala lösningar och för att få så bra resultat som möjligt.
     </p>
 
 
