@@ -43,6 +43,7 @@ import SEOHelsingborg from './pages/SEOHelsingborg'
 import SEONacka from './pages/SEONacka'
 import SEOStockholm from './pages/SEOStockholm'
 import SEOGoteborg from './pages/SEOGoteborg'
+import SEOMalmo from './pages/SEOMalmo'
 
 function App() {
 
@@ -94,6 +95,7 @@ function App() {
         <Route path='/seo-sokmotoroptimering-nacka' element={ <SEONacka/>} />
         <Route path='/seo-sokmotoroptimering-stockholm' element={ <SEOStockholm/>} />
         <Route path='/seo-sokmotoroptimering-goteborg' element={ <SEOGoteborg/>} />
+        <Route path='/seo-sokmotoroptimering-malmo' element={ <SEOMalmo/>} />
       </Routes>
     <Cat />
     <Footer />
