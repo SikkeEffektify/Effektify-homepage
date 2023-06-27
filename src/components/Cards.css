@@ -64,6 +64,20 @@
     
 }
 
+.cards-seo .custom-back{
+    background-image: url(../assets/Sökmotoroptimering-seo-1.webp);
+    background-size: cover;
+    background-position: 53% 75%;
+    background-attachment: fixed;
+}
+
+.cards-seo2 .custom-back{
+    background-image: url(../assets/seo-sökmotoroptimering-snabbhet-scaled.webp);
+    background-size: cover;
+    background-position: top right;
+    background-attachment: fixed;
+}
+
 
 .cards2-4 h3{
     font-size: 35px

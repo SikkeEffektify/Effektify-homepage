@@ -135,7 +135,6 @@ export default function SEONacka() {
     Är du på jakt efter roliga aktiviteter hittar du i Nacka allt från golfbanor och badplatser till vandringar i fina miljöer och paddling. Här finns allt för att du ska trivas med naturen nära till hands. Ett av Sveriges äldsta bevarade nöjen under sommaren, Svindervik, är en exklusiv föregångare till dagens sommarstugor. Här kan du spendera dagen på en historisk plats som sträcker sig så långt som från 1700-talet.
     </p>
 
-
     </div>
     </section>
     </>
