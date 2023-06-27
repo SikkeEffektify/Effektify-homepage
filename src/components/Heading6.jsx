@@ -33,7 +33,7 @@ export const Heading6 = () => {
     </div>
     
     
-    <img src={img} alt="" />
+    <img src={img} class="bg-effect" alt="" />
 
     <div class='bg-white  pb-10 heading-container text-right'>
     <h1 class="text-5xl font-black pt-5 mb-4 tracking-tighter text-black ">

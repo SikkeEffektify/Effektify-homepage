@@ -5,8 +5,8 @@ export default function ContactForm() {
   return (
     <section class='contact-form-container  text-white'>
         <div class="contact-form-heading pt-10">
-        <h1 class='font-black text-3xl pt-5'>Vad kul att du har hittat till oss!</h1>
-        <p class='pt-5 text-base font-medium'>Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på <br /> 
+        <h1 class='font-black text-3xl text-center pt-5'>Vad kul att du har hittat till oss!</h1>
+        <p class='pt-5 text-base font-medium text-center'>Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på <br /> 
         <a href="mailto:letsdance@effektify.com" target="_blank" rel="noopener">letsdance@effektify.com </a> 
         så hör vi av oss inom kort!   
         </p>

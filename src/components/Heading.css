@@ -118,3 +118,11 @@
     transition: max-width 300ms ease 0ms;
     
 }
+
+
+.bg-effect{
+
+    background-image: url(../assets/seo-sökmotoroptimering-snabbhet-scaled.webp);
+    background-attachment: fixed;
+
+}
