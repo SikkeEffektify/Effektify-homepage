@@ -1,7 +1,10 @@
 import React from 'react'
 import bg from '../assets/SEO-stockholm.webp'
+import bg2 from '../assets/seo-google-my-business.webp'
 import stats2 from '../assets/Sökmotoroptimering-seo-1.webp'
 import ContactForm from '../components/ContactForm'
+import { HeadingCity2 } from '../components/HeadingCity2'
+
 
 export default function SEOStockholm() {
   return (
@@ -19,7 +22,7 @@ export default function SEOStockholm() {
     </section>
 
     <section>
-    <div class='pt-20 heading-container text-center text-white bg-black'>
+    <div class='pt-20 heading-container text-center text-white '>
     <h1 class="text-2xl uppercase pb-10">
     Stockholm – sökmotoroptimering
     </h1>
@@ -37,7 +40,7 @@ export default function SEOStockholm() {
     </div>
     </div>
 
-    <div class='pt-10 heading-container text-center text-white bg-black'>
+    <div class='pt-10 heading-container text-center text-white '>
     <h1 class="text-2xl uppercase pb-10">
     Hur fungerar SEO i Stockholm?
     </h1>
@@ -69,7 +72,7 @@ export default function SEOStockholm() {
 
     </div>
     </section>
-    <div class="whitedivider3 bg-black pb-20">
+    <div class="whitedivider3  pb-20">
       
       </div>
 
@@ -121,8 +124,95 @@ export default function SEOStockholm() {
     </div>
     </section>
 
+    <hr
+  class="my-12 h-0.5 border-t-0 bg-black opacity-100 dark:opacity-50" />
+    <h1 class="text-2xl text-right uppercase pt-5 pb-5">
+    Google utvecklas ständigt
+    <br />
+    – därför måste också SEO göra det
+    </h1>
+    <p class="text-left pb-5 text-sm">
+    Det är ett faktum att människor som satsar på sökmotoroptimering ser en positiv skillnad på resultaten efter att denna strategi har implementerats och efter att man börjat optimera hemsidan i fråga. Arbetet med sökmotoroptimering utvecklas och ändras ständigt eftersom Google gör det. Sökmotorn uppdateras ofta och därför är det av stor vikt att hänga med i dess utveckling. Detta innebär att även företag som arbetar med sökmotoroptimering bör se över sin strategi regelbundet för att fortsätta vara aktuella och för att kunna prestera på den nivå som just SEO-byråer bör.
+    </p>
+    <p class="text-left pb-10 text-sm">
+    Vi på Effektify anser det vara av stor betydelse att hålla oss uppdaterade och att ständigt utvecklas inom sökmotoroptimering för att kunna erbjuda våra kunder bästa möjliga service. Våra experter utbildas ständigt inom varje del av SEO och SEM för att alltid kunna erbjuda våra kunder det som krävs för att lyckas hålla sig relevanta i sökmotorernas ögon.
+    </p>
     </div>
     </section>
+
+    <section>
+    <div class='pt-20 heading-container text-center text-white '>
+      <h1 class="text-2xl uppercase pb-10">
+      Hur fungerar
+      <br />
+      SEO i Stockholm?
+      </h1>
+      <p class="text-left pb-5 text-sm">
+      Lokal SEO, eller lokal sökmotoroptimering som det också kallas, skiljer sig något från SEO på nationell nivå. Den största skillnaden är konkurrensen, vilken är betydligt större på nationell nivå. För många branscher är det relevant att enbart synas lokalt online då deras tjänster eller produkter är avsedda att säljas lokalt. Om du exempelvis behöver hjälp av en rörmokare så kommer du troligtvis söka på ”rörmokare” tillsammans med staden i fråga eftersom det är just vad som är relevant för dig. Du är troligtvis inte på jakt efter en rörmokare i Luleå då du befinner dig i Stockholm.  
+      </p>
+      <p class="text-left pb-5 text-sm">
+      En viktig del av lokal SEO är att tydliggöra var du befinner dig och i vilka orter du verkar. Detta behöver tydligt redogöras för på din hemsida, både för dina kunders skull, men också för att sökmotorn Google ska anse din hemsida vara relevant för den som söker efter det du erbjuder. För att lyckas med lokal SEO behövs det även tas hänsyn till vissa tekniska åtgärder som ligger till grund för hemsidan. Detta gör det betydligt lättare för Google att begripa vilka geografiska områden sökmotorn ska förknippa dig och ditt företag med.
+      </p> 
+      <p class="text-left pb-10 text-sm">
+      Vanligtvis kräver det betydligt mindre arbete för företag som vill synas lokalt då konkurrensen begränsas i jämförelse med företag som är verksamma över hela landet. Detta har naturligtvis även att göra med vilken stad du vill synas lokalt på, då konkurrensen naturligtvis är betydligt högre i städer som Stockholm, Göteborg eller Malmö, till skillnad från mindre städer.
+      </p>
+
+    </div>
+    </section>
+
+    <section>
+   <div className='hero '>
+    <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg2} />
+    <div class="vidContent2 hero-image-text pb-40  bg-black/80">
+        <h1 class='text-5xl pl-4 text-left uppercase text-white pt-20 pb-10'>
+        Google My
+        <br />
+        Business (GMB)
+        </h1>
+        <p class='text-left pb-5 text-base text-white'>
+        Om du driver ett lokalt företag som verkar inom ett avgränsat geografiskt område är det av stor vikt för dig att finnas på Google My Business. Det är viktigt då Google My Business är det resultat som Google visar om du söker efter lokala företag. Google visar upp det som en lista av de olika relevanta lokala företagen ovanför det organiska sökresultatet. Detta är en enkel lösning som inte kräver mycket arbete och passar lokala företag väl.e Ads är det möjligt att specificera den målgrupp du riktar dig mot. Du har även möjlighet att rikta in annonserna geografiskt så att du syns på specifika sökord i specifika orter.
+        </p>   
+        <p class='text-left pb-5 text-base text-white'>
+        Skulle information om ditt företag förändras, såsom öppettider eller adressändring, kan du enkelt uppdatera den med Google My Business så att dina potentiella kunder alltid har rätt information om din verksamhet.
+        </p>
+    </div>
+   </div>
+    </section>
+
+    <section>
+    <div class='pt-20 heading-container text-center text-white'>
+      <h1 class="text-2xl uppercase pb-10">
+      Om Stockholm
+      </h1>
+      <p class='text-left pb-5 text-base text-white'>
+      Som Sveriges huvudstad, anses Stockholm vara en de snabbast växande städerna i Europa då allt fler personer bestämmer sig för att flytta hit. Även om staden grundades redan på 1200-talet dröjde det så länge som till år 1436 för att den skulle bli till Sveriges huvudstad.
+      </p>
+      <p class='text-left pb-5 text-base text-white'>
+      Den oerhört vackra och mångkulturella staden Stockholm är fylld av historia och sevärdheter, upplevelser och aktiviteter som passar sig väl för unga såväl som gamla, samt för familjer som vill utforska och ständigt stöta på nya saker att lära sig. Det finns oändligt många att välja mellan och flera som berättar Stockholms historia på sätt som du annars inte skulle kunna ta del av. 
+      </p>
+      <p class='text-left pb-5 text-base text-white'>
+      Här hittar du mysiga kvarter med caféer och restauranger som alla erbjuder något eget, oavsett vad du är sugen på att äta eller dricka. Allt från lyxiga restauranger till enklare hak och allt däremellan. Vart du än befinner dig i Stockholm har du nära till något gott att äta och något intressant att se. Du som uppskattar historia och gamla byggnader hittar här allt från Nordiska museet till Nobelmuseet samt Stockholms slott, Drottningholms slott och Stockholms stadshus, alla med fantastiska historier att berätta om.
+      </p>
+      <p class='text-left pb-5 text-base text-white'>
+      Missa inte den berömda stadsdelen Gamla Stan som ger dig allt du kan tänka dig från gamla, fina byggnader till rolig shopping. För dig som älskar karuseller finns Gröna Lund som ger familjer i Sverige långa dagar av lek och roliga stunder.
+      </p>
+      <p class='text-left pb-10 text-base text-white'>
+      Som sagt, Stockholm är för alla människor som är ute efter att spendera många dagar med att lära sig nya spännande saker, utforska maträtter som tidigare inte testats och händelserika turer som lämnar minnen du alltid kommer att minnas.
+      </p>
+
+      <h1 class="text-2xl uppercase pb-10">
+      Vi hjälper dig gärna med SEO i Stockholm
+      </h1>
+      <p class='text-left pb-10 text-base text-white'>
+      Har du ett företag i Stockholm och vill att nya kunder ska hitta din hemsida? Som SEO-byrå är Effektify redo att hjälpa dig! Vi hjälper företag i hela Sverige att förbättra sina resultat och uppnå sina mål genom digital marknadsföring då våra tjänster inkluderar allt från SEO och SEM till att bygga hemsidor. Kontakta oss redan idag för hjälp med SEO i Stockholm!
+      </p>
+    </div>
+    </section>
+
+    <HeadingCity2/>
+
+    <ContactForm />
+
     </>
 
   )
