@@ -34,7 +34,7 @@ export default function SEOStockholm() {
     </p>
     <section class="cards-seo">
        <div class="pt-5 cards-container2 pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shado  pt-10">
+     <div class="custom-back max-w-sm pb-10 border border-black shado  mx-auto  pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
@@ -117,7 +117,7 @@ export default function SEOStockholm() {
 
       <section class="cards-seo2">
        <div class="pt-5 cards-container2 pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shado  pt-10">
+     <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
@@ -164,7 +164,7 @@ export default function SEOStockholm() {
    <div className='hero '>
     <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg2} />
     <div class="vidContent2 hero-image-text pb-40  bg-black/80">
-        <h1 class='text-5xl pl-4 text-left uppercase text-white pt-20 pb-10'>
+        <h1 class='text-5xl pl-4 text-left uppercase text-white pt-40 pb-10'>
         Google My
         <br />
         Business (GMB)

@@ -32,7 +32,7 @@ export const Cards4 = () => {
     </section>
    <section class="cards-1">
        <div class="pt-5 cards-container ">
-     <div class="max-w-sm p-6 pb-10 border border-white shadow bg-black pt-10">
+     <div class="max-w-sm p-6 pb-10 border border-white shadow  mx-auto bg-black pt-10">
       <img class='cards-social-icon mx-auto' src={google} alt="" />
       <h4 class='text-white text-center pt-5'>Google</h4>
     </div>
@@ -40,7 +40,7 @@ export const Cards4 = () => {
     </section>
     <section class="cards-1">
        <div class="pt-5 cards-container ">
-     <div class="max-w-sm p-6 pb-10 border border-white shadow bg-black pt-10">
+     <div class="max-w-sm p-6 pb-10 border border-white shadow  mx-auto bg-black pt-10">
       <img class='cards-social-icon mx-auto' src={facebook} alt="" />
       <h4 class='text-white text-center pt-5'>Facebook</h4>
     </div>
@@ -48,7 +48,7 @@ export const Cards4 = () => {
     </section>
     <section class="cards-1">
        <div class="pt-5 cards-container ">
-     <div class="max-w-sm p-6 pb-10 border border-white shadow bg-black pt-10">
+     <div class="max-w-sm p-6 pb-10 border border-white shadow  mx-auto bg-black pt-10">
       <img class='cards-social-icon mx-auto' src={instagram} alt="" />
       <h4 class='text-white text-center pt-5'>Instagram</h4>
     </div>
@@ -56,7 +56,7 @@ export const Cards4 = () => {
     </section>
     <section class="cards-1">
        <div class="pt-5 cards-container ">
-     <div class="max-w-sm p-6 pb-10 border border-white shadow bg-black pt-10">
+     <div class="max-w-sm p-6 pb-10 border border-white shadow  mx-auto bg-black pt-10">
       <img class='cards-social-icon mx-auto' src={linkedin} alt="" />
       <h4 class='text-white text-center pt-5'>LinkedIn</h4>
     </div>
@@ -64,7 +64,7 @@ export const Cards4 = () => {
     </section>
     <section class="cards-1 pb-20">
        <div class="pt-5 cards-container ">
-     <div class="max-w-sm p-6 pb-10 border border-white shadow bg-black pt-10">
+     <div class="max-w-sm p-6 pb-10 border border-white shadow  mx-auto bg-black pt-10">
       <img class='cards-social-icon mx-auto' src={tiktok} alt="" />
       <h4 class='text-white text-center pt-5'>TikTok</h4>
     </div>

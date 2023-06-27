@@ -7,7 +7,7 @@ export const Cards3 = () => {
     <>
     <section class="cards-1">
        <div class="pt-5 cards-container ">
-     <div class="max-w-sm p-6 pb-10 border border-white shadow bg-black pt-10">
+     <div class="max-w-sm p-6 pb-10 border border-white shadow bg-black  mx-auto pt-10">
       <a href="#">
       <i class="fa-regular fa-square-check text-green-500 fa-2xl"></i> 
         <h1 class=" cards-title text-center text-3xl font-black text-rose-300"><span class="text-white">Syfte och målgrupp</span></h1>
@@ -18,7 +18,7 @@ export const Cards3 = () => {
     </div>
     </div>
     <div class="pt-5 cards-container ">
-     <div class="max-w-sm p-6 pb-10 border border-white shadow bg-black pt-10">
+     <div class="max-w-sm p-6 pb-10 border border-white shadow bg-black  mx-auto pt-10">
       <a href="#">
       <i class="fa-regular fa-square-check text-green-500 fa-2xl"></i> 
         <h1 class=" pt-5  cards-title text-center text-3xl font-black text-rose-300"><span class="text-white">Tillgänglighet</span></h1>
@@ -29,7 +29,7 @@ export const Cards3 = () => {
     </div>
     </div>
     <div class="pt-5 cards-container ">
-     <div class="max-w-sm p-6 pb-10 border border-white shadow bg-black pt-10">
+     <div class="max-w-sm p-6 pb-10 border border-white shadow bg-black  mx-auto pt-10">
       <a href="#">
       <i class="fa-regular fa-square-check text-green-500 fa-2xl"></i> 
         <h1 class=" pt-5  cards-title text-center text-3xl font-black text-rose-300"><span class="text-white">Snabbhet och laddtid</span></h1>
@@ -41,7 +41,7 @@ export const Cards3 = () => {
     </div>
     </div>
     <div class="pt-5 cards-container ">
-     <div class="max-w-sm p-6 pb-10 border border-white shadow bg-black pt-10">
+     <div class="max-w-sm p-6 pb-10 border border-white shadow bg-black  mx-auto pt-10">
       <a href="#">
       <i class="fa-regular fa-square-check text-green-500 fa-2xl"></i> 
         <h1 class=" pt-5  cards-title text-center text-3xl font-black text-rose-300"><span class="text-white">Säkerhet för dig och dina användare</span></h1>
