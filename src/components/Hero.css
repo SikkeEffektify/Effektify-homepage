@@ -107,6 +107,12 @@ video {
 }
 
 
+.whitedivider5{
+    background-image: url(../assets/whitedivider5.svg);
+}
+
+
+
 .blackdivider{
     background-image: url(../assets/blackdivider.svg);
 }

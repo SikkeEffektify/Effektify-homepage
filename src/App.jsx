@@ -45,6 +45,7 @@ import SEOStockholm from './pages/SEOStockholm'
 import SEOGoteborg from './pages/SEOGoteborg'
 import SEOMalmo from './pages/SEOMalmo'
 import SEOOrebro from './pages/SEOOrebro'
+import OnPageSeo from './pages/OnPageSeo'
 
 function App() {
 
@@ -64,6 +65,8 @@ function App() {
         <Route path='/en/download-the-app-for-apple' element={ <AppApple />} />
         <Route path='/en/ladda-ner-appen-for-android' element={ <AppAndroid />} />
         <Route path='/karriar' element={ <Career />} />
+        <Route path='/on-page-seo' element={ <OnPageSeo />} />
+
 
         <Route path='/seo-sokmotoroptimering' element={ <SEOSokopt />} />
         <Route path='/seo-sokmotoroptimering-halmstad' element={ <SEOHalmstad/>} />
