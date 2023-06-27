@@ -111,7 +111,9 @@ video {
     background-image: url(../assets/whitedivider5.svg);
 }
 
-
+.blacktopdivider{
+    background-image: url(../assets/blacktopdivider.svg);
+}
 
 .blackdivider{
     background-image: url(../assets/blackdivider.svg);
