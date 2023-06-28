@@ -79,6 +79,22 @@
 }
 
 
+.cards-seo3 .custom-back{
+    background-image: url(../assets/content-webb-copy.webp);
+    background-size: cover;
+    background-position: top right;
+    background-attachment: fixed;
+}
+
+.cards-seo4 .custom-back{
+    background-image: url(../assets/webb-design-utveckling-small.webp);
+    background-size: cover;
+    background-position: top right;
+    background-attachment: fixed;
+}
+
+
+
 .cards2-4 h3{
     font-size: 35px
 }

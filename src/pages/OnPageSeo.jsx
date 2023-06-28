@@ -1,5 +1,11 @@
 import React from 'react'
 import Google from '../assets/google-fung.webp'
+import Sokmotoroptimering from '../assets/SEO-sokmotoroptimering.webp'
+import Meta from '../assets/Meta-beskrivning-2.webp'
+import ContactForm from '../components/ContactForm'
+import Namnge from '../assets/Namnge-bilder-ratt-satt.webp'
+import ssl from '../assets/Effektify-ssl.webp'
+import gif from '../assets/PONG_Light_version2.gif'
 
 
 export default function OnPageSeo() {
@@ -148,10 +154,232 @@ export default function OnPageSeo() {
     Genom att använda sig av innehåll som är naturligt och användarvänligt håller du både besökare och sökmotorer nöjda, vilket oftast lönar sig i det långa loppet.   
     </p>
 
+
+
+    <section class="cards-seo3">
+       <div class="pt-5 cards-container2 pb-10">
+     <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
+        <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
+        <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
+    </div>
+    </div>
+
+    <p class="text-center text-2xl pt-10  pb-20">
+    <a href="/webbcopy">Läs mer om content och webbcopy <em> här </em></a>
+    </p>
+    </section>
+
+
+
+
     </div>
     </section>
 
 
+    <section>
+    <div class='pt-20 heading-container bg-white text-black'>
+      <section class="cards-seo">
+       <div class="pt-5 cards-container2 pb-10">
+     <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
+        <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
+        <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
+    </div>
+    </div>
+    </section>
+
+    <h1 class="text-center text-6xl pt-5 pb-10 ">
+    Titlar
+    </h1>
+    <p class="text-left text-sm pb-5">
+    Sidans titel, eller page title, är den titel som visas upp som en en länk i det organiska sökresultatet på Google. Förutom att den syns högst upp i webbläsarens fönster efter att man klickat sig in på den, finns denna titel inte synlig på hemsidan, utan är specifikt utformad för att locka till sig besökare.   
+    </p>
+    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={Sokmotoroptimering} alt="" />
+    <p class="text-left text-sm pb-5">
+    Med tanke på att det är denna titel som ska locka till sig “gratis” besökare är det en av de viktigaste texterna som behöver anges. Den har stor inverkan på din hemsidas ranking och får inte vara längre än 65 tecken för att anses korrekt skriven.    
+    </p>
+    <p class="text-left text-sm pb-5">
+    För bra resultat ska en sidtitel innehålla viktiga sökord samtidigt som den lockar besökare till att klicka på den. Sökmotorer granskar titeln för att få reda på vad sidan handlar om vilket gör det viktigt att hålla denna relevant, att ha med viktiga sökord samtidigt som du håller den korta texten naturlig och användarvänlig.    
+    </p>
+
+    <hr class="my-12 h-0.5 border-t-0 bg-black opacity-100 dark:opacity-50" />
+    
+    <p class="text-center text-xl pt-5 pb-20">
+    Tydliga och beskrivande URL:er hjälper besökare och
+    <br />
+    sökmotorer att enklare förstå vad sidan handlar om
+    </p>
+
+    <h1 class="text-left text-4xl pt-5 pb-10 ">
+    Meta
+    <br />
+    beskrivning
+    </h1>
+    <p class="text-left text-sm pb-5">
+    När du skapar ett Ad Set kan du välja vem du vill nå, samt när och var. När du specificerar målgruppen kan du välja faktorer så som kön, ålder och geografi, men även faktorer så som målgruppens intressen och livssituation för att underlätta för Facebook att identifiera målgruppen genom insamlad data.   
+    </p>
+    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={Meta} alt="" />
+
+    <p class="text-left text-sm pb-5">
+    Genom att själv ange en säljande och beskrivande text ökar du chanserna till att sticka ut och synas bättre för potentiella kunder som letar efter vad du erbjuder. Anger du ingen beskrivning väljer Google själva vilken text som visas upp för sidan, vilket många gånger innebär att du går miste om dessa potentiella kunder.
+    </p>
+    <p class="text-left text-sm pb-5">
+    För att ge sidan en bra meta-description bör du alltid ha med sökordet som du vill synas på, och gärna så tidigt i texten som möjligt. Ju bättre information du har med i beskrivningen desto fler klick får du från besökare som anser din sida vara mer relevant än konkurrenternas.    
+    </p>
+    <p class="text-left text-sm pb-10">
+    Om beskrivningen skulle vara för lång väljer Google att klippa av den med 3 punkter, vilket gör att din väl utformade text inte visas upp i sin helhet. För att undvika detta ska du försöka hålla den till högst 158 tecken. Testa dig fram tills du har en meta-beskrivning som visas upp så som du vill att den ska visas samtidigt som den både ger en klar och tydlig bild om vad du erbjuder. Se till att texten är säljande och relevant.    
+    </p>
+    </div>
+    <div class="whitedivider5  pb-20">
+      </div>
+    </section>
+
+    <section>
+    <div class='pt-20 heading-container  text-white'>
+    <h1 class="text-left text-4xl pt-5 pb-10 ">
+        Hemsidans Hemlighet
+    </h1>
+    <p class="text-left text-sm pb-5">
+    Ju snabbare din hemsida laddar desto mer förbättrar du användarvänligheten för besökare samtidigt som sökmotorerna ser sidan som bättre optimerad. Det är ett enkelt sätt att få fler besökare och ger dig en större chans att behålla besökare som redan hittat dit. Det lättaste sättet att öka hastigheten är att hålla nere storleken på bilderna du använder dig av på sidan.   
+    </p>
+    <p class="text-left text-sm pb-5">
+    Har du inte tillgång till program som ger dig möjlighet att komprimera dina bilder så finns det mängder av gratis verktyg på nätet som du kan använda dig av.  
+    </p>
+    <p class="text-left text-sm pb-10">
+    Ett tips är att samtidigt som du komprimerar dina bilder även passar på att direkt sparar bilderna med namn som förbättrar din on-page SEO, vilket för oss till nästa steg i optimeringen.   
+    </p>
+      <section class="cards-seo4">
+       <div class="pt-5 cards-container2 pb-10">
+     <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
+        <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
+        <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
+    </div>
+    </div>
+    </section>
+
+    <h1 class="text-left text-4xl pt-5 pb-10 ">
+    Bild
+    <br />
+    Optimering
+    </h1>
+
+    <p class="text-left text-sm pb-5">
+    Eftersom sökmotorer inte kan se bilder är det viktigt att med rätt information beskriva bilderna för att de ska kunna läsa av dem. Detta gör du dels genom att döpa bilderna på ett beskrivande sätt, gärna med sökordet inkluderat, men också genom att ange en relevant alt-text. Denna syns text syns endast i källkoden för hemsidan vilket gör att den många gånger glöms bort.   
+    </p>
+
+    <p class="text-left text-base pb-5">
+    Namnge bilder på rätt sätt
+    </p>
+
+
+    <p class="text-left text-sm pb-5">
+    När du namnger bilder på rätt sätt visar du Google vad bilderna handlar om vilket i sin tur hjälper till att göra sidan bättre anpassad för sökord du vill synas på.
+    </p>
+
+    <p class="text-left text-sm pb-10">
+    Då du namnger dina bilder bör du:
+    <ul class="list-disc text-base">
+      <li> Vara beskrivande</li> 
+      <li> Vara Kortfattad </li>
+      <li> Använda dig av sökord </li>
+      <li> Använda streck mellan ord </li>
+    </ul>   
+    </p>
+    <p class="text-right text-base pb-10">
+    Vill du exempelvis lägga upp en bild på din svarta katt bör du därmed döpa den till svart-katt.jpg. Detta gör det enkelt för Google att bilda sig en uppfattning av vad bilden föreställer.
+    </p>
+
+    <h1 class="text-left text-xl pt-5 pb-10 ">
+    Använd beskrivande alt-text    
+    </h1>
+
+    <p class="text-left text-base pb-5">
+    Alt-texter ger ytterligare information om vad bilder föreställer, vilket i sin tur låter dig lägga till relevanta sökord även här. Alt-taggar som innehåller viktiga sökord ökar dina chanser att ranka högre i exempelvis bildsökningar.
+    </p>
+
+    <p class="text-left text-base pb-5">
+        Då du angerer en alt-text bör du:
+
+        <ul class="list-disc text-lg pt-5">
+            <li> Vara Beskrivande </li>
+            <li> Vara kortfattad </li>
+            <li> Använda sökord </li>
+            <li> Skriva naturligt </li>
+        </ul>
+    </p>
+
+    <p class="text-left text-base pb-5">
+    Enligt Google själva bör du fokusera på att ange en användbar, informationsrik text som använder sökord på ett naturligt sätt och som är i sammanhang med innehållet på sidan.
+    </p>
+    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={Namnge} alt="" />
+    </div>
+    
+    </section>
+
+    <div class="blacktopdivider fb-custom-color pb-20">
+    </div>
+
+    <section>
+    <div class='pt-20 heading-container fb-custom-color text-white'>
+    <h1 class="text-left text-4xl pb-5 ">
+    Hemsidans
+    <br />
+    säkerhet
+    </h1>
+    <p class="text-left text-sm pb-5">
+    Sökmotorer föredrar hemsidor som är säkra och undviker gärna att visa upp sidor som inte anses vara det. Genom att installera ett så kallat SSL-certifikat skyddas besökarnas kommunikation samtidigt som säkerheten hjälper din on-page SEO eftersom den då rankas den högre i den organiska sökningen.
+    </p>
+    <p class="text-left text-sm pb-5">
+    Genom att använda sig av en säker hemsida visar du också dina besökare att de känna sig trygga när de exempelvis handlar eller fyller i formulär på din hemsida. Med andra ord ger en trygg webbplats fler kunder.   
+    </p>
+    <p class="text-left text-sm pb-10">
+    Ta reda på om en webbplats är säker genom att kontrollera säkerhetsinformation om webbplatsen. Chrome varnar dig om webbplatsen eller anslutningen till den inte är säker eller privat.
+    </p>
+
+    <h1 class="text-left text-2xl pb-5 ">
+    Hur ser du att en webbplats är säker?
+    </h1>
+
+    <ol class="list-decimal">
+    <li>
+    Öppna en sida i Chrome 
+    </li>
+    <li>
+    Titta på symbolen till vänster om webbadressen 
+    </li>
+    </ol>
+
+    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={ssl} alt="" />
+
+    <p class="text-center text-base pb-10">
+    Om du vill visa information om webbplatsen och vilka behörigheter den har klickar du på ikonen. Då visas en sammanfattning av hur privat anslutningen är enligt Chrome.
+    </p>
+
+    <h1 class="text-left text-4xl pb-5 ">
+    Interna
+    <br />
+    länkar
+    </h1>
+    <p class="text-left text-sm pb-5">
+    En intern länk är när en sida hänvisar till en annan sida på samma hemsida. Som exempel länkar vi här till vår sida för 
+    <a class="text-rose-300" href="/google-ads"> Google Ads </a> 
+    härifrån, vilket fungerar som en intern länk. Då många sidor pekar till samma sida blir denna sida mer relevant vilket gör att den rankar bättre på Google.  
+    </p>
+    <p class="text-left text-sm pb-5">
+    Genom att använda sig av relevanta sökord i länktexten för den interna länken ökar också relevansen för målsidan som länken pekar till. Detta gör att du med hjälp av viktiga sökord i länktexten kan tala om för Google att målsidan den pekar till är relevant för de sökningar som görs på sökordet.  
+    </p>
+    <p class="text-left text-sm pb-5">
+    Tillsammans med meta-data, content & rubriker på målsidan hjälper varje intern länk till att öka relevansen för målsidan ytterligare, och får denna att ranka högre på sökmotorerna.   
+    </p>
+
+    <p class="text-right text-sm pb-10">
+    Och eftersom du till skillnad från externa länkar kan kontrollera dina interna länkar betydligt enklare, är de ett bra sätt framhäva de sidor som är av stor vikt för både besökare och för sökmotorerna.  
+    </p>
+    </div>
+    </section>
+
+    <img src={gif} alt="" />
+
+    <ContactForm />
    </>
   )
 }
