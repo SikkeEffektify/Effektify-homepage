@@ -48,6 +48,7 @@ import SEOOrebro from './pages/SEOOrebro'
 import OnPageSeo from './pages/OnPageSeo'
 import Webbcopy from './pages/Webbcopy'
 import Tjanster from './pages/Tjanster'
+import FacebookinstaAdds from './pages/FacebookinstaAdds'
 
 function App() {
 
@@ -70,7 +71,7 @@ function App() {
         <Route path='/on-page-seo' element={ <OnPageSeo />} />
         <Route path='/webbcopy' element={ <Webbcopy />} />
         <Route path='/tjanster' element={ <Tjanster />} />
-        
+        <Route path='/facebook-ads-instagram-ads/' element={ <FacebookinstaAdds />} />
 
 
         <Route path='/seo-sokmotoroptimering' element={ <SEOSokopt />} />

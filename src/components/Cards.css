@@ -94,6 +94,21 @@
 }
 
 
+.cards-fb .custom-back{
+    background-image: url(../assets/annonsering-facebook.webp);
+    background-size: cover;
+    background-position: 35% 75%;
+    background-attachment: fixed;
+}
+
+
+.cards-fb2 .custom-back{
+    background-image: url(../assets/facebook-ads-manager.webp);
+    background-size: cover;
+    background-position: 45% 75%;
+
+}
+
 
 .cards2-4 h3{
     font-size: 35px
