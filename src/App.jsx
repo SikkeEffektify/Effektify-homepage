@@ -51,6 +51,7 @@ import Tjanster from './pages/Tjanster'
 import FacebookinstaAdds from './pages/FacebookinstaAdds'
 import TiktokAds from './pages/TiktokAds'
 import LinkedInAds from './pages/LinkedInAds'
+import GoogleAds from './pages/GoogleAds'
 
 function App() {
 
@@ -76,7 +77,7 @@ function App() {
         <Route path='/facebook-ads-instagram-ads/' element={ <FacebookinstaAdds />} />
         <Route path='/tiktok-ads/' element={ <TiktokAds />} />
         <Route path='/linkedin-ads/' element={ <LinkedInAds />} />
-
+        <Route path='/google-ads/' element={ <GoogleAds />} />
 
 
 

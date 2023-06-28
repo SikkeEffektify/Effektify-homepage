@@ -174,7 +174,7 @@ export default function LinkedInAds() {
     <h1 class="text-center text-xl pb-20 ">
     Vill du istället annonsera på TikTok?
     <br />
-    <a class="text-rose-300 underline" href="/tiktok/ads">Klicka Här</a>
+    <a class="text-rose-300 underline" href="/tiktok-ads">Klicka Här</a>
     </h1>
 
     </div>
