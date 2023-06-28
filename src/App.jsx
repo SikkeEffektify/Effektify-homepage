@@ -49,6 +49,7 @@ import OnPageSeo from './pages/OnPageSeo'
 import Webbcopy from './pages/Webbcopy'
 import Tjanster from './pages/Tjanster'
 import FacebookinstaAdds from './pages/FacebookinstaAdds'
+import TiktokAds from './pages/TiktokAds'
 
 function App() {
 
@@ -72,6 +73,9 @@ function App() {
         <Route path='/webbcopy' element={ <Webbcopy />} />
         <Route path='/tjanster' element={ <Tjanster />} />
         <Route path='/facebook-ads-instagram-ads/' element={ <FacebookinstaAdds />} />
+        <Route path='/tiktok-ads/' element={ <TiktokAds />} />
+
+
 
 
         <Route path='/seo-sokmotoroptimering' element={ <SEOSokopt />} />

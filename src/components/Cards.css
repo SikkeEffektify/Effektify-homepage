@@ -110,6 +110,24 @@
 }
 
 
+.cards-tiktok .custom-back{
+    background-image: url(../assets/annonsering-tiktok.webp);
+    background-size: cover;
+    background-position: 45% 75%;
+    background-attachment: fixed;
+
+}
+
+.cards-tiktok2 .custom-back{
+    background-image: url(../assets/tiktok-ads-kampanjer-scaled.webp);
+    background-size: cover;
+    background-position: 45% 75%;
+
+
+}
+
+
+
 .cards2-4 h3{
     font-size: 35px
 }
