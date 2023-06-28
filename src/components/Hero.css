@@ -114,6 +114,12 @@ video {
 .blacktopdivider{
     background-image: url(../assets/blacktopdivider.svg);
 }
+.blacktopdivider2{
+    background-image: url(../assets/blacktopdivider.svg);
+    -webkit-transform: scaleX(-1);
+  transform: scaleY(-1);
+}
+
 
 .blackdivider{
     background-image: url(../assets/blackdivider.svg);

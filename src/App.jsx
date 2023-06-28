@@ -46,6 +46,7 @@ import SEOGoteborg from './pages/SEOGoteborg'
 import SEOMalmo from './pages/SEOMalmo'
 import SEOOrebro from './pages/SEOOrebro'
 import OnPageSeo from './pages/OnPageSeo'
+import Webbcopy from './pages/Webbcopy'
 
 function App() {
 
@@ -66,6 +67,8 @@ function App() {
         <Route path='/en/ladda-ner-appen-for-android' element={ <AppAndroid />} />
         <Route path='/karriar' element={ <Career />} />
         <Route path='/on-page-seo' element={ <OnPageSeo />} />
+        <Route path='/webbcopy' element={ <Webbcopy />} />
+        
 
 
         <Route path='/seo-sokmotoroptimering' element={ <SEOSokopt />} />
