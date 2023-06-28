@@ -47,6 +47,7 @@ import SEOMalmo from './pages/SEOMalmo'
 import SEOOrebro from './pages/SEOOrebro'
 import OnPageSeo from './pages/OnPageSeo'
 import Webbcopy from './pages/Webbcopy'
+import Tjanster from './pages/Tjanster'
 
 function App() {
 
@@ -68,6 +69,7 @@ function App() {
         <Route path='/karriar' element={ <Career />} />
         <Route path='/on-page-seo' element={ <OnPageSeo />} />
         <Route path='/webbcopy' element={ <Webbcopy />} />
+        <Route path='/tjanster' element={ <Tjanster />} />
         
 
 
