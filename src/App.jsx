@@ -50,6 +50,7 @@ import Webbcopy from './pages/Webbcopy'
 import Tjanster from './pages/Tjanster'
 import FacebookinstaAdds from './pages/FacebookinstaAdds'
 import TiktokAds from './pages/TiktokAds'
+import LinkedInAds from './pages/LinkedInAds'
 
 function App() {
 
@@ -74,6 +75,7 @@ function App() {
         <Route path='/tjanster' element={ <Tjanster />} />
         <Route path='/facebook-ads-instagram-ads/' element={ <FacebookinstaAdds />} />
         <Route path='/tiktok-ads/' element={ <TiktokAds />} />
+        <Route path='/linkedin-ads/' element={ <LinkedInAds />} />
 
 
 

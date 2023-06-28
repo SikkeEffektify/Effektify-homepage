@@ -127,6 +127,29 @@
 }
 
 
+.cards-linkedin .custom-back{
+    background-image: url(../assets/annonsering-linkedin.webp);
+    background-size: cover;
+    background-position: 45% 75%;
+    background-attachment: fixed;
+
+
+}
+
+.cards-linkedin2 .custom-back{
+    background-image: url(../assets/annonsering-linkedin-ads-scaled.webp);
+    background-size: cover;
+    background-position: 45% 75%;
+    background-attachment: fixed;
+
+
+}
+
+
+
+
+
+
 
 .cards2-4 h3{
     font-size: 35px
