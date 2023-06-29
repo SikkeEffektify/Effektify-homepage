@@ -293,7 +293,7 @@ export default function GoogleAds() {
     Google sökannonser / Google Search Text Ads
     </h1>
     <p class="text-sm text-left pb-10">
-    Annonstillägg ger din annons möjlighet att “ta mer plats” och synas bättre än konkurrenters annonser osm inte använder sig av annonstillägg. En annons som syns bra ökar chansen att en kund klickar på din annons istället för någon av dina konkurrenters annonser. Utöver detta ger även annonstilläggen dig möjlighet att lägga till fler länkar och visa upp mer av vad du erbjuder. Detta gör att kunden också får tillgång till fler sidor på din hemsida direkt från annonsen.
+    Annonstillägg ger din annons möjlighet att “ta mer plats” och synas bättre än konkurrenters annonser som inte använder sig av annonstillägg. En annons som syns bra ökar chansen att en kund klickar på din annons istället för någon av dina konkurrenters annonser. Utöver detta ger även annonstilläggen dig möjlighet att lägga till fler länkar och visa upp mer av vad du erbjuder. Detta gör att kunden också får tillgång till fler sidor på din hemsida direkt från annonsen.
     </p>
 
     <h1 class="text-left text-2xl pb-5 ">
@@ -302,7 +302,7 @@ export default function GoogleAds() {
     beskrivningstillägg
     </h1>
     <p class="text-sm text-left pb-10">
-    Annonstillägg ger din annons möjlighet att “ta mer plats” och synas bättre än konkurrenters annonser osm inte använder sig av annonstillägg. En annons som syns bra ökar chansen att en kund klickar på din annons istället för någon av dina konkurrenters annonser. Utöver detta ger även annonstilläggen dig möjlighet att lägga till fler länkar och visa upp mer av vad du erbjuder. Detta gör att kunden också får tillgång till fler sidor på din hemsida direkt från annonsen.
+    Annonstillägg ger din annons möjlighet att “ta mer plats” och synas bättre än konkurrenters annonser som inte använder sig av annonstillägg. En annons som syns bra ökar chansen att en kund klickar på din annons istället för någon av dina konkurrenters annonser. Utöver detta ger även annonstilläggen dig möjlighet att lägga till fler länkar och visa upp mer av vad du erbjuder. Detta gör att kunden också får tillgång till fler sidor på din hemsida direkt från annonsen.
     </p>
 
     <h1 class="text-left text-2xl pb-5 ">

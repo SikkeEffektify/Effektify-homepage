@@ -52,6 +52,7 @@ import FacebookinstaAdds from './pages/FacebookinstaAdds'
 import TiktokAds from './pages/TiktokAds'
 import LinkedInAds from './pages/LinkedInAds'
 import GoogleAds from './pages/GoogleAds'
+import SocialaMedier from './pages/SocialaMedier'
 
 function App() {
 
@@ -78,6 +79,7 @@ function App() {
         <Route path='/tiktok-ads/' element={ <TiktokAds />} />
         <Route path='/linkedin-ads/' element={ <LinkedInAds />} />
         <Route path='/google-ads/' element={ <GoogleAds />} />
+        <Route path='/sociala-medier/' element={ <SocialaMedier />} />
 
 
 
