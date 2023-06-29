@@ -151,12 +151,21 @@
     background-size: cover;
     background-position: 35% 75%;
 
-
-
 }
 
 
+.cards-google2 .custom-back{
+    background-image: url(../assets/content-webb-copy.webp);
+    background-size: cover;
+    background-position: 35% 75%;
+}
 
+
+.cards-google3 .custom-back{
+    background-image: url(../assets/pexels-karolina-grabowska.webp);
+    background-size: cover;
+    background-position: 35% 75%;
+}
 
 
 
