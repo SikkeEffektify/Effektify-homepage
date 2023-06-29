@@ -75,3 +75,8 @@ background-color: #283d64
     background-color: #ffa3af;
 }
 
+.like-bg{
+background-size: contain;
+background-attachment: fixed;
+background-image: url(./assets/annonsering-sociala-medier-small-1.webp);
+}

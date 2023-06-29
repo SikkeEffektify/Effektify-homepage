@@ -173,7 +173,18 @@
     background-position: 35% 75%;
 }
 
+.cards-socialm .custom-back{
+    background-image: url(../assets/e-commerce-sma-foretag.webp);
+    background-size: cover;
+    background-position: 35% 75%;
+}
 
+
+.cards-socialm2 .custom-back{
+    background-image: url(../assets/marknadsforing-annonser-sociala-medier-small.webp);
+    background-size: cover;
+    background-position: 35% 75%;
+}
 
 
 .cards2-4 h3{
