@@ -53,6 +53,7 @@ import TiktokAds from './pages/TiktokAds'
 import LinkedInAds from './pages/LinkedInAds'
 import GoogleAds from './pages/GoogleAds'
 import SocialaMedier from './pages/SocialaMedier'
+import OnPageSeoEN from './pages/OnPageSeoEN'
 
 function App() {
 
@@ -73,6 +74,7 @@ function App() {
         <Route path='/en/ladda-ner-appen-for-android' element={ <AppAndroid />} />
         <Route path='/karriar' element={ <Career />} />
         <Route path='/on-page-seo' element={ <OnPageSeo />} />
+        <Route path='/en/on-page-seo' element={ <OnPageSeoEN />} />
         <Route path='/webbcopy' element={ <Webbcopy />} />
         <Route path='/tjanster' element={ <Tjanster />} />
         <Route path='/facebook-ads-instagram-ads/' element={ <FacebookinstaAdds />} />
