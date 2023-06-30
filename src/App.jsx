@@ -57,6 +57,7 @@ import OnPageSeoEN from './pages/OnPageSeoEN'
 import SocialaMedierEN from './pages/SocialaMedierEN'
 import TiktokAdsEN from './pages/TiktokAdsEN'
 import LinkedInAdsEN from './pages/LinkedInAdsEN'
+import WebbcopyEN from './pages/WebbcopyEN'
 
 function App() {
 
@@ -79,6 +80,7 @@ function App() {
         <Route path='/on-page-seo' element={ <OnPageSeo />} />
         <Route path='/en/on-page-seo' element={ <OnPageSeoEN />} />
         <Route path='/webbcopy' element={ <Webbcopy />} />
+        <Route path='/en/web-copy' element={ <WebbcopyEN />} />
         <Route path='/tjanster' element={ <Tjanster />} />
         <Route path='/facebook-ads-instagram-ads/' element={ <FacebookinstaAdds />} />
         <Route path='/tiktok-ads/' element={ <TiktokAds />} />
