@@ -54,6 +54,7 @@ import LinkedInAds from './pages/LinkedInAds'
 import GoogleAds from './pages/GoogleAds'
 import SocialaMedier from './pages/SocialaMedier'
 import OnPageSeoEN from './pages/OnPageSeoEN'
+import SocialaMedierEN from './pages/SocialaMedierEN'
 
 function App() {
 
@@ -82,7 +83,7 @@ function App() {
         <Route path='/linkedin-ads/' element={ <LinkedInAds />} />
         <Route path='/google-ads/' element={ <GoogleAds />} />
         <Route path='/sociala-medier/' element={ <SocialaMedier />} />
-
+        <Route path='/en/social-media/' element={ <SocialaMedierEN />} />
 
 
         <Route path='/seo-sokmotoroptimering' element={ <SEOSokopt />} />
