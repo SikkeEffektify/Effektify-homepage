@@ -59,6 +59,7 @@ import TiktokAdsEN from './pages/TiktokAdsEN'
 import LinkedInAdsEN from './pages/LinkedInAdsEN'
 import WebbcopyEN from './pages/WebbcopyEN'
 import GoogleAdsEN from './pages/GoogleAdsEN'
+import ContactEN from './pages/ContactEN'
 
 function App() {
 
@@ -68,7 +69,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/en/contact-us' element={<ContactEN />} />
         <Route path='/kontakt' element={<Contact />} />
         <Route path='/webb' element={<Webb />} />
         <Route path='/digital-annonsering' element={<DigitalAnonsering />} />
