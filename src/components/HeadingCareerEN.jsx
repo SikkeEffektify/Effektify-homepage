@@ -25,81 +25,81 @@ export const HeadingCareerEN = () => {
   <div id="accordion-collapse-body-1" class="hidden bg-white border border-black" aria-labelledby="accordion-collapse-heading-1">
     <div class="p-5 border border-b-0 ">
       <p class="mb-2 text-black">
-        Nu söker vi en<b class="text-rose-300"> Key Account Manager </b>
-        till vårt
+      We are looking for a <b class="text-rose-300"> Key Account Manager </b>
+       to our
         <b class="text-rose-300"> Sales Team 
-        i Halmstad </b> och vi vill gärna träffa dig som:
+        in Halmstad </b> and would like to meet you as:
       </p>
       <ul class='list-disc list-outside text-sm space-y-2.5'>
         <li>
-        Har minst 3 års dokumenterad erfarenhet av försäljning av digital marknadsföringstjänster eller annan likvärdig erfarenhet från samma bransch.
+        Have at least 3 years of proven experience in selling digital marketing services or other equivalent experience from the same industry.
         </li>
         <li>
-        Har djup kunskap inom sökmotoroptimering och digital annonsering.
+        Have deep knowledge in search engine optimization and digital advertising.
         </li>
         <li>
-        Är lösningsorienterad, ser potentiella affärer och levererar resultat både internt och mot kund.
+        Is solution-oriented, sees potential business and delivers results both internally and to customers.
         </li>
         <li>
-        Har ett proaktivt och strukturerat arbetssätt.
+        Have a proactive and structured approach.
         </li>
         <li>
-        Är flytande i svenska såväl som engelska i både tal och skrift.
+        Fluent in both spoken and written Swedish and English.
         </li>
       </ul>
-      <p class="pt-5 text-base"><b class='text-rose-300'> Det är meriterande om du även:</b></p>
+      <p class="pt-5 text-base"><b class='text-rose-300'> It would be great if you also:</b></p>
       <ul class='list-disc pt-2 list-outside text-sm space-y-2.5'>
         <li>
-        Arbetar eller har arbetat med affärsutveckling inom e-handel.
+        Works or has worked in e-commerce business development.
         </li>
         <li>
-          Har en utvecklad presentationsförmåga, muntlig såväl som skriftlig.
+        Have developed presentation skills, both oral and written.
         </li>
         <li>
-        Har god erfarenhet av att jobba med uppsökande försäljning.
+        Have good experience of working with outreach sales.
         </li>
         <li>
-        Har bra koll på de olika sociala medier-plattformarna.
+        Have a good understanding of the different social media platforms.
         </li>
 
         <p class="pt-5 text-sm">
-        Som Key Account Manager hos Effektify är du del av ett team, men samtidigt förväntas du arbeta intraprenöriellt och ta ansvar för din egen planering, exekvering och resultat. Du visar vägen för kollegor och är en ambassadör för Effektify. Du förväntas bygga din egen kundstock genom både lead generation och uppsökande försäljning enligt Effektifys säljprocess. Till din hjälp har du erfarna områdesexperter och ett av landets bästa leveransteam. 
+        As a Key Account Manager at Effektify you are part of a team, but at the same time you are expected to work intrapreneurially and take responsibility for your own planning, execution and results. You lead the way for colleagues and are an ambassador for Effektify. You will be expected to build your own customer base through both lead generation and outreach sales following Effektify’s sales process. To help you, you have experienced area experts and one of the best delivery teams in the country. 
         </p>
 
        
       </ul>
-      <p class="pt-5"><b class="text-rose-300 text-base">Utöver dina professionella kvaliteter värdesätter vi att du</b></p>
+      <p class="pt-5"><b class="text-rose-300 text-base">In addition to your professional qualities, we value that you</b></p>
       <ul class='list-disc pt-2 list-outside text-sm space-y-2.5'>
-        <li>Har en väl utvecklad affärsförståelse, drivs av att hitta effektiva lösningar och vågar göra det oväntade.</li>
-        <li>Har god samarbetsförmåga och värderar teamets gemensamma mål</li>
+        <li>Have a well-developed business acumen, are driven to find effective solutions and dare to do the unexpected.</li>
+        <li>Has good collaboration skills and values the common goals of the team</li>
       </ul>
-      <p class="pt-5"><b class="text-rose-300 text-base">Övrig information om tjänsten</b></p>
+      <p class="pt-5"><b class="text-rose-300 text-base">Other information about the service</b></p>
       <ul class='list-disc pt-2 list-outside text-sm space-y-2.5'>
         <li>
-        Start: Enligt överenskommelse.
+        Start: according to agreement.
         </li>
         <li>
-        Omfattning: Heltid.
+        Position: full-time.
         </li>
         <li>
-        Anställningsform: Tillsvidareanställning.
+        Form of employment: Permanent position.
         </li>
         <li>
-        Lön: Fast samt rörlig lön.
+        Salary: fixed and variable salary.
         </li>
         <li>
-        Placering: Centrala Halmstad.
+        Location: Central Halmstad.
         </li>
       </ul>
 
       <p class="pt-5 text-sm">
-      Vi går igenom urvalet löpande och annonsen kan stängas ner innan tjänsten är tillsatt om vi gått över till urvals- och intervjufasen.
+      We review the selection on an ongoing basis and the ad may be closed before the position is filled if we move to the selection and interview phase.
       </p>
       <p class="pt-5 text-sm">
-      Skicka din ansökan tillsammans med ditt CV till <a class="text-rose-300" href="mailto:jobs@effektify.com"> jobs@effektify.com</a>.
+      Send your application together with your CV to <a class="text-rose-300" href="mailto:jobs@effektify.com"> jobs@effektify.com</a>.
       </p>
       <p class="pt-5 text-sm">
-      Vid frågor vänligen kontakta Sämer Awad, Head of Sales,
+      For questions please contact Sämer Awad, Head of Sales,
       <a  class="text-rose-300" href="mailto:samer.awad@effektify.com"> samer.awad@effektify.com</a>.
       </p>
     </div>
@@ -899,8 +899,8 @@ export const HeadingCareerEN = () => {
 </div>
 
 <div class="text-center bg-white text-black pt-20">
-  <h1 class="pb-5 text-xl">Hittar du inte rätt tjänst för dig ?</h1>
-  <a href="mailto:jobs@effektify.com"><p>Skicka oss ditt CV</p></a>
+  <h1 class="pb-5 text-xl">Can’t find the right position for you?</h1>
+  <a href="mailto:jobs@effektify.com"><p>Can’t find the right position for you?</p></a>
 </div>
 
 </>

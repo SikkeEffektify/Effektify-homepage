@@ -64,6 +64,7 @@ import SEOSearchEngine from './pages/SEOSearchEngine'
 import WebbEN from './pages/WebbEN'
 import FacebookinstaAddsEN from './pages/FacebookinstaAddsEN'
 import CareerEN from './pages/CareerEN'
+import Services from './pages/Services'
 
 function App() {
 
@@ -90,6 +91,7 @@ function App() {
         <Route path='/webbcopy' element={ <Webbcopy />} />
         <Route path='/en/web-copy' element={ <WebbcopyEN />} />
         <Route path='/tjanster' element={ <Tjanster />} />
+        <Route path='/en/services' element={ <Services />} />
         <Route path='/facebook-ads-instagram-ads/' element={ <FacebookinstaAdds />} />
         <Route path='/en/facebook-ads-instagram-ads/' element={ <FacebookinstaAddsEN />} />
         <Route path='/tiktok-ads/' element={ <TiktokAds />} />
