@@ -63,6 +63,7 @@ import ContactEN from './pages/ContactEN'
 import SEOSearchEngine from './pages/SEOSearchEngine'
 import WebbEN from './pages/WebbEN'
 import FacebookinstaAddsEN from './pages/FacebookinstaAddsEN'
+import CareerEN from './pages/CareerEN'
 
 function App() {
 
@@ -83,6 +84,7 @@ function App() {
         <Route path='/en/download-the-app-for-apple' element={ <AppApple />} />
         <Route path='/en/ladda-ner-appen-for-android' element={ <AppAndroid />} />
         <Route path='/karriar' element={ <Career />} />
+        <Route path='/en/career' element={ <CareerEN />} />
         <Route path='/on-page-seo' element={ <OnPageSeo />} />
         <Route path='/en/on-page-seo' element={ <OnPageSeoEN />} />
         <Route path='/webbcopy' element={ <Webbcopy />} />
