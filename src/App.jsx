@@ -61,6 +61,7 @@ import WebbcopyEN from './pages/WebbcopyEN'
 import GoogleAdsEN from './pages/GoogleAdsEN'
 import ContactEN from './pages/ContactEN'
 import SEOSearchEngine from './pages/SEOSearchEngine'
+import WebbEN from './pages/WebbEN'
 
 function App() {
 
@@ -73,6 +74,7 @@ function App() {
         <Route path='/en/contact-us' element={<ContactEN />} />
         <Route path='/kontakt' element={<Contact />} />
         <Route path='/webb' element={<Webb />} />
+        <Route path='/en/webb' element={<WebbEN />} />
         <Route path='/digital-annonsering' element={<DigitalAnonsering />} />
         <Route path='/vad-vi-erbjuder' element={ <Erbjuder />} />
         <Route path='/onboarding' element={ <Onboarding />} />
