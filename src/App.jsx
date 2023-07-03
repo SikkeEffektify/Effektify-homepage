@@ -60,6 +60,7 @@ import LinkedInAdsEN from './pages/LinkedInAdsEN'
 import WebbcopyEN from './pages/WebbcopyEN'
 import GoogleAdsEN from './pages/GoogleAdsEN'
 import ContactEN from './pages/ContactEN'
+import SEOSearchEngine from './pages/SEOSearchEngine'
 
 function App() {
 
@@ -96,6 +97,7 @@ function App() {
 
 
         <Route path='/seo-sokmotoroptimering' element={ <SEOSokopt />} />
+        <Route path='/en/search-engine-optimization/' element={ <SEOSearchEngine />} />
         <Route path='/seo-sokmotoroptimering-halmstad' element={ <SEOHalmstad/>} />
         <Route path='/seo-sokmotoroptimering-boras' element={ <SEOBoras/>} />
         <Route path='/seo-sokmotoroptimering-vaxjo' element={ <SEOVaxjo/>} />
