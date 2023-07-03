@@ -58,6 +58,7 @@ import SocialaMedierEN from './pages/SocialaMedierEN'
 import TiktokAdsEN from './pages/TiktokAdsEN'
 import LinkedInAdsEN from './pages/LinkedInAdsEN'
 import WebbcopyEN from './pages/WebbcopyEN'
+import GoogleAdsEN from './pages/GoogleAdsEN'
 
 function App() {
 
@@ -88,6 +89,7 @@ function App() {
         <Route path='/linkedin-ads/' element={ <LinkedInAds />} />
         <Route path='/en/linkedin-ads/' element={ <LinkedInAdsEN />} />
         <Route path='/google-ads/' element={ <GoogleAds />} />
+        <Route path='/en/google-ads/' element={ <GoogleAdsEN />} />
         <Route path='/sociala-medier/' element={ <SocialaMedier />} />
         <Route path='/en/social-media/' element={ <SocialaMedierEN />} />
 
