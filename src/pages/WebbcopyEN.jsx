@@ -3,7 +3,6 @@ import gif from '../assets/PONG_Light_version2.gif'
 import sidandstitel from '../assets/Sidans-titel.webp'
 import searchintent from '../assets/Exempel-pa-search-intent-nar-du-skriver-copy-for-webben.webp'
 import ContactForm from '../components/ContactForm'
-import ContactFormEN from '../components/ContactFormEN'
 
 
 export default function WebbcopyEN() {

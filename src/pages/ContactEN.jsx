@@ -1,29 +1,26 @@
 import React from 'react'
-import { Hero3 } from '../components/Hero3'
+import { Hero} from '../components/Hero'
 import ContactForm from '../components/ContactForm'
-import ContactFormEN from '../components/ContactFormEN'
-import videoBg from '../assets/clouds.mp4'
+import video from '../assets/clouds.mp4'
 import gif from '../assets/PONG_Light_version2.gif'
-
-
 export default function ContactEN() {
   return (
     <>
-   
-
-   <section>
-   <div className='hero'>
-    <div className="vidOverlay"></div>
-    <video class="min-w-full min-h-full absolute object-cover" src={videoBg} autoPlay loop muted />
-    <div class="vidContent2 bg-black/40">
-        <h1 class='text-5xl pl-4'>ready to start your journey?</h1>
-    </div>
-   </div>
-    <img src={gif} alt="" />
-    </section>
-
-
-    <ContactFormEN />
+    <Hero 
+    title={"Ready to start your journey?"}
+    videoLink={video}
+    />
+    <img src={gif} class="mx-auto" alt="" />
+    <ContactForm 
+    title={"How nice that you have found us!"}
+    desc={"If you have any questions or are ready to start your digital journey now, feel free to fill in a few lines or email us at"}
+    company={"Company"}
+    name={"Name"}
+    phone={"Phone"}
+    email={"Email"}
+    text={"What can we do for you?"}
+    buttonText={"Send"}
+    />
     </>
   )
 }

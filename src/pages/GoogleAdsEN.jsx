@@ -3,7 +3,6 @@ import videoBg from '../assets/googleadds.mp4'
 import raket from '../assets/raket.webp'
 import gif from '../assets/PONG_Light_version2.gif'
 import ContactForm from '../components/ContactForm'
-import ContactFormEN from '../components/ContactFormEN'
 
 export default function GoogleAdsEN() {
   return (

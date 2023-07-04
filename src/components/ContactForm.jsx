@@ -1,14 +1,13 @@
 import React from 'react'
 import './ContactForm.css'
 
-export default function ContactForm() {
+export default function ContactForm({title, desc, company, name, phone, email, text, buttonText}) {
   return (
     <section class='contact-form-container  text-white'>
         <div class="contact-form-heading pt-10">
-        <h1 class='font-black text-3xl text-center pt-5'>Vad kul att du har hittat till oss!</h1>
-        <p class='pt-5 text-base font-medium text-center'>Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på <br /> 
+        <h1 class='font-black text-3xl text-center pt-5'>{title}</h1>
+        <p class='pt-5 text-base font-medium text-center'>{desc}<br /> 
         <a href="mailto:letsdance@effektify.com" target="_blank" rel="noopener">letsdance@effektify.com </a> 
-        så hör vi av oss inom kort!   
         </p>
         </div>
         <div class="contact-form">
@@ -16,21 +15,21 @@ export default function ContactForm() {
       
       <form action="#" class="space-y-4 float">
           <div>
-              <input type="text" id="company" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded border shadow-sm " placeholder="Företag" required />
+              <input type="text" id="company" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded border shadow-sm " placeholder={company} required />
           </div>
           <div>
-              <input type="text" id="company" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded border shadow-sm  " placeholder="Namn" required />
+              <input type="text" id="company" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded border shadow-sm  " placeholder={name} required />
           </div>
           <div>
-              <input type="tel" id="company" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded border shadow-sm " placeholder="Telefon" required />
+              <input type="tel" id="company" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded border shadow-sm " placeholder={phone} required />
           </div>
           <div>
-              <input type="email" id="email" class="shadow-sm p-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded  block w-full  " placeholder="E-post" required />
+              <input type="email" id="email" class="shadow-sm p-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded  block w-full  " placeholder={email} required />
           </div>
           <div class="sm:col-span-2">
-              <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded shadow-sm border border-gray-300 " placeholder="Vad kan vi hjälpa dig med?"></textarea>
+              <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded shadow-sm border border-gray-300 " placeholder={text}></textarea>
           </div>
-          <button type="submit" class="text-xl contact-form-button py-2 px-5 font-medium text-center text-white  sm:w-fit ">Skicka</button>
+          <button type="submit" class="text-xl contact-form-button py-2 px-5 font-medium text-center text-white  sm:w-fit ">{buttonText}</button>
       </form>
   </div>
         </div>

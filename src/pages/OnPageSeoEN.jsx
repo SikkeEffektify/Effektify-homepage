@@ -6,7 +6,6 @@ import ContactForm from '../components/ContactForm'
 import Namnge from '../assets/Namnge-bilder-ratt-satt.webp'
 import ssl from '../assets/Effektify-ssl.webp'
 import gif from '../assets/PONG_Light_version2.gif'
-import ContactFormEN from '../components/ContactFormEN'
 
 
 export default function OnPageSeoEN() {

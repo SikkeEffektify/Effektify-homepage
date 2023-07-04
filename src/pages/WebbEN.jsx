@@ -7,7 +7,6 @@ import ContactForm from '../components/ContactForm'
 import { Hero4EN } from '../components/Hero4EN'
 import { HeadingWebbEN } from '../components/HeadingWebbEN'
 import { Hero5EN } from '../components/Hero5EN'
-import ContactFormEN from '../components/ContactFormEN'
 import { Cards3EN } from '../components/Cards3EN'
 
 export default function WebbEN() {

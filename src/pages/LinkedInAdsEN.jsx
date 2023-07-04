@@ -1,7 +1,6 @@
 import React from 'react'
 import ContactForm from '../components/ContactForm'
 import gif from '../assets/PONG_Light_version2.gif'
-import ContactFormEN from '../components/ContactFormEN'
 
 
 export default function LinkedInAdsEN() {

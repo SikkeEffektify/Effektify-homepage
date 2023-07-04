@@ -21,7 +21,6 @@ import { HeadingSEO9 } from '../components/HeadingSEO9'
 import { Heading7EN } from '../components/Heading7EN';
 import { HeadinglistEN } from '../components/HeadinglistEN';
 import { HeadingSEOEN } from '../components/HeadingSEOEN';
-import ContactFormEN from '../components/ContactFormEN';
 import { HeadingSEO2EN } from '../components/HeadingSEO2EN';
 import { HeadingCityEN } from '../components/HeadingCityEN';
 import { HeadingSEO4EN } from '../components/HeadingSEO4EN';

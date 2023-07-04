@@ -1,5 +1,4 @@
 import React from 'react'
-import ContactFormEN from '../components/ContactFormEN'
 import { Hero6EN } from '../components/Hero6EN'
 import { Cards4EN } from '../components/Cards4EN'
 import { Cards5EN } from '../components/Cards5EN'
@@ -13,7 +12,7 @@ export default function DigitalAdvertising() {
    <Hero6EN />
    <Heading6EN />
    <Cards4EN />
-   <ContactFormEN />
+   <ContactForm />
    <Cards5EN />
     </>
 

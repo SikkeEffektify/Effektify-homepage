@@ -4,7 +4,6 @@ import Footer from './components/Footer'
 import Nav from './components/Nav'
 import {Routes, Route} from 'react-router-dom'
 import Home  from './pages/Home'
-import Contact from './pages/Contact'
 import Webb from './pages/Webb'
 import DigitalAnonsering from './pages/DigitalAnonsering'
 import Erbjuder from './pages/Erbjuder'
@@ -62,11 +61,11 @@ import GoogleAdsEN from './pages/GoogleAdsEN'
 import ContactEN from './pages/ContactEN'
 import SEOSearchEngine from './pages/SEOSearchEngine'
 import WebbEN from './pages/WebbEN'
-import FacebookinstaAddsEN from './pages/FacebookinstaAddsEN'
 import CareerEN from './pages/CareerEN'
 import Services from './pages/Services'
 import DigitalAdvertising from './pages/DigitalAdvertising'
 import HomeEN from './pages/HomeEN'
+import Contact from './pages/Contact'
 
 function App() {
 
@@ -76,6 +75,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/en/' element={<HomeEN />} />
+        <Route path='/en/home' element={<HomeEN />} />
         <Route path='/home' element={<Home />} />
         <Route path='/en/contact-us' element={<ContactEN />} />
         <Route path='/kontakt' element={<Contact />} />
@@ -97,7 +97,6 @@ function App() {
         <Route path='/tjanster' element={ <Tjanster />} />
         <Route path='/en/services' element={ <Services />} />
         <Route path='/facebook-ads-instagram-ads/' element={ <FacebookinstaAdds />} />
-        <Route path='/en/facebook-ads-instagram-ads/' element={ <FacebookinstaAddsEN />} />
         <Route path='/tiktok-ads/' element={ <TiktokAds />} />
         <Route path='/en/tiktok-ads/' element={ <TiktokAdsEN />} />
         <Route path='/linkedin-ads/' element={ <LinkedInAds />} />
