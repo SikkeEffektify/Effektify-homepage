@@ -14,7 +14,7 @@ import videoHero from '../assets/City-By-Night-low.mp4'
 import videoHeroButton from '../assets/spaceloop2.mp4'
 
 
-export default function Home() {
+export default function HomeEN() {
   return (
     <>
     <Hero 
@@ -24,8 +24,8 @@ export default function Home() {
     />
     <Heading
       textColor={"text-white"}
-      title={"Vi hjälper våra kunder att öka sin försäljning genom digitala kanaler"}
-      desc={"Med erfarenhet och expertis kombinerat med den senaste tekniken erbjuder vi lösningar som förenklar er tillväxtresa. Vi effektivserar tillväxt och lönsamhet genom tydliga strategier, högkvalitativ leverans och full transparens i alla led."}
+      title={"We help our clients increase their sales through digital channels. "}
+      desc={"With experience and expertise combined with the latest technology, we offer solutions that simplify your growth journey. We streamline growth and profitability through clear strategies, high quality delivery and full transparency at all stages."}
     />
     <Cards 
     underTitle1={"Sökmotoroptimeringar"}
@@ -38,16 +38,16 @@ export default function Home() {
     underDesc4={"En komplett handelsplattform som låter företag starta, utveckla och sälja produkter och tjänster online."}
     />
     <Heading2 
-      title={"Det krävs en strategi för att växa"}
-      desc={"Vi tror på långsiktiga samarbeten och därför är det viktigt att bygga på en bra strategisk grund, både kortsiktigt och långsiktigt. "}
-      descRose={"Vi effektiviserar tillväxt och lönsamhet genom tydliga strategier, högkvalitativ leverans och full transparens i alla led."}
-      desc2={"Denna plan hjälper vi er med och anpassar arbetet efter era affärsmål. Oavsett om ni har en lokal verksamhet i Sverige eller om ni vill växa internationellt så hjälper vi er -"}
-      centerBottomDesc={"Är ni redo att ta klivet och ta er digitala närvaro till nästa nivå? Era mål är vår drivkraft, ingen dröm är för stor."}
+      title={"It takes a strategy to grow"}
+      desc={"We believe in long-term partnerships and therefore it is important to build on a good strategic foundation, both in the short and long term. "}
+      descRose={"We streamline growth and profitability through clear strategies, high quality delivery and full transparency at all stages."}
+      desc2={"We will help you with this plan and adapt the work to your business objectives. Whether you have a local business in Sweden or you want to grow internationally, we can help you -"}
+      centerBottomDesc={"Are you ready to take the leap and take your digital presence to the next level? Your goals are our driving force, no dream is too big."}
     />
     <HeroButton 
     title={"We're ready for takeoff"}
     title2={"are you?"}
-    buttonLink={"/kontakt"}
+    buttonLink={"/en/contact-us"}
     buttonText={"Launch"}
     videoLink={videoHeroButton}
     />
@@ -57,14 +57,14 @@ export default function Home() {
     <Heading
       bg={"bg-white"}
       textColor={"text-black"} 
-      title={"Fler tjänster genom partnerskap"}
-      desc={" Tack vare vårt stora nätverk av samarbetspartners kan vi erbjuda en rad andra tjänster, såsom fotografering och motion graphics, både i Sverige och utomlands. Vi samarbetar bara med de bästa, så att du kan känna dig trygg med våra rekommendationer."}
+      title={"More services through partnerships"}
+      desc={"Thanks to our large network of partners, we can offer a range of other services, such as photography and motion graphics, both in Sweden and abroad. We only work with the best, so you can feel confident with our recommendations."}
     />
     <Splat 
-    headingText={"Via etablerade partners erbjuder vi även helhetslösningar inom"}
-    text={"Affärsplan ● Varumärkesprofil"}
-    text2={"Grafisk Profil ● Foto & film"}
-    buttonLink={"/kontakt"}
+    headingText={"Through established partners, we also offer complete solutions in"}
+    text={"Business plan ● Brand profile"}
+    text2={"Graphic profile ● Photo & film "}
+    buttonLink={"/en/contact-us"}
     buttonText={"Ready for takeoff"}
     />
     <Heading
@@ -72,28 +72,28 @@ export default function Home() {
       bg={""}
       textColor={"text-white"} 
       title={"The world is our playground"}
-      desc={"Här följer några exempel på våra partners som vi hjälper med att effektivisera sin tillväxt. Idag hjälper vi över 250 företag som finns representerade i Sverige, övriga Norden, Tyskland och Nederländerna."} 
+      desc={"Here are some examples of our partners that we help to streamline their growth. Today we help over 250 companies represented in Sweden, the rest of the Nordic countries, Germany and the Netherlands."} 
     />
     <ImageCards 
     title1={"Pooltime"}
-    desc1={"Pooler & tillbehör"}
+    desc1={"Pools & accessories"}
     title2={"Ekstrands"}
-    desc2={"Dörrar & fönster"}
+    desc2={"Doors & windows"}
     title3={"Gipsholm"}
-    desc3={"Hemtextil"}
-    title4={"Svenska bordtennis-förbundet"}
+    desc3={"Home Textiles"}
+    title4={"Swedish Table Tennis Federation"}
     />
-     <Heading 
+    <Heading 
     titlePosition={"text-center uppercase"}
     bg={"bg-white"}
     textColor={"text-black text-2xl"} 
-    title={"Det är med helhjärtat engagemang vi hjälper företag att nå den digitala närvaro som krävs idag"}
+    title={"It is with wholehearted commitment that we help companies achieve the digital presence required today"}
     desc={""} 
     />
     <CardsVideo 
     title={"Let's talk strategies"}
-    desc={"Tillsammans skapar vi en anpassad lösning för att du ska kunna luta dig tillbaka och se resultaten du väntat på"}
-    buttonLink={"/kontakt"}
+    desc={"Together we create a customized solution so that you can sit back and see the results you have been waiting for"}
+    buttonLink={"/en/contact-us"}
     buttonText={"Play Ball"}
     />
     </>

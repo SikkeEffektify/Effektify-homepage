@@ -66,6 +66,7 @@ import FacebookinstaAddsEN from './pages/FacebookinstaAddsEN'
 import CareerEN from './pages/CareerEN'
 import Services from './pages/Services'
 import DigitalAdvertising from './pages/DigitalAdvertising'
+import HomeEN from './pages/HomeEN'
 
 function App() {
 
@@ -74,6 +75,7 @@ function App() {
     <Nav />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/en/' element={<HomeEN />} />
         <Route path='/home' element={<Home />} />
         <Route path='/en/contact-us' element={<ContactEN />} />
         <Route path='/kontakt' element={<Contact />} />
