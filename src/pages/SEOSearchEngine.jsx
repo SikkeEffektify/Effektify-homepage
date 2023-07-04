@@ -1,7 +1,7 @@
 import React from 'react'
 import { Hero9EN } from "../components/Hero9EN";
 import { Heading7 } from '../components/Heading7'
-import { Hero2 } from '../components/Hero2'
+import { HeroButton } from '../components/HeroButton'
 import { Headinglist } from '../components/Headinglist'
 import { HeadingSEO } from '../components/HeadingSEO'
 import { HeadingSEO2 } from '../components/HeadingSEO2'
@@ -35,7 +35,7 @@ export default function SEOSearchEngine() {
     <Hero9EN />    
     <Heading7EN />
     <div className='bg-white pb-20'></div>
-    <Hero2/>
+    <HeroButton/>
     <HeadinglistEN />
     <HeadingSEOEN/>
     <ContactFormEN />

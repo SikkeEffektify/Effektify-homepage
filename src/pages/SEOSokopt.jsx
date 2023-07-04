@@ -1,7 +1,7 @@
 import React from 'react'
 import { Hero9 } from '../components/Hero9'
 import { Heading7 } from '../components/Heading7'
-import { Hero2 } from '../components/Hero2'
+import { HeroButton } from '../components/HeroButton'
 import { Headinglist } from '../components/Headinglist'
 import { HeadingSEO } from '../components/HeadingSEO'
 import { HeadingSEO2 } from '../components/HeadingSEO2'

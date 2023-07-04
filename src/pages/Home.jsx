@@ -5,17 +5,23 @@ import { CardsVideo } from '../components/CardsVideo'
 import { Heading } from '../components/Heading'
 import { Heading2 } from '../components/Heading2'
 import { Hero } from '../components/Hero'
-import { Hero2 } from '../components/Hero2'
 import SmallVideo from '../components/SmallVideo'
 import Splat from '../components/Splat'
+import { HeroButton } from '../components/HeroButton'
 
 
+import videoHero from '../assets/City-By-Night-low.mp4'
+import videoHeroButton from '../assets/spaceloop2.mp4'
 
 
 export default function Home() {
   return (
     <>
-    <Hero />
+    <Hero 
+    videoLink={videoHero}
+    title={"We love"}
+    titlePink={"marketing"}
+    />
     <Heading
       textColor={"text-white"}
       title={"Vi hjälper våra kunder att öka sin försäljning genom digitala kanaler"}
@@ -29,8 +35,15 @@ export default function Home() {
       desc2={"Denna plan hjälper vi er med och anpassar arbetet efter era affärsmål. Oavsett om ni har en lokal verksamhet i Sverige eller om ni vill växa internationellt så hjälper vi er -"}
       centerBottomDesc={"Är ni redo att ta klivet och ta er digitala närvaro till nästa nivå? Era mål är vår drivkraft, ingen dröm är för stor."}
     />
-    <Hero2 />
-    <SmallVideo />
+    <HeroButton 
+    title={"We're ready for takeoff"}
+    title2={"are you?"}
+    buttonLink={"/kontakt"}
+    buttonText={"Launch"}
+    videoLink={videoHeroButton}
+    />
+    <SmallVideo 
+    />
     <Heading
       bg={"bg-white"}
       textColor={"text-black"} 

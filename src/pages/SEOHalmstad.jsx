@@ -1,7 +1,7 @@
 import React from 'react'
 import bg from '../assets/SEO-sokmotoroptimering-halmstad.jpg'
 import stats from '../assets/seo-halmstad-stats.webp'
-import { Hero2 } from '../components/Hero2'
+import { HeroButton } from '../components/HeroButton'
 import { HeadingCity } from '../components/HeadingCity'
 import { HeadingCity2 } from '../components/HeadingCity2'
 import ContactForm from '../components/ContactForm'
