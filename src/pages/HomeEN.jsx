@@ -28,14 +28,14 @@ export default function HomeEN() {
       desc={"With experience and expertise combined with the latest technology, we offer solutions that simplify your growth journey. We streamline growth and profitability through clear strategies, high quality delivery and full transparency at all stages."}
     />
     <Cards 
-    underTitle1={"Sökmotoroptimeringar"}
-    underDesc1={"Med SEO hjälper vi ert företag att synas högre upp på sökmotorer, på de sökord som är viktiga för er."}
+    underTitle1={"SEO"}
+    underDesc1={"With SEO we help your company appear higher on search engines, on the keywords that are important to you."}
     underTitle2={"Google Ads"}
-    underDesc2={"Med relevanta och rätt inriktade kampanjer och annonser, ökar vi er synlighet på sökmotorerna."}
+    underDesc2={"With relevant and properly targeted campaigns and advertisements, we increase your visibility on the search engines."}
     underTitle3={"Wordpress"}
-    underDesc3={"Världens största system för att skapa hemsidor, som idag används till över 27% av alla webbplatser på internet."}
+    underDesc3={"The world's largest system to create websites with, which is currently used by over 27% of all websites on the internet."}
     underTitle4={"Shopify"}
-    underDesc4={"En komplett handelsplattform som låter företag starta, utveckla och sälja produkter och tjänster online."}
+    underDesc4={"A complete commerce platform that allows businesses to launch, develop and sell products and services online."}
     />
     <Heading2 
       title={"It takes a strategy to grow"}

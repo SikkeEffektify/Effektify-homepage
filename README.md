@@ -1,4 +1,4 @@
-# effektify-remake
+# Effektify
 
 
 ## React version of [Effektify](https://effektify.com) 😎
