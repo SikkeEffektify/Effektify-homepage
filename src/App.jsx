@@ -65,6 +65,7 @@ import WebbEN from './pages/WebbEN'
 import FacebookinstaAddsEN from './pages/FacebookinstaAddsEN'
 import CareerEN from './pages/CareerEN'
 import Services from './pages/Services'
+import DigitalAdvertising from './pages/DigitalAdvertising'
 
 function App() {
 
@@ -79,6 +80,7 @@ function App() {
         <Route path='/webb' element={<Webb />} />
         <Route path='/en/webb' element={<WebbEN />} />
         <Route path='/digital-annonsering' element={<DigitalAnonsering />} />
+        <Route path='/en/digital-advertising/' element={<DigitalAdvertising />} />
         <Route path='/vad-vi-erbjuder' element={ <Erbjuder />} />
         <Route path='/onboarding' element={ <Onboarding />} />
         <Route path='/en/onboarding' element={ <Onboarding />} />
