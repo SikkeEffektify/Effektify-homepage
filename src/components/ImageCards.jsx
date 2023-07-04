@@ -1,7 +1,7 @@
 import React from 'react'
 import './Cards.css'
 
-export const Cards2 = () => {
+export const ImageCards = () => {
   return (
     <>
     <section class="cards2-1">
