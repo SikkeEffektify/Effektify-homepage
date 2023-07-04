@@ -42,7 +42,8 @@ export default function Home() {
     buttonText={"Launch"}
     videoLink={videoHeroButton}
     />
-    <SmallVideo 
+    <SmallVideo
+    videoLink={"https://player.vimeo.com/progressive_redirect/playback/640269040/rendition/360p/file.mp4?loc=external&signature=d0e1d5c738b95a755a14180899b17e383d9330d980a2e4d2a0fd01f98017b49c"}
     />
     <Heading
       bg={"bg-white"}
@@ -50,7 +51,13 @@ export default function Home() {
       title={"Fler tjänster genom partnerskap"}
       desc={" Tack vare vårt stora nätverk av samarbetspartners kan vi erbjuda en rad andra tjänster, såsom fotografering och motion graphics, både i Sverige och utomlands. Vi samarbetar bara med de bästa, så att du kan känna dig trygg med våra rekommendationer."}
     />
-    <Splat />
+    <Splat 
+    headingText={"Via etablerade partners erbjuder vi även helhetslösningar inom"}
+    text={"Affärsplan ● Varumärkesprofil"}
+    text2={"Grafisk Profil ● Foto & film"}
+    buttonLink={"/kontakt"}
+    buttonText={"Ready for takeoff"}
+    />
     <Heading
       titlePosition={"text-center"}
       bg={""}
@@ -66,7 +73,12 @@ export default function Home() {
     title={"Digital Anonsering"}
     desc={"Med en av våra persoliga specialister har annonsering aldrig varit enklare. Vi skräddarsyr en strategi baserat på djupgående analyser av önskade sökord och konkurrens för att kunna erbjuda en lösning som passar din bransch och ditt företag."} 
     />
-    <CardsVideo />
+    <CardsVideo 
+    title={"Let's talk strategies"}
+    desc={"Tillsammans skapar vi en anpassad lösning för att du ska kunna luta dig tillbaka och se resultaten du väntat på"}
+    buttonLink={"/kontakt"}
+    buttonText={"Play Ball"}
+    />
     </>
   )
 }
