@@ -3,9 +3,9 @@ import './Splat.css'
 
 export default function Splat({headingText, text, text2, buttonLink, buttonText}) {
   return (
-    <section class="splat-main">
+    <section class="splat-main text-center">
     <div class="bg-white splat-container min-w-full min-h-full">
-        <div class="splat-content pt-10">
+        <div class="splat-content text-center pt-10">
         <p class="pt-20 pb-5 text-center"> {headingText} </p>
         <h3 class="splat-bold pt-5 text-center uppercase">
         {text}
