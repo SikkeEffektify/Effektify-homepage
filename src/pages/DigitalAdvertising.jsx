@@ -7,17 +7,22 @@ import { Cards4 } from '../components/Cards4'
 import ContactForm from '../components/ContactForm'
 import { Cards5 } from '../components/Cards5'
 import ContactFormEN from '../components/ContactFormEN'
+import { Heading5EN } from '../components/Heading5EN'
+import { Hero6EN } from '../components/Hero6EN'
+import { Cards4EN } from '../components/Cards4EN'
+import { Cards5EN } from '../components/Cards5EN'
+import { Heading6EN } from '../components/Heading6EN'
 
 export default function DigitalAdvertising() {
   return (
 
     <>
-   <Heading5 />
-   <Hero6 />
-   <Heading6 />
-   <Cards4 />
+   <Heading5EN />
+   <Hero6EN />
+   <Heading6EN />
+   <Cards4EN />
    <ContactFormEN />
-   <Cards5 />
+   <Cards5EN />
     </>
 
   )
