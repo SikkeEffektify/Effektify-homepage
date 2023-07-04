@@ -1,7 +1,7 @@
 import React from 'react'
 import './Cards.css'
 
-export const Cards = () => {
+export const Cards = ({underTitle1, underDesc1, underTitle2, underDesc2, underTitle3, underDesc3, underTitle4, underDesc4 }) => {
   return (
     <>
     <section class="cards-1">
@@ -11,13 +11,13 @@ export const Cards = () => {
         <h1 class=" cards-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white">SEARCH</span>.</h1>
     </a>
    
-    <h2 class=" pt-5 pb-2 cards-under-title text-white"><i class="fa-solid fa-chart-line text-rose-300"></i> <span class="pl-4">Sökmotoroptimering</span></h2>
+    <h2 class=" pt-5 pb-2 cards-under-title text-white"><i class="fa-solid fa-chart-line text-rose-300"></i> <span class="pl-4">{underTitle1}</span></h2>
     <p class=" pl-10 cards-under-desc text-white">
-    Med SEO hjälper vi ert företag att synas högre upp på sökmotorer, på de sökord som är viktiga för er.
+    {underDesc1}
     </p>
-    <h2 class=" pt-5 pb-2 cards-under-title text-white"><i class="fa-solid fa-chart-column text-sky-400"></i> <span class="pl-4">Google Ads</span></h2>
+    <h2 class=" pt-5 pb-2 cards-under-title text-white"><i class="fa-solid fa-chart-column text-sky-400"></i> <span class="pl-4">{underTitle2}</span></h2>
     <p class=" pl-10 cards-under-desc text-white">
-    Med relevanta och rätt inriktade kampanjer och annonser, ökar vi er synlighet på sökmotorerna.
+    {underDesc2}
     </p>
     </div>
     </div>
@@ -42,16 +42,15 @@ export const Cards = () => {
       <a href="#">
         <h1 class=" cards-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white">Web & E-com</span>.</h1>
     </a>
-    <a href="/webb"><h2 class=" pt-5 pb-2 cards-under-title text-white"><i class="fa-brands fa-wordpress-simple text-sky-700"></i> <span class="pl-4">Wordpress</span></h2>
+    <a href="/webb"><h2 class=" pt-5 pb-2 cards-under-title text-white"><i class="fa-brands fa-wordpress-simple text-sky-700"></i> <span class="pl-4">{underTitle3}</span></h2>
     <p class=" pl-10 cards-under-desc text-white">
-    Världens största system för att skapa hemsidor, som idag används till  över 27% av alla webbplatser på internet.
+    {underDesc3}
     </p>
     </a>
     <a href="/webb">
-    <h2 class=" pt-5 pb-2 cards-under-title text-white"><i class="fa-brands fa-shopify text-green-500"></i> <span class="pl-4">Shopify</span></h2>
+    <h2 class=" pt-5 pb-2 cards-under-title text-white"><i class="fa-brands fa-shopify text-green-500"></i> <span class="pl-4">{underTitle4}</span></h2>
     <p class=" pl-10 cards-under-desc text-white">
-   
-    En komplett handelsplattform som låter företag starta, utveckla och sälja produkter och tjänster online.
+    {underDesc4}
     </p>
     </a>
     </div>

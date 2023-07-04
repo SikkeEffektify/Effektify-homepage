@@ -27,7 +27,16 @@ export default function Home() {
       title={"Vi hjälper våra kunder att öka sin försäljning genom digitala kanaler"}
       desc={"Med erfarenhet och expertis kombinerat med den senaste tekniken erbjuder vi lösningar som förenklar er tillväxtresa. Vi effektivserar tillväxt och lönsamhet genom tydliga strategier, högkvalitativ leverans och full transparens i alla led."}
     />
-    <Cards />
+    <Cards 
+    underTitle1={"Sökmotoroptimeringar"}
+    underDesc1={"Med SEO hjälper vi ert företag att synas högre upp på sökmotorer, på de sökord som är viktiga för er."}
+    underTitle2={"Google Ads"}
+    underDesc2={"Med relevanta och rätt inriktade kampanjer och annonser, ökar vi er synlighet på sökmotorerna."}
+    underTitle3={"Wordpress"}
+    underDesc3={"Världens största system för att skapa hemsidor, som idag används till över 27% av alla webbplatser på internet."}
+    underTitle4={"Shopify"}
+    underDesc4={"En komplett handelsplattform som låter företag starta, utveckla och sälja produkter och tjänster online."}
+    />
     <Heading2 
       title={"Det krävs en strategi för att växa"}
       desc={"Vi tror på långsiktiga samarbeten och därför är det viktigt att bygga på en bra strategisk grund, både kortsiktigt och långsiktigt. "}
@@ -65,7 +74,15 @@ export default function Home() {
       title={"The world is our playground"}
       desc={"Här följer några exempel på våra partners som vi hjälper med att effektivisera sin tillväxt. Idag hjälper vi över 250 företag som finns representerade i Sverige, övriga Norden, Tyskland och Nederländerna."} 
     />
-    <ImageCards />
+    <ImageCards 
+    title1={"Pooltime"}
+    desc1={"Pooler & tillbehör"}
+    title2={"Ekstrands"}
+    desc2={"Dörrar & fönster"}
+    title3={"Gipsholm"}
+    desc3={"Hemtextil"}
+    title4={"Svenska bordtennis-förbundet"}
+    />
     <Heading 
     titlePosition={"text-left"}
     bg={"bg-white"}
