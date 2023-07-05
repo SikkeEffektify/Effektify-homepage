@@ -1,4 +1,4 @@
-#Effektify
+# Effektify
 
 
 ## React version of [Effektify](https://effektify.com) 😎

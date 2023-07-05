@@ -10,6 +10,8 @@ import Splat from '../components/Splat'
 import { HeroButton } from '../components/HeroButton'
 
 
+
+/* Videos */
 import videoHero from '../assets/City-By-Night-low.mp4'
 import videoHeroButton from '../assets/spaceloop2.mp4'
 
