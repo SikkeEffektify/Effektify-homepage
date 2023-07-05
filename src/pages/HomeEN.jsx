@@ -24,7 +24,7 @@ export default function HomeEN() {
     />
     <Heading
       textColor={"text-white"}
-      title={"We help our clients increase their sales through digital channels. "}
+      title={"We help our clients increase their sales through digital channels"}
       desc={"With experience and expertise combined with the latest technology, we offer solutions that simplify your growth journey. We streamline growth and profitability through clear strategies, high quality delivery and full transparency at all stages."}
     />
     <Cards 
