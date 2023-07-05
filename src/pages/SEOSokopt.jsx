@@ -201,9 +201,25 @@ export default function SEOSokopt() {
       buttonText={"Skicka"}
     />
     <HeadingSEO2/>
-    <HeadingCity/>
+    <HeadingCity
+    title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
+    desc={"På effektify håller vi oss städigt uppdaterade och utvecklar strategier för att företag ska få den hjälp som krävs för att sticka ut i sin specifika bransch. Tillsammans utarbetar vi en plan som får ditt företag att synas bättre i det område du är verksam i."}
+    button1={"SEO i Stockholm"}
+    button2={"SEO i Göteborg"}
+    button3={"SEO i Malmö"}
+    button4={"SEO i Uppsala"}
+    button5={"SEO i Halmstad"}
+    />
     <HeadingSEO3 />
-    <HeadingCity2 />
+    <HeadingCity 
+     title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
+     button1={"SEO i Borås"}
+     button2={"SEO i Eskilstuna"}
+     button3={"SEO i Falkenberg"}
+     button4={"SEO i Gävle"}
+     button5={"SEO i Helsingborg"}
+    
+    />
     <HeadingSEO4 />
     <HeadingCity3 />
     <HeadingSEO5 />
