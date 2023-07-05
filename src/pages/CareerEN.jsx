@@ -1,13 +1,17 @@
 import React from 'react'
-import { Hero8 } from '../components/Hero8'
 import { HeadingCareer } from '../components/HeadingCareer'
-import { Hero8EN } from '../components/Hero8EN'
+import { Hero } from '../components/Hero'
 import { HeadingCareerEN } from '../components/HeadingCareerEN'
 
+/* Videos */
+import heroImage from '../assets/career-clouds.mp4'
 export default function CareerEN() {
   return (
     <>
-    <Hero8EN />
+    <Hero 
+    title={"Become one of us"}
+    videoLink={heroImage}
+    />
     <HeadingCareerEN />
     </>
   )

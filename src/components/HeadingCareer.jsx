@@ -4,291 +4,48 @@ import img from '../assets/stats1.webp'
 import img2 from '../assets/stats2.webp'
 import img3 from '../assets/stats3.webp'
 
-export const HeadingCareer = () => {
+export const HeadingCareer = ({mainTitle, mainDesc, endText, emailMessage, jobTitle1, jobDesc1, jobTitle2, jobDesc2, jobTitle3, jobDesc3, jobTitle4, jobDesc4,}) => {
   return (
     <>
     <div class='pt-20 heading-container text-left text-black bg-white'>
     <h1 class="text-3xl uppercase text-rose-300 pb-5">
-      <span class="text-black">Lediga tjänster</span>.
+      <span class="text-black">{mainTitle}</span>.
     </h1>
-    <p class="tracking-widest text-sm pb-5">Känner du att du hade trivts lika bra på vår arbetsplats som vi gör? Känner du att du hade kunnat bidra och utvecklas hos oss? Vi på Effektify håller ständigt utkik efter kreativa och äventyrslystna förmågor som ser sig själv jobba med spännande projekt tillsammans med världen bästa arbetskollegor.</p>
-    <p class="tracking-widest text-sm pb-5">Känner du att någon tjänst nedan skulle vara som gjord för just dig, släng iväg en ansökan till oss direkt!</p>
+    <div dangerouslySetInnerHTML={{__html: mainDesc}}></div>
     </div>
 
 <div id="accordion-collapse" data-accordion="collapse">
   <h2 id="accordion-collapse-heading-1">
     <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left border border-black text-black bg-white" data-accordion-target="#accordion-collapse-body-1" aria-expanded="false"aria-controls="accordion-collapse-body-1">
-      <span class="text-black">Key Account Manager</span>
+      <span class="text-black">{jobTitle1}</span>
       <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
     </button>
   </h2>
   <div id="accordion-collapse-body-1" class="hidden bg-white border border-black" aria-labelledby="accordion-collapse-heading-1">
-    <div class="p-5 border border-b-0 ">
-      <p class="mb-2 text-black">
-        Nu söker vi en<b class="text-rose-300"> Key Account Manager </b>
-        till vårt
-        <b class="text-rose-300"> Sales Team 
-        i Halmstad </b> och vi vill gärna träffa dig som:
-      </p>
-      <ul class='list-disc list-outside text-sm space-y-2.5'>
-        <li>
-        Har minst 3 års dokumenterad erfarenhet av försäljning av digital marknadsföringstjänster eller annan likvärdig erfarenhet från samma bransch.
-        </li>
-        <li>
-        Har djup kunskap inom sökmotoroptimering och digital annonsering.
-        </li>
-        <li>
-        Är lösningsorienterad, ser potentiella affärer och levererar resultat både internt och mot kund.
-        </li>
-        <li>
-        Har ett proaktivt och strukturerat arbetssätt.
-        </li>
-        <li>
-        Är flytande i svenska såväl som engelska i både tal och skrift.
-        </li>
-      </ul>
-      <p class="pt-5 text-base"><b class='text-rose-300'> Det är meriterande om du även:</b></p>
-      <ul class='list-disc pt-2 list-outside text-sm space-y-2.5'>
-        <li>
-        Arbetar eller har arbetat med affärsutveckling inom e-handel.
-        </li>
-        <li>
-          Har en utvecklad presentationsförmåga, muntlig såväl som skriftlig.
-        </li>
-        <li>
-        Har god erfarenhet av att jobba med uppsökande försäljning.
-        </li>
-        <li>
-        Har bra koll på de olika sociala medier-plattformarna.
-        </li>
-
-        <p class="pt-5 text-sm">
-        Som Key Account Manager hos Effektify är du del av ett team, men samtidigt förväntas du arbeta intraprenöriellt och ta ansvar för din egen planering, exekvering och resultat. Du visar vägen för kollegor och är en ambassadör för Effektify. Du förväntas bygga din egen kundstock genom både lead generation och uppsökande försäljning enligt Effektifys säljprocess. Till din hjälp har du erfarna områdesexperter och ett av landets bästa leveransteam. 
-        </p>
-
-       
-      </ul>
-      <p class="pt-5"><b class="text-rose-300 text-base">Utöver dina professionella kvaliteter värdesätter vi att du</b></p>
-      <ul class='list-disc pt-2 list-outside text-sm space-y-2.5'>
-        <li>Har en väl utvecklad affärsförståelse, drivs av att hitta effektiva lösningar och vågar göra det oväntade.</li>
-        <li>Har god samarbetsförmåga och värderar teamets gemensamma mål</li>
-      </ul>
-      <p class="pt-5"><b class="text-rose-300 text-base">Övrig information om tjänsten</b></p>
-      <ul class='list-disc pt-2 list-outside text-sm space-y-2.5'>
-        <li>
-        Start: Enligt överenskommelse.
-        </li>
-        <li>
-        Omfattning: Heltid.
-        </li>
-        <li>
-        Anställningsform: Tillsvidareanställning.
-        </li>
-        <li>
-        Lön: Fast samt rörlig lön.
-        </li>
-        <li>
-        Placering: Centrala Halmstad.
-        </li>
-      </ul>
-
-      <p class="pt-5 text-sm">
-      Vi går igenom urvalet löpande och annonsen kan stängas ner innan tjänsten är tillsatt om vi gått över till urvals- och intervjufasen.
-      </p>
-      <p class="pt-5 text-sm">
-      Skicka din ansökan tillsammans med ditt CV till <a class="text-rose-300" href="mailto:jobs@effektify.com"> jobs@effektify.com</a>.
-      </p>
-      <p class="pt-5 text-sm">
-      Vid frågor vänligen kontakta Sämer Awad, Head of Sales,
-      <a  class="text-rose-300" href="mailto:samer.awad@effektify.com"> samer.awad@effektify.com</a>.
-      </p>
+    <div class="p-5 border border-b-0 " dangerouslySetInnerHTML={{__html: jobDesc1}}>
+     
     </div>
   </div>
   <h2 class="bg-white" id="accordion-collapse-heading-2">
     <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left border border-black text-black bg-white" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
-      <span class="text-black">Digital Medierådgivare</span>
+      <span class="text-black">{jobTitle2}</span>
       <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
     </button>
   </h2>
   <div id="accordion-collapse-body-2" class="hidden bg-white border border-black" aria-labelledby="accordion-collapse-heading-2">
-    <div class="p-5 border border-b-0 ">
-      <p class="mb-2 text-black">
-        Nu söker vi en<b class="text-rose-300"> Digital Medierådgivare </b>
-        till vårt
-        <b class="text-rose-300"> Sales Team 
-        i Halmstad </b> och vi vill gärna träffa dig som:
-      </p>
-      <ul class='list-disc list-outside text-sm space-y-2.5'>
-       <li>
-       Har minst 1 års dokumenterad erfarenhet av försäljning av digital marknadsföringstjänster eller annan likvärdig erfarenhet från samma bransch.
-       </li>
-       <li>
-       Är lösningsorienterad, ser potentiella affärer och levererar resultat både internt och mot kund.
-       </li>
-       <li>
-       Har ett proaktivt och strukturerat arbetssätt.
-       </li>
-       <li>
-       Är flytande i svenska såväl som engelska i både tal och skrift.
-       </li>
-      </ul>
-      <p class="pt-5 text-base"><b class='text-rose-300'>Det är meriterande om du även:</b></p>
-      <ul class='list-disc pt-2 list-outside text-sm space-y-2.5'>
-        <li>
-        Har en utvecklad presentationsförmåga, muntlig såväl som skriftlig.
-        </li>
-        <li>
-        Har god erfarenhet av att jobba med uppsökande försäljning.
-        </li>
-        <li>
-        Har bra koll på de olika sociala medier-plattformarna.
-        </li>
-
-
-        <p class="pt-5 text-sm">
-        Som Digital Medierådgivare hos Effektify är du del av ett team, men samtidigt förväntas du arbeta intraprenöriellt och ta ansvar för din egen planering, exekvering och resultat. Du bygger din egen kundstock genom både lead generation och uppsökande försäljning enligt Effektifys säljprocess. Till din hjälp har du erfarna områdesexperter och ett av landets bästa leveransteam.
-        </p>
-
-       
-      </ul>
-      <p class="pt-5"><b class="text-rose-300 text-base">Utöver dina professionella kvaliteter värdesätter vi att du</b></p>
-      <ul class='list-disc pt-2 list-outside text-sm space-y-2.5'>
-        <li>
-        Har en utvecklad affärsförståelse, drivs av att hitta effektiva lösningar och vågar göra det oväntade.
-        </li>
-        <li>
-        Har god samarbetsförmåga och värderar teamets gemensamma mål.
-        </li>
-      </ul>
-      <p class="pt-5"><b class="text-rose-300 text-base">Övrig information om tjänsten</b></p>
-      <ul class='list-disc pt-2 list-outside text-sm space-y-2.5'>
-        <li>
-        Start: Enligt överenskommelse.
-        </li>
-        <li>
-        Omfattning: Heltid.
-        </li>
-        <li>
-        Anställningsform: Tillsvidareanställning.
-        </li>
-        <li>
-        Lön: Fast samt rörlig lön.
-        </li>
-        <li>
-        Placering: Centrala Halmstad.
-        </li>
-      </ul>
-
-      <p class="pt-5 text-sm">
-      Vi går igenom urvalet löpande och annonsen kan stängas ner innan tjänsten är tillsatt om vi gått över till urvals- och intervjufasen.
-      </p>
-      <p class="pt-5 text-sm">
-      Skicka din ansökan tillsammans med ditt CV till <a class="text-rose-300" href="mailto:jobs@effektify.com"> jobs@effektify.com</a>.
-      </p>
-      <p class="pt-5 text-sm">
-      Vid frågor vänligen kontakta Sämer Awad, Head of Sales,
-      <a  class="text-rose-300" href="mailto:samer.awad@effektify.com"> samer.awad@effektify.com</a>.
-      </p>
+    <div class="p-5 border border-b-0 "dangerouslySetInnerHTML={{__html: jobDesc2}}>
+      
     </div>
   </div>
   <h2 class="bg-white" id="accordion-collapse-heading-3">
     <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left border border-black text-black bg-white" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
-      <span class="text-black">Digital Marketing Strategist</span>
+      <span class="text-black">{jobTitle3}</span>
       <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
     </button>
   </h2>
   <div id="accordion-collapse-body-3" class="hidden bg-white border border-black" aria-labelledby="accordion-collapse-heading-3">
-    <div class="p-5 border border-b-0 ">
-      <p class="mb-2 text-black">
-        Nu söker vi en<b class="text-rose-300"> Digital Marketing Strategist </b>
-        till vårt
-        <b class="text-rose-300"> team 
-        i Halmstad </b> och vi vill gärna träffa dig som:
-      </p>
-      <ul class='list-disc list-outside text-sm space-y-2.5'>
-       <li>
-       Har relevant erfarenhet och tidigare arbetat med strategiska marknadsfrågor, internt eller på byrå. Kanske som marknadsansvarig, projektledare eller marknadskoordinator.
-       </li>
-       <li>
-       Har praktisk erfarenhet från en eller flera marknadsföringsvertikaler, t.ex. SEO, Paid Search eller Paid Social.
-       </li>
-       <li>
-       Uttrycker dig obehindrat i tal och skrift på svenska och engelska.
-       </li>
-      </ul>
-      <p class="pt-5 text-base"><b class='text-rose-300'>Det är meriterande om du även:</b></p>
-      <ul class='list-disc pt-2 list-outside text-sm space-y-2.5'>
-        <li>
-        Vana av kundkontakt.
-        </li>
-        <li>
-        Erfarenhet av e-handel som t.ex. Shopify och WooCommerce
-        </li>
-        <li>
-        Goda kunskaper i WordPress och Shopify.
-        </li>
-        <li>
-        Erfarenhet av content marketing/digital copy.
-        </li>
-        <li>
-        Erfarenhet av konverteringsoptimering/AB-testning.
-        </li>
-        <li>
-        Erfarenhet av att analysera trafik och effekter av optimering med hjälp av verktyg som Google Analytics och Google Search Console.
-        </li>
-        <li>
-        Koll på de senaste trenderna inom digital marknadsföring.
-        </li>
-        <p class="pt-5 text-sm">
-        Som <b class='text-rose-300'>Digital Marketing Strategist</b>  hos Effektify kommer du att arbeta huvudsakligen med större och mer komplexa projekt och förväntas även bidra till att utveckla vårt erbjudande och våra processer. Genom att ta fram sökstrategier och digitala lösningar hjälper du våra kunder att utveckla sina affärer och sin synlighet online. Du ingår i ett team med specialister inom SEO, Paid Search, Paid Social och Webb som arbetar tajt tillsammans och hjälps åt att ta fram bra lösningar för våra kunder.
-        </p>
-
-       
-      </ul>
-      <p class="pt-5"><b class="text-rose-300 text-base">Utöver dina professionella kvaliteter värdesätter vi att du</b></p>
-      <ul class='list-disc pt-2 list-outside text-sm space-y-2.5'>
-        <li>
-        Har en väl utvecklad affärsförståelse, drivs av att hitta effektiva lösningar och vågar göra det oväntade.
-        </li>
-        <li>
-        Är analytisk och strukturerad.
-        </li>
-        <li>
-        Har god samarbetsförmåga och värderar teamets gemensamma mål.
-        </li>
-        <p>
-      Hos oss får du en generös och fartfylld arbetsplats och en arbetsgivare med korta beslutsvägar som investerar i att skapa rätt förutsättningar för medarbetare att växa och lyckas i sin roll. Du får stora möjligheter att påverka ditt arbete och vi värdesätter att du utmanar dig själv och tar dig lite vatten över huvudet emellanåt.
-      </p>
-      </ul>
-      <p class="pt-5"><b class="text-rose-300 text-base">Övrig information om tjänsten</b></p>
-      <ul class='list-disc pt-2 list-outside text-sm space-y-2.5'>
-        <li>
-        Start: Enligt överenskommelse.
-        </li>
-        <li>
-        Omfattning: Heltid.
-        </li>
-        <li>
-        Anställningsform: Tillsvidareanställning.
-        </li>
-        <li>
-        Lön: Fast lön.
-        </li>
-        <li>
-        Placering: Centrala Halmstad.
-        </li>
-      </ul>
-
-      <p class="pt-5 text-sm">
-      Vi går igenom urvalet löpande och annonsen kan stängas ner innan tjänsten är tillsatt om vi gått över till urvals- och intervjufasen.
-      </p>
-      <p class="pt-5 text-sm">
-      Skicka din ansökan tillsammans med ditt CV till <a class="text-rose-300" href="mailto:jobs@effektify.com"> jobs@effektify.com</a>.
-      </p>
-      <p class="pt-5 text-sm">
-      Vid frågor vänligen kontakta Christian Engdahl, COO
-      <a class='text-rose-300' href="mailto:christian.engdahl@effektify.com"> christian.engdahl@effektify.com</a>
-      </p>
+    <div class="p-5 border border-b-0 " dangerouslySetInnerHTML={{__html: jobDesc3}}>
+    
     </div>
   </div>
   <h2 class="bg-white" id="accordion-collapse-heading-4">
@@ -899,8 +656,8 @@ export const HeadingCareer = () => {
 </div>
 
 <div class="text-center bg-white text-black pt-20">
-  <h1 class="pb-5 text-xl">Hittar du inte rätt tjänst för dig ?</h1>
-  <a href="mailto:jobs@effektify.com"><p>Skicka oss ditt CV</p></a>
+  <h1 class="pb-5 text-xl">{endText}</h1>
+  <a href="mailto:jobs@effektify.com"><p>{emailMessage}</p></a>
 </div>
 
 </>
