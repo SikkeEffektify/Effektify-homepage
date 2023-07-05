@@ -2,7 +2,6 @@ import React from 'react'
 import eBackground from '../assets/effektify-white-digital.webp'
 import img2 from '../assets/digital-marknadsforing-drink.gif'
 import gif from '../assets/PONG_Light_version2.gif'
-import { Cards4 } from '../components/Cards4'
 import ContactForm from '../components/ContactForm'
 import like from '../assets/annonsering-sociala-medier-gilla.webp'
 
