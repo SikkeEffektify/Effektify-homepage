@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero.css'
 import videoBg from '../assets/City-By-Night-low.mp4'
 import divider from '../assets/whitedivider.svg'
-export const StatsHero = ({videoLink, title1, title2, desc, title3, title4, stats1, stats2, stats3, underStats1, underStats2, underStats3}) => {
+export const StatsHero = ({videoLink, videoLink2, title1, title2, desc, title3, title4, stats1, stats2, stats3, underStats1, underStats2, underStats3}) => {
   return (
 <section>
    <div className='hero'>
@@ -24,7 +24,7 @@ export const StatsHero = ({videoLink, title1, title2, desc, title3, title4, stat
     </div>
     <div className='hero'>
     <div className="vidOverlay"></div>
-    <video class="min-w-full min-h-full absolute object-cover" src="https://player.vimeo.com/progressive_redirect/playback/714795502/rendition/1080p/file.mp4?loc=external&signature=f10571525f87060048a4f457365b416995804594ef77eb283e82fe660968d63e" autoPlay loop muted />
+    <video class="min-w-full min-h-full absolute object-cover" src={videoLink2} autoPlay loop muted />
     <div class="vidContent2 text-center heading-container ">
         <p class="text-base uppercase font-light">{title3}</p>
         <h1 class="uppercase text-2xl pt-5 pb-5">{title4}</h1>

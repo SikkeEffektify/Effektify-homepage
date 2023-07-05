@@ -1,5 +1,4 @@
 import React from 'react'
-import { Hero6 } from '../components/Hero6'
 import eBackground from '../assets/effektify-white-digital.webp'
 import img2 from '../assets/digital-marknadsforing-drink.gif'
 import gif from '../assets/PONG_Light_version2.gif'

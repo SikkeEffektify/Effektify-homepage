@@ -1,5 +1,4 @@
 import React from 'react'
-import videoHeroButton from '../assets/spaceloop2.mp4'
 import { Heading7 } from '../components/Heading7'
 import { HeroButton } from '../components/HeroButton'
 import { Headinglist } from '../components/Headinglist'
@@ -8,6 +7,7 @@ import { StatsHero } from '../components/StatsHero'
 
 /* Videos */
 import videoStatsHero from '../assets/City-By-Night-low.mp4'
+import videoHeroButton from '../assets/spaceloop2.mp4'
 
 
 /* Images for stats */
@@ -24,16 +24,16 @@ export default function Erbjuder() {
       title2={"MED TYDLIGA STRATEGIER OCH TRANSPARANS EFFEKTIVISERAR vi TILLVÄXT OCH LÖNSAMHET"}
       title3={"Siffrorna talar sitt tydliga språk"}
       title4={"Med strategier som fungerar har vi hjälpt företag att synas med"}
-      desc={"Vi hjälper idag över 250 företag i Sverige, övriga Norden, Tyskland och Nederländerna. Ert mål är vår drivkraft, och utifrån full transparens i alla led och med dagens teknik, strävar vi på effektify mot att skapa tillväxt och lönsamhet för er som har en vision och en dröm."}
 
+
+      videoLink2={"https://player.vimeo.com/progressive_redirect/playback/714795502/rendition/1080p/file.mp4?loc=external&signature=f10571525f87060048a4f457365b416995804594ef77eb283e82fe660968d63e"}
+      desc={"Vi hjälper idag över 250 företag i Sverige, övriga Norden, Tyskland och Nederländerna. Ert mål är vår drivkraft, och utifrån full transparens i alla led och med dagens teknik, strävar vi på effektify mot att skapa tillväxt och lönsamhet för er som har en vision och en dröm."}
       stats1={"1047"}
       underStats1={"Sökord i top 3"}
       stats2={"1832"}
       underStats2={"sökord i top 10"}
       stats3={"2408"}
       underStats3={"sökord i top 20"}
-    
-    
     />
     <Heading7
       smallTitle={"Syns du inte så finns du inte"}
@@ -48,8 +48,6 @@ export default function Erbjuder() {
       mainTitle={"Vanligaste frågorna om sökmotoroptimering"}
 
 
-
-    
       title1={"Vad är SEO?"}
       desc1={`
       <p class="mb-2 text-sm tracking-wider  text-white">
