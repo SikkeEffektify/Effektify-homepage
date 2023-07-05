@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero.css'
 import videoBg from '../assets/City-By-Night-low.mp4'
 import divider from '../assets/whitedivider.svg'
-export const StatsHero = ({videoLink, videoLink2, title1, title2, desc, title3, title4, stats1, stats2, stats3, underStats1, underStats2, underStats3}) => {
+export const StatsHero = ({videoLink, videoLink2, title1, title2, desc, title3, title4, stats1, stats2, stats3, underStats1, underStats2, underStats3, bgColor}) => {
   return (
 <section>
    <div className='hero'>

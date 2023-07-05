@@ -80,7 +80,7 @@ function App() {
         <Route path='/en/contact-us' element={<ContactEN />} />
         <Route path='/kontakt' element={<Contact />} />
         <Route path='/webb' element={<Webb />} />
-        <Route path='/en/webb' element={<WebbEN />} />
+        <Route path='/en/web' element={<WebbEN />} />
         <Route path='/digital-annonsering' element={<DigitalAnonsering />} />
         <Route path='/en/digital-advertising/' element={<DigitalAdvertising />} />
         <Route path='/vad-vi-erbjuder' element={ <Erbjuder />} />
