@@ -7,12 +7,12 @@ import gif from '../assets/PONG_Light_version2.gif'
 export default function Contact() {
   return (
     <>
-    <Hero
+  <Hero
     title={"Redo att starta din resa?"}
     videoLink={video}
     />
     <img src={gif} class="mx-auto" alt="" />
-    <ContactForm 
+  <ContactForm 
     title={"Vad kul att du har hittat till oss!"}
     desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
     company={"Företag"}
@@ -21,7 +21,7 @@ export default function Contact() {
     email={"E-post"}
     text={"Vad kan vi hjälpa dig med?"}
     buttonText={"Skicka"}
-    />
+  />
     </>
   )
 }

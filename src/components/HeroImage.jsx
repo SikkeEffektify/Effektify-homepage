@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 
-export const HeroImage = ({image, titleRight, titleLeft}) => {
+export const HeroImage = ({image, titleRight, titleLeft, desc}) => {
   return (
 <section>
    <div className='hero bg-fixed'>
@@ -11,8 +11,12 @@ export const HeroImage = ({image, titleRight, titleLeft}) => {
         <p class="text-left pr-20 pt-2 text-2xl">
         {titleLeft}
         </p>
+        <div className='text-white text-left text-base pt-20' dangerouslySetInnerHTML={{__html: desc}}>  
+      </div>
     </div>
    </div>
+
+  
     </section>
   )
 }
