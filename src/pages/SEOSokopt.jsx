@@ -205,19 +205,40 @@ export default function SEOSokopt() {
     title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
     desc={"På effektify håller vi oss städigt uppdaterade och utvecklar strategier för att företag ska få den hjälp som krävs för att sticka ut i sin specifika bransch. Tillsammans utarbetar vi en plan som får ditt företag att synas bättre i det område du är verksam i."}
     button1={"SEO i Stockholm"}
+    buttonStyle1={"pl-5 pr-5"}
+    buttonLink1={"/seo-sokmotoroptimering-stockholm"}
     button2={"SEO i Göteborg"}
+    buttonStyle2={"pl-7 pr-7"}
+    buttonLink2={"/seo-sokmotoroptimering-goteborg"}
     button3={"SEO i Malmö"}
+    buttonStyle3={"pl-11 pr-11"}
+    buttonLink3={"/seo-sokmotoroptimering-malmo"}
     button4={"SEO i Uppsala"}
+    buttonStyle4={"pl-9 pr-9"}
+    buttonLink4={"/seo-sokmotoroptimering-uppsala"}
     button5={"SEO i Halmstad"}
+    buttonStyle5={"pl-4 pr-4"}
+    buttonLink5={"/seo-sokmotoroptimering-halmstad"}
     />
     <HeadingSEO3 />
     <HeadingCity 
      title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
      button1={"SEO i Borås"}
+     buttonStyle1={"pl-14 pr-14"}
+     buttonLink1={"/seo-sokmotoroptimering-boras"}
      button2={"SEO i Eskilstuna"}
+     buttonStyle2={"pl-7 pr-7"}
+     buttonLink2={"/seo-sokmotoroptimering-eskilstuna"}
      button3={"SEO i Falkenberg"}
+     buttonStyle3={"pl-6 pr-6"}
+     buttonLink3={"/seo-sokmotoroptimering-falkenberg"}
      button4={"SEO i Gävle"}
+     buttonStyle4={"pl-14 pr-14"}
+     buttonLink4={"/seo-sokmotoroptimering-gavle"}
      button5={"SEO i Helsingborg"}
+     buttonStyle5={"pl-2 pr-2"}
+     buttonLink5={"/seo-sokmotoroptimering-helsingborg"}
+
     
     />
     <HeadingSEO4 />

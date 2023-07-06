@@ -37,7 +37,10 @@ export default function SEOSearchEngine() {
     <HeroButton/>
     <HeadinglistEN />
     <HeadingSEOEN/>
-    <ContactFormEN />
+    <ContactForm 
+    
+    
+    />
     <HeadingSEO2EN/>
     <HeadingCityEN/>
     <HeadingSEO4EN />
