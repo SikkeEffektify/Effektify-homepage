@@ -1,90 +1,91 @@
-import React from 'react'
-import { Hero9 } from '../components/Hero9'
-import { Heading7 } from '../components/Heading7'
-import { HeroButton } from '../components/HeroButton'
-import { Headinglist } from '../components/Headinglist'
-import { HeadingSEO } from '../components/HeadingSEO'
-import { HeadingSEO2 } from '../components/HeadingSEO2'
-import ContactForm from '../components/ContactForm'
-import { HeadingCity } from '../components/HeadingCity'
-import { HeadingSEO3 } from '../components/HeadingSEO3'
-import { HeadingCity2 } from '../components/HeadingCity2'
-import { HeadingSEO4 } from '../components/HeadingSEO4'
-import { HeadingCity3 } from '../components/HeadingCity3'
-import { HeadingSEO5 } from '../components/HeadingSEO5'
-import { HeadingCity4 } from '../components/HeadingCity4'
-import { HeadingSEO6 } from '../components/HeadingSEO6'
-import { HeadingCity5 } from '../components/HeadingCity5'
-import { HeadingSEO7 } from '../components/HeadingSEO7'
-import { HeadingSEO8 } from '../components/HeadingSEO8'
-import { HeadingSEO9 } from '../components/HeadingSEO9'
-import { StatsHero } from '../components/StatsHero'
+import React from "react";
+import { Hero9 } from "../components/Hero9";
+import { Heading7 } from "../components/Heading7";
+import { HeroButton } from "../components/HeroButton";
+import { Headinglist } from "../components/Headinglist";
+import { HeadingSEO } from "../components/HeadingSEO";
+import { HeadingSEO2 } from "../components/HeadingSEO2";
+import ContactForm from "../components/ContactForm";
+import { HeadingCity } from "../components/HeadingCity";
+import { HeadingSEO3 } from "../components/HeadingSEO3";
+import { HeadingCity2 } from "../components/HeadingCity2";
+import { HeadingSEO4 } from "../components/HeadingSEO4";
+import { HeadingCity3 } from "../components/HeadingCity3";
+import { HeadingSEO5 } from "../components/HeadingSEO5";
+import { HeadingCity4 } from "../components/HeadingCity4";
+import { HeadingSEO6 } from "../components/HeadingSEO6";
+import { HeadingCity5 } from "../components/HeadingCity5";
+import { HeadingSEO7 } from "../components/HeadingSEO7";
+import { HeadingSEO8 } from "../components/HeadingSEO8";
+import { HeadingSEO9 } from "../components/HeadingSEO9";
+import { StatsHero } from "../components/StatsHero";
 
 /* Videos */
-import videoHero from '../assets/trafic.mp4'
-import videoHeroButton from '../assets/spaceloop2.mp4'
-
+import videoHero from "../assets/trafic.mp4";
+import videoHeroButton from "../assets/spaceloop2.mp4";
 
 /* Images for stats */
-import img from '../assets/stats1.webp'
-import img2 from '../assets/stats2.webp'
-import img3 from '../assets/stats3.webp'
-
-
+import img from "../assets/stats1.webp";
+import img2 from "../assets/stats2.webp";
+import img3 from "../assets/stats3.webp";
 
 export default function SEOSokopt() {
   return (
     <>
-    <StatsHero 
-    title1={"Öka trafiken till din hemsida med sökmotoroptimering"}
-    videoLink={videoHero}
-    title2={"Väx med seo / sökmotoroptimering"}
-    desc={"Sökmotoroptimering, eller SEO som det också kallas, är en typ av digital marknadsföring där syftet är att öka ens synlighet i sökmotorernas organiska resultat. Sökmotoroptimering handlar alltså om att synas bra i det resultat som inte är betalda annonser hos sökmotorer så som Google, Bing och Yahoo. Om SEO utförs korrekt leder det till att ens webbplats syns högt upp i sökmotorers sökresultat på relevanta sökningar. Detta SEO-arbete innebär att man får fler besökare till sin webbplats vilket man i sin tur sedan förhoppningsvis kan konvertera till kunder."}
-    title3={"Vi låter resultaten tala för sig själva"}
-    title4={"Vi har tills nu hjälpt företag att synas  i Sverige & utomlands med"}
-    stats1={"1047"}
-    underStats1={"Sökord i top 3"}
-    stats2={"1832"}
-    underStats2={"Sökord i top 10"}
-    stats3={"2408"}
-    underStats3={"Sökord i top 20"}
+      <StatsHero
+        title1={"Öka trafiken till din hemsida med sökmotoroptimering"}
+        videoLink={videoHero}
+        title2={"Väx med seo / sökmotoroptimering"}
+        desc={
+          "Sökmotoroptimering, eller SEO som det också kallas, är en typ av digital marknadsföring där syftet är att öka ens synlighet i sökmotorernas organiska resultat. Sökmotoroptimering handlar alltså om att synas bra i det resultat som inte är betalda annonser hos sökmotorer så som Google, Bing och Yahoo. Om SEO utförs korrekt leder det till att ens webbplats syns högt upp i sökmotorers sökresultat på relevanta sökningar. Detta SEO-arbete innebär att man får fler besökare till sin webbplats vilket man i sin tur sedan förhoppningsvis kan konvertera till kunder."
+        }
+        title3={"Vi låter resultaten tala för sig själva"}
+        title4={
+          "Vi har tills nu hjälpt företag att synas  i Sverige & utomlands med"
+        }
+        stats1={"1047"}
+        underStats1={"Sökord i top 3"}
+        stats2={"1832"}
+        underStats2={"Sökord i top 10"}
+        stats3={"2408"}
+        underStats3={"Sökord i top 20"}
+        videoLink2={
+          "https://player.vimeo.com/progressive_redirect/playback/714795502/rendition/1080p/file.mp4?loc=external&signature=f10571525f87060048a4f457365b416995804594ef77eb283e82fe660968d63e"
+        }
+      />
 
-    videoLink2={"https://player.vimeo.com/progressive_redirect/playback/714795502/rendition/1080p/file.mp4?loc=external&signature=f10571525f87060048a4f457365b416995804594ef77eb283e82fe660968d63e"}
-    />
+      <Heading7
+        smallTitle={"Syns du inte så finns du inte"}
+        title={"Exempel på hur vi hjälpt företag att växa med SEO"}
+        desc={
+          "Google är Sveriges i särklass största sökmotor och 95% av alla sökningar görs idag via deras plattform. I Sverige görs det varje dag mer än 50 miljoner sökningar på Google. Med siffror som dessa inser du säkert vikten av att synas högt upp i sökresultatet som Google visar upp. Konkurrensen mellan företag som vill ranka högt upp på är idag oerhört stor då många förstår betydelsen av vad en bra position innebär."
+        }
+        img={img}
+        img2={img2}
+        img3={img3}
+      />
 
-    <Heading7
-      smallTitle={"Syns du inte så finns du inte"}
-      title={"Exempel på hur vi hjälpt företag att växa med SEO"}
-      desc={"Google är Sveriges i särklass största sökmotor och 95% av alla sökningar görs idag via deras plattform. I Sverige görs det varje dag mer än 50 miljoner sökningar på Google. Med siffror som dessa inser du säkert vikten av att synas högt upp i sökresultatet som Google visar upp. Konkurrensen mellan företag som vill ranka högt upp på är idag oerhört stor då många förstår betydelsen av vad en bra position innebär."}
-      img={img}
-      img2={img2}
-      img3={img3}
-    />
+      <HeroButton
+        title={"We're ready for takeoff"}
+        title2={"are you?"}
+        buttonLink={"/kontakt"}
+        buttonText={"Launch"}
+        videoLink={videoHeroButton}
+      />
 
-    <HeroButton 
-      title={"We're ready for takeoff"}
-      title2={"are you?"}
-      buttonLink={"/kontakt"}
-      buttonText={"Launch"}
-      videoLink={videoHeroButton}
-    />
-
-    <Headinglist 
-      smallTitle={"För dig som vill veta mer om SEO"}
-      mainTitle={"Vanligaste frågorna om sökmotoroptimering"}
-
-
-      title1={"Vad är SEO?"}
-      desc1={`
+      <Headinglist
+        smallTitle={"För dig som vill veta mer om SEO"}
+        mainTitle={"Vanligaste frågorna om sökmotoroptimering"}
+        title1={"Vad är SEO?"}
+        desc1={`
       <p class="mb-2 text-sm tracking-wider  text-white">
         Sökmotoroptimering är mer känt som SEO. 
         Optimering är grunden för allt som har med SEO att göra.   
         <strong class='text-rose-300'> När ditt varumärke är väl optimerat ökar du dess synlighet online. </strong>
         Din webbplats kommer med hjälp av SEO ha större möjlighet att hitta vägen till första sidan bland sökmotorernas resultat (SERP). På detta sätt kommer dina kunder också att hitta ditt företag mycket snabbare. 
       </p> `}
-
-      title2={"Hur Fungerar SEO?"}
-      desc2={`
+        title2={"Hur Fungerar SEO?"}
+        desc2={`
       <p class="mb-2 text-sm tracking-wider  text-white">
         SEO är en metod för att göra din webbplats mer attraktiv för sökmotorer som Google och Bing. Sökmotorerna skannar din hemsida för att kunna förstå vad den handlar om.
         <strong class='text-rose-300'> SEO ökar mängden av organisk trafik och kvaliteten på dina besökare utan att du behöver betala för annonsering. </strong> 
@@ -92,17 +93,15 @@ export default function SEOSokopt() {
         kommer Google att identifiera din hemsida som en pålitlig webbplats och i sin tur peka besökarna mot den.
       </p>
       `}
-
-      title3={"Hur lång tid tar SEO?"}
-      desc3={`
+        title3={"Hur lång tid tar SEO?"}
+        desc3={`
       <p class="mb-2 text-sm tracking-wider  text-white">Tiden det tar SEO att påverka din ranking 
         <strong class='text-rose-300'> beror mycket på dina mål och den strategi du använder dig av. </strong>
         Flera av de som arbetar med SEO skulle säga att det tar fyra till sex månader innan du börjar se resultat. Självklart beror detta även på vilken typ av konkurrens dina sökord har,  alltså vilka andra typer av aktörer som vill synas på samma sökord som du, samt hur många användare som söker efter det du erbjuder.
       </p>
       `}
-    
-      title4={"Hur hittar jag rätt sökord för SEO?"}
-      desc4={`
+        title4={"Hur hittar jag rätt sökord för SEO?"}
+        desc4={`
       <p class="mb-2 text-sm tracking-wider  text-white">
         Genom att göra en <em>sökordsanalys </em>
         får du en bättre uppfattning om vilka sökord som är värda att fokusera på. För att hitta de bästa nyckelorden för din bransch måste du först 
@@ -121,20 +120,16 @@ export default function SEOSokopt() {
         Det är därför av stor vikt att du undersöker sökvolymen och den potentiella konkurrensen för alla sökord du överväger. Ett sätt att göra detta är att använda sig av verktyget <em>Google Trends.</em>
       </p> 
       `}
-
-
-      title5={"Behöver jag olika strategier för olika sökmotorer?"}
-      desc5={`
+        title5={"Behöver jag olika strategier för olika sökmotorer?"}
+        desc5={`
       <p class="mb-2 tracking-wider text-sm text-white">
         Det finns små skillnader mellan de olika sökmotorerna.
         <strong class='text-rose-300'> Rekommenderat är dock att fokusera på Google i din SEO-strategi, </strong>
         då de flesta besökare använder denna ledande sökmotor, och majoriteten av den organiska trafiken du kommer att få till din hemsida kommer att komma från just Google.
       </p>
       `}
-
-
-      title6={"Hur mycket kostar SEO?"}
-      desc6={`
+        title6={"Hur mycket kostar SEO?"}
+        desc6={`
       <p class="mb-2 tracking-wider text-sm text-white">
       Det är rekommenderat att anlita en erfaren SEO-byrå för att arbetet ska rätt till, och denna kostnad bör ingå i din budget för marknadsföring. 
       <em> Kostnaden för arbetet är relativt, </em>
@@ -146,9 +141,8 @@ export default function SEOSokopt() {
       En bra SEO-byrå gör en offert efter att ha gjort en analys på projektets omfattning samt efter dina förväntningar. Det genomsnittliga timpriset för att anlita en byrå eller SEO-expert är cirka 1500 kronor i timmen.
       </p> 
       `}
-
-      title7={"Kan jag göra SEO själv?"}
-      desc7={`
+        title7={"Kan jag göra SEO själv?"}
+        desc7={`
       <p class="mb-2 tracking-wider text-sm text-white">
       <strong class="text-rose-300">Absolut! </strong>  Däremot krävs det kunskap, tid och pengar för att lära dig att göra det. Det kommer att krävas många försök och många misstag för att lyckas, men det är möjligt att genomföra en grundläggande SEO-strategi själv. 
       </p>
@@ -158,9 +152,8 @@ export default function SEOSokopt() {
       Du behöver dessutom hålla dig uppdaterad om algoritmernas ändringar hos de olika sökmotorer som besökare använder sig av.
       </p>
       `}
-
-      title8={"Vad påverkar min ranking?"}
-      desc8={`
+        title8={"Vad påverkar min ranking?"}
+        desc8={`
       <p class="mb-2 tracking-wider text-sm text-white">
         De tre största faktorerna som direkt påverkar din SEO-ranking är:
       </p>
@@ -174,9 +167,8 @@ export default function SEOSokopt() {
        – Om du skapar innehåll av hög kvalitet på din hemsida är det större chans att besökare hittar din webbplats och stannar kvar på den längre. Att din sida är relevant för sökningen förbättrar placeringen av den på sökmotorerna.
       </p>
       `}
-
-      title9={"Är SEO bättre än betald marknadsföring?"}
-      desc9={`
+        title9={"Är SEO bättre än betald marknadsföring?"}
+        desc9={`
       <p class="mb-2 tracking-wider text-sm text-white">
         <strong class='text-rose-300 text-base'>SEO och SEM arbetar tillsammans för att stärka din webbplats och positionera ditt varumärke.</strong>
       </p>
@@ -188,21 +180,20 @@ export default function SEOSokopt() {
         För det mesta kommer SEO och betalda annonser att arbeta tillsammans för att ge de bästa resultaten.
       </p>
       `}
-    />
-    <HeadingSEO
-      mainTitle1={"Vad är SEO?"}
-      mainDesc1={`
+      />
+      <HeadingSEO
+        mainTitle1={"Vad är SEO?"}
+        mainDesc1={`
         <p class="text-sm text-left pb-5">Inom SEO behöver man kreativitet och teknisk förståelse för att kunna förbättra företags positioner på Google och andra sökmotorer, samt för att kunna driva trafik till hemsidan. Det finns många olika faktorer som påverkar vilken placering en webbplats hamnar på. Det kan bero på allt från innehållet på hemsidan, det vill säga copyn, till antalet andra webbplatser som länkar till din webbplats.</p>
         <p class="text-sm text-left pb-5">Något som är bra att ha i åtanke är att sökmotoroptimering är ett arbete som bör göras kontinuerligt om man vill synas på första sidan på sökmotorerna samt att fortsätta göra det när man väl nått dit. Det är av stor vikt att göra sökmotoroptimering till en del av ens verksamhet och på samma sätt som ens verksamhet avstannar om man inte kontinuerligt driver den framåt, så gör även SEO det.</p>
       `}
-
-      cardTitle={"SEO hjälper dig att ranka högre på Google"}
-      cardDesc={`
+        cardTitle={"SEO hjälper dig att ranka högre på Google"}
+        cardDesc={`
         <p class="text-sm text-white pb-5">Googles sökmotor använder sig av en stor mängd faktorer för att avgöra vilka hemsidor som är mest relevanta att visa upp och i sökresultat. En del faktorer spelar större roll än andra och vad som anses vara viktigast för att ranka högt idag kan ha mindre betydelse om en månad. Det är därför oerhört viktigt att hålla sig uppdaterad när det kommer till vad Google och andra sökmotorer anser vara relevant för att kunna optimera en hemsida på bästa sätt.</p>
         <p class="text-sm text-white pb-5">Om du är intresserad av att öka trafiken till din hemsida och växa din kundbas är det viktigt att din hemsida har rätt möjligheter för att ranka högt på Google när potentiella kunder söker efter det du och ditt företag erbjuder.</p>
         <h1 class="text-center text-lg pb-10 text-white">Sökmotoroptimering är nyckeln till att lyckas med detta.</h1>
       `}
-      smallDesc1={`
+        smallDesc1={`
         <h1 class="text-center pt-5 text-xl pb-5">Vad betyder egentligen SEO?</h1>
         <p class='text-sm pb-5'>SEO är en förkortning för det engelska uttrycket Search Engine Optimization, vilket översatt till svenska är sökmotoroptimering. SEO och sökmotoroptimering är med andra ord samma sak.</p>
 
@@ -215,17 +206,18 @@ export default function SEOSokopt() {
         <h1 class="text-center text-xl pb-5 pt-5">Vikten av bra SEO</h1>
         <p class='text-sm pb-5'>Eftersom vi använder internet allt mer för att hitta företag som säljer det vi vill köpa är det av stor betydelse att synas där besökarna finns. Lika viktigt som det en gång i tiden var att synas i traditionell media som lokalpressen eller telefonkatalogen är det idag att synas på nätet. Detta gör du med hjälp av SEO.</p>
       `}
-      mainTitle2={"Vad gör SEO på hemsidan så viktig?"}
-      mainDesc2={"Google tittar på sidans innehåll för att avgöra om det är relevant för sökningen som görs. En del av den här processen är att man söker efter viktiga sökord. Om dessa sökord hittas på din sida, i rubriker eller i brödtext, anses informationen vara mer relevant för sökningen i fråga."}
-      mainDesc3={`
+        mainTitle2={"Vad gör SEO på hemsidan så viktig?"}
+        mainDesc2={
+          "Google tittar på sidans innehåll för att avgöra om det är relevant för sökningen som görs. En del av den här processen är att man söker efter viktiga sökord. Om dessa sökord hittas på din sida, i rubriker eller i brödtext, anses informationen vara mer relevant för sökningen i fråga."
+        }
+        mainDesc3={`
       
         <p class="text-sm pt-10 pb-5">Vad som gör on-page SEO så viktigt är att det hjälper sökmotorerna att förstå din webbplats och innehållet som finns där, för att identifiera om den är relevant för sökningen som görs. Vad Google gör är att helt enkelt förstå vad användare faktiskt letar efter när de gör sin sökning, även kallat search intent, och att därefter leverera ett sökresultat som uppfyller avsikten bakom sökningen.</p>
         <p class="text-sm pb-5">Att hålla sig uppdaterad på vad kraven är för att Google ska anse dig vara relevant är oerhört viktigt, dels för att du ska fortsätta hålla dig synlig för användare, men även för att detta är den del av optimeringen som du faktiskt kan kontrollera, till skillnad från den del som styrs av faktorer utanför sidan.</p>
 
         <p class="text-base pb-5">Läs mer om on-page SEO <a class="text-rose-300" href="/on-page-seo">här</a></p>
       `}
-
-      endSection={`
+        endSection={`
         <h1 class="text-xl text-center pb-5">KORTA OCH RELEVANTA WEBBADRESSER</h1>
         <p class='text-sm pb-5'>Webbadressen, eller URL:en, en den exakta länken till sidan. För att hålla all synlig information så relevant som möjligt är det bra att även här använda sig av sökord för att sökmotorerna ska få så bra bild av innehållet på sidan som möjligt.</p>
         <p class='text-sm pb-5'>Tydliga och beskrivande URL:er hjälper användare att förstå vad sidan handlar om innan de klickat sig in på den. Oavsett om sidorna egentligen skulle handla om samma saker, framgår det av den första webbadressen att det är just vad sökaren är ute efter. Detta ger ett klart bättre resultat när det kommer till att öka trafiken till din sida.</p>
@@ -233,131 +225,176 @@ export default function SEOSokopt() {
     
         <h1 class="text-xl text-center pt-20 pb-10">Tydliga och beskrivande URL:er hjälper besökare och sökmotorer att enklare förstå vad sidorna handlar om.</h1>
       `}
-
-
-
-    />
-    <ContactForm 
-      title={"Vad kul att du har hittat till oss!"}
-      desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
-      company={"Företag"}
-      name={"Namn"}
-      phone={"Telefon"}
-      email={"E-post"}
-      text={"Vad kan vi hjälpa dig med?"}
-      buttonText={"Skicka"}
-    />
-    <HeadingSEO2/>
-    <HeadingCity
-    title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
-    desc={"På effektify håller vi oss städigt uppdaterade och utvecklar strategier för att företag ska få den hjälp som krävs för att sticka ut i sin specifika bransch. Tillsammans utarbetar vi en plan som får ditt företag att synas bättre i det område du är verksam i."}
-    button1={"SEO i Stockholm"}
-    buttonStyle1={"pl-5 pr-5"}
-    buttonLink1={"/seo-sokmotoroptimering-stockholm"}
-    button2={"SEO i Göteborg"}
-    buttonStyle2={"pl-7 pr-7"}
-    buttonLink2={"/seo-sokmotoroptimering-goteborg"}
-    button3={"SEO i Malmö"}
-    buttonStyle3={"pl-11 pr-11"}
-    buttonLink3={"/seo-sokmotoroptimering-malmo"}
-    button4={"SEO i Uppsala"}
-    buttonStyle4={"pl-9 pr-9"}
-    buttonLink4={"/seo-sokmotoroptimering-uppsala"}
-    button5={"SEO i Halmstad"}
-    buttonStyle5={"pl-4 pr-4"}
-    buttonLink5={"/seo-sokmotoroptimering-halmstad"}
-    />
-    <HeadingSEO3 />
-    <HeadingCity 
-     title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
-     button1={"SEO i Borås"}
-     buttonStyle1={"pl-14 pr-14"}
-     buttonLink1={"/seo-sokmotoroptimering-boras"}
-     button2={"SEO i Eskilstuna"}
-     buttonStyle2={"pl-7 pr-7"}
-     buttonLink2={"/seo-sokmotoroptimering-eskilstuna"}
-     button3={"SEO i Falkenberg"}
-     buttonStyle3={"pl-6 pr-6"}
-     buttonLink3={"/seo-sokmotoroptimering-falkenberg"}
-     button4={"SEO i Gävle"}
-     buttonStyle4={"pl-14 pr-14"}
-     buttonLink4={"/seo-sokmotoroptimering-gavle"}
-     button5={"SEO i Helsingborg"}
-     buttonStyle5={"pl-2 pr-2"}
-     buttonLink5={"/seo-sokmotoroptimering-helsingborg"}
-
+      />
+      <ContactForm
+        title={"Vad kul att du har hittat till oss!"}
+        desc={
+          "Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "
+        }
+        company={"Företag"}
+        name={"Namn"}
+        phone={"Telefon"}
+        email={"E-post"}
+        text={"Vad kan vi hjälpa dig med?"}
+        buttonText={"Skicka"}
+      />
+      <HeadingSEO2
+        mainTitle1={"Vad är SEM?"}
+        mainDesc={`
+      <p class="text-sm text-left pb-5">När det kommer till digital marknadsföring och att synas högt upp i sökresultatet så kan man förutom att arbeta med SEO även arbeta med SEM, eller Search Engine Marketing. <br /> Till skillnad från att med hjälp av sökmotoroptimering synas i det organiska resultatet kan du genom att annonsera via <a class='text-rose-300' href="/google-ads/"> Goggle Ads </a>synas högt upp i sökresultatet.</p> 
     
-    />
-    <HeadingSEO4 />
-    <HeadingCity
-      title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
-      button1={"SEO i Huddinge"}
-      buttonStyle1={"pl-12 pr-12"}
-      buttonLink1={"/seo-sokmotoroptimering-huddinge"}
-      button2={"SEO i Jönköping"}
-      buttonStyle2={"pl-10 pr-10"}
-      buttonLink2={"/seo-sokmotoroptimering-kalmar"}
-      button3={"SEO i Kalmar"}
-      buttonStyle3={"pl-14 pr-14"}
-      buttonLink3={"/seo-sokmotoroptimering-kalmar"}
-      button4={"SEO i kristianstad"}
-      buttonStyle4={"pl-7 pr-7"}
-      buttonLink4={"/seo-sokmotoroptimering-kristianstad"}
-      button5={"SEO i Kungsbacka"}
-      buttonStyle5={"pl-5 pr-5"}
-      buttonLink5={"/seo-sokmotoroptimering-kungsbacka"}
-    />
-    <HeadingSEO5 />
-    <HeadingCity
-      title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
-      button1={"SEO i Linköping"}
-      buttonStyle1={"pl-9 pr-9"}
-      buttonLink1={"/seo-sokmotoroptimering-linkoping"}
-      button2={"SEO i Luleå"}
-      buttonStyle2={"pl-14 pr-14"}
-      buttonLink2={"/seo-sokmotoroptimering-lulea"}
-      button3={"SEO i Lund"}
-      buttonStyle3={"pl-14 pr-14"}
-      buttonLink3={"/seo-sokmotoroptimering-lund"}
-      button4={"SEO i Nacka"}
-      buttonStyle4={"pl-12 pr-12"}
-      buttonLink4={"/seo-sokmotoroptimering-nacka"}
-      button5={"SEO i Norrköping"}
-      buttonStyle5={"pl-1 pr-1"}
-      buttonLink5={"/seo-sokmotoroptimering-norrkoping"}
-    />
-    <HeadingSEO6 />
-    <HeadingCity
-      title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
-      button1={"SEO i Norrtälje"}
-      buttonStyle1={"pl-4 pr-4"}
-      buttonLink1={"/seo-sokmotoroptimering-norrtalje"}
-      button2={"SEO i Skellefteå"}
-      buttonStyle2={"pl-3 pr-3"}
-      buttonLink2={"/seo-sokmotoroptimering-skelleftea"}
-      button3={"SEO i Södertälje"}
-      buttonStyle3={"pl-2 pr-2"}
-      buttonLink3={"/seo-sokmotoroptimering-sodertalje"}
-      button4={"SEO i Sollentuna"}
-      buttonStyle4={"pl-1 pr-1"}
-      buttonLink4={"/seo-sokmotoroptimering-sollentuna"}
-      button5={"SEO i Sundsvall"}
-      buttonStyle5={"pl-0 pr-0"}
-      buttonLink5={"/seo-sokmotoroptimering-sundsvall"}
-    />
-    <HeadingSEO7 />
-    <ContactForm 
-      title={"Vad kul att du har hittat till oss!"}
-      desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
-      company={"Företag"}
-      name={"Namn"}
-      phone={"Telefon"}
-      email={"E-post"}
-      text={"Vad kan vi hjälpa dig med?"}
-      buttonText={"Skicka"}
-  />
-    <HeadingSEO8 />
-    <HeadingSEO9 />
+      <h1 class="text-center pt-5 text-lg pb-5 uppercase">Precis som med SEO behöver du analysera och optimera dina annonser på rätt sätt för att du ska synas högre upp än dina konkurrenter på de sökord du vill synas på.</h1>
+        <p class='text-sm pb-5 text-left'>Tillsammans utgör SEO och SEM idag en väsentlig del av arbetet med att öka trafiken till din hemsida och få fler besökare och kunder. Ungefär 70% av all trafik från besökare kommer från de organiska resultaten med hjälp av SEO. Resterande 30% når din webbplats via klick från annonser och är därför ett bra komplement för dig som vill öka din relevans i sökmotorernas ögon och därmed öka din försäljning.</p>
+        <p class='text-sm pb-5 text-left'>Utöver SEO och SEM finns det en del andra faktorer som är viktiga när sökmotorer bedömer din hemsida för att avgöra om den är mer relevant att visa upp än dina konkurrenters sidor. Några av dessa faktorer är:</p>
+  
+        <ul class="list-disc heading-container">
+          <li class=" pt-5 uppercase text-left text-rose-300 text-xl">
+          On-page SEO
+          </li>
+          <p class='text-left pt-2 text-sm'>
+          Relevanta texter, bilder och annan content på din hemsida som med hjälp av SEO optimeras för sökmotorerna.
+          </p>
+  
+          <li class=" pt-5 uppercase text-left text-rose-300 text-xl">
+          On-page SEO
+          </li>
+          <p class='text-left pt-2 text-sm'>
+          Aktiviteter som du och andra gör utanför din webbplats som höjer rankningen av din sida hos sökmotorer.
+          </p>
+  
+          <li class=" pt-5 uppercase text-left text-rose-300 text-xl">
+          Externa Länkar
+          </li>
+          <p class='text-left pt-2 text-sm'>
+          Rekommendationer från andra hemsidor som pekar till din hemsida och får den att öka i ranking.
+          </p>
+        </ul>
+      `}
+        buttonText={"Ready For Take Off"}
+        buttonLink={"/kontakt"}
+        mainTitle2={"Betald sökning förbättrar inte de organiska resultaten"}
+        mainDesc2={`
+        <p class='text-sm pb-5 text-left'>Det finns inget uppenbart samband mellan organiska positioner och betalda positioner. De ger resultat på olika sätt. De organiska sökresultaten kommer från indexdatabasen, medan PPC:s sponsrade länkar baseras på ditt bud och din totala investering.</p>
+        <p class='text-sm pb-5 text-left'>Med betalda annonser kan du rikta in dig på fler sökord och enkelt testa olika kampanjer. Ännu viktigare är att du kan stärka din varumärkesidentitet när din betalda annons dyker upp ovanför sökresultaten. På detta sätt fångar du därför in trafik till din sajt både organiskt och från dina betalda annonser.</p>
+      `}
+        cardTitle={"FÅ BÄTTRE INSIKT I VAD MÄNNISKOR SÖKER EFTER"}
+        cardDesc={`
+        <p class="text-sm text-white pb-5">Betald marknadsföring kan hjälpa till att definiera och förfina de sökord som du riktar in dig på organiskt, med hjälp av exakta data. Det är trots allt mycket lättare att mäta avkastningen av en länk till en betald sökning än av en gratis organisk listning. Dessutom ger klickfrekvensen på betalda annonser dig insikt i vilka nyckelord som är bäst att optimera, för att sedan kunna skapa ett bättre organiskt optimerat resultat.</p>
+        <p class="text-sm text-white pb-5">Därför råder det ingen tvekan om att betald sökning kan bidra till att förbättra konverteringsgraden för organiska resultat, men det kommer inte att direkt hjälpa till med din organiska position.</p>   
+      `}
+      />
+      <HeadingCity
+        title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
+        desc={
+          "På effektify håller vi oss städigt uppdaterade och utvecklar strategier för att företag ska få den hjälp som krävs för att sticka ut i sin specifika bransch. Tillsammans utarbetar vi en plan som får ditt företag att synas bättre i det område du är verksam i."
+        }
+        button1={"SEO i Stockholm"}
+        buttonStyle1={"pl-5 pr-5"}
+        buttonLink1={"/seo-sokmotoroptimering-stockholm"}
+        button2={"SEO i Göteborg"}
+        buttonStyle2={"pl-7 pr-7"}
+        buttonLink2={"/seo-sokmotoroptimering-goteborg"}
+        button3={"SEO i Malmö"}
+        buttonStyle3={"pl-11 pr-11"}
+        buttonLink3={"/seo-sokmotoroptimering-malmo"}
+        button4={"SEO i Uppsala"}
+        buttonStyle4={"pl-9 pr-9"}
+        buttonLink4={"/seo-sokmotoroptimering-uppsala"}
+        button5={"SEO i Halmstad"}
+        buttonStyle5={"pl-4 pr-4"}
+        buttonLink5={"/seo-sokmotoroptimering-halmstad"}
+      />
+      <HeadingSEO3 />
+      <HeadingCity
+        title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
+        button1={"SEO i Borås"}
+        buttonStyle1={"pl-14 pr-14"}
+        buttonLink1={"/seo-sokmotoroptimering-boras"}
+        button2={"SEO i Eskilstuna"}
+        buttonStyle2={"pl-7 pr-7"}
+        buttonLink2={"/seo-sokmotoroptimering-eskilstuna"}
+        button3={"SEO i Falkenberg"}
+        buttonStyle3={"pl-6 pr-6"}
+        buttonLink3={"/seo-sokmotoroptimering-falkenberg"}
+        button4={"SEO i Gävle"}
+        buttonStyle4={"pl-14 pr-14"}
+        buttonLink4={"/seo-sokmotoroptimering-gavle"}
+        button5={"SEO i Helsingborg"}
+        buttonStyle5={"pl-2 pr-2"}
+        buttonLink5={"/seo-sokmotoroptimering-helsingborg"}
+      />
+      <HeadingSEO4 />
+      <HeadingCity
+        title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
+        button1={"SEO i Huddinge"}
+        buttonStyle1={"pl-12 pr-12"}
+        buttonLink1={"/seo-sokmotoroptimering-huddinge"}
+        button2={"SEO i Jönköping"}
+        buttonStyle2={"pl-10 pr-10"}
+        buttonLink2={"/seo-sokmotoroptimering-kalmar"}
+        button3={"SEO i Kalmar"}
+        buttonStyle3={"pl-14 pr-14"}
+        buttonLink3={"/seo-sokmotoroptimering-kalmar"}
+        button4={"SEO i kristianstad"}
+        buttonStyle4={"pl-7 pr-7"}
+        buttonLink4={"/seo-sokmotoroptimering-kristianstad"}
+        button5={"SEO i Kungsbacka"}
+        buttonStyle5={"pl-5 pr-5"}
+        buttonLink5={"/seo-sokmotoroptimering-kungsbacka"}
+      />
+      <HeadingSEO5 />
+      <HeadingCity
+        title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
+        button1={"SEO i Linköping"}
+        buttonStyle1={"pl-9 pr-9"}
+        buttonLink1={"/seo-sokmotoroptimering-linkoping"}
+        button2={"SEO i Luleå"}
+        buttonStyle2={"pl-14 pr-14"}
+        buttonLink2={"/seo-sokmotoroptimering-lulea"}
+        button3={"SEO i Lund"}
+        buttonStyle3={"pl-14 pr-14"}
+        buttonLink3={"/seo-sokmotoroptimering-lund"}
+        button4={"SEO i Nacka"}
+        buttonStyle4={"pl-12 pr-12"}
+        buttonLink4={"/seo-sokmotoroptimering-nacka"}
+        button5={"SEO i Norrköping"}
+        buttonStyle5={"pl-1 pr-1"}
+        buttonLink5={"/seo-sokmotoroptimering-norrkoping"}
+      />
+      <HeadingSEO6 />
+      <HeadingCity
+        title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
+        button1={"SEO i Norrtälje"}
+        buttonStyle1={"pl-4 pr-4"}
+        buttonLink1={"/seo-sokmotoroptimering-norrtalje"}
+        button2={"SEO i Skellefteå"}
+        buttonStyle2={"pl-3 pr-3"}
+        buttonLink2={"/seo-sokmotoroptimering-skelleftea"}
+        button3={"SEO i Södertälje"}
+        buttonStyle3={"pl-2 pr-2"}
+        buttonLink3={"/seo-sokmotoroptimering-sodertalje"}
+        button4={"SEO i Sollentuna"}
+        buttonStyle4={"pl-1 pr-1"}
+        buttonLink4={"/seo-sokmotoroptimering-sollentuna"}
+        button5={"SEO i Sundsvall"}
+        buttonStyle5={"pl-0 pr-0"}
+        buttonLink5={"/seo-sokmotoroptimering-sundsvall"}
+      />
+      <HeadingSEO7 />
+      <ContactForm
+        title={"Vad kul att du har hittat till oss!"}
+        desc={
+          "Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "
+        }
+        company={"Företag"}
+        name={"Namn"}
+        phone={"Telefon"}
+        email={"E-post"}
+        text={"Vad kan vi hjälpa dig med?"}
+        buttonText={"Skicka"}
+      />
+      <HeadingSEO8 />
+      <HeadingSEO9 />
     </>
-  )
+  );
 }
