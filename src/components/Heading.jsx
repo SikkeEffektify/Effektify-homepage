@@ -3,11 +3,9 @@ import './Heading.css'
 
 
 
-export const Heading = ({title, desc, bg, textColor, titlePosition}) => {
+export const Heading = ({title, desc, bg, textColor, titlePosition, descCustomHtml}) => {
 
 
-
-  
   return (
     <section class={bg}>
     <div class='pt-20 heading-container'>
@@ -18,9 +16,14 @@ export const Heading = ({title, desc, bg, textColor, titlePosition}) => {
     </span>
     .
     </h1>
+    <div dangerouslySetInnerHTML={{__html: descCustomHtml}}>
+    
+    </div>
+    <div>
     <p class={textColor}>
     {desc}
     </p>
+    </div>
     </div>
     </div>
     </section>
