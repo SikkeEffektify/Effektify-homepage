@@ -242,13 +242,73 @@ export default function SEOSokopt() {
     
     />
     <HeadingSEO4 />
-    <HeadingCity3 />
+    <HeadingCity
+      title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
+      button1={"SEO i Huddinge"}
+      buttonStyle1={"pl-12 pr-12"}
+      buttonLink1={"/seo-sokmotoroptimering-huddinge"}
+      button2={"SEO i Jönköping"}
+      buttonStyle2={"pl-10 pr-10"}
+      buttonLink2={"/seo-sokmotoroptimering-kalmar"}
+      button3={"SEO i Kalmar"}
+      buttonStyle3={"pl-14 pr-14"}
+      buttonLink3={"/seo-sokmotoroptimering-kalmar"}
+      button4={"SEO i kristianstad"}
+      buttonStyle4={"pl-7 pr-7"}
+      buttonLink4={"/seo-sokmotoroptimering-kristianstad"}
+      button5={"SEO i Kungsbacka"}
+      buttonStyle5={"pl-5 pr-5"}
+      buttonLink5={"/seo-sokmotoroptimering-kungsbacka"}
+    />
     <HeadingSEO5 />
-    <HeadingCity4 />
+    <HeadingCity
+      title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
+      button1={"SEO i Linköping"}
+      buttonStyle1={"pl-9 pr-9"}
+      buttonLink1={"/seo-sokmotoroptimering-linkoping"}
+      button2={"SEO i Luleå"}
+      buttonStyle2={"pl-14 pr-14"}
+      buttonLink2={"/seo-sokmotoroptimering-lulea"}
+      button3={"SEO i Lund"}
+      buttonStyle3={"pl-14 pr-14"}
+      buttonLink3={"/seo-sokmotoroptimering-lund"}
+      button4={"SEO i Nacka"}
+      buttonStyle4={"pl-12 pr-12"}
+      buttonLink4={"/seo-sokmotoroptimering-nacka"}
+      button5={"SEO i Norrköping"}
+      buttonStyle5={"pl-1 pr-1"}
+      buttonLink5={"/seo-sokmotoroptimering-norrkoping"}
+    />
     <HeadingSEO6 />
-    <HeadingCity5 />
+    <HeadingCity
+      title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
+      button1={"SEO i Norrtälje"}
+      buttonStyle1={"pl-4 pr-4"}
+      buttonLink1={"/seo-sokmotoroptimering-norrtalje"}
+      button2={"SEO i Skellefteå"}
+      buttonStyle2={"pl-3 pr-3"}
+      buttonLink2={"/seo-sokmotoroptimering-skelleftea"}
+      button3={"SEO i Södertälje"}
+      buttonStyle3={"pl-2 pr-2"}
+      buttonLink3={"/seo-sokmotoroptimering-sodertalje"}
+      button4={"SEO i Sollentuna"}
+      buttonStyle4={"pl-1 pr-1"}
+      buttonLink4={"/seo-sokmotoroptimering-sollentuna"}
+      button5={"SEO i Sundsvall"}
+      buttonStyle5={"pl-0 pr-0"}
+      buttonLink5={"/seo-sokmotoroptimering-sundsvall"}
+    />
     <HeadingSEO7 />
-    <ContactForm />
+    <ContactForm 
+      title={"Vad kul att du har hittat till oss!"}
+      desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
+      company={"Företag"}
+      name={"Namn"}
+      phone={"Telefon"}
+      email={"E-post"}
+      text={"Vad kan vi hjälpa dig med?"}
+      buttonText={"Skicka"}
+  />
     <HeadingSEO8 />
     <HeadingSEO9 />
     </>
