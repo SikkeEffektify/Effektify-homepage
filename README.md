@@ -12,7 +12,7 @@
 
 ## Installation
 
-This module is distributed via [npm][npm] which is bundled with [node][node] and
+This module is distributed via `npm` which is bundled with `node` and
 should be installed as one of your project's `dependencies`:
 
 ```
@@ -20,5 +20,5 @@ Fix dependencies with: npm install
 ```
 
 ```
-Start localhostserver with: npm run dev
+Start localhost server with: npm run dev
 ```
