@@ -242,54 +242,71 @@ export default function SEOSearchEngine() {
     buttonText={"Send"}
     />
       <HeadingSEO2
-        mainTitle1={"Vad är SEM?"}
+        mainTitle1={"What is SEM?"}
         mainDesc={`
-          <p class="text-sm text-left pb-5">När det kommer till digital marknadsföring och att synas högt upp i sökresultatet så kan man förutom att arbeta med SEO även arbeta med SEM, eller Search Engine Marketing. <br /> Till skillnad från att med hjälp av sökmotoroptimering synas i det organiska resultatet kan du genom att annonsera via <a class='text-rose-300' href="/google-ads/"> Goggle Ads </a>synas högt upp i sökresultatet.</p> 
-    
-          <h1 class="text-center pt-5 text-lg pb-5 uppercase">Precis som med SEO behöver du analysera och optimera dina annonser på rätt sätt för att du ska synas högre upp än dina konkurrenter på de sökord du vill synas på.</h1>
-          <p class='text-sm pb-5 text-left'>Tillsammans utgör SEO och SEM idag en väsentlig del av arbetet med att öka trafiken till din hemsida och få fler besökare och kunder. Ungefär 70% av all trafik från besökare kommer från de organiska resultaten med hjälp av SEO. Resterande 30% når din webbplats via klick från annonser och är därför ett bra komplement för dig som vill öka din relevans i sökmotorernas ögon och därmed öka din försäljning.</p>
-          <p class='text-sm pb-5 text-left'>Utöver SEO och SEM finns det en del andra faktorer som är viktiga när sökmotorer bedömer din hemsida för att avgöra om den är mer relevant att visa upp än dina konkurrenters sidor. Några av dessa faktorer är:</p>
+          <p class="text-sm text-left pb-5">
+          When it comes to digital marketing and appearing high in search results, in addition to working with SEO, you can also work with SEM, or Search Engine Marketing. Unlike using search engine optimization to appear in the organic results, advertising through 
+          <a class='text-rose-300' href="/en/google-ads/"> Goggle Ads </a>
+          allows you to appear high up in the search results.
+          </p> 
+          <h1 class="text-center pt-5 text-lg pb-5 uppercase">
+          As with SEO, you need to analyze and optimize your ads correctly so that you appear higher than your competitors on the keywords you want to appear on.
+          </h1>
+          <p class='text-sm pb-5 text-left'>
+          Together, SEO and SEM are now an essential part of increasing traffic to your website and getting more visitors and customers. Approximately 70% of all visitor traffic comes from the organic results using SEO. The remaining 30% reaches your website through clicks from ads and is therefore a good complement for those who want to increase your relevance in the eyes of search engines and thus increase your sales.
+          </p>
+          <p class='text-sm pb-5 text-left'>
+          In addition to SEO and SEM, there are a number of other factors that are important when search engines evaluate your website to determine whether it is more relevant to display than your competitors’ pages. Some of these factors are:
+          </p>
   
           <ul class="list-disc heading-container">
           <li class=" pt-5 uppercase text-left text-rose-300 text-xl">
           On-page SEO
           </li>
           <p class='text-left pt-2 text-sm'>
-          Relevanta texter, bilder och annan content på din hemsida som med hjälp av SEO optimeras för sökmotorerna.
+          Relevant texts, images and other content on your website that is optimized for the search engines with the help of SEO.
           </p>
   
           <li class=" pt-5 uppercase text-left text-rose-300 text-xl">
           On-page SEO
           </li>
           <p class='text-left pt-2 text-sm'>
-          Aktiviteter som du och andra gör utanför din webbplats som höjer rankningen av din sida hos sökmotorer.
+          Activities that you and others do outside of your website that increase the ranking of your page in search engines.
           </p>
   
           <li class=" pt-5 uppercase text-left text-rose-300 text-xl">
-          Externa Länkar
+          External Links
           </li>
           <p class='text-left pt-2 text-sm'>
-          Rekommendationer från andra hemsidor som pekar till din hemsida och får den att öka i ranking.
+          Recommendations from other websites that point to your website and make it increase in ranking.
           </p>
           </ul>
       `}
         buttonText={"Ready For Take Off"}
-        buttonLink={"/kontakt"}
-        mainTitle2={"Betald sökning förbättrar inte de organiska resultaten"}
+        buttonLink={"/en/contact-us"}
+        mainTitle2={"Paid search does not improve organic results"}
         mainDesc2={`
-          <p class='text-sm pb-5 text-left'>Det finns inget uppenbart samband mellan organiska positioner och betalda positioner. De ger resultat på olika sätt. De organiska sökresultaten kommer från indexdatabasen, medan PPC:s sponsrade länkar baseras på ditt bud och din totala investering.</p>
-          <p class='text-sm pb-5 text-left'>Med betalda annonser kan du rikta in dig på fler sökord och enkelt testa olika kampanjer. Ännu viktigare är att du kan stärka din varumärkesidentitet när din betalda annons dyker upp ovanför sökresultaten. På detta sätt fångar du därför in trafik till din sajt både organiskt och från dina betalda annonser.</p>
+          <p class='text-sm pb-5 text-left'>
+          There is no obvious relationship between organic positions and paid positions. They produce results in different ways. The organic search results come from the index database, while the PPC sponsored links are based on your bid and total investment.
+          </p>
+          <p class='text-sm pb-5 text-left'>
+          With paid ads, you can target more keywords and easily test different campaigns. More importantly, you can strengthen your brand identity when your paid ad appears above the search results. In this way, you therefore capture traffic to your site both organically and from your paid advertisements.
+          </p>
       `}
-        cardTitle={"FÅ BÄTTRE INSIKT I VAD MÄNNISKOR SÖKER EFTER"}
+        cardTitle={"GAIN BETTER INSIGHT INTO WHAT PEOPLE ARE LOOKING FOR"}
         cardDesc={`
-          <p class="text-sm text-white pb-5">Betald marknadsföring kan hjälpa till att definiera och förfina de sökord som du riktar in dig på organiskt, med hjälp av exakta data. Det är trots allt mycket lättare att mäta avkastningen av en länk till en betald sökning än av en gratis organisk listning. Dessutom ger klickfrekvensen på betalda annonser dig insikt i vilka nyckelord som är bäst att optimera, för att sedan kunna skapa ett bättre organiskt optimerat resultat.</p>
-          <p class="text-sm text-white pb-5">Därför råder det ingen tvekan om att betald sökning kan bidra till att förbättra konverteringsgraden för organiska resultat, men det kommer inte att direkt hjälpa till med din organiska position.</p>   
+          <p class="text-sm text-white pb-5">
+          Paid marketing can help define and refine the keywords you target organically, using accurate data. After all, it is much easier to measure the return of a link to a paid search than of a free organic listing. In addition, the click-through rate on paid ads gives you insight into which keywords are best to optimize, in order to then create a better organically optimized result.
+          </p>
+          <p class="text-sm text-white pb-5">
+          Therefore, there is no doubt that paid search can help to improve the conversion rate of organic results, but it will not directly help your organic position.
+          </p>   
       `}
       />
       <HeadingCity
-        title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
+        title={"do you need help with search engine optimization in your city?"}
         desc={
-          "På effektify håller vi oss städigt uppdaterade och utvecklar strategier för att företag ska få den hjälp som krävs för att sticka ut i sin specifika bransch. Tillsammans utarbetar vi en plan som får ditt företag att synas bättre i det område du är verksam i."
+          "At effektify, we stay up-to-date and develop strategies to help companies stand out in their specific industry. Together we’ll draw up a plan to make your business more visible in the area where you operate."
         }
         button1={"SEO i Stockholm"}
         buttonStyle1={"pl-5 pr-5"}
@@ -310,136 +327,187 @@ export default function SEOSearchEngine() {
       <HeadingSEO3 
         mainTitle1={"On-page SEO"}
         mainDesc1={`
-          <p class="text-sm text-left pb-5">On-page SEO innebär optimering som man gör på hemsidan för att den ska ranka högre upp på sökmotorer för att i sin tur öka trafiken, dvs. antalet besökare som söker efter det som hemsidan förmedlar.</p>
-          <p class="text-sm text-left pb-5">Ungefär 70% av de som besöker din hemsida kommer från just det organiska resultatet som visas upp, vilket visar på hur viktigt det är att hamna så högt upp som möjligt på sökmotorer som Google, Bing & Yahoo.</p>
-          <p class="text-sm text-left pb-5">On-page SEO har en mycket stor påverkan på huruvida din hemsida syns online eller inte. On-page är den synliga delen av SEO-arbetet, och inkluderar allt från att åtgärda tekniska aspekter på din hemsida till informationen som finns på din hemsida (text, bilder, videos, m.m.), samt hur denna information är strukturerad. Några faktorer som är viktiga att sökoptimera är hemsidans laddningshastighet, sidornas titlar, sidornas rubriker, sidornas bilder, sidornas URL och copy.</p>
+          <p class="text-sm text-left pb-5">
+          On-page SEO means optimization that you do on the website so that it ranks higher on search engines to in turn increase traffic, i.e. the number of visitors who search for what the website conveys.
+          </p>
+          <p class="text-sm text-left pb-5">
+          Approximately 70% of those who visit your website come from the very organic result that is displayed, which shows how important it is to end up as high as possible on search engines such as Google, Bing & Yahoo.
+          </p>
+          <p class="text-sm text-left pb-5">
+          On-page SEO has a very big impact on whether your website is seen online or not. On-page is the visible part of the SEO work, and includes everything from fixing technical aspects on your website to the information that is on your website (text, images, videos, etc.), as well as how this information is structured. Some factors that are important to optimize for search are the loading speed of the website, the titles of the pages, the headings of the pages, the images of the pages, the URL of the pages and copy.
+          </p>
     
-          <h1 class="text-center pt-5 text-lg pb-5 uppercase">ON-PAGE SEO BESTÅR AV MÅNGA DELAR</h1>
-          <p class='text-sm pb-5 text-left'>Det är många delar att tänka på när man optimerar sin hemsida on-page. Allt från titlar och rubriker till säkerhet och hastighet avgör tillsammans hur relevant du är i sökmotorernas ögon. Det är också bra att veta skillnaden mellan innehållet på sidan och informationen som syns på andra ställen.</p>
-          <p class='text-sm pb-5 text-left'>När man pratar om on-page SEO brukar man framförallt prata om:</p>
+          <h1 class="text-center pt-5 text-lg pb-5 uppercase">ON-PAGE SEO CONSISTS OF MANY PARTS</h1>
+          <p class='text-sm pb-5 text-left'>
+          There are many parts to consider when optimizing your website on-page. Everything from titles and headlines to security and speed together determine how relevant you are in the eyes of search engines. It's also good to know the difference between the content on the page and the information seen elsewhere.
+          </p>
+          <p class='text-sm pb-5 text-left'>
+          When you talk about on-page SEO, you mainly talk about:
+          </p>
     
             <ul class="list-disc heading-container">
             <li class=" pt-5 uppercase text-left text-rose-300 text-xl">
             Metadata
             </li>
             <p class='text-left pt-2 text-sm'>
-            Beskriver innehållet på hemsidor för sökmotorer och förklarar hur detta innehåll ska tolkas.
+            Describes the content of web pages for search engines and explains how this content should be interpreted.
             </p>
     
             <li class=" pt-5 uppercase text-left text-rose-300 text-xl">
             Content
             </li>
             <p class='text-left pt-2 text-sm'>
-            Innehåll i form av texter, bilder, ljud, videos och annat som finns på din hemsida, och som förklarar vad sidan handlar om.
+            Content in the form of texts, images, sounds, videos and other things that are on your website, and that explain what the page is about.
             </p>
     
             <li class=" pt-5 uppercase text-left text-rose-300 text-xl">
-            Interna länkar
+            Internal Links
             </li>
             <p class='text-left pt-2 text-sm'>
-            Länkar som leder besökare och sökmotorer vidare till andra sidor på samma domän.
+            Links that direct visitors and search engines to other pages on the same domain.
             </p>
             </ul> 
         `}
 
         mainDesc2={`
-          <p class="text-sm">Dessa delar, tillsammans med faktorer som hemsidans auktoritet, säkerhet och laddningshastighet kommer att förbättra din webbplats ranking i sökresultaten och därmed göra den mer synlig för potentiella besökare eller kunder som söker efter det som din hemsida erbjuder. Hemsidan skall tala till besökaren och dess behov, den ska tilltala rent estetiskt och vara lättnavigerad och hålla en look som speglar branschen. Tjänster och produkter är huvudsaken i hemsidans marknadsföring och när man bygger en sajt skall resultatet vara komplett ur flera perspektiv: seo, design och marknadsföring. Allt detta skall presentera ett samlat innehåll så att den blir ett alternativ vid search på Google där alla söker.</p>
-          <h1 class="text-lg pt-10 pb-5 uppercase text-center">Hemsidans Laddningshastighet</h1>
-          <p class="text-sm pb-5">En av faktorerna som påverkar Googles bedömning av din hemsida är hur snabbt webbläsaren läser in din hemsida. Google undviker att visa upp hemsidor som laddar långsamt och därav är det till stor nackdel för dig om din hemsida har dålig laddningshastighet.</p>
-          <p class="text-sm pb-5">Google har skapat ett verktyg som du kan ta hjälp av för att ta reda på din hemsidas laddningshastighet. Verktyget visar hur snabbt hemsidan laddar, både på mobilen och datorn. Om verktyget skulle visa lägre än 50 poäng bör du se över vad du kan göra för att förbättra laddningshastigheten.</p>
-          <p class="text-sm pb-5">Ju snabbare din hemsida laddar desto mer förbättrar du användarvänligheten för besökare, samtidigt som sökmotorerna ser sidan som bättre optimerad. Det är ett enkelt sätt för att förbättra sökresultaten och i sin tur för att få fler besökare. Det lättaste sättet att öka hastigheten är att hålla nere storleken på bilderna du använder dig av på sidan.</p>
-          <p class="text-sm pb-5">Har du inte tillgång till program som ger dig möjlighet att komprimera dina bilder så finns det mängder av gratis verktyg på nätet som du kan använda dig av.</p>
-          <p class="text-sm pb-5">Ett tips är att samtidigt som du komprimerar dina bilder även passar på att direkt sparar bilderna med namn som förbättrar din on-page SEO, vilket för oss till nästa steg i optimeringen.</p>
+          <p class="text-sm">
+          These elements, along with factors such as website authority, security and loading speed will improve your website's ranking in search results and thus make it more visible to potential visitors or customers searching for what your website offers. The website must speak to the visitor and its needs, it must appeal purely aesthetically and be easy to navigate and maintain a look that reflects the industry. Services and products are the main thing in website marketing and when you build a site, the result must be complete from several perspectives: seo, design and marketing. All of this should present a unified content so that it becomes an alternative when searching on Google where everyone is searching.
+          </p>
+          <h1 class="text-lg pt-10 pb-5 uppercase text-center">
+          Homepage Loading Speed
+          </h1>
+          <p class="text-sm pb-5">
+          One of the factors that affects Google's assessment of your website is how quickly the browser loads your website. Google avoids displaying websites that load slowly and therefore it is to your great disadvantage if your website has a poor loading speed.
+          </p>
+          <p class="text-sm pb-5">
+          Google has created a tool that you can use to find out your website's loading speed. The tool shows how fast the website loads, both on the mobile and the computer. If the tool should show lower than 50 points, you should review what you can do to improve the loading speed.
+          </p>
+          <p class="text-sm pb-5">
+          The faster your website loads, the more you improve user-friendliness for visitors, while the search engines see the page as better optimized. It is an easy way to improve the search results and in turn to get more visitors. The easiest way to increase speed is to keep down the size of the images you use on the page.
+          </p>
+          <p class="text-sm pb-5">
+          If you don't have access to programs that give you the opportunity to compress your images, there are lots of free tools online that you can use.
+          </p>
+          <p class="text-sm pb-5">
+          A tip is that while you are compressing your images, also take care to directly save the images with names that improve your on-page SEO, which brings us to the next step in the optimization.
+          </p>
         `}
 
-        smallTitle1={"Hemsidands Titlar"}
-        smallDesc1={"En av de viktigaste faktorerna inom grundläggande SEO är en hemsidas titel. Detta beror på att sidans titel visar Google vad sidan handlar om, därför bör du också optimera alla titlar på din hemsida."}
+        smallTitle1={"Homepage Titles"}
+        smallDesc1={"One of the most important factors in basic SEO is a website's title. This is because the title of the page shows Google what the page is about, so you should also optimize all the titles on your website."}
         smallDesc2={` 
-          <p class="text-sm pb-5">Sidans titel, eller page title, är den titel som visas upp som en en länk i det organiska sökresultatet på Google. Förutom att den syns högst upp i webbläsarens fönster efter att man klickat sig in på den, finns denna titel inte synlig på hemsidan, utan är specifikt utformad för att locka till sig besökare.</p>
-          <p class="text-sm pb-5">Med tanke på att det är denna titel som ska locka till sig “gratis” besökare är det en av de viktigaste texterna som behöver anges. Den har stor inverkan på din hemsidas ranking och får inte vara längre än 65 tecken för att anses korrekt skriven.</p>
-          <p class="text-sm pb-5">För bra resultat ska en page title innehålla viktiga sökord samtidigt som den lockar besökare till att klicka på den. Sökmotorer granskar titeln för att få reda på vad sidan handlar om vilket gör det viktigt att hålla denna relevant, att ha med viktiga sökord samtidigt som du håller den korta texten naturlig och användarvänlig.</p>
+          <p class="text-sm pb-5">
+          The page title, or page title, is the title that is displayed as a link in the organic search result on Google. Apart from being visible at the top of the browser window after clicking on it, this title is not visible on the homepage, but is specifically designed to attract visitors.
+          </p>
+          <p class="text-sm pb-5">
+          Considering that it is this title that will attract "free" visitors, it is one of the most important texts that needs to be specified. It has a big impact on your website's ranking and must not be longer than 65 characters to be considered correctly written.
+          </p>
+          <p class="text-sm pb-5">
+          For good results, a page title must contain important keywords while attracting visitors to click on it. Search engines examine the title to find out what the page is about, which makes it important to keep it relevant, to include important keywords while keeping the short text natural and user-friendly.
+          </p>
 
-          <h1 class="text-lg pt-10 pb-5 uppercase text-center">Meta-Beskrivningar</h1>
-          <p class="text-sm pb-5">Genom att själv ange en säljande och beskrivande text ökar du chanserna till att sticka ut och synas bättre för potentiella kunder som letar efter vad du erbjuder. Anger du ingen beskrivning väljer Google själva vilken text som visas upp för sidan, vilket många gånger innebär att du går miste om dessa potentiella kunder.</p>
+          <h1 class="text-lg pt-10 pb-5 uppercase text-center">Meta Descriptions</h1>
+          <p class="text-sm pb-5">
+          By entering a selling and descriptive text yourself, you increase the chances of standing out and being more visible to potential customers who are looking for what you offer. If you do not enter a description, Google itself chooses which text is displayed for the page, which often means that you miss out on these potential customers.
+          </p>
         `}
         smallDesc3={`
         
-          <p class="text-sm pb-5">För att ge sidan en bra meta-description bör du alltid ha med sökordet som du vill synas på, och gärna så tidigt i texten som möjligt. Ju bättre information du har med i beskrivningen desto fler klick får du från besökare som anser din sida vara mer relevant än konkurrenternas.</p>
-          <p class="text-sm pb-5">Om beskrivningen skulle vara för lång väljer Google att klippa av den med 3 punkter, vilket gör att din väl utformade text inte visas upp i sin helhet. För att undvika detta ska du försöka hålla den till högst 158 tecken. Testa dig fram tills du har en meta-beskrivning som visas upp så som du vill att den ska visas samtidigt som den både ger en klar och tydlig bild om vad du erbjuder. Se till att texten är säljande och relevant.</p>
+          <p class="text-sm pb-5">
+          To give the page a good metadescription, you should always include the keyword that you want to appear on, and preferably as early in the text as possible. The better information you include in the description, the more clicks you get from visitors who consider your page to be more relevant than that of your competitors.
+          </p>
+          <p class="text-sm pb-5">
+          If the description would be too long, Google chooses to cut it off with 3 points, which means that your well-formed text is not displayed in its entirety. To avoid this, try to keep it to a maximum of 158 characters. Test your way until you have a meta description that is displayed the way you want it to be displayed while at the same time giving a clear and distinct picture of what you offer. Make sure the text is selling and relevant.
+          </p>
     
-          <h1 class="text-lg pt-10 pb-5 uppercase text-center">Hemsidands Texter</h1>
-          <p class="text-sm pb-5">Google finner det viktigt att texten på din hemsida är strukturerad och av hög kvalitet. Google kollar även noggrant på vad din text handlar om. Att undvika konstiga meningar och stavfel är till din och din hemsidas fördel.</p>
+          <h1 class="text-lg pt-10 pb-5 uppercase text-center">Website Texts</h1>
+          <p class="text-sm pb-5">
+          Google finds it important that the text on your website is structured and of high quality. Google also carefully checks what your text is about. Avoiding strange sentences and spelling mistakes is to your and your website's advantage.
+          </p>
 
 
-          <h1 class="text-lg pt-10 pb-5 uppercase text-center">OPTIMERING AV HEMSIDANS BILDER</h1>
-          <p class="text-sm pb-5">En annan viktig och grundläggande faktor inom SEO är en hemsidas bilder. Google kan inte ”se” vad bilder föreställer, istället läser sökmotorn kod, därför är det av stor vikt att bildfilernas har rätt innehåll i form av information som är optimerad.</p>
-          <p class="text-sm pb-5">Eftersom sökmotorer inte kan se bilder är det viktigt att med rätt information beskriva bilderna för att de ska kunna läsa av dem. Detta gör du dels genom att döpa bilderna på ett beskrivande sätt, gärna med sökordet inkluderat, men också genom att ange en relevant alt-text. Denna syns text syns endast i källkoden för hemsidan vilket gör att den många gånger glöms bort.</p>
+          <h1 class="text-lg pt-10 pb-5 uppercase text-center">OPTIMIZATION OF WEBSITE IMAGES</h1>
+          <p class="text-sm pb-5">
+          Another important and fundamental factor in SEO is a website's images. Google cannot "see" what images represent, instead the search engine reads code, therefore it is of great importance that the image files have the right content in the form of information that is optimized.
+          </p>
+          <p class="text-sm pb-5">
+          Since search engines cannot see images, it is important to describe the images with the right information so that they can read them. You do this partly by naming the images in a descriptive way, preferably with the keyword included, but also by entering a relevant alt text. This visible text is only visible in the source code for the website, which means that it is often forgotten.
+          </p>
         `}
 
 
         listDesc={`
           <ul class="list-disc heading-container">
           <li class=" pt-5 uppercase text-left text-rose-300 text-xl">
-          Namnge bilder på rätt sätt
+          Name images correctly
           </li>
-          <p class='text-left pt-2 text-sm'>När du namnger bilder på rätt sätt <b> visar du Google vad bilderna handlar om </b>  vilket i sin tur hjälper till att göra sidan bättre anpassad för sökord du vill synas på. </p>
-          <p class='text-left pt-2 text-sm'>Då du namnger dina bilder bör du:</p>
+          <p class='text-left pt-2 text-sm'>
+          When you name images correctly <b> you show Google what the images are about </b> which in turn helps make the page better suited for keywords you want to appear on.
+          </p>
+          <p class='text-left pt-2 text-sm'>When naming your images you should:</p>
           <ol class='text-sm pt-5 list-decimal space-y-1 heading-container'>
           <li class=''>
-          Vara beskrivande
+          Be descriptive
           </li>
           <li>
-          Vara kortfattad
+          Be concise
+          </li>
+          <li>    
+          Use keywords  
           </li>
           <li>
-            Använda dig av sökord
-          </li>
-          <li>
-            Använda streck mellan ord
+          Use dashes between words
           </li>
           </ol>
-          <p class="text-left pt-2 text-sm">Vill du exempelvis lägga upp en bild på din svarta katt bör du därmed döpa den till svart-katt.jpg. Detta gör det enkelt för Google att bilda sig en uppfattning av vad bilden föreställer.</p>
+          <p class="text-left pt-2 text-sm">
+          For example, if you want to post a picture of your black cat, you should name it black-cat.jpg. This makes it easy for Google to form an idea of ​​what the image represents.
+          </p>
 
           <li class=" pt-5 uppercase text-left text-rose-300 text-xl">
-          Använd beskrivande alt-text
+          Use descriptive alt text
           </li>
-          <p class='text-left pt-2 text-sm'><strong>Alt-texter ger ytterligare information om vad bilder föreställer, </strong> vilket i sin tur låter dig lägga till relevanta sökord även här. Alt-taggar som innehåller viktiga sökord 
-          <strong> ökar dina chanser att ranka högre </strong>  i exempelvis bildsökningar.
+          <p class='text-left pt-2 text-sm'><strong>Alt texts provide additional information about what images represent, </strong> 
+          which in turn allows you to add relevant keywords here as well. Alt tags that contain important keywords
+          <strong> increases your chances of ranking higher </strong> in, for example, image searches.
           </p>
-          <p class='text-left pt-2 text-sm'>Då du anger en alt-text bör du:</p>
+          <p class='text-left pt-2 text-sm'>When entering alt text you should:</p>
           <ol class='text-sm pt-5 list-decimal space-y-1 heading-container'>
           <li>
-            Vara beskrivande
+            Be descriptive
           </li>
           <li>
-            Vara kortfattad
+            Be concise
           </li>
           <li>
-            Använda sökord
+            Use keywords  
           </li>
           <li>
-            Skriva naturligt
+            Write naturally
           </li>
           </ol>
           <p class='text-left pt-2 text-sm'>
-          Enligt Google själva bör du fokusera på att <strong> ange en användbar, informationsrik text som använder sökord på ett naturligt sätt </strong>
-          och som är i sammanhang med innehållet på sidan.
+          According to Google themselves, you should focus on <strong> providing useful, informative text that uses keywords in a natural way </strong>
+          and which is in context with the content on the page.
           </p>
           </ul>
         `}
 
-        imageText={"Ett exempel på hur du korrekt anger information för en bild är:"}
+        imageText={"An example of how to correctly enter information for an image is:"}
         endDesc={`
         
-        <h1 class="text-lg pt-10 pb-5 uppercase text-center">HEMSIDANS URL PÅVERKAR DIN SÖKMOTOROPTIMERING</h1>
-        <p class='text-sm pb-5'>Utöver bra innehåll som är relevant på alla målsidor så är även hemsidans URL/webbadress viktig inom SEO. Hemsidans URL:er är det första som möter sökmotorer och de förklarar vad en hemsida handlar om, därav är det till fördel att göra den tydlig och se till att den beskriver hemsidans innehåll. Varje målsida på en hemsida har en unik URL.</p>
-        <p class='text-sm pb-5'>Sökmotoroptimering (på engelska Search Engine Optimization) handlar om att man ska kunna hitta hemsidan och då behövs relevant innehåll. Hemsidans URL:er (målsidor) skall vara relevanta och innehålla sökorden kopplade till seo. URL är alltså det som står i webbläsarens adressfält, exempelvis https://effektify.com/seo-sokmotoroptimering/, där man tydligt ser vad just den målsidan handlar, vilket i detta fall är SEO och sökmotoroptimering.</p>
+        <h1 class="text-lg pt-10 pb-5 uppercase text-center">WEBSITE URL INFLUENCES YOUR SEARCH ENGINE OPTIMIZATION</h1>
+        <p class='text-sm pb-5'>
+        In addition to good content that is relevant on all landing pages, the website's URL/web address is also important in SEO. The website's URLs are the first thing that search engines encounter and they explain what a website is about, so it is beneficial to make it clear and ensure that it describes the website's content. Each landing page on a website has a unique URL.
+        </p>
+        <p class='text-sm pb-5'>
+        Search engine optimization is about being able to find the website and then relevant content is needed. The home page's URLs (landing pages) must be relevant and contain keywords linked to seo. The URL is thus what is written in the browser's address field, for example https://effektify.com/seo-sokmotoroptimizing/, where you can clearly see what that particular landing page is about, which in this case is SEO and search engine optimization.
+        </p>
         `}
 
 
       />
       <HeadingCity
-        title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
+        title={"Do you need help with search engine optimization in your city?"}
         button1={"SEO i Borås"}
         buttonStyle1={"pl-14 pr-14"}
         buttonLink1={"/seo-sokmotoroptimering-boras"}
