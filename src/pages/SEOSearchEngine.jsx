@@ -635,82 +635,92 @@ export default function SEOSearchEngine() {
         buttonLink5={"/seo-sokmotoroptimering-kungsbacka"}
       />
       <HeadingSEO5 
-        mainTitle1={"Hur hittar Google din content och indexerar det?"}
+        mainTitle1={"How does Google find your content and index it?"}
         mainDesc1={`
-          <p class="text-sm text-left pb-5">Optimering av crawl är viktigt när det kommer till sökmotoroptimering. Det handlar i stort sätt om saker du kan göra för att hjälpa Google att enkelt upptäcka, genomsöka och indexera det innehåll du förmedlar på din sajt.</p>
-          <p class="text-sm text-left pb-5">Sökmotorbotar letar ständigt efter relevant innehåll. När din nya text är live behöver Google sedan hitta den och indexera din artikel för att den ska göra någon nytta. Det betyder dock inte att botarna kommer att hitta den, crawla och indexera den utan din insats. Speciellt inte om du vill att det ska gå snabbt. Utan att hjälpa sökspindlarna på traven kan det ta upp till två dagar innan ditt ämne.</p>
-          <p class="text-sm text-left pb-5">För att allt ska gå fortare kan du börja med att installera ett pluginet Google XML-sitemapgenerator för WordPress. Du behöver inte göra någonting när du väl har installerat insticksprogrammet. I samma ögonblick som du trycker på knappen ”publicera”, genereras en ny XML-sitemap som skickas till sökmotorerna och katalogerna. Detta hjälper Google att indexera ditt nya innehåll så snabbt som möjligt, samtidigt som din befintliga länkprofil söks igenom och indexeras.</p>
+          <p class="text-sm text-left pb-5">
+          Crawl optimization is important when it comes to search engine optimization. It's largely about things you can do to help Google easily discover, crawl and index the content you provide on your site.
+          </p>
+          <p class="text-sm text-left pb-5">
+          Search engine bots are constantly looking for relevant content. Once your new text is live, Google then needs to find it and index your article for it to be of any use. However, that doesn't mean the bots will find it, crawl and index it without your input. Especially not if you want it to go fast. Without helping the search spiders on their way, it can take up to two days before your topic.
+          </p>
+          <p class="text-sm text-left pb-5">
+          To make everything go faster, you can start by installing a Google XML sitemap generator plugin for WordPress. You don't need to do anything once you install the plugin. The moment you press the "publish" button, a new XML sitemap is generated and sent to the search engines and directories. This helps Google index your new content as quickly as possible, while your existing link profile is crawled and indexed.
+          </p>
         `}
 
-        cardTitle1={"ANVÄND DIG AV SOCIALA MEDIER FÖR ATT HITTAS SNABBARE"}
+        cardTitle1={"USE SOCIAL MEDIA TO BE FOUND FASTER"}
         cardDesc1={`
-          <p class="text-sm text-white pb-5">Genom att uppdatera dina sociala profiler får du också ditt nya innehåll indexerat snabbare. Genom att dela länken på din Facebook-sida eller på Twitter, skapar du fler vägar in till din hemsida, och gör att sökmotorerna enklare kan hitta, crawla och indexera den.</p>    
+          <p class="text-sm text-white pb-5">
+          By updating your social profiles, you also get your new content indexed faster. By sharing the link on your Facebook page or on Twitter, you create more routes to your website, and make it easier for search engines to find, crawl and index it.
+          </p>    
         `}
 
-        afterCardText={"Ett annat enkelt verktyg som fungerar väldigt bra är Pingomatic. Det låter dig snabbt pinga en massa webbtjänster för att meddela dem om ditt nya innehåll. Genom att använda denna gratistjänst får man sitt färska, högkvalitativa innehåll indexerat på betydligt kortare tid än det skulle tagit annars."}
+        afterCardText={"Another simple tool that works very well is Pingomatic. It allows you to quickly ping a bunch of web services to notify them of your new content. By using this free service, you get your fresh, high-quality content indexed in a significantly shorter time than it would otherwise have taken."}
         afterCardButton={"Ready for takeoff"}
-        afterCardLink={"/kontakt"}
+        afterCardLink={"/en/contact-us"}
         
-        mainTitle2={"Är gästbloggar bra för SEO?"}
+        mainTitle2={"Is guest blogging good for SEO?"}
         mainDesc2={`
           <p class="text-sm text-left pb-5">
-          Det blev ett ramaskri 2014 när Matt Cutts sa att ”om du använder gästbloggning som ett sätt att få länkar … sluta”. Många som inte förstod exakt vad det uttalandet innebar började omedelbart predika mot gästbloggning.
+          There was an outcry in 2014 when Matt Cutts said that "if you're using guest blogging as a way to get links ... stop". Many who didn't understand exactly what that statement meant immediately started preaching against guest blogging.
           </p>
           <p class="text-sm text-left pb-5">
-          Det finns ingen teknisk skillnad mellan gästbloggar och andra typer av innehåll. Gästbloggning innebär helt enkelt att en gäst har bidragit med ett innehåll som sedan länkar till din sajt.
+          There is no technical difference between guest blogging and other types of content. Guest blogging simply means that a guest has contributed content that then links to your site.
           </p>
           <p class="text-sm text-left pb-5">
-          Det Matt Cutts menade med sitt uttalande är att inte länka dåligt innehåll på bloggar från en utomstående författare. Men även när författaren var webbplatsens ägare hade Googles Panda-uppdatering redan börjat straffa innehåll av låg kvalitet.
+          What Matt Cutts meant by his statement is don't link bad content on blogs from an outside author. But even when the author was the site's owner, Google's Panda update had already started penalizing low-quality content.
           </p>
         `}
 
 
-        cardTitle2={"BRA LÄNKAR GÖR DIG MER TROVÄRDIG"}
+        cardTitle2={"GOOD LINKS MAKE YOU MORE TRUSTWHORTY"}
         cardDesc2={`
-          <p class="text-sm text-white pb-5">Digital marknadsföring är beroende av högkvalitativt innehåll med en stark länkprofil. Sökmotorerna indexerar miljarder webbsidor från olika domännamn, IP-adresser, platser osv, som alla ägs av olika personer. Att sammanlänka med dessa skapar relevans för dig och en stark länkprofil.</p>    
+          <p class="text-sm text-white pb-5">
+          Digital marketing relies on high-quality content with a strong link profile. The search engines index billions of web pages from different domain names, IP addresses, locations, etc., all owned by different people. Linking with these creates relevance for you and a strong link profile.
+          </p>    
         `}
 
         endDesc={`
           <p class="text-sm pb-5">
-           När det kommer till externa länkar är det varken författaren eller innehållet som är problemet, utan sammanhanget. Så länge artikeln kommer från en pålitlig källa, och innehållet i artikeln är relevant och är av hög klass, fungerar länken absolut som en bra rekommendation som stärker din hemsidas auktoritet.
+          When it comes to external links, it's not the author or the content that's the problem, but the context. As long as the article is from a reliable source, and the content of the article is relevant and of high quality, the link definitely works as a good recommendation that strengthens your website's authority.
           </p>
           <p class="text-sm pb-5">
-          Vi anser att gästbloggning inte är dött. Och det kommer aldrig att dö, eftersom Google inte kan tyda exakt vad ett ”gästinlägg” är, särskilt inte när författarens länk finns direkt i texten och inte i författarprofilen.    
+          We believe that guest blogging is not dead. And it will never die, because Google can't decipher exactly what a "guest post" is, especially when the author's link is directly in the text and not in the author profile.
           </p>
           </div>
         
           <div class="heading-container pt-10 text-black">
-          <h1 class="text-lg uppercase text-center pb-5">VI REKOMMENDERAR FORTFARANDE GÄSTBLOGGNING</h1>
+          <h1 class="text-lg uppercase text-center pb-5">WE STILL RECOMMEND GUEST BLOGGING</h1>
           <p  class='text-sm pb-5'>
-          Iallafall så länge man följer dessa enkla råd:
+          At least as long as you follow these simple tips:  
           </p>
     
           <p  class=' text-rose-300 text-base pb-2 '>
-          Kalla dem inte för ”gästinlägg”
+          Don't call them "guest posts"
           </p>
           <p  class='text-sm pb-5'>
-          Detta är viktigt. Google kan hitta texten ”detta är ett gästinlägg”. Skriv i stället som om du är en intern medarbetare. Det spelar ingen roll varifrån gästen kommer, så länge inlägget är användbart och relevant för din webbplats.
+          This is important. Google can find the text "this is a guest post". Instead, write as if you are an internal employee. It doesn't matter where the visitor comes from, as long as the post is useful and relevant to your website.
           </p>
     
           <p  class=' text-rose-300 text-base pb-2 '>
-          Bygg relationer, inte länkar
+          Build relationships, not links
           </p>
           <p  class='text-sm pb-5'>
-          Försök inte få ditt gästinlägg publicerat på en betrodd blogg bara för länkens skull. Om du tänker så, kommer du att gå miste om relationen.
+          Don't try to get your guest post published on a trusted blog just for the sake of the link. If you think like that, you will miss out on the relationship.
           </p>
     
           <p  class=' text-rose-300 text-base pb-2 '>
-          Bygg upp ditt varumärke
+          Build your brand
           </p>
           <p  class='text-sm pb-5'>
-          Använd ditt varumärkesnamn eller din URL som ankartext för naturlig länkuppbyggnad. Kontextbaserade länkar: Försök att så långt det är möjligt hålla dina länkar inom innehållet, inte i författarprofilen där de inte har lika stor tyngd. Använd gästbloggande med försiktighet och fokusera på slutanvändarna. Skapa högkvalitativt innehåll som får dem att tänka – som ger resonans med dem och löser deras problem. Engagera dem, svara på kommentarer och bygg upp din e-postlista.
+          Use your brand name or URL as anchor text for natural link building. Contextual links: As far as possible, try to keep your links within the content, not in the author profile where they don't have equal weight. Use guest blogging with caution and focus on the end users. Create high-quality content that makes them think – that resonates with them and solves their problems. Engage them, respond to comments and build your email list.
           </p>
     
         `}
 
       />
       <HeadingCity
-        title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
+        title={"Do you need help with search engine optimization in your city?"}
         button1={"SEO i Linköping"}
         buttonStyle1={"pl-9 pr-9"}
         buttonLink1={"/seo-sokmotoroptimering-linkoping"}
@@ -728,69 +738,63 @@ export default function SEOSearchEngine() {
         buttonLink5={"/seo-sokmotoroptimering-norrkoping"}
       />
       <HeadingSEO6 
-        mainTitle1={"Sökordsanalys"}
+        mainTitle1={"Keyword analysis"}
         mainDesc1={`
           <p class="text-sm text-left pb-5">
-          En analys är en viktig del för att kunna välja ut ord som är av betydelse för dina affärer och för att sedan kunna optimera din hemsida utefter dessa. Ett bra och relevant sökord för ditt företag kommer generera pengar. Sökordsanalysen görs för att ta reda på hur stor sökvolymen är för sökordet, hur hög konkurrensen är för just det sökordet, samt vad sökintentionen för sökordet är så att det med all säkerhet är relevant för dig och ditt företag.
+          A keyword analysis is important in order to select words that are relevant to your business and to optimize your website accordingly. A good and relevant keyword for your business will generate money. The keyword analysis is done to find out how high the search volume is for the keyword, how high the competition is for that particular keyword, and what the search intent of the keyword is so that it is definitely relevant to you and your business.
           </p>
           <p class="text-sm text-left pb-5">
-          Det är viktigt att ta reda på hur stor sökvolymen är för ett sökord för att veta affärsnyttan i att synas på just det sökordet. Det är också av stor vikt att göra en bedömning av svårighetsgraden att synas på sökordet i fråga. Allt detta gör du med en analys.
+          It is important to find out what the search volume is for a keyword in order to know the business case for appearing on that particular keyword. It is also very important to assess the difficulty of appearing on the keyword in question. Since there are only ten positions on the first page of Google, you need to be able to “push down” one of the websites that already has one of these positions. This means that there is constant competition for first page rankings, and your website must therefore be better than the website whose ranking you want.
           </p>
           <p class="text-sm text-left pb-5">
-          Eftersom det enbart finns tio placeringar på första sidan på Google så måste du kunna ”knuffa ner” en av hemsidorna, som kan ses som konkurrenter, som redan har en av dessa placeringar. Detta betyder att det är ständig konkurrens om placeringarna på första sidan, och din hemsida måste därför vara bättre än den hemsida vars placering du vill ha. Om den inte är det går det att förbättra dess resultat med många verktyg så att sökmotorerna får hjälp att hitta webbplatsen.
+          Therefore, it is important to find out what the competition for a specific keyword looks like. In addition, it is also important to assess the search intent for a specific keyword. Google is constantly trying to understand what kind of information their users want to find when they make a specific search. Based on what Google believes is the intent of the search, it displays websites that Google believes best match the user’s search intent.
           </p>
           <p class="text-sm text-left pb-5">
-          Därav är det viktigt att ta reda på hur konkurrensen för ett specifikt sökord ser ut. Utöver detta är det även viktigt att göra en bedömning av sökintentionen för ett specifikt sökord. Google försöker konstant förstå vad för typ av information deras användare vill få fram när de gör en specifik sökning. Baserat på vad Google tror är intentionen med sökningen visas det upp hemsidor som Google anser matcha användarens sökintention bäst.
-          </p>
-          <p class="text-sm text-left pb-5">
-          Något som också är bra att känna till är att det finns tre grundläggande typer av sökningar, informationssökningar, navigeringssökningar och transaktionssökningar. En informationssökning görs när användaren vill veta mer om något, om hur det fungerar eller hur något ska göras.
-          </p>
-          <p class="text-sm text-left pb-5">
-          En navigationssökning görs när användaren vet vad den är ute efter och använder Google för att navigera sig till rätt hemsida. En transaktionssökning görs ofta när användaren är beredd att ta ett köpbeslut.
-
+          Another good thing to know is that there are three basic types of searches, information searches, navigation searches and transaction searches. An information search is made when the user wants to know more about something, how it works or how to do something. A navigation search is made when the user knows what they are looking for and uses Google to navigate them to the right website. A transaction search is often made when the user is ready to make a purchase decision.
           </p>
         `}
 
 
-        mainTitle2={"Hur säker är din hemsida?"}
+        mainTitle2={"How secure is your website?"}
         mainDesc2={`
           <p class="text-sm text-left pb-5">
-          Sökmotorer föredrar hemsidor / webbplatser som är säkra och undviker gärna att visa upp sidor i sökresultatet som inte anses vara det . Genom att installera ett så kallat SSL-certifikat skyddas besökarnas kommunikation samtidigt som säkerheten hjälper din on-page SEO eftersom den då rankas högre i den organiska sökningen.
+          Search engines prefer homepages/websites that are secure and like to avoid displaying pages in the search results that are not considered to be so. By installing a so-called SSL certificate, the visitors' communication is protected while the security helps your on-page SEO because it then ranks higher in the organic search.
           </p>
           <p class="text-sm text-left pb-5">
-          Genom att använda dig av en säker hemsida visar du också dina besökare att de känna sig trygga när de exempelvis handlar eller fyller i formulär på din hemsida. Med andra ord ger en trygg webbplats fler kunder.
+          By using a secure website, you also show your visitors that they feel safe when, for example, they shop or fill in forms on your website. In other words, a secure website brings more customers.
           </p>
     
-          <h1 class="text-lg uppercase pb-5">HUR MAN VET OM EN SAJT ÄR SÄKER?</h1>
-          <p class="text-sm text-left pb-5">Ta reda på om en webbplats är säker genom att kontrollera säkerhetsinformation om webbplatsen. Chrome varnar dig om webbplatsen eller anslutningen till den inte är säker eller privat.</p>
+          <h1 class="text-lg uppercase pb-5">HOW TO KNOW IF A SITE IS SECURE?</h1>
+          <p class="text-sm text-left pb-5">
+          Find out if a website is secure by checking security information about the website. Chrome warns you if the website or connection to it is not secure or private.
+          </p>
         `}
 
-        cardTitle1={"VAD ÄR SSL?"}
+        cardTitle1={"WHAT IS SSL?"}
         cardDesc1={`
           <p class="text-sm text-white pb-5">
-          SSL är en förkortning för Secure Sockets Layer vars mål är att skapa autentiserade och krypterade länkar mellan nätverksdatorer, mellan en webbserver och en webbläsare. Det möjliggör för organisationer och företag att skydda transaktioner online och håller kunders information säker och privat.
+          SSL is an abbreviation for Secure Sockets Layer whose goal is to create authenticated and encrypted links between network computers, between a web server and a browser. It enables organizations and businesses to protect online transactions and keeps customers' information secure and private.
+          <p class="text-sm text-white pb-5">
+          An SSL certificate is a digital document that binds the identity of a website to a cryptographic key pair that is a private key and a public key. The certificate also contains identifying information about a website that includes the domain name and.
           </p>
           <p class="text-sm text-white pb-5">
-          Ett SSL-certifikat är ett digitalt dokument som på en webbplats binder identiteten till ett kryptografiskt nyckelpar som är en privat nyckel och en offentlig nyckel. Certifikatet innehåller även identifierande information om en webbplats som inkluderar domännamn och.
-          </p>
-          <p class="text-sm text-white pb-5">
-          Summerat så skyddar SSL internetanslutningar och förhindrar att informationen som överförs mellan två system inte kan läsas eller ändras av kriminella. När där finns ett hänglåsikon bredvid webbadressen i webbläsarens adressfält betyder det att SSL skyddar den webbplats du är inne på. De allra flesta webbplatser har idag SSL.
+          In summary, SSL protects Internet connections and prevents the information transferred between two systems from being read or changed by criminals. When there is a padlock icon next to the URL in the browser's address bar, it means that SSL protects the website you are on. The vast majority of websites today have SSL.
           </p>
         `}
 
-        endTitle={"HUR SER DU ATT EN WEBBPLATS ÄR SÄKER?"}
+        endTitle={"HOW DO YOU KNOW THAT A SITE IS SECURE?"}
         endList={`
         
           <ol class="list-decimal text-sm"> 
           <li>
-           Öppna en sida i Chrome
+           Open a page in Chrome
           </li>
           <li>
-           Titta på symbolen till vänster om webbadressen
+            Look at the symbol to the left of the URL
           </li>
           </ol>
         `}
-        endText={"Om du vill visa information om webbplatsen och vilka behörigheter den har klickar du på ikonen. Då visas en sammanfattning av hur privat anslutningen är enligt Chrome."}
+        endText={"To view information about the site and what permissions it has, click the icon. Then a summary of how private the connection is according to Chrome is displayed."}
       />
       <HeadingCity
         title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
