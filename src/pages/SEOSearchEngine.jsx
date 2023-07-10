@@ -797,7 +797,7 @@ export default function SEOSearchEngine() {
         endText={"To view information about the site and what permissions it has, click the icon. Then a summary of how private the connection is according to Chrome is displayed."}
       />
       <HeadingCity
-        title={"Behöver du hjälp med sökmotoroptimering i din stad?"}
+        title={"Do you need help with search engine optimization in your city?"}
         button1={"SEO i Norrtälje"}
         buttonStyle1={"pl-4 pr-4"}
         buttonLink1={"/seo-sokmotoroptimering-norrtalje"}
@@ -815,169 +815,173 @@ export default function SEOSearchEngine() {
         buttonLink5={"/seo-sokmotoroptimering-sundsvall"}
       />
       <HeadingSEO7 
-        mainTitle1={"Vad är Google Analytics?"}
+        mainTitle1={"What is Google Analytics?"}
         mainDesc1={`
           <p class="text-sm text-left pb-5">
-          Det första man bör göra när det kommer till sökmotoroptimering och digital marknadsföring i övrigt är att sätta upp ett mål. Vad är det man arbetar mot? Många gånger är målet att öka trafiken till webbplatsen eller öka konverteringarna som sker. För att göra detta behöver man också ett verktyg som spårar dessa siffror, och det är där Google Analytics kommer in i bilden.
+          The first thing you should do when it comes to search engine optimization and digital marketing in general is to set a goal. What are you working towards? Many times the goal is to increase traffic to the website or increase the conversions that occur. To do this, you also need a tool that tracks these numbers, and that's where Google Analytics comes into play.
           </p>
           <p class="text-sm text-left pb-5">
-          Google Analytics är ett kostnadsfritt verktyg och är en plattform för spårning av webbplatser, som samlar in data om hur användarna interagerar på din webbplats. När uppgifterna har samlats in sorterar Google Analytics dem i lättlästa rapporter, vilket är vad vi ser på plattformen.  
+          Google Analytics is a free tool and is a website tracking platform that collects data about how users interact on your website. Once the data is collected, Google Analytics sorts it into easy-to-read reports, which is what we see on the platform.
           </p> 
         `}
+
+        cardTitle1={"What is SSL?"}
+        cardDesc1={`
+          <p class="text-sm text-white pb-5">
+          Data on websites has not always been pretty and easy to read. Originally, if you wanted to know what kind of traffic a website was getting, you had to read the server log. The server's log would provide a list of information for every action performed on the website. Although the information was valuable, it was difficult to understand.
+          </p>
+          <p class="text-sm text-white pb-5">
+          To make things a little easier, companies started compiling log files and creating reports based on the available information. A company called Urchin made reports from the log files and grew in popularity very quickly. So much so that in 2005 Google acquired Urchin and began to build and trademark Google Analytics.
+          </p>
+        `}
+
+
 
         underCard1Desc={`
           <h1 class="text-center text-xl pt-5 pb-5 text-black">GOOGLE ANALYTICS</h1>
           <p class="text-sm pb-10">
-          Google Analytics, den ursprungliga plattformen, var ett enkelt visualiseringsverktyg som skapades för att göra loggfilsdata lättare att läsa. Det liknar den plattform som vi använder idag, men med mycket mindre data. Google vid den här tidpunkten lagrade och sålde inte all den personliga information om användarna som man gör idag.
+          Google Analytics, the original platform, was a simple visualization tool created to make log file data easier to read. It is similar to the platform we use today, but with much less data. Google at this time did not store and sell all the personal information about users as it does today.
           </p>
     
           <h1 class="text-center text-xl pt-5 pb-5 text-black">UNIVERSAL ANALYTICS</h1>
           <p class="text-sm pb-10">
-          Universal Analytics blev standard 2014 när det kom ut som betaversion. Universal Analytics blev ett måste i takt med att mångfalden av användarenheter ökade. Framväxten av mobila enheter och surfplattor ledde till ett större behov av att spåra användare över hela internet och mellan olika enheter.
+          Universal Analytics became standard in 2014 when it came out as a beta version. Universal Analytics became a must as the diversity of user devices increased. The rise of mobile devices and tablets led to a greater need to track users across the internet and across devices.
           </p>
     
           <h1 class="text-center text-xl pt-5 pb-5 text-black">GOOGLE ANALYTICS 4</h1>
           <p class="text-sm pb-5">
-          Den nyaste versionen av Google Analytics-plattformen släpptes i oktober 2020. Google Analytics 4 är ett nytt grepp om App + Web-egenskaper och all data flödar i ett flöde. GA4 förlitar sig också mycket mer på maskininlärning och syftar till att hjälpa analytiker att prognostisera med en mer förutspående analys.
+          The newest version of the Google Analytics platform was released in October 2020. Google Analytics 4 is a new take on App + Web properties and all data flows in one flow. GA4 also relies much more heavily on machine learning and aims to help analysts forecast with a more predictive analysis.
           </p>
           <p class="text-sm pb-5">
-          Den här versionen av Google Analytics är fortfarande mycket ny och har ännu inte fått ett brett genomslag. Vi rekommenderar dock att man installerar GA4 så snart som möjligt, eftersom GA4 inte tar med historisk data från Universal Analytics till GA4.
+          This version of Google Analytics is still very new and has yet to be widely adopted. However, we recommend installing GA4 as soon as possible, as GA4 does not bring historical data from Universal Analytics into GA4.
           </p>
         `}
 
 
-        cardTitle1={"VAD ÄR SSL?"}
-        cardDesc1={`
-          <p class="text-sm text-white pb-5">
-          Data på webbplatser har inte alltid varit snygga och lätta att läsa. Om man ursprungligen ville veta vilken typ av trafik en webbplats fick, var man tvungen att läsa serverloggen. Serverns logg skulle ge en lista med information för varje åtgärd som utfördes på webbplatsen. Även om informationen var värdefull var den svår att förstå.
-          </p>
-          <p class="text-sm text-white pb-5">
-          För att göra det hela lite enklare började företagen sammanställa loggfiler och skapa rapporter utifrån den tillgängliga informationen. Ett företag som hette Urchin gjorde rapporter av loggfilerna och växte mycket snabbt i popularitet. Så pass mycket att Google 2005 förvärvade Urchin och började bygga upp och varumärkesskydda Google Analytics.
-          </p>
-        `}
+    
 
-        mainTitle2={"Hur fungerar Google Analytics?"}
+        mainTitle2={"How does Google Analytics work?"}
         mainDesc2={`
           <p class="text-sm text-left pb-5">
-          För att få in data från din webbplats in i Google Analytics måste du först placera taggen på din webbplats. Så snart taggen är korrekt placerad börjar Google Analytics samla in data. Uppgifterna läggs sedan in i rapporter som består av mätvärden och dimensioner.
+          To get data from your website into Google Analytics, you must first place the tag on your website. As soon as the tag is correctly placed, Google Analytics starts collecting data. The data is then entered into reports consisting of metrics and dimensions.
           </p>
           <p class="text-sm text-left pb-5">
-          Metriker kallas det som producerar de siffror som du hittar i plattformen. Allt som kan mätas med en siffra är en metrik. Värt att titta på är antalet användare, antalet köp, värdet av konverteringar, genomsnittlig tid på webbplatsen osv.
+          Metrics are what produce the numbers you find in the platform. Anything that can be measured with a number is a metric. Worth looking at are the number of users, the number of purchases, the value of conversions, average time on the site, etc.
           </p>
         `}
 
-        cardTitle2={"VARFÖR SKA MAN VÄLJA GOOGLE ANALYTICS?"}
+        cardTitle2={"WHY SHOULD YOU CHOOSE GOOGLE ANALYTICS?"}
         cardDesc2={`
           <p class="text-sm text-white pb-5">
-          Det som kanske är mest lockande med Google Analytics är att det är gratis. Detta gör plattformen tillgänglig för alla med en webbplats, vilket i sin tur skapar en större gemenskap av användare som kan dela information och vägledning. Det finns gott om resurser om hur man använder Google Analytics, vilket gör det tillgängligt för användare på alla nivåer.
+          Perhaps the most appealing thing about Google Analytics is that it's free. This makes the platform available to anyone with a website, which in turn creates a larger community of users who can share information and guidance. There are plenty of resources on how to use Google Analytics, making it accessible to users of all levels.
           </p>
           <p class="text-sm text-white pb-5">
-          Ytterligare en fördel är Google Analytics är till stor hjälp för analytiker på alla kunskapsnivåer. Med Google Analytics kan man uppnå en mer grundläggande analys av webbplatsens prestanda, samtidigt som det också finns möjlighet till mer avancerad analys. 
+          Another advantage is that Google Analytics is very helpful for analysts of all skill levels. With Google Analytics, you can achieve a more basic analysis of the website's performance, while there is also the possibility of more advanced analysis.
           </p>
         `}
         underCard2Desc={`
           <p class="text-sm text-left pb-5">
-          Du får inte bara information om vilka marknadsföringskanaler som driver trafik till din webbplats, utan du kan även se vilka webbplatser användarna kommer från vid vilka olika tider på dagen, vilken landningssida de kom till och hur lång tid det tog för dem att ladda sidan.
+          Not only do you get information on which marketing channels are driving traffic to your website, but you can also see which websites users are coming from at different times of the day, which landing page they landed on and how long it took them to load the page.
           </p>
-          <h1 class="text-lg uppercase pb-5">VEM SKULLE INTE VILJA HA INFORMATION OM SIN WEBBPLATS FRÅN DEN STÖRSTA SÖKMOTORN PÅ INTERNET? </h1>
+          <h1 class="text-lg uppercase pb-5"> WHO WOULDN'T WANT INFORMATION ABOUT THEIR WEBSITE FROM THE LARGEST SEARCH ENGINE ON THE INTERNET? </h1>
           <p class="text-sm text-left pb-5">
-          Som marknadsförare av söktjänster är en stor del av arbetet inriktat på att tillfredsställa Google. Att ha en plattform som kan berätta en del av den information som Google spårar på webbplatser är oerhört fördelaktigt för den strategiska planeringen. Med hjälp av siffrorna i Google Analytics kan man göra ändringar på sin webbplats med datadriven strategi i stället för att enbart förlita sig på intuition.
+          As a marketer of search services, a large part of the work is focused on satisfying Google. Having a platform that can tell you some of the information Google tracks on websites is incredibly beneficial for strategic planning. Using the numbers in Google Analytics allows you to make changes to your website with a data-driven strategy instead of relying solely on intuition.
           </p>
           <p class="text-sm text-left pb-10">
-          Slutligen, som marknadsförare använder vi många Google-verktyg: Search Console, Google Ads, Data Studio, Google Tag Manager, Google Optimize med flera. Alla dessa verktyg integreras smidigt med Google Analytics.
+          Finally, as marketers we use many Google tools: Search Console, Google Ads, Data Studio, Google Tag Manager, Google Optimize and more. All these tools integrate smoothly with Google Analytics.
           </p>
 
-          <h1 class="text-2xl uppercase pb-5">Bättre kontroll med Google Search Console</h1>
+          <h1 class="text-2xl uppercase pb-5">Better control with Google Search Console</h1>
           <p class="text-sm text-left pb-5">
-          Google erbjuder ett kostnadsfritt verktyg som heter Google Search Console. Google Search Console hjälper att
-          <strong class="text-rose-300"> spåra webbplatsens prestanda och för att hitta eventuella problem med hemsidans sidor </strong>
-          så att dessa kan åtgärdas. Det är ett kraftfullt men komplext verktyg.
+          Google offers a free tool called Google Search Console. Google Search Console helps
+          <strong class="text-rose-300"> track the website's performance and to find any problems with the website's pages </strong>
+          so that these can be remedied. It is a powerful but complex tool.
           </p>
           <p class="text-sm text-left pb-5">
-          Google Search Console är något vi starkt rekommenderar att använda sig av om man vill ha
-          <strong class="text-rose-300"> bättre kontroll och kunna påverka det som sker på sin sajt. </strong> 
-          Plattformen låter dig även följa aktiviteten hos de besökare som kommit på sidan, vilken sida de landat på samt hur de sedan navigerat sig fram genom de olika målsidorna. 
+          Google Search Console is something we strongly recommend using if you want
+          <strong class="text-rose-300"> better control and be able to influence what happens on their site. </strong> 
+          The platform also allows you to follow the activity of the visitors who came to the page, which page they landed on and how they then navigated their way through the various landing pages.
           </p>
         `}
 
-        cardTitle3={"Hur kommer du igång med GSC?"}
+        cardTitle3={"How do you get started with GSC?"}
         cardDesc3={`
           <p class="text-sm text-white pb-5">
-          För att börja använda Google Search Console beger du dig helt enkelt till 
-          <a href="https://search.google.com/search-console" class="text-green-400"> dess webbplats </a> 
-          och loggar in med ditt Google-konto – då helst det som du redan använder för Google Analytics och eventuella Google-tjänster du redan använder dig av, så att du har allt samlat under ett och samma konto.
+          To start using Google Search Console, simply go to
+          <a href="https://search.google.com/search-console" class="text-green-400"> its website </a> 
+          and log in with your Google account - preferably the one you already use for Google Analytics and any Google services you already use, so that you have everything gathered under one and the same account.
           </p>
           <p class="text-sm text-white pb-5">
-          När du väl har registrerat dig på plattformen börjar du med att fylla i din hemsidas webbadress, varefter du får en kod som ska placeras på din hemsida. Efter att Search Console verifierat att koden finns på din hemsida kan det ta några dagar innan tillräcklig data har samlats in.
+          Once you have registered on the platform, you start by filling in your website URL, after which you will receive a code to be placed on your website. After Search Console verifies that the code is on your website, it may take a few days for sufficient data to be collected.
           </p>  
         `}
         underCard3Desc={`
           <div class='pt-5 heading-container text-black bg-white'>
-          <h1 class="text-xl text-center uppercase pb-5">Vilken typ av information hämtar Google Search Console?</h1>
+          <h1 class="text-xl text-center uppercase pb-5">What kind of information does Google Search Console collect?</h1>
           <p class="text-sm text pb-5">
-          Verktyget ger dig en översikt över hur din webbplats visas på sökmotorernas resultatsidor, inklusive 
-          <em> totala antalet klick, intryck, position, klickfrekvens </em>  och
-          <em> vilka sökningar din webbplats visas för. </em>  Med filter kan du sortera datan utifrån
-          <em> plats, datum, typ av sökning </em> och mycket mer. Dessa uppgifter är avgörande för att 
-          <strong class="text-rose-300"> förstå effekten av din sökmotoroptimering. </strong> 
+          The tool gives you an overview of how your website appears on search engine results pages, including
+          <em> total number of clicks, impressions, position, click rate </em>  and
+          <em> which searches your website appears for. </em> With filters, you can sort the data based on
+          <em> location, date, type of search </em>and much more. This information is essential to
+          <strong class="text-rose-300"> understand the impact of your search engine optimization. </strong> 
           </p>
           </div>
     
           <div class="heading-container">
           <p class="text-sm pb-5">
-          Information som du kan få är:
+          Information you can get is:
           </p>
           <ul class="list-disc text-sm text-gray-600">
           <li class="pb-5 ">
             <strong class="text-base">
-            Rapport om indextäckning / coverage
+            Report on index coverage
             </strong>
             <br />
     
-            Den här rapporten ger dig information om de webbadresser som
-            <strong class="text-rose-300"> Google har försökt indexera på din webbplats, </strong>
-            och om eventuella problem som Google har haft vid denna indexering. När botar söker igenom internet bearbetar den varje sida den hittar för att
-            <strong class="text-rose-300"> sammanställa ett index </strong>
-            över varje ord som den ser på varje hemsida. Den tittar också på innehållstaggar och attribut som titlar och alt-texter.
+            This report gives you information about the URLs that
+            <strong class="text-rose-300"> Google has attempted to index your website, </strong>
+            and about any problems Google has had with this indexing. As bots crawl the internet, it processes each page it finds to
+            <strong class="text-rose-300"> compile an index </strong>
+            on every word it sees on every website. It also looks at content tags and attributes such as titles and alt texts.
           </li>
           <li class="pb-5">
             <strong class=" text-base">
-            Webbplatskarta / Sitemap
+            Sitemap
             </strong>
             <br />
     
-            I GSC under "
+            In GSC under "
             <em>Sitemaps</em>
-            ” kan du se information om din webbplats sitemap, om det finns en sådan och när den senast uppdaterades. Skulle du upptäcka att det var längesen din webbplatskarta hämtades, kan det vara en god idé att skicka in webbplatskartan på nytt, för att uppdatera antalet webbadresser som hämtats in. Detta hjälper dig att
-              <strong class="text-rose-300"> hålla koll på hur Google läser av din sitemap och om alla sidor du vill ska synas, visas som de ska. </strong>
+            ” you can see information about your site's sitemap, if there is one, and when it was last updated. Should you find that it has been a while since your sitemap was downloaded, it may be a good idea to resubmit your sitemap to update the number of URLs downloaded. This will help you to
+              <strong class="text-rose-300"> keep track of how Google reads your sitemap and whether all the pages you want to be seen are displayed as they should. </strong>
             </li>
     
             <li class="pb-5">
             <strong class="text-base">
-            Borttagningar / removals
+            removals
             </strong>
             <br />
     
-            Om du av någon anledning tillfälligt behöver
-            <strong class="text-rose-300"> blockera en sida från Googles sökresultat </strong>
-            går du till
-            <em> borttagningar (removals). </em>
-            Du kan dölja en sida i ungefär 90 dagar innan denna upphör. Skulle du vilja ta bort en sida permanent från Googles sökning måste du göra det på din webbplats.
+            If for any reason you temporarily need
+            <strong class="text-rose-300"> block a page from Google search results </strong>
+            you go to
+            <em> removals. </em>
+            You can hide a page for about 90 days before it expires. Should you wish to permanently remove a page from Google's search, you must do so on your website.
             </li>
     
             <li class="pb-5">
             <strong class=" text-base">
-            Diagnos av huvudvärden / Core Website Vitals
+            Core Website Vitals
             </strong>
             <br />
     
-            De viktigaste värden hos en webbplats är
-            <strong class="text-rose-300"> de som påverkar din sökrankning. </strong>
-            De omfattar
-            <em> hastighet, användbarhet </em>
-            och
-            <em> visuell stabilitet. </em>
-            Dessa är numera rankningssignaler och är något du bör vara uppmärksam på.
+            The most important values ​​of a website are
+            <strong class="text-rose-300"> those that affect your search ranking. </strong>
+            They include
+            <em> speed, usability </em>
+            and
+            <em> visual stability. </em>
+            These are now ranking signals and are something you should pay attention to.
             </li>
     
     
@@ -988,132 +992,130 @@ export default function SEOSearchEngine() {
             <br />
     
             <em> AMP </em>
-            är ett initiativ med öppen källkod som är utformat för att tillhandahålla mobila webbplatser med snabb laddning som fungerar även vid långsamma anslutningshastigheter. Hit kan du gå för att börja skapa en förstasida om du inte redan har en. Detta ger dig en standardkodning som du sedan kan anpassa vidare.       
+            is an open source initiative designed to provide fast-loading mobile websites that work even on slow connection speeds. Go here to start creating a front page if you don't already have one. This gives you a standard encoding that you can then customize further.
             
-            
             </li>
     
     
             <li class="pb-5">
             <strong class=" text-base">
-            Länkar / Links till din webbplats
+            Links to you website
             </strong>
             <br />
     
-            Är du nyfiken på dina
-            <em> externa länkar? </em>
-            GSC visar
-            <strong class="text-rose-300"> vilka domäner som länkar till din hemsida, </strong>
-            samt
+            Are you curious about yours?
+            <em> external links? </em>
+            GSC shows
+            <strong class="text-rose-300"> which domains that links to your website, </strong>
+            and
     
-            <strong class="text-rose-300"> vilka sidor på webbplatsen som får flest länkar till sig. </strong>
-            Genom att scrolla ner i det vänstra sidofältet och klicka dig vidare till ”länkar”. för att få en fullständig rapport om alla länkar som pekar till din webbplats. Detta är förmodligen
-            <strong class="text-rose-300"> den mest omfattande listan över de externa och interna länkar </strong>
-            som du kan hitta utan att behöva betala. Det är ett kraftfullt verktyg som låter dig få en övergripande blick över hur innehållet på din hemsida utnyttjas och vad som fungerar bäst i Googles ögon.
+            <strong class="text-rose-300"> which pages on the website get the most links to them. </strong>
+            By scrolling down in the left sidebar and clicking on to "links". to get a full report on all the links pointing to your site. This is probably
+            <strong class="text-rose-300"> the most comprehensive list of the external and internal links </strong>
+            which you can find without having to pay. It is a powerful tool that allows you to get an overall view of how the content on your website is used and what works best in Google's eyes.
             </li>
     
     
     
             <li class="pb-5">
             <strong class=" text-base">
-            Manuella åtgärder / Manual Actions
+            Manual Actions
             </strong>
             <br />
     
-            Under fliken
-            <em> Manuella åtgärder </em>
-            kan du få reda på om någon av dina sidor
-            <strong class="text-rose-300"> inte uppfyller Googles riktlinjer </strong>
-            för webmasters kvalitet. Dessa åtgärder är ett bra sätt att få reda på om det sker eventuell
-            <em> spamming </em>
-            , och låter dig ta åtgärder mot detta.
+            Under the tab
+            <em> Manual Actions </em>
+            you can find out if any of your pages
+            <strong class="text-rose-300"> does not meet Google's guidelines </strong>
+            for webmaster quality. These measures are a good way to find out if it is happening
+            <em> spaming </em>
+            , and allows you to take action against it.
     
             </li>
     
     
             <li class="pb-5">
             <strong class=" text-base">
-            Användarbarhet på mobila enheter / Mobile Usability
+            Mobile Usability
             </strong>
             <br />
     
-            Under fliken
-            <em> användarbarhet på mobila enheter </em>
-            kan du kontrollera att alla sidor på webbplatsen överensstämmer med Googles riktlinjer för att
-            <strong class="text-rose-300"> korrekt visas på mobila enheter. </strong>
-            Några av de saker som Google kan reagera på är bland annat
-            <em> textstorlek, visningsinställningar </em>
-            eller till och med
-            <em> närheten till klickbara element. </em>
-            Saker som dessa kan påverka rankingen av ens mobila webbplats negativt och leda till att sajten hamnar längre ner på resultatsidan.  Att hitta och åtgärda dessa fel kommer att
-            <strong class="text-rose-300"> förbättra användarupplevelsen och resultaten. </strong>
-            Se även till att kontrollerar din webbplats mobilhastighet då antalet användare som använder sin telefon för att surfa ständigt ökar.
+            Under the tab
+            <em> usability on mobile devices </em>
+            you can check that all pages on the website comply with Google's guidelines to
+            <strong class="text-rose-300"> correctly display on mobile devices. </strong>
+            Some of the things that Google can react to include:
+            <em> text size, display settings </em>
+            or even
+            <em> proximity to clickable elements. </em>
+            Things like these can negatively affect the ranking of one's mobile site and cause the site to end up lower on the results page. Finding and fixing these errors will
+            <strong class="text-rose-300"> improve user experience and results. </strong>
+            Also, be sure to check your website's mobile speed as the number of users using their phone to surf is constantly increasing.
             </li>
     
             <li class="pb-5">
             <strong class=" text-base">
-            Genomsökning / Crawl stats
+            Crawl stats
             </strong>
             <br />
     
-            Vill du ha en mer djupgående analys av
-            <strong class="text-rose-300"> hur ofta sökbotar söker igenom din webbplats </strong>
-            kan du använda rapporten för detta under
-            <em> Inställningar {'>'} Crawlstatistik. </em>
-            Här kan du se
-            <strong class="text-rose-300"> hur ofta sidorna på webbplatsen genomsöks, </strong>
-            samt
-            <strong class="text-rose-300"> vilka nedladdningstider hemsidan har. </strong>
-            Enligt Google finns det inget ”bra” antal genomsökningar, men de ger ändå bra insikt i plötsliga toppar eller dalar i genomsökningsfrekvensen.
+            do you want a more in-depth analysis of
+            <strong class="text-rose-300"> how often search bots crawl your website </strong>
+            can you use the report for this sub
+            <em> Settings {'>'} Crawl statistics. </em>
+            Here you can see
+            <strong class="text-rose-300"> how often the pages of the website are crawled, </strong>
+            and
+            <strong class="text-rose-300"> what download times the website has. </strong>
+            According to Google, there is no "good" number of crawls, but they still provide good insight into sudden peaks or troughs in the crawl rate.
             </li>
     
     
             <li class="pb-5">
             <strong class=" text-base">
-            Granskning av webbadress / URL inspektion / URL Inspection
+            URL Inspection
             </strong>
             <br />
     
     
-            Det här verktyget är användbart då det gör det möjligt att
-            <strong class="text-rose-300"> göra en testkörning av hur Google går igenom och visar en specifik URL på webbplatsen </strong>
-            i fråga. Det är ett bra sätt att se till att botarna får tillgång till en sida som annars skulle kunna förbises. Vill du ha tillgång till koden för webbplats går du vidare till ”Visa testad sida”. Här får du en skärmdump på
-            <em> HTML-koden </em>
-            och eventuella spårningsfel. Detta visades tidigare som en egen rapport, medan den nu finns i URL-inspektionen under
-            <em> ”Täckning”</em>
+            This tool is useful as it allows you to
+            <strong class="text-rose-300"> do a test run on how Google goes through and displays a specific URL on the website </strong>
+            in question. It's a good way to ensure bots get access to a page that might otherwise be overlooked. If you want access to the code for the website, go to "Show tested page". Here you get a screenshot of
+            The <em> HTML code </em>
+            and any tracking errors. This was previously shown as a separate report, but is now in the URL inspection below
+            <em> “Coverage”</em>
             .
             </li>
     
-    
             <li class="pb-5">
             <strong class=" text-base">
-            Tester av Robots.txt /  Robots.txt Tests
+            Robots.txt Tests
             </strong>
             <br />
     
-            Om du använder en
-            <em> robot.txt-fil </em>
-            för att
-            <strong class="text-rose-300"> blockera Googles crawlers från en viss resurs, </strong>
-            kan du med detta verktyg dubbelkolla att allt fungerar. Skulle du exempelvis av någon anledning ha en bild som du inte vill ska visas i en
+            If you use a
+            <em> robot.txt file </em>
+            in order to
+            <strong class="text-rose-300"> block Google crawlers from a specific resource, </strong>
+            With this tool, you can double check that everything is working. For example, should you have an image that you do not want to appear in one
             <em> Google Image Search, </em>
-            kan du här testa din robot.txt för att se till att bilden inte dyker upp där du inte vill att den ska visas. Genom att testa detta får du antingen meddelandet
-            <em> ”Accepterad” </em>
-            eller
-            <em> ”Blockerad” </em>
-            , och kan sedan redigera därefter.
+            can you test your robot.txt here to make sure the image doesn't appear where you don't want it to appear. By testing this you will either get the message
+            <em> “Accepted” </em>
+            or
+            <em> “Blocked” </em>
+            , and can then edit accordingly.
             </li>
     
     
             <li class="pb-5">
             <strong class=" text-base">
-            URL-parametrar / URL Parameters
+            URL Parameters
             </strong>
             <br />
     
-            Google rekommenderar att man använder det här verktyget med försiktighet, eftersom en felaktig URL-parameter kan ha en negativ inverkan på hur webbplatsen genomsöks. Att använda detta låter dig 
-            <strong  class='text-rose-300'> hålla koll på adressers prestanda </strong>
-            och se till att de inte pekar sökbotarna i fel riktning.
+            Google recommends using this tool with caution, as an incorrect URL parameter can have a negative impact on how the website is crawled. Using this allows you to
+            <strong class='text-rose-300'> keep track of address performance </strong>
+            and make sure they don't point the bots in the wrong direction.
     
             </li>
     
@@ -1122,11 +1124,11 @@ export default function SEOSearchEngine() {
           </ul>
     
           <p class="text-sm text pb-5">
-          Som du förstår ger Google Search Console
-          <strong class='text-rose-300'> en bra inblick i hur din webbplats fungerar och presteras i sökmotorernas ögon. </strong>
-          Det låter dig veta vad du kan göra för att behålla Googles uppmärksamhet och hur du ska 
-          <strong class="text-rose-300"> göra din sajt både mer användarvänlig. </strong>
-          När du väl har lärt dig grunderna i hur verktyget fungerar, kan du sedan gå vidare till att använda datan som samlas in till att förbättra hemsidan och få din trafik att öka.
+          As you understand, Google Search Console provides
+          <strong class='text-rose-300'> a good insight into how your website works and performs in the eyes of search engines. </strong>
+          It lets you know what you can do to keep Google's attention and how you should
+          <strong class="text-rose-300"> make your site both more user-friendly. </strong>
+          Once you've learned the basics of how the tool works, you can then move on to using the data collected to improve your website and increase your traffic.
           </p>
     
           </div>
