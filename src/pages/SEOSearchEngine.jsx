@@ -1134,236 +1134,233 @@ export default function SEOSearchEngine() {
           </div>
         `}
 
-        mainTitle3={"Varför ska man anlita en SEO-byrå?"}
+        mainTitle3={"Why should you hire an SEO agency?"}
         mainDesc3={`
-          <p class="text-sm pb-10">Om du har pengar i din budget för digital marknadsföring, finns det många goda skäl att anlita en SEO-byrå för att hjälpa till med saker som meta-nyckelordsfraser, stärka din länkprofil och skapande av bra content:</p>
-          <ul class="list-disc text-base pb-10">
-          <li>
-          Du har inte tid att sköta din webbplats.
-          </li>
-          <li>
-          Du vill hålla dig uppdaterad inom SEO-branschen.
-          </li>
-          <li>
-          Du vill ha hjälp med att söka efter sökord som ger resultat.
-          </li>
-          <li>
-          Du vill öka din organiska trafik till hemsidan.
-          </li>
-          <li>
-          Du vill hålla nere kostnaderna med bra optimerade annonser.
-          </li>
-          <li>
-          Du vill bli utbildad av en byrå som kan sökmotoroptimering.
-          </li>
-          </ul>
-          <p class="text-sm pb-5">
-          Men du bör inte anlita en SEO-byrå som lovar att snabbt ge dig topplaceringar. Även om de på något sätt lyckas få din webbplats på första plats, kommer dina placeringar att sjunka utan en stark grund att stå på, och du förlorar i längder mer än du har vunnit.
-          </p>
-          <p class="text-sm pb-5">
-          SEO är för långsiktigt inriktade digitala entreprenörer som har bestämt sig för att hjälpa användarna att hitta de svar de behöver, samt för att öka tillväxten på lång sikt.
-          </p>
-        `}
+        <p class="text-sm pb-10">If you have money in your digital marketing budget, there are many good reasons to hire an SEO agency to help with things like meta keyword phrases, strengthening your link profile and creation of good content:</p>
+        <ul class="list-disc text-base pb-10">
+        <li>
+        You don't have time to manage your website.
+        </li>
+        <li>
+        You want to stay up-to-date in the SEO industry.
+        </li>
+        <li>
+        You want help searching for keywords that produce results.
+        </li>
+        <li>
+        You want to increase your organic traffic to the website.
+        </li>
+        <li>
+        You want to keep costs down with well-optimized ads.
+        </li>
+        <li>
+        You want to be trained by an agency that knows search engine optimization.
+        </li>
+        </ul>
+        <p class="text-sm pb-5">
+        But you should not hire an SEO agency that promises to get you top rankings quickly. Even if they somehow manage to get your site to the top spot, your rankings will drop without a solid foundation to stand on, and you'll end up losing more than you've won.
+        </p>
+        <p class="text-sm pb-5">
+        SEO is for long-term digital entrepreneurs who are determined to help users find the answers they need, as well as to increase long-term growth.
+        </p>
+      `}
 
       />
-      <ContactForm
-        title={"Vad kul att du har hittat till oss!"}
-        desc={
-          "Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "
-        }
-        company={"Företag"}
-        name={"Namn"}
-        phone={"Telefon"}
-        email={"E-post"}
-        text={"Vad kan vi hjälpa dig med?"}
-        buttonText={"Skicka"}
-      />
+     <ContactForm 
+      title={"How nice that you have found us!"}
+      desc={"If you have any questions or are ready to start your digital journey now, feel free to fill in a few lines or email us at"}
+      company={"Company"}
+      name={"Name"}
+      phone={"Phone"}
+      email={"Email"}
+      text={"What can we do for you?"}
+      buttonText={"Send"}
+    />
       <HeadingSEO8 
-      mainTitle1={"Öka försäljningen med Google My Business"}
+      mainTitle1={"Increase sales with Google My Business"}
       mainDesc1={`
         <p class="text-sm text-left pb-5">
-        Ett av de bästa sätten att få trafik och nya kunder är att begära in och optimera sin 
-        <em> Google My Business (GMB). </em>
-        Google My Business är en lista med information om ditt 
-        <em> företags verksamhet, recensioner, bilder, inlägg </em>
-        och mycket mer.
+        One of the best ways to get traffic and new customers is to solicit and optimize your
+        Google My Business (GMB). </em>
+        Google My Business is a list of information about your business
+        <em> company operations, reviews, photos, posts </em>
+        and much more.
         </p>
   
         <p class="text-sm text-left pb-5">
-        Några saker som är bra att tänka på när det kommer till Google My Business är:
+        Some things that are good to keep in mind when it comes to Google My Business are:
         </p>
   
         <ul class="list-disc text-sm text-left pb-10">
           <li>
-          Vad hittar dina kunder när de söker efter ditt företag på nätet?   
+          What do your customers find when they search for your business online?
           </li>
           <li>
-          Hur snabbt kan de få tillgång till ditt telefonnummer om de behöver det?
+          How quickly can they access your phone number if they need it?
           </li>
           <li>
-          Om de vill veta om du har parkeringsplatser, hur får de reda på det?
+          If they want to know if you have parking spaces, how will they find out?
           </li>
         </ul>
         <p class="text-sm text-left pb-5">
-        Du måste se till att 
-        <strong class="text-rose-300"> konsumenterna har tillgång till denna informationen redan innan de når din webbplats. </strong>
-        Även om de flesta av dessa uppgifter finns på din hemsida, indexerar Google My Business det innehåll som du tillhandahåller för att 
-        <strong class="text-rose-300"> skapa en enhetlig struktur i Google Search och Google Maps </strong>
-        (Google Local Guides kan också granska och redigera ens listor för att skapa enhetlighet).
+        You must ensure that
+        <strong class="text-rose-300"> consumers have access to this information even before they reach your website. </strong>
+        Although most of this information is on your website, Google My Business indexes the content you provide to
+        <strong class="text-rose-300"> create a unified structure in Google Search and Google Maps </strong>
+        (Google Local Guides can also review and edit one's listings for consistency).
         </p>
       `}
 
 
-      cardTitle1={"Vad är Google My Business?"}
+      cardTitle1={"What is Google My Business?"}
       cardDesc1={`
         <p class="text-sm text-white pb-5">
-        GMB är inte bara en plats där människor kan hitta grundläggande information om ditt företag. När Google My Business används på rätt sätt är det 
-        <strong> ett kraftfullt verktyg som kan öka dina intäkter och ge värdefulla insikter om dina kunder.</strong>
+        GMB is not just a place where people can find basic information about your business. When Google My Business is used correctly, it is
+        <strong> a powerful tool that can increase your revenue and provide valuable insights about your customers.</strong>
         </p>
         <p class="text-sm text-white pb-5">
-        Cirka 95 % av alla sökningar idag sker på just Google. Sökmotorn dominerar helt enkelt när det kommer till att söka på nätet. 
-        <strong> Varje sekund som går på dygnet letar människor efter nya saker att köpa. </strong>
-        Du som har en produkt att sälja kan helt enkelt inte riskera att inte synas på plattformen.
-        </p>
+        About 95% of all searches today take place on Google. The search engine simply dominates when it comes to searching the web.
+        <strong> Every second of the day people are looking for new things to buy. </strong>
+        You who have a product to sell simply cannot risk not being seen on the platform.
+      </p>
       `}
       underCard1Desc={`
-        <p class="text-sm  pb-5">
-        För att sätta saker och ting i perspektiv 
-        <strong class="text-rose-300"> görs det ungefär 3,5 miljarder sökningar varje dag. </strong>
-        De flesta användare kommer dock inte längre än till Googles första sida av sökresultat. I en studie undersöktes antalet klick för varje Google-sökresultat, och visade att antalet klick minskade exponentiellt på bara sida två.
-        </p>
-        <p class="text-sm  pb-5">
-        Med andra ord hittar din potentiella kund den produkt den söker på Googles första sida. Även om det finns andra sätt att få sitt företag att visas på Googles första sida, 
-        <strong class="text-rose-300"> är Google My Business ett otroligt värdefullt </strong>
-        (och enkelt) 
-        <strong class="text-rose-300"> verktyg </strong>
-        som kan hjälpa dig otroligt mycket.
-        </p>
-        <p class="text-sm  pb-5">Genom att använda dig av GMB kan du:</p>
-
-        <p class="text-sm  pb-5">1. Kontrollera, indexera och visa upp relevant företagsinformation.</p>
-        <p class="text-sm  pb-5">2. Interagera med potentiella kunder och hantera ditt rykte i online-recensioner.</p>
-        <p class="text-sm  pb-5">3. Samla in foton, videor och annat användargenererat innehåll från kunder.</p>
-        <p class="text-sm  pb-5">4. Samla insikter om hur dina kunder kommer till din webbplats.</p>
-      `}
-      underCard1Desc2={`
-        <h1 class="text-center text-xl pt-5 pb-5 ">Att göra anspråk på sin GMB ökar trafiken</h1>
-        <p class="text-sm  pb-5">
-        Google My Business är officiella företagslistor som innehåller ditt företags telefonnummer och adress.
-        <strong class="text-rose-300"> Det är mycket viktigt att göra anspråk på sin lokala Google My Business. </strong>
-        Med sin GMB säger man i princip åt Google att lista sitt företag i det område där man har flest kunder eller klienter.
+        <p class="text-sm pb-5">
+        To put things into perspective
+        <strong class="text-rose-300"> approximately 3.5 billion searches are made every day. </strong>
+        However, most users do not get further than Google's first page of search results. One study examined the number of clicks for each Google search result, and found that the number of clicks decreased exponentially on just page two.
         </p>
         <p class="text-sm pb-5">
-        Men att bara lista ditt företag i Google Local ökar inte dina placeringar organiskt. Några av de saker du måste göra för att få de rankningar du vill ha är följande:
+        In other words, your potential customer will find the product they are looking for on the first page of Google. Although there are other ways to get your business on the first page of Google,
+        <strong class="text-rose-300"> is Google My Business an incredibly valuable </strong>
+        (and easy)
+        <strong class="text-rose-300"> tools </strong>
+        which can help you immensely.
+        </p>
+        <p class="text-sm pb-5">By using GMB you can:</p>
+
+        <p class="text-sm pb-5">1. Check, index and display relevant business information.</p>
+        <p class="text-sm pb-5">2. Interact with potential customers and manage your reputation in online reviews.</p>
+        <p class="text-sm pb-5">3. Collect photos, videos and other user-generated content from customers.</p>
+        <p class="text-sm pb-5">4. Gather insights on how your customers arrive at your website.</p>
+      `}
+      underCard1Desc2={`
+        <h1 class="text-center text-xl pt-5 pb-5 ">Claiming your GMB increases traffic</h1>
+        <p class="text-sm pb-5">
+        Google My Business are official business listings that contain your business's phone number and address.
+        <strong class="text-rose-300"> Claiming your local Google My Business is very important. </strong>
+        With your GMB, you basically tell Google to list your company in the area where you have the most customers or clients.
+        </p>
+        <p class="text-sm pb-5">
+        However, simply listing your business in Google Local will not increase your rankings organically. Some of the things you need to do to get the rankings you want are the following:
         </p>
           
-          <ul class="text-sm list-disc">
-          <li class="text-base">
-          Håll dig konsekvent
-          </li>
-          <p class="pb-5">
-          Varken Google eller Bing nöjda med inkonsekvens. För att förbli konsekvent i innehållsmarknadsföring bör du alltså 
-          <strong class="text-rose-300"> använda samma uppgifter </strong>
-          som du gör på gästbloggar, på dina profiler i sociala medier och på alla andra platser online som ditt företag visas på. 
-          <strong class="text-rose-300"> Detta gör det betydligt lättare för sökmotorer att koppla ihop allt. </strong>
-          </p>
+        <ul class="text-sm list-disc">
+        <li class="text-base">
+        Stay consistent
+        </li>
+        <p class="pb-5">
+        Neither Google nor Bing is happy with inconsistency. Thus, to remain consistent in content marketing, you should
+        <strong class="text-rose-300"> use the same data </strong>
+        as you do on guest blogs, on your social media profiles, and in any other place online where your business appears.
+        <strong class="text-rose-300"> This makes it much easier for search engines to link everything together. </strong>
+        </p>
 
-          <li class="text-base">
-          Uppmana till interaktioner
-          </li>
-          <p class="pb-5">
-          Få människor att prata om ditt företag. Be dem länka till din lokala GMB. Man kan alltid använda
-          <em> Link Explorer </em> 
-          för att ta reda på vilka som länkat till sin webbplats och meddela dem om din företagsnotering.
-          <strong class="text-rose-300"> ju fler människor pratar om ditt företag, </strong>
-          med recensioner och länkar från egna sidor eller sociala medier, 
-          <strong class="text-rose-300"> desto större chans har du att få bättre positioner hos sökmotorerna. </strong>
-          </p>
+        <li class="text-base">
+        Encourage interactions
+        </li>
+        <p class="pb-5">
+        Get people talking about your business. Ask them to link to your local GMB. You can always use
+        <em>Link Explorer</em>
+        to find out who linked to their site and notify them of your business listing.
+        <strong class="text-rose-300"> the more people talks about your business, </strong>
+        with reviews and links from own pages or social media,
+        <strong class="text-rose-300"> the greater chance you have of getting better positions with the search engines. </strong>
+        </p>
         </ul>
 
-        <h1 class="text-center text-xl pt-5 pb-5 ">Myter om sökmotoroptimering som du aldrig bör lyssna på</h1>
-        <h2 class="text-center pt-5 pb-5 ">HUR ÖKAR MAN SIN TRAFIK MED ÖVER 13% PÅ BARA 30 DAGAR?</h2>
-        <p class="text-sm  pb-5">
-        Man följer en beprövad SEO-strategi. En strategi som hittar en sökande marknad, man skapar ett djupgående innehåll som backas upp av statistik och data, man löser ett konkret problem och marknadsför blogginlägg. Denna strategi verkar grundläggande, men det är så man vinner i längden med SEO.  
+        <h1 class="text-center text-xl pt-5 pb-5 ">Search Engine Optimization Myths You Should Never Hear</h1>
+        <h2 class="text-center pt-5 pb-5 ">HOW TO INCREASE YOUR TRAFFIC BY OVER 13% IN JUST 30 DAYS?</h2>
+        <p class="text-sm pb-5">
+        A proven SEO strategy is followed. A strategy that finds a searching market, you create in-depth content backed by statistics and data, you solve a concrete problem and market blog posts. This strategy seems basic, but that's how you win in the long run with SEO.
         </p>
-        <p class="text-sm  pb-5">
-        Verkligheten är att organisk trafik konverterar 9 % bättre än trafik från sociala medier. Dessa SEO-myter tenderar att hindra hårt arbetande marknadsförare och bloggare från att förbättra sin trafik och sin position på nätet.
+        <p class="text-sm pb-5">
+        The reality is that organic traffic converts 9% better than social media traffic. These SEO myths tend to prevent hard working marketers and bloggers from improving their traffic and position online.
         </p>
-        <p class="text-sm  pb-5">
-        Många som arbetar med sökmotorer hävdar att de är knutna till Google. Detta stämmer med största säkerhet inte, eftersom Google inte avslöjar vilka deras SEO-partners och affiliates är. Så om en SEO-konsult eller SEO-byrå lovar dig topplaceringar för ett ”lågt” pris per månad bör du oroa dig istället för att nappa. Ingen kan garantera topplaceringar i Googles sökmotorer.
+        <p class="text-sm pb-5">
+        Many who work with search engines claim that they are affiliated with Google. This is most certainly not true, as Google does not disclose who their SEO partners and affiliates are. So if an SEO consultant or SEO agency promises you top positions for a "low" price per month, you should worry instead of nagging. No one can guarantee top positions in Google search engines.
         </p>
-        <p class="text-sm  pb-5">
-        Vi på Effektify har tagit reda på de allra vanligaste myterna kring sökmotoroptimering som du bör ignorera. Vi ger tips om vilka råd du bör följa för en smart SEO-strategi och säker digital marknadsföring.
-        </p>
-
-
-        <h2 class="text-center pt-5 pb-5 ">”EN XML-SITEMAP KOMMER ATT FÖRBÄTTRA DIN POSITION”</h2>
-        <p class="text-sm  pb-5">
-        Även om det kanske inte är det viktigaste för din ranking, är en XML-sitemap nödvändig om du vill bygga en sökbar webbplats. Varje gång du skapar ett nytt inlägg eller redigerar ett befintligt inlägg, skapar Google XML-sitemapgeneratorn en uppdaterad sitemap med dina nya målsidor. Denna sitemap skickas sedan till Google och andra sökmotorer. Vad vi vet är att en XML-sajtkarta hjälper sökmotorerna att snabbare genomsöka och indexera nya sidor. Men förbättrar det sökmotorernas rankning?
-        </p>
-        <p class="text-sm  pb-5">
-        Redan 2008 talade Trevor Foucher och Susan Moskwa från Webmaster Tools-teamet, som är en del av panelen för sitemaps på Search Engine Strategies i Chicago. En av de många frågor de fick var: ”Kommer en sitemap att hjälpa mig att få en bättre placering?”. Trevors svar var att en webbplatskarta påverkar verkligen inte rankningen av dina webbsidor. Webbplatskartor är som ett hjälpmedel – en guide som ger Google mer information om din webbplats. De till att alla dina webbadresser är indexerade, för att underlätta sökningen. Det utgör egentligen inte grunden för digital marknadsföring, de ser till att det indexeras snabbt.
-        </p>
-        <p class="text-sm  pb-5">
-        Även om detta var för tio år sedan gäller samma sak i dag. En sitemap kan leda till ökad synlighet för din webbplats så småningom, när URL:erna på siten prioriteras. Men det är ingen garanti. Om du inte redan använder Google XML Sitemaps generatorn på din WordPress-webbplats bör du installera den nu. Det finns ingen garanti för att dina placeringar kommer att förbättras. Men det kommer att hjälpa Google att upptäcka din content snabbare.
+        <p class="text-sm pb-5">
+        We at Effektify have found out the most common myths about search engine optimization that you should ignore. We give tips on what advice you should follow for a smart SEO strategy and safe digital marketing.
         </p>
 
-        <h2 class="text-center pt-5 pb-5 ">”METATAGGAR HAR INGEN STÖRRE BETYDELSE”</h2>
-        <p class="text-sm  pb-5">
-        Metataggar är HTML-taggar som finns mellan de inledande och avslutande -taggarna. De används för att visa förhandsvisningar av en viss webbsida i sökresultaten.
+        <h2 class="text-center pt-5 pb-5 ">”AN XML SITEMAP WILL IMPROVE YOUR POSITION”</h2>
+        <p class="text-sm pb-5">
+        Although it may not be the most important thing for your rankings, an XML sitemap is essential if you want to build a searchable website. Every time you create a new post or edit an existing post, the Google XML sitemap generator creates an updated sitemap with your new landing pages. This sitemap is then sent to Google and other search engines. What we do know is that an XML sitemap helps search engines crawl and index new pages faster. But does it improve search engine rankings?
         </p>
-        <p class="text-sm  pb-5">
-        De tre elementen i en metatag är:
+        <p class="text-sm pb-5">
+        Back in 2008, Trevor Foucher and Susan Moskwa of the Webmaster Tools team, part of the sitemaps panel, spoke at Search Engine Strategies in Chicago. One of the many questions they were asked was: "Will a sitemap help me get a better placement?". Trevor's answer was that a sitemap really does not affect the ranking of your web pages. Sitemaps are like a tool – a guide that gives Google more information about your website. They ensure that all your URLs are indexed, to facilitate the search. It doesn't really form the foundation of digital marketing, they make sure it gets indexed quickly.
+        </p>
+        <p class="text-sm pb-5">
+        Although this was ten years ago, the same applies today. A sitemap can lead to increased visibility for your website eventually, when the URLs on the site are prioritized. But that's no guarantee. If you are not already using the Google XML Sitemaps generator on your WordPress site, you should install it now. There is no guarantee that your placements will improve. But it will help Google discover your content faster.
+        </p>
+
+        <h2 class="text-center pt-5 pb-5 ">”METATAGS HAVE NO GREATER IMPORTANCE”</h2>
+        <p class="text-sm pb-5">
+        Meta tags are HTML tags that are located between the opening and closing tags. They are used to show previews of a particular web page in the search results.
+        </p>
+        <p class="text-sm pb-5">
+        The three elements of a meta tag are:
         </p>
         <ul class="text-sm list-disc pb-5">
           <li>
-          Titeltaggen
+          The title tag
           </li>
           <li>
-          Metabeskrivningen
+          The meta description
           </li>
           <li>
-          Meta nyckelord eller fraser
+          Meta keywords or phrases
           </li>
         </ul>
-        <p class="text-sm  pb-5">
-        Titeltaggen visas i avsnittet  på en webbsida, och är ett nödvändigt sidelement. Metabeskrivningen och nyckelorden är däremot valfria sidelement. Utan metabeskrivningen kan Google dock hämta text från sidans innehåll som förhandsgranskningsutdrag. Även om Google inte använder metataggen för nyckelord i sidrankningen, är beskrivningar av nyckelord i metataggen fortfarande relevanta och det är klokt att lägga tid på dem.
+        <p class="text-sm pb-5">
+        The title tag appears in the section of a web page, and is a necessary page element. The meta description and keywords, on the other hand, are optional page elements. However, without the meta description, Google can pull text from the page's content as preview snippets. Even if Google doesn't use the keyword meta tag in page ranking, keyword descriptions in the meta tag are still relevant and it's wise to spend time on them.
         </p>
-        <p class="text-sm  pb-5">
-        Metataggar gör också dina sökresultat attraktiva, vilket kan locka till fler klick från användare som känner att din webbplats har ett högkvalitativt innehåll som fyller deras behov. Det är här som din digitala marknadsföring börjar förbättras och ger högre ranking i sökmotorerna.
+        <p class="text-sm pb-5">
+        Meta tags also make your search results attractive, which can attract more clicks from users who feel your site has high-quality content that meets their needs. This is where your digital marketing starts to improve and give you higher search engine rankings.
         </p>
-        <p class="text-sm  pb-5">
-        Du kan ta hand om meta-sökordsfraser, titeltaggar och beskrivningar med WordPress-pluginet All In One SEO.
+        <p class="text-sm pb-5">
+        You can take care of meta keyword phrases, title tags and descriptions with the All In One SEO WordPress plugin.
         </p>
 
-        <h1 class="text-center text-xl pt-5 pb-5 ">Använd de här tipsen för att skapa innehållsrika metabeskrivningar:</h1>
+        <h1 class="text-center text-xl pt-5 pb-5 ">Use these tips to create rich meta descriptions:</h1>
         <ul class="text-sm list-disc pb-5 space-y-5 ">
           <li>
-            <strong class="text-base">Gör dem beskrivande </strong>
-            – Lägg in sökord som är relevanta för artikeln. Om du gillar formler, fråga “Vem? Vad? Varför? När? Var? Hur?” Det är en formel som journalister använder för att rapportera. Den fungerar lika bra när man skriver beskrivningar för sökmotoroptimering
+            <strong class="text-base">Make them descriptive </strong>
+            - Enter keywords that are relevant to the article. If you like formulas, ask “Who? What? Why? When? Where? How?" It is a formula journalists use to report. It works just as well when writing descriptions for search engine optimization
           </li>
           <li>
-            <strong class="text-base">Gör dem unika </strong>
-            – Varje metabeskrivning bör skilja sig från dina andra sidors beskrivningar
+            <strong class="text-base">Make them unique </strong>
+            - Each meta description should be different from your other pages' descriptions
           </li>
           <li>
-            <strong class="text-base">Gör dem korta </strong>
-            – Google begränsar metabeskrivningar till 160 tecken eller mindre. Att skriva mer än det är inte bra då de inte anses följa standarden och klipps ner.
+            <strong class="text-base">Make them short </strong>
+            - Google limits meta descriptions to 160 characters or less. Writing more than that is not good as they are not considered to follow the standard and are cut down.
           </li>
         </ul>
 
 
-        <h1 class="text-center text-xl pt-5 pb-5 ">”ANVÄND META ROBOT TAGGEN FÖR ATT SPECIFICERA INDEXERBARA SIDOR”</h1>
+        <h1 class="text-center text-xl pt-5 pb-5 ">"USE THE META ROBOT TAG TO SPECIFY INDEXABLE PAGES"</h1>
         <p class="text-sm  pb-5">
-        Filen Robots.txt talar om för sökmotorbotar vilka delar (sidor, länkar etc.) av din webbplats som ska genomsökas och indexeras och vilka som ska ignoreras. Man kan enkelt ställa in noindex- och nofollow-taggar med hjälp av WordPress-plugins Yoast eller All in One SEO.
+        The Robots.txt file tells search engine bots which parts (pages, links, etc.) of your website to crawl and index and which to ignore. One can easily set noindex and nofollow tags with the help of WordPress plugins Yoast or All in One SEO.
         </p>
         <h1 class="text-lg pt-5 pb-5 "><i class="fa-regular fa-square-check text-green-500 fa-xl text-left"></i> Robots Meta NOINDEX</h1>
         <h1 class="text-lg pt-5 pb-10  "><i class="fa-regular fa-square-check text-green-500 fa-xl text-left"></i> Robots Meta NOFOLLOW</h1>
-        <p class="text-sm  pb-5">
-        Man bör endast markera knappen NOINDEX om man är säker på att man vill att sidan ska vara privat och inte synlig för allmänheten. Detta betyder dock inte att Google inte kommer att hitta dina nya sidor om du inte anger metarobotstaggen. Man behöver inte specificerade vilka sidor som Google ska indexera. Om man inte vill göra specifika sidor privata finns det egentligen ingen anledning att gå igenom det besväret.
+        <p class="text-sm pb-5">
+        You should only select the NOINDEX button if you are sure that you want the page to be private and not visible to the public. However, this does not mean that Google won't find your new pages if you do not specify the meta robots tag. You do not need to specify which pages Google should index. If you don't want to make specific pages private, there's really no reason to go through the trouble.
         </p>
-        <p class="text-sm  pb-5">
-        Man kan använda filen Robot.txt för att blockera alla webbläsare från allt innehåll, en specifik mapp eller en specifik webbsida. Men om man inte behöver blockera webbläsare behöver man inte bry dig om det. Spara tid och kanalisera den till något viktigare i din innehållsmarknadsföring och SEO-strategi.  
+        <p class="text-sm pb-5">
+        One can use the Robot.txt file to block all browsers from all content, a specific folder or a specific web page. But if you don't need to block browsers, you don't need to worry about it. Save time and channel it into something more important in your content marketing and SEO strategy.
         </p>
 
 
