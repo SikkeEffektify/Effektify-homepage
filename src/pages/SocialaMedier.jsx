@@ -129,6 +129,7 @@ export default function SocialaMedier() {
 
     <Heading 
       title={"Uppnå dina mål med Sociala medier"}
+      titlePosition={"text-right"}
       textColor={"text-white"}
       descCustomHtml={`
       <p class="text-right text-sm pb-10">
@@ -151,7 +152,6 @@ export default function SocialaMedier() {
     </section>
 
     <div class="pb-20 ">
-   
 
     <img src={like} class="like-bg shadow" alt="" />
  
