@@ -4,9 +4,7 @@ import stats from '../assets/Effektify-hjalper-foretag-med-lokal-SEO.webp'
 import stats2 from '../assets/Effektify-hjalper-foretag-med-lokal-sokmotoroptimering.webp'
 import stats3 from '../assets/Effektify-hjalper-dig-med-SEO-lokalt.webp'
 import ContactForm from '../components/ContactForm'
-import { HeadingCity2 } from '../components/HeadingCity2'
-import { HeadingCity } from '../components/HeadingCity'
-import { HeadingCity3 } from '../components/HeadingCity3'
+
 
 export default function SEOUppsala() {
   return (

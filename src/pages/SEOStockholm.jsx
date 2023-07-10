@@ -3,7 +3,7 @@ import bg from '../assets/SEO-stockholm.webp'
 import bg2 from '../assets/seo-google-my-business.webp'
 import stats2 from '../assets/Sökmotoroptimering-seo-1.webp'
 import ContactForm from '../components/ContactForm'
-import { HeadingCity2 } from '../components/HeadingCity2'
+
 
 
 export default function SEOStockholm() {
