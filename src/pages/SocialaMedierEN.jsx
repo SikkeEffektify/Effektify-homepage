@@ -12,7 +12,6 @@ import HeadingWithLogo from '../components/HeadingWithLogo'
 export default function SocialaMedierEN() {
   return (
     <>
-
     <div className='bg-cyan-700 pb-60 pt-60'>
     <Heading 
       bg={"bg-cyan-700"}
@@ -20,14 +19,12 @@ export default function SocialaMedierEN() {
       textColor={"text-white"}
       desc={"With one of our personal specialists, advertising has never been easier. We tailor a strategy based on in-depth analysis of your desired keywords and competition to provide a solution that fits your industry and your business."}
     />
-   
     </div>
     
     <HeroImage
       image={"/src/assets/digital-marknadsforing.webp"}
       titleRight={"With a vision and the right tools"}
       titleLeft={"your business can become the swan you’ve always dreamed of."}
-
     />
   
     <HeadingWithLogo 
@@ -56,15 +53,11 @@ export default function SocialaMedierEN() {
      <p class="text-left text-sm pb-5">
      One of the benefits of advertising with Google Ads is that it doesn’t take as long time to be seen as it does when working with search engine optimization, because you pay for ads and visitors. The disadvantage of advertising is that as soon as you stop spending money on ads, you stop being visible and get no more visits to the website. With search engine optimization, you are seen every time new potential customers google for what you sell, around the clock all year round.
      </p>
- 
      `}
 
      cupText={"Sit back and let us do what we do best."}
     />
     
-
-  
-
     <SocialCards 
       title={"which platform is right for you?"}
       desc={"With the help of the right strategies, we create customized solutions for companies that want to be able to reach a wider market while they can see measurable results."}
@@ -81,8 +74,6 @@ export default function SocialaMedierEN() {
       text={"What can we do for you?"}
       buttonText={"Send"}
   />
-
-
     <section>
     <div class='pt-10  heading-container text-white'>
     <section class="cards-google4">
@@ -93,8 +84,6 @@ export default function SocialaMedierEN() {
     </div>
     </div>
     </section>
-
-
     <Heading 
       textColor={"text-white"}
       title={"Increase your visibility with Google Ads"}
@@ -108,7 +97,6 @@ export default function SocialaMedierEN() {
       </p>
     `}
     />
-
     <section class="cards-google4">
        <div class="pt-5 cards-socialm pb-10">
      <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
@@ -135,26 +123,16 @@ export default function SocialaMedierEN() {
       <p class="text-right text-sm pb-10">
       Google is by far Sweden’s largest search engine and 95% of all searches today are made via their platform. In Sweden, more than 50 million searches are made on Google every day. With numbers like these, you probably realize the importance of appearing high up in the search results that Google shows. The competition between companies that want to rank high on Google is today extremely large as many today understand the importance of what a good position means. In other words, if you are not visible, you do not exist.
       </p>
-
-
       <p class="text-left text-sm pb-10">
       We’ll work with you to find out what you want to achieve by advertising on social media and what your priorities should be to reach your goals.
       </p>
-
     `}
     />
-
-  
-
-
-    
     </div>     
     </section>
 
     <div class="pb-20 ">
-
     <img src={like} class="like-bg shadow" alt="" />
- 
     </div>
   
     </>

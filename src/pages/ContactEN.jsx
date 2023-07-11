@@ -20,6 +20,7 @@ export default function ContactEN() {
     email={"Email"}
     text={"What can we do for you?"}
     buttonText={"Send"}
+    
     />
     </>
   )
