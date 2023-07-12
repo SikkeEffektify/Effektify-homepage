@@ -113,23 +113,25 @@ export default function FacebookinstaAdds() {
     <div class="blacktopdivider2 fb-custom-color pb-20">
     </div>
 
-    <section>
-   <div class='pt-20 heading-container text-white'>
-    <h1 class="text-left text-4xl pb-5 ">
-    När bör Ads
-    <br />
-    Manager användas?
-    </h1>
-    <p class="text-sm text-left pb-5">
-    Ads Manager är lämpligt att använda du vill kunna duplicera dina annonser, Ad Set och dina annons-kampanjer snabbt. Verktyget är även passande för saker som att redigera annonsinställningar, se över alla viktiga mått och analysera resultat. Ytterligare saker som Facebook Ads Manager är bra att använda till är göra ändringar baserade på de analyser man redan gjort, det är även bra när man vill anpassa diagrammen och tabellerna till de mått som är viktigast för en själv. Använd Ads Manager för att skapa relevanta annonser och tillhandahålla den information du vill förmedla till den aktuella målgruppen.   
-    </p>
+    <Heading 
+     textColor={"text-white"}
+     title={"När bör Ads  Manager användas?"}
+     descCustomHtml={`
+     <p class="text-sm text-white text-left pb-5">
+     Ads Manager är lämpligt att använda du vill kunna duplicera dina annonser, Ad Set och dina annons-kampanjer snabbt. Verktyget är även passande för saker som att redigera annonsinställningar, se över alla viktiga mått och analysera resultat. Ytterligare saker som Facebook Ads Manager är bra att använda till är göra ändringar baserade på de analyser man redan gjort, det är även bra när man vill anpassa diagrammen och tabellerna till de mått som är viktigast för en själv. Använd Ads Manager för att skapa relevanta annonser och tillhandahålla den information du vill förmedla till den aktuella målgruppen.   
+     </p>
+ 
+     <h1 class="text-left text-white text-2xl pb-5 ">
+     Att sätta en budget för annonskampanjen
+     </h1>
+     <p class="text-sm text-white text-left pb-5">
+     När du ska skapa budgeten för din annonskampanj kan du välja antingen budgeten “daglig budget” eller budgeten “livstid”. Daglig budget är passande om du vill att din kampanj ska vara fortlöpande och om du vill ha möjligheten att justera budgeten då och då. Denna möjlighet är bra om du driver ett företag som säljer säsongsrelaterade produkter eller tjänster och vill öka budgeten under högsäsong, och minska alternativt pausa när det inte är säsong. Livstid, däremot, är passande för de företag som vill att kampanjen ska vara aktiv under en begränsad tidsperiod, exempelvis samtidigt som företaget har en kampanj i butik eller om man vill ge ett evenemang en push.
+     </p>
+     `}
+    />
 
-    <h1 class="text-left text-2xl pb-5 ">
-    Att sätta en budget för annonskampanjen
-    </h1>
-    <p class="text-sm text-left pb-5">
-    När du ska skapa budgeten för din annonskampanj kan du välja antingen budgeten “daglig budget” eller budgeten “livstid”. Daglig budget är passande om du vill att din kampanj ska vara fortlöpande och om du vill ha möjligheten att justera budgeten då och då. Denna möjlighet är bra om du driver ett företag som säljer säsongsrelaterade produkter eller tjänster och vill öka budgeten under högsäsong, och minska alternativt pausa när det inte är säsong. Livstid, däremot, är passande för de företag som vill att kampanjen ska vara aktiv under en begränsad tidsperiod, exempelvis samtidigt som företaget har en kampanj i butik eller om man vill ge ett evenemang en push.
-    </p>
+    <section>
+   <div class='heading-container text-white'>
 
     <section class="cards-fb2">
        <div class="pt-5 cards-container2 pb-10">
@@ -143,15 +145,23 @@ export default function FacebookinstaAdds() {
     </section>
 
     <img src={gif} alt="" />
-    <ContactForm />
+    <ContactForm 
+    title={"Vad kul att du har hittat till oss!"}
+    desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
+    company={"Företag"}
+    name={"Namn"}
+    phone={"Telefon"}
+    email={"E-post"}
+    text={"Vad kan vi hjälpa dig med?"}
+    buttonText={"Skicka"}
+  />
 
-
-    <section>
-   <div class='pt-20 heading-container bg-white text-black'>
-    <h1 class="text-left text-3xl pb-5 ">
-    Hur stor bör budgeten för en annonskampanj vara?   
-    </h1>
-    <p class="text-sm text-left pb-5">
+   <Heading 
+   bg={"bg-white"}
+   textColor={"text-black"}
+   title={"Hur stor bör budgeten för en annonskampanj vara?"}
+   descCustomHtml={`
+   <p class="text-sm text-left pb-5">
     Vad gäller storleken på budgeten så ger en större budget större synlighet, bortsett från utformningen av annonskampanjen som också är en påverkande faktor. Ju bättre annonserna är utformade, desto bättre räckvidd får du för varje krona du betalar.   
     </p>
     <p class="text-sm text-left pb-10">
@@ -209,7 +219,7 @@ export default function FacebookinstaAdds() {
     </section>
 
     <section>
-    <div class='pt-20 heading-container bg-neutral-100 text-black'>
+    <div class='pt-5  text-black'>
     <h1 class="text-left text-3xl pb-5 ">
     Steg 2:
     <br />
@@ -241,15 +251,17 @@ export default function FacebookinstaAdds() {
     Målen är uppdelade i tre olika kategorier, medvetenhet, övervägande och konvertering.  
     </p>
 
-    <h1 class="text-center text-xl pb-20 ">
+    <h1 class="text-center text-xl pt-10 pb-10 ">
     Vill du istället annonsera på LinkedIn?
     <br />
     <a class="text-rose-300 underline" href="/linkedin-ads">Klicka Här</a>
     </h1>
 
 
-    </div>
-    </section>
+   `}
+   
+   />
+
    </>
   )
 }
