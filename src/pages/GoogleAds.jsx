@@ -231,10 +231,6 @@ export default function GoogleAds() {
     </section>
 
    
-    
-    <h1 class="text-left  text-3xl pb-5 ">
-    Negativa sökord
-    </h1>
    
     </div>
     </section>
