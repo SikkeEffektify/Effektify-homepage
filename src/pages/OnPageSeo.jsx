@@ -6,19 +6,19 @@ import ContactForm from '../components/ContactForm'
 import Namnge from '../assets/Namnge-bilder-ratt-satt.webp'
 import ssl from '../assets/Effektify-ssl.webp'
 import gif from '../assets/PONG_Light_version2.gif'
+import { Heading } from '../components/Heading'
 
 
 export default function OnPageSeo() {
   return (
    <>
-   <section>
-   <div class='pt-20 heading-container bg-white text-black'>
-    <h1 class="text-left text-5xl pb-5 ">
-    On-page
-    <br />
-    SEO
-    </h1>
-    <p class="text-left text-sm pb-5">
+
+   <Heading
+   bg={"bg-white"}
+   textColor={"text-black"}
+   title={"On-page SEO"}
+   descCustomHtml={`
+   <p class="text-left text-sm pb-5">
     On-page SEO innebär optimering som man gör på hemsidan för att den ska ranka högre upp på sökmotorer för att i sin tur öka trafiken, dvs. antalet besökare som söker efter det som hemsidan förmedlar.
     </p>
     <p class="text-left text-sm pb-10">
@@ -68,40 +68,41 @@ export default function OnPageSeo() {
     <p class="text-left text-base pb-10">
     Dessa delar, tillsammans med faktorer som hemsidans auktoritet, säkerhet och laddningshastighet kommer att förbättra din webbplats ranking i sökresultaten och därmed göra den mer synlig för potentiella besökare eller kunder som söker efter det som din hemsida erbjuder.
     </p>
+   `}
+   />
 
-    </div>
-   </section>
 
    <div class="whitedivider5 pb-20">
     </div>
 
-    <section>
-    <div class='pt-20 heading-container text-white'>
 
-    <h1 class="text-left text-5xl pb-5 ">
-    Vad gör SEO
-    <br />
-    på sidan så viktig?
-    </h1>
-    <p class="text-left text-sm pb-5">
-    Google tittar på sidans innehåll för att avgöra om det är relevant för sökningen som görs. En del av den här processen är att leta efter viktiga sökord. Om dessa sökord hittas på din sida, i rubriker eller i brödtext, anses informationen vara mer relevant för sökningen i fråga.
-    </p>
-
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={Google} alt="" />
-
+    <Heading 
+    title={"Vad gör SEO på sidan så viktig?"}
+    textColor={"text-white"}
+    bg={"text-white"}
+    descCustomHtml={`
+    <p class="text-left text-sm pb-5">Google tittar på sidans innehåll för att avgöra om det är relevant för sökningen som görs. En del av den här processen är att leta efter viktiga sökord. Om dessa sökord hittas på din sida, i rubriker eller i brödtext, anses informationen vara mer relevant för sökningen i fråga."}</p>
     <p class="text-left text-sm pb-5">
     Vad som gör on-page SEO så viktigt är att det hjälper sökmotorerna att förstå din webbplats och innehållet som finns där, för att identifiera om den är relevant för sökningen som görs. Vad Google gör är att helt enkelt förstå vad användare faktiskt letar efter när de gör sin sökning, även kallat search intent, och att därefter leverera ett sökresultat som uppfyller avsikten bakom sökningen.    
     </p>
     <p class="text-left text-sm pb-10">
     Att hålla sig uppdaterad på vad kraven är för att Google ska anse dig vara relevant är oerhört viktigt, dels för att du ska fortsätta hålla dig synlig för användare, men även för att detta är den del av optimeringen som du faktiskt kan kontrollera, till skillnad från den del som styrs av faktorer utanför sidan.  
     </p>
+    `}
+    />
 
-    <h1 class="text-left text-4xl pb-5 ">
-    Korta och 
-    <br />
-    relevanta adresser
-    </h1>
+    <section>
+    <div class='heading-container text-white'>
+    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={Google} alt="" />
+    </div>
+    </section>
 
+    <Heading 
+    bg={"text-white"}
+    textColor={"text-white"}
+    title={"Korta och relevanta adresser"}
+    descCustomHtml={`
+    
     <p class="text-left text-sm pb-5">
     Webbadressen, eller URL:en, en den exakta länken till sidan. För att hålla all synlig information så relevant som möjligt är det bra att även här använda sig av sökord för att sökmotorerna ska få så bra bild av innehållet på sidan som möjligt.
     </p>
@@ -120,19 +121,18 @@ export default function OnPageSeo() {
     <br />
     sökmotorer att enklare förstå vad sidan handlar om
     </h1>
-    </div>
-    </section>
+    `}
+    />
 
     <div class="blacktopdivider fb-custom-color pb-20">
     </div>
    
-    <section>
-    <div class='pt-20 heading-container fb-custom-color text-white'>
-    <h1 class="text-left text-4xl pb-5 ">
-    Relevant
-    <br />
-    Content
-    </h1>
+    
+    <Heading 
+    bg={"fb-custom-color text-white"}
+    textColor={"text-white"}
+    title={"Relevant Content"}
+    descCustomHtml={`
     <p class="text-left text-sm pb-5">
     Att fylla din hemsida med lättlästa och användarvänliga texter som innehåller sökord som du vill ranka på, hjälper Google och andra sökmotorer att anse sidan vara mer relevant. Då Google algoritmer läser igenom informationen hos en webbsida tittar den på textinnehållet för att ta reda på vad den handlar om, för att sedan matcha den till sökningarna som görs på ämnet i fråga. Skulle texten på sidan matcha sökningen som görs, anses sidan vara relevant. Ju fler kriterier som uppfylls på din hemsida, desto mer relevant är den och därmed rankar den högre.
     </p>
@@ -154,8 +154,17 @@ export default function OnPageSeo() {
     Genom att använda sig av innehåll som är naturligt och användarvänligt håller du både besökare och sökmotorer nöjda, vilket oftast lönar sig i det långa loppet.   
     </p>
 
+    <p class="text-center text-2xl pt-10  pb-20">
+    <a href="/webbcopy">Läs mer om content och webbcopy <em> här </em></a>
+    </p>
 
 
+    `} 
+    />
+
+
+    <section>
+    <div class='heading-container fb-custom-color text-white'>
     <section class="cards-seo3">
        <div class="pt-5 cards-container2 pb-10">
      <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
@@ -163,10 +172,6 @@ export default function OnPageSeo() {
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
     </div>
-
-    <p class="text-center text-2xl pt-10  pb-20">
-    <a href="/webbcopy">Läs mer om content och webbcopy <em> här </em></a>
-    </p>
     </section>
 
 
@@ -187,13 +192,14 @@ export default function OnPageSeo() {
     </div>
     </section>
 
-    <h1 class="text-center text-6xl pt-5 pb-10 ">
-    Titlar
-    </h1>
-    <p class="text-left text-sm pb-5">
+    <Heading 
+    textColor={"text-black"}
+    bg={"bg-white"}
+    title={"Titlar"}
+    descCustomHtml={` <p class="text-left text-sm pb-5">
     Sidans titel, eller page title, är den titel som visas upp som en en länk i det organiska sökresultatet på Google. Förutom att den syns högst upp i webbläsarens fönster efter att man klickat sig in på den, finns denna titel inte synlig på hemsidan, utan är specifikt utformad för att locka till sig besökare.   
     </p>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={Sokmotoroptimering} alt="" />
+  
     <p class="text-left text-sm pb-5">
     Med tanke på att det är denna titel som ska locka till sig “gratis” besökare är det en av de viktigaste texterna som behöver anges. Den har stor inverkan på din hemsidas ranking och får inte vara längre än 65 tecken för att anses korrekt skriven.    
     </p>
@@ -217,8 +223,6 @@ export default function OnPageSeo() {
     <p class="text-left text-sm pb-5">
     När du skapar ett Ad Set kan du välja vem du vill nå, samt när och var. När du specificerar målgruppen kan du välja faktorer så som kön, ålder och geografi, men även faktorer så som målgruppens intressen och livssituation för att underlätta för Facebook att identifiera målgruppen genom insamlad data.   
     </p>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={Meta} alt="" />
-
     <p class="text-left text-sm pb-5">
     Genom att själv ange en säljande och beskrivande text ökar du chanserna till att sticka ut och synas bättre för potentiella kunder som letar efter vad du erbjuder. Anger du ingen beskrivning väljer Google själva vilken text som visas upp för sidan, vilket många gånger innebär att du går miste om dessa potentiella kunder.
     </p>
@@ -228,6 +232,11 @@ export default function OnPageSeo() {
     <p class="text-left text-sm pb-10">
     Om beskrivningen skulle vara för lång väljer Google att klippa av den med 3 punkter, vilket gör att din väl utformade text inte visas upp i sin helhet. För att undvika detta ska du försöka hålla den till högst 158 tecken. Testa dig fram tills du har en meta-beskrivning som visas upp så som du vill att den ska visas samtidigt som den både ger en klar och tydlig bild om vad du erbjuder. Se till att texten är säljande och relevant.    
     </p>
+    `}
+    />
+    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={Sokmotoroptimering} alt="" />
+
+    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={Meta} alt="" />
     </div>
     <div class="whitedivider5  pb-20">
       </div>
