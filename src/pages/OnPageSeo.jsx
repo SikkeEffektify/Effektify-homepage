@@ -242,11 +242,12 @@ export default function OnPageSeo() {
       </div>
     </section>
 
-    <section>
-    <div class='pt-20 heading-container  text-white'>
-    <h1 class="text-left text-4xl pt-5 pb-10 ">
-        Hemsidans Hemlighet
-    </h1>
+
+    <Heading 
+    bg={"text-white"}
+    textColor={"text-white"}
+    title={"Hemsidans Hemlighet"}
+    descCustomHtml={`
     <p class="text-left text-sm pb-5">
     Ju snabbare din hemsida laddar desto mer förbättrar du användarvänligheten för besökare samtidigt som sökmotorerna ser sidan som bättre optimerad. Det är ett enkelt sätt att få fler besökare och ger dig en större chans att behålla besökare som redan hittat dit. Det lättaste sättet att öka hastigheten är att hålla nere storleken på bilderna du använder dig av på sidan.   
     </p>
@@ -256,6 +257,12 @@ export default function OnPageSeo() {
     <p class="text-left text-sm pb-10">
     Ett tips är att samtidigt som du komprimerar dina bilder även passar på att direkt sparar bilderna med namn som förbättrar din on-page SEO, vilket för oss till nästa steg i optimeringen.   
     </p>
+    `}
+    />
+
+
+    <section>
+    <div class='heading-container  text-white'>
       <section class="cards-seo4">
        <div class="pt-5 cards-container2 pb-10">
      <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
@@ -264,13 +271,13 @@ export default function OnPageSeo() {
     </div>
     </div>
     </section>
-
-    <h1 class="text-left text-4xl pt-5 pb-10 ">
-    Bild
-    <br />
-    Optimering
-    </h1>
-
+    </div>
+    <Heading 
+    title={"Bild optimering"}
+    bg={"text-white"}
+    textColor={"text-white"}
+    descCustomHtml={`
+    
     <p class="text-left text-sm pb-5">
     Eftersom sökmotorer inte kan se bilder är det viktigt att med rätt information beskriva bilderna för att de ska kunna läsa av dem. Detta gör du dels genom att döpa bilderna på ett beskrivande sätt, gärna med sökordet inkluderat, men också genom att ange en relevant alt-text. Denna syns text syns endast i källkoden för hemsidan vilket gör att den många gånger glöms bort.   
     </p>
@@ -319,21 +326,28 @@ export default function OnPageSeo() {
     <p class="text-left text-base pb-5">
     Enligt Google själva bör du fokusera på att ange en användbar, informationsrik text som använder sökord på ett naturligt sätt och som är i sammanhang med innehållet på sidan.
     </p>
+    `}
+    />
+
+
+
+
+    <div className='heading-container'>
     <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={Namnge} alt="" />
     </div>
-    
+   
+
+
     </section>
 
     <div class="blacktopdivider fb-custom-color pb-20">
     </div>
 
-    <section>
-    <div class='pt-20 heading-container fb-custom-color text-white'>
-    <h1 class="text-left text-4xl pb-5 ">
-    Hemsidans
-    <br />
-    säkerhet
-    </h1>
+    <Heading 
+    bg={"fb-custom-color text-white"}
+    textColor={"text-white"}
+    title={"Hemsidans säkerhet"}
+    descCustomHtml={`
     <p class="text-left text-sm pb-5">
     Sökmotorer föredrar hemsidor som är säkra och undviker gärna att visa upp sidor som inte anses vara det. Genom att installera ett så kallat SSL-certifikat skyddas besökarnas kommunikation samtidigt som säkerheten hjälper din on-page SEO eftersom den då rankas den högre i den organiska sökningen.
     </p>
@@ -357,17 +371,28 @@ export default function OnPageSeo() {
     </li>
     </ol>
 
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={ssl} alt="" />
 
-    <p class="text-center text-base pb-10">
+    <p class="text-center text-base pt-5 pb-10">
     Om du vill visa information om webbplatsen och vilka behörigheter den har klickar du på ikonen. Då visas en sammanfattning av hur privat anslutningen är enligt Chrome.
     </p>
+    `}
+    />
 
-    <h1 class="text-left text-4xl pb-5 ">
-    Interna
-    <br />
-    länkar
-    </h1>
+
+    <section>
+    <div class='heading-container fb-custom-color text-white'>
+   
+
+    <img class="mx-auto drop-shadow-lg" src={ssl} alt="" />
+    
+    </div>
+    </section>
+
+    <Heading
+    bg={"fb-custom-color text-white"}
+    textColor={"text-white"}
+    title={"Interna länkar"}
+    descCustomHtml={`
     <p class="text-left text-sm pb-5">
     En intern länk är när en sida hänvisar till en annan sida på samma hemsida. Som exempel länkar vi här till vår sida för 
     <a class="text-rose-300" href="/google-ads"> Google Ads </a> 
@@ -383,12 +408,21 @@ export default function OnPageSeo() {
     <p class="text-right text-sm pb-10">
     Och eftersom du till skillnad från externa länkar kan kontrollera dina interna länkar betydligt enklare, är de ett bra sätt framhäva de sidor som är av stor vikt för både besökare och för sökmotorerna.  
     </p>
-    </div>
-    </section>
+    `}
+    />
 
-    <img src={gif} alt="" />
+    <img className='mx-auto' src={gif} alt="" />
 
-    <ContactForm />
+    <ContactForm 
+    title={"Vad kul att du har hittat till oss!"}
+    desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
+    company={"Företag"}
+    name={"Namn"}
+    phone={"Telefon"}
+    email={"E-post"}
+    text={"Vad kan vi hjälpa dig med?"}
+    buttonText={"Skicka"}
+  />
    </>
   )
 }
