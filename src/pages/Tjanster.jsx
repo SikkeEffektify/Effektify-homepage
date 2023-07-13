@@ -121,7 +121,7 @@ export default function Tjanster() {
     <div class="whitedivider5 invert  pb-20">
       </div>
 
-    <img src={gif} alt="" />
+    <img className='mx-auto' src={gif} alt="" />
     <ContactForm 
       title={"Vad kul att du har hittat till oss!"}
       desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
