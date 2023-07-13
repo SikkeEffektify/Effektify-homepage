@@ -14,13 +14,12 @@ export default function WebbcopyEN() {
     <Heading 
     bg={"bg-white pt-10 pb-10"}
     textColor={"text-black"}
-    title={"Copy & Webbcopy"}
+    title={"Copy & Web copy"}
     descCustomHtml={`
     <p class="text-sm text-left pb-10">
-    Här kan du lära dig mer om hur du skriver texter för webben som gör att din hemsida syns på Google.
+    Here you can learn more about how to write web copy that gets your website seen on Google.
     </p>
-    <p class="text-xl text-center pb-5">
-    För att istället läsa om
+    <p class="text-xl text-center pb-5">Read more about
     <a class="text-rose-300" href="/seo-sokmotoroptimering"> SEO </a>
     </p>
 
@@ -40,48 +39,48 @@ export default function WebbcopyEN() {
     </div>
     </section>
     <Heading 
-    title={"Webbcopy innehåller många delar"}
+    title={"Web copy contains many parts"}
     bg={"bg-white"}
     textColor={"text-black"}
     descCustomHtml={`
     <p class="text-sm text-left pb-10">
-    När du skriver copy för webben finns det många saker du behöver ha koll på för att Google ska visa upp din hemsida.  
+    When writing copy for the web, there are many things you need to be aware of in order for Google to show up your website. 
     </p>
 
     <p class="text-lg text-left pb-2">
-    Sidans titel
+    Page title
     </p>
     <p class="text-sm text-left pb-10">
-    Det är viktigt att ha med sökordet i sidans titel för att Google ska förstå innehållet.
+    It is important to include the keyword in the page title for Google to understand the content.
     </p>
 
     <p class="text-lg text-left pb-2">
-    Huvudrubriken
+    Headline
     </p>
     <p class="text-sm text-left pb-10">
-    Huvudrubriken förklarar för både Google och dina besökare vad din sida handlar om.
+    The headline explains to both Google and your visitors what your page is about.
     </p>
 
 
     <p class="text-lg text-left pb-2">
-    Rätt mängd text
+    Right amount of text
     </p>
     <p class="text-sm text-left pb-5">
-    Du vill inte vara sämre än dina konkurrenter. Hur mycket text din sida ska ha är en viktig sak att tänka på när du skriver webbcopy.
+    You don’t want to be inferior to your competitors. How much text your page should have is an important thing to consider when writing web copy.
     </p>
 
     <p class="text-lg text-left pb-2">
-    Fokusera
+    Focus
     </p>
     <p class="text-sm text-left pb-5">
-    Varje sida på din hemsida ska handla om en sak eller ett ämne, inte flera saker eller ämnen.
+    Each page on your website should be about one thing or topic, not several things or topics.
     </p>
 
     <p class="text-lg text-left pb-2">
     Search intent
     </p>
     <p class="text-sm text-left pb-5">
-    Din text måste matcha sökintentionen hos dina kunder om du vill att Google ska visa upp din sida när de söker online.
+    Your text must match the search intent of your customers if you want Google to show your page when they search online.
     </p>
 
     `}
@@ -93,19 +92,19 @@ export default function WebbcopyEN() {
     <Heading 
     bg={"fb-custom-color"}
     textColor={"text-white"}
-    title={"Varför det är viktigt att arbeta med webbcopy på din hemsida"}
+    title={"Why it’s important to work with web copy on your website"}
     descCustomHtml={`
     <p class="text-sm pt-10 text-white text-left pb-5">
-    Vill du få din hemsida att synas bra på Google så att kunder som letar efter det du erbjuder hittar till din hemsida?
+    Do you want your website to show up well on Google so that customers looking for what you offer find their way to your website?
     </p>
     <p class="text-base text-white text-left pb-5">
-        <em> Då måste du arbeta med copywriting och se till att dina texter håller måttet. </em>
+        <em> Then you need to work on copywriting and make sure your texts are up to scratch. </em>
     </p>
 
     <p class="text-sm text-white text-left pb-10">
-    Google använder sig av hundratals olika rankingfaktorer när de bedömer vilka hemsidor de ska visa upp i sökresultatet. Dessa rankingfaktorer är en del av Googles algoritmer och du har kanske vid något tillfälle hört någon som arbetar med SEO säga något i stil med att
-    <em> “Google har uppdaterat sina algoritmer” </em>
-    eller liknande? Det de pratar om då är att Google har ändrat på något gällande hur de arbetar med sina rankingfaktorer.
+    Google uses hundreds of different ranking factors when deciding which websites to display in search results. These ranking factors are part of Google’s algorithms and you may have at some point heard someone working in SEO say something along the lines of
+    <em> “Google has updated its algorithms” </em>
+    or similar? What they are talking about is that Google has changed something about how they work with their ranking factors.
     </p>
 
     `}
@@ -125,63 +124,62 @@ export default function WebbcopyEN() {
     </section>
     
     <Heading
-    title={"Mer om Googles algoritmer"}
+    title={"More about Googles algorithms"}
     bg={"fb-custom-color"}
     textColor={"text-white"}
     descCustomHtml={`
     <p class="text-sm text-white text-left pb-5">
-    Om du vill veta mer om Googles algoritmer och hur Google arbetar med att bedöma hemsidor kan du läsa deras Webmaster Guidlines som i detalj går igenom vad du ska tänka på när du vill få din hemsida att synas online.   
+    If you want to know more about Google’s algorithms and how Google works to evaluate websites, you can read their Webmaster Guidelines, which go into detail about what to consider when you want your website to be seen online.
     </p>
     <p class="text-sm text-white  text-left pb-5">
-    Google arbetar ständigt med att uppdatera sina algoritmer för att bättre kunna visa upp rätt hemsidor för de som använder deras sökmotor.    
+    Google is constantly updating its algorithms to better display the right websites to users of its search engine.
     </p>
     <p class="text-sm text-left text-white  pb-5">
-    Alla rankingfaktorer som Google använder sig av har inte samma tyngd, vissa mätvärden är viktigare än andra, det är därför viktigt att du fokuserar på de viktigaste rankingfaktorerna först.   
+    Not all ranking factors used by Google carry the same weight, some metrics are more important than others, so it’s important to focus on the most important ranking factors first.
     </p>
     <p class="text-sm text-left text-white  pb-5">
-    Innehållet på din hemsida är en av de viktigaste sakerna som Google tittar på.   
+    The content of your website is one of the most important things that Google looks at.
     </p>
     <p class="text-sm text-left text-white  pb-5">
-    Har du lite innehåll på din hemsida får du svårt att synas i sökresultatet.
+    If you have little content on your website, it will be difficult for you to appear in the search results.
     </p>
 
     <p class="text-sm text-left text-white  pb-10">
-    Om din hemsida innehåller text som inte håller speciellt hög kvalité eller inte förklarar saker på ett enkelt och tydligt sätt får du svårt att synas i sökresultatet.    
+    If your website contains text that is not of a very high quality or does not explain things in a simple and clear way, you will have difficulty appearing in the search results.
     </p>
     <h1 class="text-right text-white  text-4xl pb-5 ">
-    Copy, webbcopy,
+    Copy, web copy,
     <br />
-    content och innehåll
+    content and substance
     </h1>
 
     <p class="text-sm text-white  text-right pb-10">
-    Det finns många begrepp gällande content och copy och det kan ibland vara svårt att förstå hur de hänger ihop. Därför ska vi lite kort gå igenom de olika begreppen så du har koll på vad som är vad.
+    There are many concepts regarding content and copy and it can sometimes be difficult to understand how they are related. That’s why we’ll briefly go through the different concepts so you know what’s what.
     </p>
 
     <h1 class="text-left text-white  text-4xl pb-5 ">
-    Är copy och webbcopy samma sak?  
+    Is copy and web copy the same thing?
     </h1>
 
     <p class="text-sm text-white  text-left pb-5">
-    Copy och webbcopy är enligt vissa samma sak, man skriver copy oavsett om det är texter för webben eller texter som ska användas offline.
-    Det synsättet är rätt på så sätt att båda handlar om att skriva texter men det är en stor skillnad på att skriva klassisk copy och webbcopy.  
+    Copy and web copy are, according to some, the same thing, you write copy whether it’s text for the web or text to be used offline.
+    That approach is correct in the sense that both are about writing copy, but there is a big difference between writing classic copy and web copy.
     </p>
 
     <p class="text-sm text-white  text-left pb-5">
-    När du skriver klassisk copy kan du helt och fullt fokusera på att skriva en text som får din tilltänkta målgrupp att bli intresserade av ditt erbjudande.   
+    When writing classic copy, you can focus entirely on writing text that gets your intended audience interested in your offer.
     </p>
 
     <p class="text-sm text-white  text-left pb-5">
-    När du skriver webbcopy måste du göra det som står ovan samtidigt som du måste skriva texten så att Google förstår den och tycker att den är värd att visa upp i sökresultatet.   
+    When writing web copy, you need to do the above, but you also need to write the text so that Google understands it and thinks it’s worth showing in search results.
     </p>
 
     <p class="text-sm text-white  text-left pb-5">
-    På det viset är webbcopy svårare att skriva än klassisk copy då du måste ha koll på vilkens slags information dina kunder vill ha samtidigt som du måste ha koll på vad Google vill att texten innehåller.    
+    In this way, web copy is more difficult to write than classic copy because you need to know what kind of information your customers want, and you need to know what Google wants the text to contain.
     </p>
 
     <p class="text-sm text-white  text-left pb-5">
-    Om Google gör bedömningen att din text inte är relevant för ett visst sökord eller begrepp kommer de inte att visa upp din sida när någon söker på det sökordet.   
-    </p>
+    If Google decides that your text is not relevant to a particular keyword or term, they will not show your page when someone searches for that keyword.
     `}
     />
     <div class="blacktopdivider2 fb-custom-color pb-20">
@@ -189,96 +187,97 @@ export default function WebbcopyEN() {
 
     <img className='mx-auto' src={gif} alt="" />
     <ContactForm 
-    title={"Vad kul att du har hittat till oss!"}
-    desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
-    company={"Företag"}
-    name={"Namn"}
-    phone={"Telefon"}
-    email={"E-post"}
-    text={"Vad kan vi hjälpa dig med?"}
-    buttonText={"Skicka"}
-  />
+    title={"How nice that you have found us!"}
+    desc={"If you have any questions or are ready to start your digital journey now, feel free to fill in a few lines or email us at"}
+    company={"Company"}
+    name={"Name"}
+    phone={"Phone"}
+    email={"Email"}
+    text={"What can we do for you?"}
+    buttonText={"Send"}
+    
+    />
 
     <Heading 
-    title={"Webbcopy förklarar för sökmotorn och besökaren vad sidan handlar om"}
+    title={"Web copy explains to the search engine and the visitor what the page is about"}
     textColor={"text-white"}
     bg={"text-white"}
     descCustomHtml={`
     <h1 class="text-left text-white text-4xl pb-10 ">
     Content
     <br />
-    och innehåll   
+    and substance
     </h1>
 
     <p class="text-sm text-white text-left pb-5">
-    Vad är då content  och innehåll? Är det olika saker eller två begrepp som beskriver samma sak?   
+    So what is content and substance? Are they different things or two concepts describing the same thing? 
     </p>
     <p class="text-sm text-left pb-5">
-    Content och innehåll är samma sak, content är helt enkelt det engelska ordet för innehåll.   
+    Content and content are the same thing, content is simply the English word for content.  
     </p>
     <p class="text-sm text-left pb-5">
-    Vad räknas då som content/innehåll?   
+    So what counts as content?  
     </p>
     <p class="text-sm text-left ">
-    Det finns fyra primära typer av innehåll på webben:    
+    There are four primary types of content on the web:  
     </p>
 
     <p class="text-base text-left pb-5">
         <ol class="list-disc">
             <li>Text</li>
-            <li>Bild</li>
+            <li>Image</li>
             <li>Video</li>
-            <li>Ljud</li>
+            <li>Sound</li>
         </ol>
     </p>
     <p class="text-sm text-left pt-5 pb-5">
-    Den vanligaste typen av innehåll är text och är även det som Google har lättast att förstå.   
+    The most common type of content is text and is also the most easily understood by Google.
     </p>
     <p class="text-sm text-left pb-5">
-    Google ser exempelvis inte bilder. Det är inte personal på Google som besöker din hemsida utan program som läser koden som finns på din webbplats.    
+    For example, Google doesn’t see images. It’s not Google staff who visit your website, but software that reads the code on your site.
     </p>
     <p class="text-sm text-left pb-5">
-    Det innebär att bland annat att bildfilernas information måste vara rätt då kod är det enda som Google “ser” när de besöker din hemsida.   
+    This means, among other things, that the image file information must be correct as code is the only thing that Google “sees” when they visit your website.
     </p>
     <p class="text-sm text-left pb-10">
-    De ser inte heller video eller hör ljud utan informationen som beskriver videofilen eller ljudfilen måste vara rätt för att Google ska förstå innehållet.
+    Nor do they see video or hear audio; the information describing the video or audio file must be correct for Google to understand the content.
     </p>
 
     `}
     />
 
     <Heading 
-     title={"Hur du skriver texter som gör att din hemsida syns online"}
+     title={"How to write texts that makes your website visible online"}
      textColor={"text-white"}
      bg={"text-white"}
      descCustomHtml={`
      <p class="text-sm text-left pb-5">
-     Texterna på din hemsida är (som vi tidigare nämnt) en av de viktigaste rankingfaktorerna som Google tittar på.  
+     The text on your website is (as we mentioned earlier) one of the most important ranking factors that Google looks at.
      </p>
      <p class="text-sm text-left pb-5">
-     En sida som innehåller lite text, som inte förklarar ämnet eller hjälper läsaren förstå innehållet har väldigt svårt att synas bra.   
+     A page that contains little text, that does not explain the topic or help the reader understand the content has a very difficult time appearing well.
      </p>
      <p class="text-sm text-left pb-5">
-     Google förmåga att tjäna pengar är direkt kopplat till att så många människor som möjligt använder deras sökmotor.   
+     Google’s ability to make money is directly linked to as many people as possible using their search engine.
      </p>
      <p class="text-sm text-left pb-5">
-     Det är därför väldigt viktigt för Google att visa upp hemsidor med relevant information när någon söker på ett visst ord eller begrepp. En väldigt viktig del i att få Google att uppfatta din hemsida som relevant är att fokusera på att skriva rätt typ av text.   
+     It is therefore very important for Google to display websites with relevant information when someone searches for a particular word or term. A very important part of getting Google to perceive your website as relevant is to focus on writing the right kind of text.
      </p>
      <p class="text-sm text-left pb-5">
-     Om din sida har en dålig text, som kanske dessutom är en kopia av en text som finns på en annan hemsida, kommer det blir svårt för din hemsida att övertyga Google om att den är relevant att visa upp i sökresultatet.   
+     If your page has poor text, which may also be a copy of text found on another website, it will be difficult for your website to convince Google that it is relevant to show up in the search results.
      </p>
  
      <p class="text-sm text-left pb-5">
-     För att du lättare ska kunna skriva texter som både Google och besökaren uppskattar har du nedan en lista på saker du ska tänka på:   
+     To make it easier for you to write texts that both Google and the visitor appreciate, below is a list of things to keep in mind:
      </p>
  
      <p class="text-base text-left">
          <ol class="list-disc">
-             <li>Varje undersida på din hemsida ska handla om en sak eller ett ämne</li>
-             <li>Ha med sökordet i sidans titel</li>
-             <li>Ha med sökordet i huvudrubriken</li>
-             <li>Kontrollera search intent så att din text matchar det Google förväntar sig att den ska innehålla</li>
-             <li>Skriv rätt mängd text</li>
+             <li>Each subpage on your website should be about one thing or topic</li>
+             <li>Include the keyword in the page title</li>
+             <li>Include the keyword in the main title</li>
+             <li>Check search intent so that your text matches what Google expects it to contain</li>
+             <li>Type the right amount of text</li>
          </ol>
      </p>
     
@@ -286,44 +285,44 @@ export default function WebbcopyEN() {
      <hr class="my-12 h-0.5 border-t-0 bg-white opacity-100 dark:opacity-50" />
 
      <h1 class="text-left text-3xl pb-10 ">
-     Varje undersida på din hemsida
-     ska handla om en sak eller ett ämne
+     Every subpage on your website
+     should be about a thing or a subject
      </h1>
      <p class="text-sm text-left pb-5">
-     När du skapar undersidor är det viktigt att de fokuserar på ett specifikt ämne. Det är inte ovanligt att se hemsidor där en undersida heter “våra tjänster” och innehållet på den sidan handlar om många olika saker/tjänster.   
+     When creating subpages, it is important that they focus on a specific topic. It is not uncommon to see websites where a sub-page is called “our services” and the content on that page is about many different things/services.
      </p>
      <p class="text-sm text-left pb-5">
-     Detta sätt att bygga en undersida på är inte optimalt då innehållet på sidan handlar om många olika saker och blir därmed inte speciellt relevant för något av det som nämns på sidan.    
+     This way of building a sub-page is not optimal as the content of the page is about many different things and therefore will not be very relevant to anything mentioned on the page.
      </p>
  
      <p class="text-sm text-left pb-5">
-     <em> Låt ta ett exempel. </em>
+     <em> Let’s take an example. </em>
      <br />
-     Säg att du har en städfirma och du har en undersida som handlar om de tjänster du erbjuder. Om sidan då innehåller ett par meningar var om “företagsstäd”, “privatstäd”, “fönsterputsning”, “flyttstädning”, “tvätt”, “gräsklippning” så är sidan inte speciellt relevant för Google att visa upp på någon av dessa sökbegreppen.
+     Say you have a cleaning company and you have a subpage about the services you offer. If the page then contains a couple of sentences each about “business cleaning”, “private cleaning”, “window cleaning”, “moving cleaning”, “laundry”, “lawn mowing” then the page is not very relevant for Google to show up on any of these search terms.
      </p>
  
      <p class="text-sm text-left pb-5">
-     Speciellt inte om en konkurrerande hemsida har en undersida för varje område som ingående beskriver varje område.   
+     Especially not if a competing website has a subpage for each area that describes each area in detail.
      </p>
  
      <p class="text-sm text-left pb-5">
-     Det är med andra ord viktigt att varje undersida på din hemsida fokuserar på en sak eller ett ämne.    
+     In other words, it’s important that every subpage on your website focuses on one thing or one topic.    
      </p>
      <hr class="my-12 h-0.5 border-t-0 bg-white opacity-100 dark:opacity-50" />
  
      <h1 class="text-left text-3xl pb-10 ">
-     Ha med sökordet
-     i sidans titel
+     Include the keyword  
+     in the page title
      </h1>
  
      <p class="text-sm text-left pb-5">
-     Sidans titel är en av de viktigaste signalerna till Google. Det är med andra ord väldigt viktigt att det sökord du vill att just den sidan ska synas på har med sökordet i sidans titel.    
+     The page title is one of the most important signals to Google. In other words, it is very important that the keyword you want that particular page to appear on has the keyword in the page title.
      </p>
      <p class="text-sm text-left pb-5">
-     Eftersom sidans titel är det som Google visar upp i sökresultatet är det även viktigt för dina kunder att sökordet står med så att de förstår att din hemsida är värd att besöka. Låt oss fortsätta med vårt tidigare exempel och låtsas att du driver en städfirma. Om du då har en undersida som specifikt handlar om “flyttstädning” så ska ordet flyttstädning stå med i sidans titel.   
+     Since the page title is what Google displays in the search results, it’s also important for your customers to see the keyword so that they understand that your website is worth visiting. Let’s continue with our previous example and pretend you run a cleaning business. If you have a sub-page that is specifically about “removal cleaning”, the word moving cleaning should be included in the page title.
      </p>
      <p class="text-sm text-left pb-5">
-     Nedan ser du ett exempel på hur Google skulle kunna visa upp din undersida för flyttstädning:   
+     Below is an example of how Google could display your moving cleaning subpage:
      </p>
     
      `}
@@ -337,9 +336,9 @@ export default function WebbcopyEN() {
     </section>
     <Heading 
     bg={"pb-10"}
-    title={"Ha med sökordet i huvudrubriken"}
+    title={"Include the keyword in the main title"}
     textColor={"text-white"}
-    desc={" En annan viktigt signal till Google om vad sidan handlar om är huvudrubiken. På samma sätt som huvudrubriken i en tidningsartikel ska förklara vad artikeln handlar om behöver huvudrubriken förklara sidans innehåll. Detta är viktig information både för Google och för dina besökare.  "}
+    desc={"Another important signal to Google about what the page is about is the headline. Just as the headline of a newspaper article should explain what the article is about, the headline needs to explain the content of the page. This is important information both for Google and for your visitors."}
     />
 
     <div class="blacktopdivider bg-white pb-20">
@@ -349,28 +348,28 @@ export default function WebbcopyEN() {
     <Heading 
     bg={"bg-white"}
     textColor={"text-black"}
-    title={"Kontrollera search intent så att din text matchar det Google förväntar sig att den ska innehålla"}
+    title={"Check search intent so that your text matches what Google expects it to contain"}
     descCustomHtml={`
     <p class="text-sm text-left pb-5">
-    När du skapar undersidor är det viktigt att de fokuserar på ett specifikt ämne. Det är inte ovanligt att se hemsidor där en undersida heter “våra tjänster” och innehållet på den sidan handlar om många olika saker/tjänster.    
+    When creating subpages, it is important that they focus on a specific topic. It is not uncommon to see websites where a sub-page is called “our services” and the content on that page is about many different things/services.
     </p>
     <p class="text-sm text-left pb-5">
-    Detta sätt att bygga en undersida på är inte optimalt då innehållet på sidan handlar om många olika saker och blir därmed inte speciellt relevant för något av det som nämns på sidan.
+    This way of building a sub-page is not optimal as the content of the page is about many different things and therefore will not be very relevant to anything mentioned on the page.
     </p>
 
     <p class="text-sm text-left pb-5">
-    <em> Låt ta ett exempel. </em> 
+    <em> Let’s take an example. </em> 
     <br />
-    Säg att du har en städfirma och du har en undersida som handlar om de tjänster du erbjuder.
-    Om sidan då innehåller ett par meningar var om “företagsstäd”, “privatstäd”, “fönsterputsning”, “flyttstädning”, “tvätt”, “gräsklippning” så är sidan inte speciellt relevant för Google att visa upp på någon av dessa sökbegreppen.
+    Say you have a cleaning company and you have a subpage about the services you offer.
+    If the page then contains a couple of sentences each about “business cleaning”, “private cleaning”, “window cleaning”, “moving cleaning”, “laundry”, “lawn mowing” then the page is not very relevant for Google to show up on any of these search terms.
     </p>
 
     <p class="text-sm text-left pb-5">
-    Speciellt inte om en konkurrerande hemsida har en undersida för varje område som ingående beskriver varje område.    
+    Especially not if a competing website has a subpage for each area that describes each area in detail.  
     </p>
 
     <p class="text-sm text-left pb-5">
-    Det är med andra ord viktigt att varje undersida på din hemsida fokuserar på en sak eller ett ämne.   
+    In other words, it’s important that every subpage on your website focuses on one thing or one topic.  
     </p>
 
     `}
@@ -384,16 +383,16 @@ export default function WebbcopyEN() {
     </section>
 
     <Heading 
-    title={"Slutsats"}
+    title={"Conclusion"}
     textColor={"text-black"}
     bg={"bg-white"}
     descCustomHtml={`
     <p class="text-sm text-left pb-5">
-    När du ska skriva webbcopy är det många delar du måste ha koll på för att öka chansen att Google visar upp just din sida. Copywriting är många gånger en komplicerad process och när du ska skriva copy för din webbplats måste du ha koll på ditt budskap, sidans rubriker, innehållet och mycket mer för att både Google och din besökare ska uppskatta dina texter.   
+    When writing web copy, there are many elements you need to keep in mind to increase the chances of Google showing up your page. Copywriting is often a complicated process and when writing copy for your website, you need to be clear about your message, page headings, content and much more to ensure that both Google and your visitors appreciate your copy.
     </p>
 
     <p class="text-lg text-left pb-10">
-    Vill du ha hjälp med att skriva texter som rankar eller har frågor om webbcopy är du alltid välkommen att kontakta oss på Effektify.
+    If you want help with writing texts that rank or have questions about web copy, you are always welcome to contact us at Effektify.
     </p>
 
     `}
