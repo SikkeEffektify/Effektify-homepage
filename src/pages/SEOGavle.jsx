@@ -4,35 +4,25 @@ import stats from '../assets/Effektify-hjalper-foretag-med-lokal-SEO.webp'
 import stats2 from '../assets/Effektify-hjalper-foretag-med-lokal-sokmotoroptimering.webp'
 import stats3 from '../assets/Effektify-hjalper-dig-med-SEO-lokalt.webp'
 import ContactForm from '../components/ContactForm'
+import SEOComponent from '../components/SEOComponent'
 
 export default function SEOGavle() {
   return (
-    <>
-    <section>
-   <div className='hero pb-20 '>
-    <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg} />
-    <div class="vidContent2 hero-image-text pb-20  bg-black/60">
-        <h1 class='text-5xl pl-4 text-left uppercase text-white pb-10'>Seo Gävle<span class="text-rose-300">.</span></h1>
-        <p class='text-left text-base text-white'>
-        Behöver du hjälp med SEO i Gävle? SEO kan vara krångligt, vår digitala media-byrå hjälper dig gärna! På samma sätt som du lyckades hitta vår hemsida när du sökte efter SEO Gävle kan vi hjälpa dig så att du syns bättre på de olika sökmotorerna när dina potentiella kunder söker efter produkter eller tjänster som du erbjuder. Vi har lång erfarenhet och bred kunskap inom SEO/sökmotoroptimering, och många andra digitala lösningar. Om du vill öka din trafik och få ett högt antal besökare till din hemsida är vår byrå det givna valet, vi ser till att få dig att synas bland sökresultatet och att ranka bättre genom att göra en analys av sökord och optimering av webbplats, sökordsoptimering, förbättrat innehåll samt genom att skicka rätt länkar till din webbplats. 
-        </p>   
-    </div>
-   </div>
-    </section>
 
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats} alt="" />
+
+    <>
+ <SEOComponent
+    mainTitle1={"Seo Gävle"}
+    mainDesc1={`
+    <p class='text-left text-lg text-white'>
+    Behöver du hjälp med SEO i Gävle? SEO kan vara krångligt, vår digitala media-byrå hjälper dig gärna! På samma sätt som du lyckades hitta vår hemsida när du sökte efter SEO Gävle kan vi hjälpa dig så att du syns bättre på de olika sökmotorerna när dina potentiella kunder söker efter produkter eller tjänster som du erbjuder. Vi har lång erfarenhet och bred kunskap inom SEO/sökmotoroptimering, och många andra digitala lösningar. Om du vill öka din trafik och få ett högt antal besökare till din hemsida är vår byrå det givna valet, vi ser till att få dig att synas bland sökresultatet och att ranka bättre genom att göra en analys av sökord och optimering av webbplats, sökordsoptimering, förbättrat innehåll samt genom att skicka rätt länkar till din webbplats. 
+    </p>   
+    `}
+
+    underImage1={`
     <p class="text-left pt-5 text-base pb-5">
     Det är ingen nyhet att synlighet skapar möjligheter för företag – både genom traditionell marknadsföring och digital marknadsföring. Att öka din digitala synlighet ökar också dina chanser att få fler besökare till din webbplats, och därmed fler kunder som sedan genererar större försäljning. Det finns många sätt att använda sig av digital marknadsföring på, och Effektify är inte enbart en SEO-byrå, vi är en digital mediabyrå, vilket innebär att vi hjälper våra kunder med allt inom digital marknadsföring, både i Gävle, men också i hela Sverige. Kontakta oss för hjälp med att ranka högre på de olika sökmotorerna och nå andra mål, så som att skapa mer digital trafik, förbättra resultatet och öka din försäljning.
     </p>
-   
- 
-    </div>
-    </section>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-gray-100'>
     <h1 class="text-2xl uppercase pb-10">
     Hur fungerar SEO i Gävle?
     </h1>
@@ -40,16 +30,13 @@ export default function SEOGavle() {
     <a href="/seo-sokmotoroptimering/" class="text-rose-300 underline" title="Sökmotoroptimering"> SEO </a>
     är en förkortning av det engelska uttrycket Search Engine Optimization, vilket översatt till svenska är sökmotoroptimering. SEO består av många olika delar och är en viktig faktor för dig som vill att dina potentiella kunder ska hitta din webbplats när de gör sökningar på tjänster eller produkter som du erbjuder. Enkelt förklarat innebär SEO att göra din webbplats synlig på Google och andra sökmotorer. Syftet med SEO är att ha så bra ranking på Google (och resterande sökmotorer) som möjligt på sökord som är relevanta för dig och din verksamhet. Google analyserar faktorer så som huruvida din webbplats är relevant och om den är rätt uppbyggd, hur många, samt vilka som länkar till din webbplats och det innehåll du har på din webbplats för att sedan avgöra vilken ranking du får. 
     </p>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats2} alt="" />
-    </div>
-    </section>
+    `}
 
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats3} alt="" />
-    <h1 class="text-xl uppercase pb-10">
-    Sökmotoroptimering
-    </h1>
+
+    
+
+    mainTitle2={"Sökmotoroptimering"}
+    mainDesc2={`
     <p class="text-left pb-5 text-sm">
     Syftet med SEO är att synas så högt upp på Google (och andra sökmotorer) som möjligt på sökord som är relevanta för dig och ditt företag. 
     </p>
@@ -59,20 +46,31 @@ export default function SEOGavle() {
     <p class="text-left pb-5 text-sm">
     SEO består huvudsakligen av tre delar, analys av sökord, on-page-optimering och off-page-optimering. En analys av sökord är viktigt för att kunna finna de specifika sökfraser som är relevanta för dig och som gynnar dig och din verksamhet. Vid denna typ av analys kollar man på konkurrenter, antal sökningar på sökordet i fråga, sökintentionen m.m. Det är viktigt att konkurrensen inte är för hög men att det fortfarande är många sökningar på sökfrasen för att det ska vara gynnsamt. On-page-optimering är också en viktig del av SEO, det är det arbete som utförs på din hemsida. On-page innebär optimering av hemsidans innehåll, bland annat texter, rubriker, meta-titlar och meta-beskrivningar på hemsidan. Tanken är att optimera dessa utifrån de utvalda sökorden. Off-page är det arbete inom SEO som görs utanför hemsidan, så som att skicka länkar till din hemsida. Dessa tre delar utgör en framgångsrik SEO-strategi.
     </p>
-    </div>
-    </section>
+    `}
 
-    <section>
-    <div class='pt-20 heading-container text-center text-white bg-rose-300 pb-20'>
-    <h1 class="text-lg uppercase pb-10">
-    <a href="/seo-sokmotoroptimering/">Vill du veta mer om SEO?</a>
-    </h1>
-    <a class="vidButton" href='/seo-sokmotoroptimering/'>Klicka Här</a>
-    </div>
-    </section>
+    underImage2={`
+    <p class="text-left pb-5 text-sm">
+    Sökmotorerna granskar ständigt hur olika webbplatser är uppbyggda, hur många, samt vilken typ av externa länkar som leder till dem och det innehåll som finns på dem för att sedan avgöra vilken placering de syns på bland sökresultatet.
+    </p>
+    <p class="text-left pb-5 text-sm">
+    SEO görs ofta i tre steg; en sökordsanalys, on-page optimering och off-page optimering. Dessa delar utgör tillsammans en framgångsrik SEO-strategi och är betydande för resultatet av din ranking på sökmotorerna.
+    </p>
+    
+    `}
+    mainTitle3={"Vi arbetar med att göra hemsidor synliga med hjälp av SEO"}
+    mainDesc3={`
+    <p class="text-left pb-5 text-sm">
+    För att nå ett bra resultat med optimering krävs ett löpande arbete med allt från innehåll på din hemsida, till länkar, för att du ska kunna ha en chans att stå upp mot konkurrenter som har fler besökare och en bättre placering i sökresultatet. Som SEO-byrå hjälper vi dig att analysera din sida för att komma fram till rätt sökord och rätt utformat innehåll på hemsidan som skulle få den att få mer trafik. På Effektify arbetar vi dagligen med att hjälpa företagare i Gävle med deras digitala marknadsföring och gör med våra experter en analys över vad som behöver förbättras för att du ska ranka bättre.
+    </p>
+    <p class="text-left pb-5 text-sm">
+    Vi på Effektify anser det vara av stor betydelse att hålla oss uppdaterade och att ständigt utvecklas inom sökmotoroptimering och håller därför arbetet löpande för att kunna erbjuda våra kunder bästa möjliga service och för att kunna erbjuda rätt strategi som lämpar sig för just din marknadsföring. Våra experter utbildas ständigt inom varje del av SEO och SEM för att alltid kunna erbjuda våra kunder det som krävs för att lyckas hålla sig relevanta i sökmotorernas ögon.
+    </p>
+    `}
+    seoLink={"/seo-sokmotoroptimering/"}
+    seoLinkText={"Vill du veta mer om SEO?"}
+    seoLinkButton={"Klicka här"}
+    underButtonDesc={`
 
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
     <h1 class="text-2xl uppercase pb-10">
     Google utvecklas ständigt – därför måste också SEO göra det
     </h1>
@@ -80,28 +78,23 @@ export default function SEOGavle() {
     Det är ett faktum att företag som satsar på SEO ser en positiv skillnad på resultaten efter att denna strategi har implementerats och efter att man börjat optimera webbplatsen i fråga. Arbetet med sökmotoroptimering utvecklas och ändras ständigt eftersom Google gör det, sökmotorn uppdateras ofta och därför är det av stor vikt att hänga med. Detta innebär att även företag som arbetar med sökmotoroptimering bör se över sin strategi regelbundet för att fortsätta vara aktuella. Vi på Effektify anser det vara av stor betydelse att hålla oss uppdaterade och att ständigt utvecklas inom sökmotoroptimering för att kunna erbjuda våra kunder bästa möjliga service. 
     </p>
 
-
     <h1 class="text-2xl uppercase pb-10">
-    Lokal SEO – Gävle
+    Google My Business (GMB)
     </h1>
     <p class="text-left pb-5 text-sm">
-    Lokal SEO, eller lokal sökmotoroptimering som det också kallas, skiljer sig något från SEO på nationell nivå. Den största skillnaden är konkurrensen, den är betydligt större på nationell nivå. För många branscher är det relevant att enbart synas lokalt online då deras tjänster eller produkter är avsedda att säljas lokalt. Om du exempelvis behöver hjälp av en rörmokare så kommer du troligtvis söka på ”rörmokare” plus din stad eftersom det är vad som är relevant för dig.
+    Driver du ett lokalt företag som verkar i ett specifikt område är det viktigare för dig att finnas på Google My Business. Google visar upp resultaten av de relevanta lokala företagen som en lista ovanför det organiska sökresultatet och är en enkel lösning som inte kräver mycket arbete och passar lokala företag väl.
     </p>
     <p class="text-left pb-10 text-sm">
-    En viktig del av lokal SEO är att tydliggöra var du befinner dig och i vilka orter du verkar på din hemsida, både för dina kunders skull, men också för Google så att sökmotorn anser din hemsida vara relevant. För att lyckas med lokal SEO behövs det även tas hänsyn till vissa tekniska åtgärder bakom hemsidan. Detta gör det lättare för Google att begripa vilka geografiska områden sökmotorn ska förknippa dig och ditt företag med.
+    Däremot är det viktigt att hålla informationen om ditt företag uppdaterad. Öppettider och korrekt adress kan du enkelt ändra med Google My Business så att dina potentiella kunder alltid har rätt information om din verksamhet och lätt komma i kontakt med dig.
     </p>
+    
+    <h1 class="text-2xl uppercase pb-10">
+    Vi hjälper dig gärna med SEO i gävle
+    </h1>
     <p class="text-left pb-20 text-sm">
-    Enligt Google består en tredjedel av alla sökningar som görs på Google av sökningar som är relaterade till platser, och därav är det mycket viktigt för dig att arbeta med lokal SEO. För att lyckas med lokal SEO är det viktigt att blad annat vara konsekvent med företagsinformationen, att använda sig av online reviews och koppla på Google reviews, samt skapa och optimera landningssidor på sin hemsida för lokala sökord.
+    Har du en firma och vill att nya kunder ska hitta din hemsida? Som SEO-byrå skapar Effektify rätt förutsättningar för dig! Vi hjälper företag i hela Sverige att förbättra sina resultat och uppnå sina mål genom digital marknadsföring då våra tjänster inkluderar allt från analys av SEO och SEM till att bygga hemsidor. Kontakta oss redan idag för hjälp med SEO Gävle!
     </p>
-    </div>
 
-    </section>
-
-
-    <ContactForm/>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
     <h1 class="text-2xl uppercase pb-10">
     Google My Business (GMB)
     </h1>
@@ -132,9 +125,12 @@ export default function SEOGavle() {
     Resultatet av detta SEO-arbete är att dina utvalda sökord syns bättre i det organiska sökresultatet och därmed bidrar till att trafiken till din webbplats ökar, det vill säga fler besökare, vilket i sin tur innebär högre försäljning.
     </p>
 
-    <h1 class="text-2xl uppercase pb-10">
-    Om Gävle
-    </h1>
+
+
+    `}
+
+    endTitle={"Lokal SEO – Gävle"}
+    endDesc={`
     <p class="text-left pb-5 text-sm">
     Gävle är en tätort i Gästrikland och år 2020 bodde det
     <a href="https://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning/befolkningens-sammansattning/befolkningsstatistik/pong/tabell-och-diagram/topplistor-kommuner/folkmangd-topp-50/" class="text-rose-300 underline" title="Läs mer om Gävle här" rel="nofollow noopener" target="_blank"> 102 904 invånare </a>
@@ -146,8 +142,25 @@ export default function SEOGavle() {
     <p class="text-left pb-5 text-sm">
     Har du ett företag i Gävle och vill få mer relevant trafik till webbplatsen så att nya kunder hittar till den? Vår SEO-byrå Effektify hjälper dig gärna! Vi hjälper företag i hela Sverige att förbättra sina resultat och uppnå sina mål genom digital marknadsföring, våra tjänster inkluderar allt från SEO/sökmotoroptimering och Google Ads till att bygga hemsidor. Kontakta oss och låt oss hjälpa dig med en analys av din hemsida för att avgöra vad för typ av optimering du skulle behöva för att synas på sökresultaten.
     </p>
-    </div>
-    </section>
+    `}
+  
+    />
+   
+
+   <ContactForm 
+    title={"Vad kul att du har hittat till oss!"}
+    desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
+    company={"Företag"}
+    name={"Namn"}
+    phone={"Telefon"}
+    email={"E-post"}
+    text={"Vad kan vi hjälpa dig med?"}
+    buttonText={"Skicka"}
+  />
+
+
+   
+
     </>
 
   )
