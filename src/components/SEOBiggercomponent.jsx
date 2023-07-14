@@ -1,12 +1,11 @@
 import React from 'react'
-import bg from '../assets/SEO-stockholm.webp'
 import bg2 from '../assets/seo-google-my-business.webp'
 import stats2 from '../assets/Sökmotoroptimering-seo-1.webp'
 import ContactForm from './ContactForm'
 
 
 
-export default function SEOBiggerComponent({mainTitle1, mainDesc1, mainTitle2, mainDesc2, mainTitle3, mainDesc3, mainTitle4, mainDesc4, mainTitle5, mainDesc5, mainTitle6, mainDesc6, mainTitle7, mainDesc7, mainTitle8, mainDesc8, mainTitle9, mainDesc9}) {
+export default function SEOBiggerComponent({mainTitle1, mainDesc1, mainTitle2, mainDesc2, mainTitle3, mainDesc3, mainTitle4, mainDesc4, mainTitle5, mainDesc5, mainTitle6, mainDesc6, mainTitle7, mainDesc7, mainTitle8, mainDesc8, mainTitle9, mainDesc9, bg}) {
   return (
     <>
     <section>

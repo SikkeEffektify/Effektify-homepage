@@ -1,17 +1,16 @@
 import React from 'react'
-import bg from '../assets/SEO-boras-1.webp'
 import stats from '../assets/Effektify-hjalper-foretag-med-lokal-SEO.webp'
 import stats2 from '../assets/Effektify-hjalper-foretag-med-lokal-sokmotoroptimering.webp'
 import stats3 from '../assets/Effektify-hjalper-dig-med-SEO-lokalt.webp'
 
-export default function SEOComponent({mainTitle1, mainDesc1, underImage1, mainTitle2, mainDesc2, underImage2, mainTitle3, mainDesc3, seoLink, seoLinkText, seoLinkButton, underButtonDesc, endTitle, endDesc }) {
+export default function SEOComponent({mainTitle1, mainDesc1, underImage1, mainTitle2, mainDesc2, underImage2, mainTitle3, mainDesc3, seoLink, seoLinkText, seoLinkButton, underButtonDesc, endTitle, endDesc, bg }) {
   return (
     <>
     <section>
    <div className='hero '>
     <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg} />
     <div class="vidContent2 hero-image-text pb-40  bg-black/60">
-        <h1 class='text-6xl pl-4 text-left uppercase text-white pb-10'>{mainTitle1}<span class="text-rose-300">.</span></h1>
+        <h1 class='text-5xl pl-4 text-left uppercase text-white pt-20 pb-10'>{mainTitle1}<span class="text-rose-300">.</span></h1>
          <div dangerouslySetInnerHTML={{__html: mainDesc1}}></div>
     </div>
    </div>

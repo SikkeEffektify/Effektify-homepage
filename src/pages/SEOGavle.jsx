@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from '../assets/SEO-gavle.jpeg'
+import background from '../assets/SEO-gavle.jpeg'
 import stats from '../assets/Effektify-hjalper-foretag-med-lokal-SEO.webp'
 import stats2 from '../assets/Effektify-hjalper-foretag-med-lokal-sokmotoroptimering.webp'
 import stats3 from '../assets/Effektify-hjalper-dig-med-SEO-lokalt.webp'
@@ -14,7 +14,7 @@ export default function SEOGavle() {
  <SEOComponent
     mainTitle1={"Seo Gävle"}
     mainDesc1={`
-    <p class='text-left text-lg text-white'>
+    <p class='text-left text-base text-white'>
     Behöver du hjälp med SEO i Gävle? SEO kan vara krångligt, vår digitala media-byrå hjälper dig gärna! På samma sätt som du lyckades hitta vår hemsida när du sökte efter SEO Gävle kan vi hjälpa dig så att du syns bättre på de olika sökmotorerna när dina potentiella kunder söker efter produkter eller tjänster som du erbjuder. Vi har lång erfarenhet och bred kunskap inom SEO/sökmotoroptimering, och många andra digitala lösningar. Om du vill öka din trafik och få ett högt antal besökare till din hemsida är vår byrå det givna valet, vi ser till att få dig att synas bland sökresultatet och att ranka bättre genom att göra en analys av sökord och optimering av webbplats, sökordsoptimering, förbättrat innehåll samt genom att skicka rätt länkar till din webbplats. 
     </p>   
     `}
@@ -143,7 +143,7 @@ export default function SEOGavle() {
     Har du ett företag i Gävle och vill få mer relevant trafik till webbplatsen så att nya kunder hittar till den? Vår SEO-byrå Effektify hjälper dig gärna! Vi hjälper företag i hela Sverige att förbättra sina resultat och uppnå sina mål genom digital marknadsföring, våra tjänster inkluderar allt från SEO/sökmotoroptimering och Google Ads till att bygga hemsidor. Kontakta oss och låt oss hjälpa dig med en analys av din hemsida för att avgöra vad för typ av optimering du skulle behöva för att synas på sökresultaten.
     </p>
     `}
-  
+    bg={background}
     />
    
 

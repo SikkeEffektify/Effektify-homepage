@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from '../assets/SEO-boras-1.webp'
+import background from '../assets/SEO-boras-1.webp'
 import stats from '../assets/Effektify-hjalper-foretag-med-lokal-SEO.webp'
 import stats2 from '../assets/Effektify-hjalper-foretag-med-lokal-sokmotoroptimering.webp'
 import stats3 from '../assets/Effektify-hjalper-dig-med-SEO-lokalt.webp'
@@ -10,7 +10,8 @@ export default function SEOBoras() {
   return (
     <>
 
-    <SEOComponent 
+    <SEOComponent
+    bg={background}
     mainTitle1={"Seo Borås"}
     mainDesc1={`
     <p class='text-left text-lg text-white'>
