@@ -4,25 +4,21 @@ import stats from '../assets/Effektify-hjalper-foretag-med-lokal-SEO.webp'
 import stats2 from '../assets/Effektify-hjalper-foretag-med-lokal-sokmotoroptimering.webp'
 import stats3 from '../assets/Effektify-hjalper-dig-med-SEO-lokalt.webp'
 import ContactForm from '../components/ContactForm'
+import SEOComponent from '../components/SEOComponent'
 
 export default function SEOBoras() {
   return (
     <>
-    <section>
-   <div className='hero '>
-    <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg} />
-    <div class="vidContent2 hero-image-text pb-40  bg-black/60">
-        <h1 class='text-6xl pl-4 text-left uppercase text-white pb-10'>Seo Borås<span class="text-rose-300">.</span></h1>
-        <p class='text-left text-lg text-white'>
-        Som SEO-byrå har vi på Effektify som mål att hjälpa företag med allt inom digital marknadsföring, oavsett om du befinner dig i Borås eller någon annanstans i Sverige. När det kommer till sökmotoroptimering/SEO, annonsering genom Google Ads, sociala medier och optimering av hemsidor har vi bred kunskap och vi håller oss uppdaterade och utvecklas ständigt eftersom vi ser sökmotoroptimering som ett sätt att skapa rätt förutsättningar för alla som vill driva en framgångsrik verksamhet. 
-        </p>   
-    </div>
-   </div>
-    </section>
 
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats} alt="" />
+    <SEOComponent 
+    mainTitle1={"Seo Borås"}
+    mainDesc1={`
+    <p class='text-left text-lg text-white'>
+        Som SEO-byrå har vi på Effektify som mål att hjälpa företag med allt inom digital marknadsföring, oavsett om du befinner dig i Borås eller någon annanstans i Sverige. När det kommer till sökmotoroptimering/SEO, annonsering genom Google Ads, sociala medier och optimering av hemsidor har vi bred kunskap och vi håller oss uppdaterade och utvecklas ständigt eftersom vi ser sökmotoroptimering som ett sätt att skapa rätt förutsättningar för alla som vill driva en framgångsrik verksamhet. 
+    </p>   
+    `}
+
+    underImage1={`
     <p class="text-left pt-5 text-base pb-5">
     Genom att hjälpa dig att öka din synlighet på nätet ökar vi dina chanser att få mer trafik till din hemsida och att få fler kunder, vilket i sin tur leder till ökad försäljning. Det finns många sätt att använda sig av digital marknadsföring men det måste göras på rätt sätt för att det ska ge rätt effekt.
     </p>
@@ -34,15 +30,10 @@ export default function SEOBoras() {
     <a class="text-rose-300 underline" target="_blank" rel="noopener noreferrer" href="/seo-sokmotoroptimering/"> SEO </a>
     ? På samma sätt som du lyckades hitta vår hemsida när du sökte efter SEO Borås kan vi analysera och förbättra din hemsida så att den syns bättre för potentiella kunder som söker efter de produkter eller tjänster som du erbjuder. Vi har lång erfarenhet och bred kunskap inom sökmotoroptimering/SEO och erbjuder våra tjänster till alla som vill ranka högt på Googles organiska sökresultat eller som behöver hjälp med annonsering genom Google Ads eller på sociala medier. Vi säger inte bara att kan SEO, vi kommer att driva mer relevant trafik till din webbplats med Borås sökmotoroptimering.
     </p>
- 
-    </div>
-    </section>
+    `}
 
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-gray-100'>
-    <h1 class="text-2xl uppercase pb-10">
-    Skiljer sig SEO i Borås från SEO i andra städer?
-    </h1>
+    mainTitle2={"Skiljer sig SEO i Borås från SEO i andra städer?"}
+    mainDesc2={`
     <p class="text-left pb-5 text-sm">
     SEO, från det engelska uttrycket 
     <em> Search Engine Optimization </em>
@@ -51,42 +42,31 @@ export default function SEOBoras() {
     <p class="text-left pb-5 text-sm">
     På Effektify optimerar vi din hemsida för att den ska ranka högre på sökmotorernas resultat. Målet är att synas så högt upp på Google och andra sökmotorer som möjligt på de sökord som är relevanta för just dig och ditt företag.
     </p>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats2} alt="" />
+    `}
+
+    underImage2={`
     <p class="text-left pb-5 text-sm">
     Sökmotorerna granskar ständigt hur olika webbplatser är uppbyggda, hur många, samt vilken typ av externa länkar som leder till dem och det innehåll som finns på dem för att sedan avgöra vilken placering de syns på bland sökresultatet.
     </p>
     <p class="text-left pb-5 text-sm">
     SEO görs ofta i tre steg; en sökordsanalys, on-page optimering och off-page optimering. Dessa delar utgör tillsammans en framgångsrik SEO-strategi och är betydande för resultatet av din ranking på sökmotorerna.
     </p>
-    </div>
-    </section>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats3} alt="" />
-    <h1 class="text-xl uppercase pb-10">
-    Vi arbetar med att göra hemsidor synliga med hjälp av SEO
-    </h1>
+    
+    `}
+    mainTitle3={"Vi arbetar med att göra hemsidor synliga med hjälp av SEO"}
+    mainDesc3={`
     <p class="text-left pb-5 text-sm">
     För att nå ett bra resultat med optimering krävs ett löpande arbete med allt från innehåll på din hemsida, till länkar, för att du ska kunna ha en chans att stå upp mot konkurrenter som har fler besökare och en bättre placering i sökresultatet. Som SEO-byrå hjälper vi dig att analysera din sida för att komma fram till rätt sökord och rätt utformat innehåll på hemsidan som skulle få den att få mer trafik. På Effektify arbetar vi dagligen med att hjälpa företagare i Borås med deras digitala marknadsföring och gör med våra experter en analys över vad som behöver förbättras för att du ska ranka bättre.
     </p>
     <p class="text-left pb-5 text-sm">
     Vi på Effektify anser det vara av stor betydelse att hålla oss uppdaterade och att ständigt utvecklas inom sökmotoroptimering och håller därför arbetet löpande för att kunna erbjuda våra kunder bästa möjliga service och för att kunna erbjuda rätt strategi som lämpar sig för just din marknadsföring. Våra experter utbildas ständigt inom varje del av SEO och SEM för att alltid kunna erbjuda våra kunder det som krävs för att lyckas hålla sig relevanta i sökmotorernas ögon.
     </p>
-    </div>
-    </section>
+    `}
+    seoLink={"/seo-sokmotoroptimering/"}
+    seoLinkText={"Vill du veta mer om SEO?"}
+    seoLinkButton={"Klicka här"}
+    underButtonDesc={`
 
-    <section>
-    <div class='pt-20 heading-container text-center text-white bg-rose-300 pb-20'>
-    <h1 class="text-lg uppercase pb-10">
-    <a href="/seo-sokmotoroptimering/">Vill du veta mer om SEO?</a>
-    </h1>
-    <a class="vidButton" href='/seo-sokmotoroptimering/'>Klicka Här</a>
-    </div>
-    </section>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
     <h1 class="text-2xl uppercase pb-10">
     Lokal SEO – Borås
     </h1>
@@ -117,21 +97,10 @@ export default function SEOBoras() {
     <p class="text-left pb-20 text-sm">
     Har du en firma och vill att nya kunder ska hitta din hemsida? Som SEO-byrå skapar Effektify rätt förutsättningar för dig! Vi hjälper företag i hela Sverige att förbättra sina resultat och uppnå sina mål genom digital marknadsföring då våra tjänster inkluderar allt från analys av SEO och SEM till att bygga hemsidor. Kontakta oss redan idag för hjälp med SEO Borås!
     </p>
-    </div>
+    `}
 
-  
-
-    </section>
-
-
-    <ContactForm/>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-
-    <h1 class="text-2xl uppercase pb-10">
-    Om Borås 
-    </h1>
+    endTitle={"Om Borås"}
+    endDesc={`
     <p class="text-left pb-5 text-sm">
     Med mer än 110 000 invånare är Borås landets trettonde största kommun och den näst största staden i Västra Götalandsregionen. Här finns mängder av parker, grönområden, skogar, sjöar och friluftsområden vilket gör att du kan bo centralt men ändå ha naturen intill.
     </p>
@@ -144,9 +113,21 @@ export default function SEOBoras() {
     <p class="text-left pb-5 text-sm">
     För barnfamiljer lockar förstås Borås Djurpark med sina drygt 600 djur inriktning på afrikanska och nordiska vilda djur. Här finns även en mängd idrottsanläggningar, skatehall och ishall, liksom anläggningar för tennis, innebandy och gymnastik. En modern fotbollsarena, friidrottsarena, friidrottshall och ett utomhusbad gör att boende alltid har nära till hands till shopping och stadsliv, aktiviteter för hela familjen och parker och andra naturområden.
     </p>
-    </div>
-    </section>
-    </>
+    `}
+  
+    />
+   
 
+   <ContactForm 
+    title={"Vad kul att du har hittat till oss!"}
+    desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
+    company={"Företag"}
+    name={"Namn"}
+    phone={"Telefon"}
+    email={"E-post"}
+    text={"Vad kan vi hjälpa dig med?"}
+    buttonText={"Skicka"}
+  />
+   </>
   )
 }
