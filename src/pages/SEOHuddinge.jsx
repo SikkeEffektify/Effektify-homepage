@@ -4,25 +4,22 @@ import stats from '../assets/Effektify-hjalper-foretag-med-lokal-SEO.webp'
 import stats2 from '../assets/Effektify-hjalper-foretag-med-lokal-sokmotoroptimering.webp'
 import stats3 from '../assets/Effektify-hjalper-dig-med-SEO-lokalt.webp'
 import ContactForm from '../components/ContactForm'
+import SEOComponent from '../components/SEOComponent'
 
 export default function SEOHuddinge() {
   return (
     <>
-    <section>
-   <div className='hero '>
-    <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg} />
-    <div class="vidContent2 hero-image-text pb-40  bg-black/60">
-        <h1 class='text-5xl pl-4 text-left uppercase text-white pt-10 pb-10'>Seo Huddinge<span class="text-rose-300">.</span></h1>
-        <p class='text-left text-lg text-white'>
-        Som SEO-byrå har vi på Effektify som mål att hjälpa företag med bland annat SEO och Google Ads, oavsett om du befinner dig i Huddinge, Stockholm eller någon annanstans i Sverige. När det kommer till SEO, annonsering genom Google Ads, sociala medier och optimering av hemsidor försöker vi att hela tiden utvecklas i takt med sökmotorerna. För oss är SEO ett sätt att skapa rätt förutsättningar för alla som vill driva en framgångsrik verksamhet.
-        </p>   
-    </div>
-   </div>
-    </section>
 
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats} alt="" />
+  <SEOComponent
+  bg={bg}
+    mainTitle1={"Seo Huddinge"}
+    mainDesc1={`
+    <p class='text-left text-lg text-white'>
+    Som SEO-byrå har vi på Effektify som mål att hjälpa företag med bland annat SEO och Google Ads, oavsett om du befinner dig i Huddinge, Stockholm eller någon annanstans i Sverige. När det kommer till SEO, annonsering genom Google Ads, sociala medier och optimering av hemsidor försöker vi att hela tiden utvecklas i takt med sökmotorerna. För oss är SEO ett sätt att skapa rätt förutsättningar för alla som vill driva en framgångsrik verksamhet.
+    </p>   
+    `}
+    
+    underImage1={`
     <p class="text-left pt-5 text-base pb-10">
     Genom att öka din synlighet på nätet ökar vi dina chanser att få mer trafik till din webbplats och att få fler kunder. Detta leder i sin tur till ökad försäljning. Som SEO-byrå vet vi betydelsen det måste göras på rätt sätt för att det ska ge rätt effekt.
     </p>
@@ -34,14 +31,9 @@ export default function SEOHuddinge() {
     <a href="https://effektify.com/seo-sokmotoroptimering/" class="text-rose-300" title="Sökmotoroptimering"> sökmotoroptimering/SEO </a>
     ? Precis som du lyckades hitta oss när du sökte efter SEO Huddinge kan vi analysera och förbättra din hemsida så att den rankar högre för potentiella kunder som söker efter de produkter eller tjänster som du erbjuder. Vi erbjuder våra tjänster till alla som vill ranka högt på Googles organiska sökresultat eller som behöver hjälp med annonsering genom Google Ads eller på sociala medier.
     </p>
-    </div>
-    </section>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-gray-100'>
-    <h1 class="text-2xl uppercase pb-10">
-    Skiljer sig SEO i Huddinge från SEO i Stockholm?
-    </h1>
+    `}
+    mainTitle2={"Skiljer sig SEO i Huddinge från SEO i Stockholm?"}
+    mainDesc2={`
     <p class="text-left pb-5 text-sm">
     SEO kommer från det engelska uttrycket 
     <em> Search Engine Optimization </em>
@@ -50,8 +42,9 @@ export default function SEOHuddinge() {
     <p class="text-left pb-10 text-sm">
     På Effektify gör vi efter en analys de förbättringar som behövs för din webbplats för att den ska ranka högre på sökmotorernas resultat. Målet är att synas så högt upp på Google och andra sökmotorer som möjligt på sökorden som är relevanta för just dig och ditt företag.
     </p>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats2} alt="" />
+    `}
 
+    underImage2={`
     <p class="text-left pb-5 text-sm">
     SEO består huvudsakligen av tre delar, analys av sökord, on-page och off-page. En analys av sökord är viktigt för att kunna finna de specifika sökfraser som är relevanta för dig och som gynnar dig och din verksamhet. Vid denna typ av analys arbetar man med att kolla på konkurrenter, antal sökningar på sökordet i fråga, sökintentionen m.m. Det är viktigt att konkurrensen inte är för hög men att det fortfarande är ett högt antal sökningar på sökfrasen för att det ska vara gynnsamt att sedan utföra en sökordsoptimering. 
     </p>
@@ -59,16 +52,10 @@ export default function SEOHuddinge() {
     On-page-optimering är också en viktig del av SEO, det är det arbete som utförs på din hemsida. On-page innebär optimering av hemsidans innehåll, bland annat texter, rubriker, meta-titlar och meta-beskrivningar på hemsidan. Tanken är att optimera dessa utifrån de utvalda sökorden. Off-page är arbetet inom SEO som görs utanför hemsidan, så som att skicka länkar till hemsidor. Det är viktigt att ha i åtanke att länkarna måste vara bra och relevanta för webbplatsen. Dessa tre delar utgör en framgångsrik SEO-strategi. 
     </p>
   
+    `}
 
-    </div>
-    </section>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats3} alt="" />
-    <h1 class="text-xl uppercase pb-10">
-    Öka din försäljning med SEO!
-    </h1>
+    mainTitle3={"Öka din försäljning med SEO!"}
+    mainDesc3={`
     <p class="text-left pb-5 text-sm">
     Det första steget vi gör som SEO-byrå är att analysera hemsidan ifråga för att se över vad för typ av optimering som krävs. Därefter görs en analys av våra experter för att se vilka sökord du har möjlighet att ranka på samt vilka du redan syns på. Därefter bokar vi ett uppstartsmöte med dig där vi diskuterar fram till de sökorden som är mest relevanta för dig och din hemsida. Vi går igenom vad som bör åtgärdas på din hemsida för att vi ska kunna utföra vårt arbete på bästa sätt.
     </p>
@@ -82,21 +69,13 @@ export default function SEOHuddinge() {
     <p class="text-left pb-10 text-sm">
     Resultatet av detta SEO-arbete är att de utvalda sökorden syns bättre i det organiska sökresultatet och därmed bidrar till ökad trafik till din hemsida, det vill säga fler besökare, vilket i sin tur innebär ökad försäljning.
     </p>
-    </div>
-    </section>
+    `}
 
-    <section>
-    <div class='pt-20 heading-container text-center text-white bg-rose-300 pb-20'>
-    <h1 class="text-lg uppercase pb-10">
-    <a href="/seo-sokmotoroptimering/">Vill du veta mer om SEO?</a>
-    </h1>
-    <a class="vidButton" href='/seo-sokmotoroptimering/'>Klicka Här</a>
-    </div>
-    </section>
 
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-
+    seoLink={"/seo-sokmotoroptimering/"}
+    seoLinkText={"Vill du veta mer om SEO?"}
+    seoLinkButton={"Klicka här"}
+    underButtonDesc={`
     <h1 class="text-2xl uppercase pb-10">
     Lokal SEO – Huddinge
     </h1>
@@ -120,15 +99,7 @@ export default function SEOHuddinge() {
     <p class="text-left pb-10 text-sm">
     En ytterligare fördel, förutom att synas i Googles organiska sökresultat, är att om ditt företag är registrerat på Google My Business då kan det även synas i Google Maps när någon söker efter den typ av företag som du driver. Exempelvis om någon söker på ”frisör” + en specifik plats så visas lokala företag som är registrerade i tjänsten upp på kartan. Detta gör att du får mer trafik till din webbplats, vilket i sin tur leder till högre försäljning.
     </p>
-    </div>
 
-    </section>
-
-
-    <ContactForm/>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
     <h1 class="text-2xl uppercase pb-10">
     Vi hjälper dig gärna med SEO i Huddinge
     </h1>
@@ -139,23 +110,31 @@ export default function SEOHuddinge() {
     Enligt Google består en tredjedel av alla sökningar som görs på Google av sökningar som är relaterade till platser, och därav är det mycket viktigt för dig att arbeta med lokal SEO. För att lyckas med lokal SEO är det viktigt att blad annat vara konsekvent med företagsinformationen, att använda sig av online reviews och koppla på Google reviews, samt skapa och optimera landningssidor på sin hemsida för lokala sökord.
     </p>
     
-    <h1 class="text-2xl uppercase pb-10">
-    Om Huddinge
-    </h1>
+    `}
+
+    endTitle={`Om Huddinge`}
+    endDesc={`
     <p class="text-left pb-5 text-sm">
     Huddinge ligger strax söder om centrala Stockholm och har lite mer än 110 000 invånare. Kommunen är den näst största av kommunerna i Stockholms län räknat på sin folkmängd.
-   </p>
+    </p>
     <p class="text-left pb-5 text-sm">
     I Huddinge hittar du mängder av naturupplevelser då ungefär en tredjedel av kommunen utgörs av naturreservat. Flottsbro friluftsområde är ett av Stockholms mest besökta friluftsområden då du erbjuds aktiviteter året runt. Hit kommer stockholmare och andra turister för cykling, vandring eller skidåkning såväl som bad och lek under sommaren.
     </p>
     <p class="text-left pb-10 text-sm">
     I Rådsparken finns förutsättningar för barn, unga och vuxna att idrotta och motionera på utegym, klätterbloqx, en skatepool och en idrottsplats med konstgräs. Här finns även en lekpark anpassad för barn med funktionsnedsättning, en lekhall och ett parkhus med tillhörande café. I Rådsparkens stall och djurhus hittar du mängder av djur såsom åsnor, får och getter som uppskattas av barnfamiljer i kommunen.
     </p>
-
-
-
-    </div>
-    </section>
+    `}
+  />    
+  <ContactForm 
+    title={"Vad kul att du har hittat till oss!"}
+    desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
+    company={"Företag"}
+    name={"Namn"}
+    phone={"Telefon"}
+    email={"E-post"}
+    text={"Vad kan vi hjälpa dig med?"}
+    buttonText={"Skicka"}
+  />
     </>
 
   )
