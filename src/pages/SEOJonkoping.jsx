@@ -4,25 +4,21 @@ import stats from '../assets/Effektify-hjalper-foretag-med-lokal-SEO.webp'
 import stats2 from '../assets/Effektify-hjalper-foretag-med-lokal-sokmotoroptimering.webp'
 import stats3 from '../assets/Effektify-hjalper-dig-med-SEO-lokalt.webp'
 import ContactForm from '../components/ContactForm'
+import SEOComponent from '../components/SEOComponent'
 
 export default function SEOJonkoping() {
   return (
     <>
-    <section>
-   <div className='hero '>
-    <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg} />
-    <div class="vidContent2 hero-image-text pb-40  bg-black/60">
-        <h1 class='text-5xl pl-4 text-left uppercase text-white pt-10 pb-10'>Seo Jönköping<span class="text-rose-300">.</span></h1>
-        <p class='text-left text-lg text-white'>
-        Syns du så finns du, och genom att öka din synlighet online ökar också dina chanser att få mer trafik till din hemsida, och därmed få fler kunder som leder till ökad försäljning. Det finns många sätt att använda sig av digital marknadsföring men det måste göras på rätt sätt för att det ska effekt.
-        </p>   
-    </div>
-   </div>
-    </section>
 
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats} alt="" />
+    <SEOComponent 
+    bg={bg}
+    mainTitle1={"Seo Jönköping"}
+    mainDesc1={`
+    <p class='text-left text-lg text-white'>
+        Syns du så finns du, och genom att öka din synlighet online ökar också dina chanser att få mer trafik till din hemsida, och därmed få fler kunder som leder till ökad försäljning. Det finns många sätt att använda sig av digital marknadsföring men det måste göras på rätt sätt för att det ska effekt.
+    </p>   
+    `}
+    underImage1={`
     <p class="text-left pt-5 text-base pb-10">
     Effektify är inte enbart en SEO-byrå. Vårt mål är att hjälpa våra kunder med allt inom digital marknadsföring, oavsett om du befinner dig i Jönköping eller i någon annan stad i Sverige. Vi har bred kunskap när det kommer till sökmotoroptimering/SEO, Google Ads, sociala medier och allt annat inom digital marknadsföring. Vi ser sökmotoroptimeringen som ett sätt att skapa samma förutsättningar,för alla som vill driva en framgångsrik verksamhet.
     </p>
@@ -34,14 +30,9 @@ export default function SEOJonkoping() {
     <a href="https://effektify.com/seo-sokmotoroptimering/" class="text-rose-300" title="Sökmotoroptimering"> SEO </a>
     Jönköping kan vi hjälpa dig att synas för dina potentiella kunder som söker efter de produkter eller tjänster som du erbjuder. Vi har lång erfarenhet och bred kunskap inom sökmotoroptimering/SEO och erbjuder våra tjänster till alla som vill ranka högt på Googles organiska sökresultat eller som behöver hjälp med annonsering genom Google Ads eller sociala medier. Vi arbetar löpande för att skapa ett bra förhållande mellan oss och kunden, såväl som mellan kund och sökmotorerna.
     </p>
-    </div>
-    </section>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-gray-100'>
-    <h1 class="text-2xl uppercase pb-10">
-    Hur fungerar SEO i Jönköping?
-    </h1>
+    `}
+    mainTitle2={"Hur fungerar SEO i Jönköping?"}
+    mainDesc2={`
     <p class="text-left pb-10 text-sm">
     SEO kommer från det engelska uttrycket 
     <em> Search Engine Optimization </em>
@@ -55,14 +46,9 @@ export default function SEOJonkoping() {
     <p class="text-left pb-5 text-sm">
     On-page-optimering är också en viktig del av SEO, det är det arbete som utförs på din hemsida. On-page innebär optimering av hemsidans innehåll, bland annat texter, rubriker, meta-titlar och meta-beskrivningar på hemsidan. Tanken är att optimera dessa utifrån de utvalda sökorden. Off-page är det arbete inom SEO som görs utanför hemsidan, så som att skicka länkar till din hemsida. Dessa tre delar utgör en framgångsrik SEO-strategi. 
     </p>
-  
+    `}
 
-    </div>
-    </section>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats3} alt="" />
+    underImage2={`
     <h1 class="text-xl uppercase pb-10">
     SEO – vikten av att arbeta löpande
     </h1>
@@ -76,24 +62,11 @@ export default function SEOJonkoping() {
     <p class="text-left pb-10 text-sm">
     Vi på Effektify anser det vara av stor betydelse att hålla oss uppdaterade och att ständigt utvecklas inom sökmotoroptimering och håller därför arbetet löpande för att kunna erbjuda våra kunder bästa möjliga service och för att kunna erbjuda en strategi som lämpar sig för just din digitala marksnadsföring. Våra experter utbildas ständigt inom varje del av SEO och SEM för att alltid kunna erbjuda våra kunder det som krävs för att lyckas hålla sig relevanta i sökmotorernas ögon.
     </p>
-    </div>
-    </section>
+    
+    `}
 
-    <section>
-    <div class='pt-20 heading-container text-center text-white bg-rose-300 pb-20'>
-    <h1 class="text-lg uppercase pb-10">
-    <a href="/seo-sokmotoroptimering/">Vill du veta mer om SEO?</a>
-    </h1>
-    <a class="vidButton" href='/seo-sokmotoroptimering/'>Klicka Här</a>
-    </div>
-    </section>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-
-    <h1 class="text-2xl uppercase pb-10">
-    Lokal SEO – Jönköping
-    </h1>
+    mainTitle3={"Lokal SEO – Jönköping"}
+    mainDesc3={`
     <p class="text-left pb-5 text-sm">
     Lokal SEO, eller lokal sökmotoroptimering som det också kallas, skiljer sig något från SEO på nationell nivå. Den stora skillnaden är konkurrensen som är betydligt större på nationell nivå. För många branscher är det relevant att enbart synas lokalt online då deras tjänster eller produkter är avsedda att säljas lokalt. Om du exempelvis söker efter en frisör så kommer du troligtvis söka på ”frisör” tillsammans med staden i fråga eftersom det är just vad som är relevant för dig. Du är troligtvis inte på jakt efter en frisör i Malmö när du bor i Jönköping.
     </p>
@@ -104,16 +77,11 @@ export default function SEOJonkoping() {
     <p class="text-left pb-10 text-sm">
     Vanligtvis kräver det betydligt mindre arbete för företag som vill synas lokalt då konkurrensen begränsas i jämförelse med företag som är verksamma över hela landet. Detta har naturligtvis även att göra med vilken stad du vill synas lokalt på, då konkurrensen naturligtvis är betydligt högre i städer som Stockholm, Göteborg eller Malmö, till skillnad från mindre städer.
     </p>
-
-    </div>
-
-    </section>
-
-
-    <ContactForm/>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
+    `}
+    seoLink={"/seo-sokmotoroptimering/"}
+    seoLinkText={"Vill du veta mer om SEO?"}
+    seoLinkButton={"Klicka här"}
+    underButtonDesc={`
     <h1 class="text-2xl uppercase pb-10">
     Google My Business (GMB)
     </h1>
@@ -123,13 +91,13 @@ export default function SEOJonkoping() {
     <p class="text-left pb-10 text-sm">
     En ytterligare fördel, förutom att synas i Googles organiska sökresultat, är att om ditt företag är registrerat på Google My Business då kan det även synas i Google Maps när någon söker efter den typ av företag som du driver. Exempelvis om någon söker på ”frisör” + en specifik plats så visas lokala företag som är registrerade i tjänsten upp på kartan. Detta gör att du får mer trafik till din webbplats, vilket i sin tur leder till högre försäljning.
     </p>
-    
-    <h1 class="text-2xl uppercase pb-10">
-    Om Jönköping
-    </h1>
+    `}
+
+    endTitle={"Om Jönköping"}
+    endDesc={`
     <p class="text-left pb-5 text-sm">
     Jönköpings kommun räknas som en av landets tio största kommuner med strax över 140 000 invånare. Staden har sedan den grundades år 1284 växt fram till ett administrativt centrum och är idag betydande inom mässor och handel. Jönköping räknas också som ett transportcentrum, dels för sitt stora logistikområde som växer fram utmed E4, men också för de starka förbindelser som stadens flygplats har med städer som Stockholm och Frankfurt.
-   </p>
+    </p>
     <p class="text-left pb-5 text-sm">
     Elmia AB räknas till ett av Nordens ledande företag inom mässor. De arrangerar varje år omkring 30 mässor, event och konferenser inom många olika områden. Målet är att skapa upplevelser som leder till innovationer och affärsutveckling. Elmia arrangerar exempelvis världens största skogsmässa och DreamHack, något som gjort Jönköping till något av ett Mecka för e-sport. DreamHack lägger fokus på allt som har med datorer, internet och digital underhållning att göra och anordnar flera festivaler, e-sport-kval och mässor varje år.
     </p>
@@ -139,11 +107,22 @@ export default function SEOJonkoping() {
     <p class="text-left pb-10 text-sm">
     Har du ett företag i Jönköping och vill att nya kunder ska hitta din hemsida? Som SEO-byrå skapar Effektify rätt förutsättningar för dig! Vi hjälper företag i hela Sverige att förbättra sina resultat och uppnå sina mål genom digital marknadsföring då våra tjänster inkluderar allt från analys av SEO och SEM till att bygga hemsidor. Kontakta oss redan idag för hjälp med SEO i Jönköping!
     </p>
+    `}
+
+    />
 
 
 
-    </div>
-    </section>
+<ContactForm 
+    title={"Vad kul att du har hittat till oss!"}
+    desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
+    company={"Företag"}
+    name={"Namn"}
+    phone={"Telefon"}
+    email={"E-post"}
+    text={"Vad kan vi hjälpa dig med?"}
+    buttonText={"Skicka"}
+  />
     </>
 
   )
