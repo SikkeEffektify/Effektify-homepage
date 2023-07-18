@@ -4,25 +4,21 @@ import stats from '../assets/Effektify-hjalper-foretag-med-lokal-SEO.webp'
 import stats2 from '../assets/Effektify-hjalper-foretag-med-lokal-sokmotoroptimering.webp'
 import stats3 from '../assets/Effektify-hjalper-dig-med-SEO-lokalt.webp'
 import ContactForm from '../components/ContactForm'
+import SEOComponent from '../components/SEOComponent'
 
 export default function SEOUpplandsvasby() {
   return (
     <>
-    <section>
-   <div className='hero '>
-    <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg} />
-    <div class="vidContent2 hero-image-text pb-40  bg-black/60">
-        <h1 class='text-5xl pl-4 text-left uppercase text-white pt-5 pb-10'>Seo Upplands Väsby<span class="text-rose-300">.</span></h1>
-        <p class='text-left text-lg text-white'>
-        Synlighet skapar möjligheter för företag, både genom traditionell marknadsföring och digital marknadsföring. Att öka din synlighet online ökar också dina chanser att få ökad trafik från fler besökare till din hemsida, vilket i sin tur leder till fler kunder och en ökad försäljning. Det finns många sätt att använda sig av digital marknadsföring men det måste göras på rätt sätt för att det ska effekt.
-        </p>   
-    </div>
-   </div>
-    </section>
 
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats} alt="" />
+    <SEOComponent
+    bg={bg}
+    mainTitle1={"Seo Upplands Väsby"}
+    mainDesc1={`
+    <p class='text-left text-lg text-white'>
+        Synlighet skapar möjligheter för företag, både genom traditionell marknadsföring och digital marknadsföring. Att öka din synlighet online ökar också dina chanser att få ökad trafik från fler besökare till din hemsida, vilket i sin tur leder till fler kunder och en ökad försäljning. Det finns många sätt att använda sig av digital marknadsföring men det måste göras på rätt sätt för att det ska effekt.
+    </p>   
+    `}
+    underImage1={`
     <p class="text-left pt-5 text-base pb-5">
     Effektify är inte enbart en SEO-byrå. Vi hjälper kunder i Upplands Väsby med allt inom digital marknadsföring, och har bred kunskap när det kommer till sökmotoroptimering/SEO och 
     <a href="https://effektify.com/google-ads/" class='text-rose-300' title="Annonsera med Google Ads"> annonsering med Google Ads </a>
@@ -39,23 +35,19 @@ export default function SEOUpplandsvasby() {
     Upplands Väsby kan vi hjälpa dig att öka din närvaro hos potentiella kunder som söker efter de produkter eller tjänster som du erbjuder. Vi har lång erfarenhet och bred kunskap inom sökmotoroptimering/SEO och erbjuder våra tjänster till alla som vill ranka högt på Googles organiska sökresultat eller behöver hjälp med annonsering genom Google Ads eller sociala medier.
     </p>
    
- 
-    </div>
-    </section>
+    `}
 
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-gray-100'>
-    <h1 class="text-2xl uppercase pb-10">
-    Hur fungerar SEO i Upplands Väsby?
-    </h1>
+    mainTitle2={"Hur fungerar SEO i Upplands Väsby?"}
+    mainDesc2={`
     <p class="text-left pb-5 text-sm">
     SEO kommer från det engelska uttrycket 
     <em> Search Engine Optimization </em>
     , vilket direkt översatt till svenska betyder sökmotoroptimering. SEO handlar i grund och botten om att optimera din hemsida för Googles ranking och består av oerhört många olika delar och är en väldigt viktig faktor för dig som vill att dina potentiella kunder ska hitta din webbplats när de gör sina sökningar på just de tjänster eller produkter som du erbjuder. Genom att med SEO genomföra en grundlig optimering av din webbplats gör du den synlig på sökmotorer som används av besökare som letar efter sidor som din.
     </p>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats2} alt="" />
+    `}
 
-
+    underImage2={`
+    
     <p class="text-left pb-5 text-sm">
     Syftet med SEO är att synas så högt upp på Google (och andra sökmotorer) som möjligt på sökord som är relevanta för just dig och ditt företag. Det är en mängd faktorer som tillsammans avgör exakt hur relevant din webbplats är för de sökord du vill att ditt företag ska synas på. Sökmotorerna granskar även hur sidan är uppbyggd, hur många, samt vilken typ av externa länkar som leder till din webbplats och det innehåll du har på din webbplats för att sedan avgöra vilken placering du hamnar på bland Googles sökresultat.
     </p>
@@ -90,15 +82,10 @@ export default function SEOUpplandsvasby() {
     <p class="text-left pb-10 text-sm">
     Dessa tre delar utgör en framgångsrik SEO-strategi och är alla viktiga för att sökmotoroptimeringen ska hjälpa din ranking hos sökmotorerna.
     </p>
-    </div>
-    </section>
+    `}
 
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats3} alt="" />
-    <h1 class="text-xl uppercase pb-10">
-    Vikten av att hålla sig relevant
-    </h1>
+    mainTitle3={"Vikten av att hålla sig relevant"}
+    mainDesc3={`
     <p class="text-left pb-10 text-sm">
     För att din firma ska kunna ranka högt på Google och andra sökmotorer är det av viktigt att allt innehåll på hemsidan är anpassad på rätt sätt. Genom att med SEO göra din hemsida så relevant som möjligt för aktuella sökord är ett krävande men nödvändigt arbete för att säkra din placering på sökmotorerna och för att öka trafiken som sökoptimering leder till. Sidor som ständigt håller hög placering på Googles sökresultat är resultat av hårt och ihärdigt SEO-arbete. Konkurrensen bland företag i Sverige ökar för varje dag som går då det blir enklare att med internet erbjuda sina produkter för betydligt större publik.
     </p>
@@ -109,20 +96,8 @@ export default function SEOUpplandsvasby() {
     <p class="text-left pb-10 text-sm">
     Detta är den främsta anledningen till att SEO-byråer ständigt arbetar för att hjälpa företag att få fler kunder och för att kunna ha en chans att stå upp mot konkurrenter med högre trafik och bättre placering av sökresultatet. En bra SEO-byrå hjälper dig att med en analys av hemsidan komma fram till sökfraser som skulle gynna dig på bästa sätt och som skulle driva trafiken i din riktning. På Effektify arbetar vi dagligen med att hjälpa företag i Upplands Väsby med sökmotoroptimering/SEO, annonsering på Facebook och Google Ads, och kan med våra experter på varje område se vad som behöver förbättras för att du ska ranka bättre bland sökresultatet.
     </p>
-    </div>
-    </section>
 
-    <section>
-    <div class='pt-20 heading-container text-center text-white bg-rose-300 pb-20'>
-    <h1 class="text-lg uppercase pb-10">
-    <a href="/seo-sokmotoroptimering/">Vill du veta mer om SEO?</a>
-    </h1>
-    <a class="vidButton" href='/seo-sokmotoroptimering/'>Klicka Här</a>
-    </div>
-    </section>
 
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
     <h1 class="text-2xl uppercase pb-10">
     SEO utvecklas ständigt – så även vi!
     </h1>
@@ -147,16 +122,11 @@ export default function SEOUpplandsvasby() {
     Vanligtvis kräver det betydligt mindre arbete för företag som vill synas bättre lokalt då konkurrensen begränsas i jämförelse med företag som är verksamma över hela landet. Detta har naturligtvis även att göra med vilken stad du vill synas lokalt på, då konkurrensen naturligtvis är betydligt högre i städer som Stockholm, Göteborg eller Malmö, till skillnad från mindre städer.
     </p>
 
-    </div>
-
-    </section>
-
-
-    <ContactForm/>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-
+    `}
+    seoLink={"/seo-sokmotoroptimering/"}
+    seoLinkText={"Vill du veta mer om SEO?"}
+    seoLinkButton={"Klicka här"}
+    underButtonDesc={`
     <h1 class="text-2xl uppercase pb-10">
     Google My Business (GMB)
     </h1>
@@ -166,10 +136,10 @@ export default function SEOUpplandsvasby() {
     <p class="text-left pb-10 text-sm">
     En ytterligare fördel, förutom att synas i Googles organiska sökresultat, är att om ditt företag är registrerat på Google My Business då kan det även synas i Google Maps när någon söker efter den typ av företag som du driver. Exempelvis om någon söker på ”frisör” + en specifik plats så visas lokala företag som är registrerade i tjänsten upp på kartan. Detta gör att du får mer trafik till din webbplats, vilket i sin tur leder till högre försäljning.
     </p>
+    `}
 
-    <h1 class="text-2xl uppercase pb-10">
-    Om Upplands Väsby
-    </h1>
+    endTitle={"Om Upplands Väsby"}
+    endDesc={`
     <p class="text-left pb-5 text-sm">
     Upplands Väsby är ligger mitt i Stockholm Mälarregionen där ungefär en tredjedel av Sveriges befolkning bor. Här hittar du en blandning av stadsliv och natur, med närhet till bekvämligheter som butiker, kultur och skolor. Du hittar fina stränder längs Mälaren som erbjuder sol, bad och fina strövområden – allt för att friluftsmänniskan i dig ska trivas.
     </p>
@@ -187,8 +157,20 @@ export default function SEOUpplandsvasby() {
     <p class="text-left pb-5 text-sm">
     Har du ett företag i Upplands Väsby och vill att nya kunder ska hitta till din sida? Som SEO-byrå är Effektify redo att hjälpa dig! Vi hjälper företag i hela Sverige att förbättra sina resultat och uppnå sina mål genom digital marknadsföring då våra tjänster inkluderar allt från SEO och SEM till annonsering på Facebook och att skapa hemsidor. Kontakta oss redan idag för hjälp med SEO i Stockholm och Upplands Väsby!
     </p>
-    </div>
-    </section>
+    `}
+    />
+  
+
+  <ContactForm 
+    title={"Vad kul att du har hittat till oss!"}
+    desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
+    company={"Företag"}
+    name={"Namn"}
+    phone={"Telefon"}
+    email={"E-post"}
+    text={"Vad kan vi hjälpa dig med?"}
+    buttonText={"Skicka"}
+  />
     </>
 
   )
