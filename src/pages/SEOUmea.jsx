@@ -4,25 +4,20 @@ import stats from '../assets/Effektify-hjalper-foretag-med-lokal-SEO.webp'
 import stats2 from '../assets/Effektify-hjalper-foretag-med-lokal-sokmotoroptimering.webp'
 import stats3 from '../assets/Effektify-hjalper-dig-med-SEO-lokalt.webp'
 import ContactForm from '../components/ContactForm'
+import SEOComponent from '../components/SEOComponent'
 
 export default function SEOUmea() {
   return (
     <>
-    <section>
-   <div className='hero '>
-    <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg} />
-    <div class="vidContent2 hero-image-text pb-40  bg-black/60">
-        <h1 class='text-5xl pl-4 text-left uppercase text-white pt-5 pb-10'>Seo Umeå<span class="text-rose-300">.</span></h1>
-        <p class='text-left text-lg text-white'>
+    <SEOComponent 
+    bg={bg}
+    mainTitle1={"Seo Umeå"}
+    mainDesc1={`
+    <p class='text-left text-lg text-white'>
         Att öka din ranking på Google ökar dina chanser att få fler besökare till din hemsida. Detta leder till att fler potentiella kunder hittar dig, vilket i sin tur leder till ökad försäljning. Det finns många sätt att använda sig av digital marknadsföring men det måste göras på ett sätt som anses vara relevant för att exempelvis Google ska anse din hemsida vara bättre än dina konkurrenters sidor då kunder söker efter det du erbjuder.
-        </p>   
-    </div>
-   </div>
-    </section>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats} alt="" />
+    </p>
+    `}
+    underImage1={`
     <p class="text-left pt-5 text-base pb-10">
     Effektify är inte enbart en SEO-byrå. Vi hjälper kunder i Umeå med allt inom digital marknadsföring, och har bred kunskap när det kommer till sökmotoroptimering/SEO och annonsering med 
     <a href="https://effektify.com/google-ads/" class='text-rose-300' title="Annonsera med Google Ads"> Google Ads </a>
@@ -38,23 +33,17 @@ export default function SEOUmea() {
     i Umeå? Precis som du hittade vår hemsida när du sökte efter Umeå sökoptimering kan vi hjälpa dig att öka din närvaro hos potentiella kunder som söker efter de produkter eller tjänster som du erbjuder. Vi har lång erfarenhet och bred kunskap inom sökoptimering och genom vårt arbete med SEO har vi hjälp otaliga kunder att ranka högt på Googles organiska sökresultat och med annonser genom Google Ads och på sociala medier.
     </p>
    
- 
-    </div>
-    </section>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-gray-100'>
-    <h1 class="text-2xl uppercase pb-10">
-    Hur fungerar SEO i Umeå?
-    </h1>
+    `}
+    mainTitle2={"Hur fungerar SEO i Umeå?"}
+    mainDesc2={`
     <p class="text-left pb-5 text-sm">
     SEO kommer från det engelska uttrycket 
     <em> Search Engine Optimization </em>
     , vilket direkt översatt betyder sökmotoroptimering. I grund och botten handlar SEO om att optimera din hemsida för Googles resultat och består av oerhört många faktorer. Det är en väldigt viktigt för dig som vill driva mer trafik till din hemsida och för att potentiella kunder ska hitta din webbplats när de gör sina sökningar efter just de tjänster eller produkter som du erbjuder. Genom att med analysera din webbplats och optimera den gör du den synlig på sökmotorer som används av människor som letar efter sidor som din. Syftet med SEO är att synas så högt upp på Google som möjligt på sökord som är relevanta för just dig och din bransch. Detta kan göras med en mängd olika digitala verktyg som hjälper oss att se exakt hur anpassad din webbplats är för de sökord du vill att ditt företag ska synas på och för besökaren som söker efter dem. Sökmotorerna granskar även hur sidan är uppbyggd, hur många, samt vilken typ av externa länkar som leder till din webbplats och det innehåll du har på din webbplats för att sedan avgöra vilken placering du hamnar på bland Googles sökresultat.
     </p>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats2} alt="" />
-
-
+    `}
+    underImage2={`
+    
     <p class="text-left pb-10 text-sm">
     Organisk trafik står för ungefär 70% av all trafik som når din hemsida och är därmed en betydande del av arbetet. SEO består huvudsakligen av tre delar; en analys av sökord, on-page och off-page optimering.
     </p>
@@ -87,15 +76,10 @@ export default function SEOUmea() {
     <p class="text-left pb-10 text-sm">
     Dessa tre delar utgör en framgångsrik SEO-strategi och är alla viktiga för att sökmotoroptimeringen ska hjälpa din ranking hos sökmotorerna.
     </p>
-    </div>
-    </section>
+    `}
 
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats3} alt="" />
-    <h1 class="text-xl uppercase pb-10">
-    Vad Google anser vara relevant betyder allt
-    </h1>
+    mainTitle3={"Vad Google anser vara relevant betyder allt"}
+    mainDesc3={`
     <p class="text-left pb-10 text-sm">
     Genom att med SEO göra din hemsida så anpassad som möjligt för aktuella sökord är ett krävande men nödvändigt arbete för att säkra din placering på sökmotorerna och för att öka trafiken som sökoptimering leder till. Hemsidor som håller höga placeringar på Google är resultat av hårt och ihärdigt SEO-arbete. Konkurrensen i Sverige ökar för varje dag som går då det blir enklare att med internet erbjuda sina produkter för betydligt större publik. SEO-sökmotoroptimering är mest viktig för nyligen startade verksamheter, som med dess hjälp kan synas framför betydligt större konkurrenter.
     </p>
@@ -106,20 +90,11 @@ export default function SEOUmea() {
     <p class="text-left pb-10 text-sm">
     En bra SEO-byrå hjälper dig att med en analys av hemsidan komma fram till sökfraser som skulle gynna dig på bästa sätt och som skulle driva mer trafik i din riktning. På Effektify arbetar vi dagligen med att hjälpa företag i Umeå med sökmotoroptimering/SEO, annonsering på Facebook och Google Ads, och kan med våra experter på varje område se vad som behöver förbättras för att du ska ranka bättre bland sökresultatet.
     </p>
-    </div>
-    </section>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-white bg-rose-300 pb-20'>
-    <h1 class="text-lg uppercase pb-10">
-    <a href="/seo-sokmotoroptimering/">Vill du veta mer om SEO?</a>
-    </h1>
-    <a class="vidButton" href='/seo-sokmotoroptimering/'>Klicka Här</a>
-    </div>
-    </section>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
+    `}
+    seoLink={"/seo-sokmotoroptimering/"}
+    seoLinkText={"Vill du veta mer om SEO?"}
+    seoLinkButton={"Klicka här"}
+    underButtonDesc={`
     <h1 class="text-2xl uppercase pb-10">
     Effektify utvecklas i takt med Google
     </h1>
@@ -143,20 +118,10 @@ export default function SEOUmea() {
     <p class="text-left pb-10 text-sm">
     Vanligtvis kräver det betydligt mindre arbete för företag som vill synas bättre lokalt jämfört med företag som är verksamma över hela landet. Detta har naturligtvis även att göra med vilken stad du vill synas lokalt på, då konkurrensen naturligtvis är större i städer som Stockholm, Göteborg eller Malmö.
     </p>
+    `}
 
-    </div>
-
-    </section>
-
-
-    <ContactForm/>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-
-    <h1 class="text-2xl uppercase pb-10">
-    Om Umeå
-    </h1>
+    endTitle={"Om Umeå"}
+    endDesc={`
     <p class="text-left pb-5 text-sm">
     Umeå är norra Sveriges största stad. Av stadens 120 000 invånare består ungefär 35 000 av studenter som alla dagligen tar del av en stad full av shoppingstråk med gallerior, personliga butiker och högt klassade restauranger.
     </p>
@@ -174,8 +139,20 @@ export default function SEOUmea() {
     <p class="text-left pb-5 text-sm">
     Har du ett företag i Umeå och vill att nya kunder ska hitta till din hemsida? Som SEO-byrå är Effektify redo att hjälpa digatt lyckas klättra! Vi hjälper företag i hela Sverige att förbättra sina resultat och uppnå sina mål genom digital marknadsföring. Våra tjänster inkluderar allt från SEO och SEM till annonsering på Facebook och att bygga hemsidor. Kontakta oss redan idag för hjälp med SEO Umeå!
     </p>
-    </div>
-    </section>
+    `}
+    />
+   
+
+   <ContactForm 
+    title={"Vad kul att du har hittat till oss!"}
+    desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
+    company={"Företag"}
+    name={"Namn"}
+    phone={"Telefon"}
+    email={"E-post"}
+    text={"Vad kan vi hjälpa dig med?"}
+    buttonText={"Skicka"}
+  />
     </>
 
   )
