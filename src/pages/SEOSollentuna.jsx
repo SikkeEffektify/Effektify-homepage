@@ -4,25 +4,22 @@ import stats from '../assets/Effektify-hjalper-foretag-med-lokal-SEO.webp'
 import stats2 from '../assets/Effektify-hjalper-foretag-med-lokal-sokmotoroptimering.webp'
 import stats3 from '../assets/Effektify-hjalper-dig-med-SEO-lokalt.webp'
 import ContactForm from '../components/ContactForm'
+import SEOComponent from '../components/SEOComponent'
 
 export default function SEOSollentuna() {
   return (
     <>
-    <section>
-   <div className='hero '>
-    <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg} />
-    <div class="vidContent2 hero-image-text pb-40  bg-black/60">
-        <h1 class='text-5xl pl-4 text-left uppercase text-white pt-5 pb-10'>Seo Sollentuna<span class="text-rose-300">.</span></h1>
-        <p class='text-left text-lg text-white'>
-        Synlighet skapar möjligheter, både genom traditionell och digital marknadsföring. Att öka din ranking ökar också dina chanser att få fler besökare till din hemsida, vilket i sin tur leder till fler kunder och en ökad försäljning. Det finns många sätt att använda sig av digital marknadsföring men det måste göras på rätt sätt för att det ska effekt.
-        </p>   
-    </div>
-   </div>
-    </section>
 
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats} alt="" />
+    <SEOComponent
+    
+    bg={bg}
+    mainTitle1={"Seo Sollentuna"}
+    mainDesc1={`
+    <p class='text-left text-lg text-white'>
+        Synlighet skapar möjligheter, både genom traditionell och digital marknadsföring. Att öka din ranking ökar också dina chanser att få fler besökare till din hemsida, vilket i sin tur leder till fler kunder och en ökad försäljning. Det finns många sätt att använda sig av digital marknadsföring men det måste göras på rätt sätt för att det ska effekt.
+    </p>   
+    `}
+    underImage1={`
     <p class="text-left pt-5 text-base pb-10">
     Effektify är inte enbart en SEO-byrå. Vi hjälper kunder i Sollentuna med allt inom digital marknadsföring, och har bred kunskap när det kommer till sökmotoroptimering/SEO och 
     <a href="https://effektify.com/google-ads/" class="text-rose-300" title="Google ads annonsering"> annonsering med Google Ads </a>
@@ -38,14 +35,9 @@ export default function SEOSollentuna() {
     i Sollentuna? På samma sätt som du lyckades hitta vår hemsida när du sökte efter Sollentuna sökmotoroptimering kan vi hjälpa dig att öka din närvaro hos potentiella kunder som söker efter de produkter eller tjänster som du erbjuder. Vi har lång erfarenhet och bred kunskap inom sökmotoroptimering och erbjuder våra tjänster till alla som vill ranka högt på Googles organiska sökresultat eller behöver hjälp med annonsering med Google Ads eller på sociala medier.
     </p>
 
-    </div>
-    </section>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-gray-100'>
-    <h1 class="text-2xl uppercase pb-10">
-    Hur fungerar SEO i Sollentuna?
-    </h1>
+    `}
+    mainTitle2={"Hur fungerar SEO i Sollentuna?"}
+    mainDesc2={`
     <p class="text-left pb-5 text-sm">
     SEO kommer från det engelska uttrycket 
     <em> Search Engine Optimization </em>
@@ -86,13 +78,9 @@ export default function SEOSollentuna() {
     <p class="text-left pb-10 text-sm">
     Dessa tre delar utgör en framgångsrik SEO-strategi och är alla viktiga för att sökmotoroptimeringen ska hjälpa din ranking hos sökmotorerna.
     </p>
+    `}
 
-    </div>
-    </section>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats3} alt="" />
+    underImage2={`
     <h1 class="text-xl uppercase pb-10">
     Vikten av hög relevans
     </h1>
@@ -106,23 +94,10 @@ export default function SEOSollentuna() {
     <p class="text-left pb-10 text-sm">
     En bra SEO-byrå hjälper dig att med en analys av hemsidan komma fram till sökfraser som skulle gynna dig på bästa sätt och som skulle driva mer trafik i din riktning. På Effektify arbetar vi dagligen med att hjälpa företag i Sollentuna med sökmotoroptimering/SEO, annonsering på Facebook och Google Ads, och kan med våra experter på varje område se vad som behöver förbättras för att du ska ranka bättre bland sökresultatet.
     </p>
-    </div>
-    </section>
+    `}
 
-    <section>
-    <div class='pt-20 heading-container text-center text-white bg-rose-300 pb-20'>
-    <h1 class="text-lg uppercase pb-10">
-    <a href="/seo-sokmotoroptimering/">Vill du veta mer om SEO?</a>
-    </h1>
-    <a class="vidButton" href='/seo-sokmotoroptimering/'>Klicka Här</a>
-    </div>
-    </section>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <h1 class="text-2xl uppercase pb-10">
-    Arbetet med SEO är löpande
-    </h1>
+    mainTitle3={"Arbetet med SEO är löpande"}
+    mainDesc3={`
     <p class="text-left pb-5 text-sm">
     Det är ett faktum att människor som satsar på sökmotoroptimering ser en positiv skillnad på sökresultaten efter att denna strategi har implementerats och efter att man börjat optimera hemsidan i fråga. Arbetet med sökmotoroptimering utvecklas och ändras ständigt eftersom Google gör det. Sökmotorn uppdateras ofta och därför är det av stor vikt att hänga med i dess utveckling. Detta innebär att även företag som arbetar med sökmotoroptimering bör se över sin strategi regelbundet för att fortsätta vara aktuella och för att kunna prestera på den nivå som just SEO-byråer bör.
     </p>
@@ -148,21 +123,23 @@ export default function SEOSollentuna() {
     <p class="text-left pb-10 text-sm">
     Enligt Google består en tredjedel av alla sökningar som görs på Google av sökningar som är relaterade till platser, och därav är det mycket viktigt för dig att arbeta med lokal SEO. För att lyckas med lokal SEO är det viktigt att blad annat vara konsekvent med företagsinformationen, att använda sig av online reviews och koppla på Google reviews, samt skapa och optimera landningssidor på sin hemsida för lokala sökord.
     </p>
+    `}
 
-    </div>
-
-    </section>
-
-
-    <ContactForm/>
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-
+    seoLink={"/seo-sokmotoroptimering/"}
+    seoLinkText={"Vill du veta mer om SEO?"}
+    seoLinkButton={"Klicka här"}
+    underButtonDesc={`
     
     <h1 class="text-2xl uppercase pb-10">
-    Om Sollentuna
+    Vi hjälper dig med SEO i Sollentuna
     </h1>
+    <p class="text-left pb-5 text-sm">
+    Har du ett företag i Sollentuna och vill att nya kunder ska hitta till din sida? Som SEO-byrå är Effektify redo att hjälpa dig! Vi hjälper företag i hela Sverige att förbättra sina resultat och uppnå sina mål genom digital marknadsföring då våra tjänster inkluderar allt från SEO och SEM till annonsering på Facebook och att skapa hemsidor. Kontakta oss redan idag för hjälp med SEO Sollentuna!
+    </p>
+    `}
+
+    endTitle={"Om Sollentuna"}
+    endDesc={`
     <p class="text-left pb-5 text-sm">
     Sollentuna, som ligger strax norr om Stockholm, är hem för drygt 74 000 personer och har som vision att bli Sveriges mest attraktiva kommun. Dess verksamheter arbetar aktivt för att ge trygghet, välfärd, tillväxt och en attraktiv och effektiv organisation.
     </p>
@@ -173,15 +150,19 @@ export default function SEOSollentuna() {
     Mitt i Sollentuna hittar du Edsvik, en unik plats som erbjuder allt från konst och kultur till lek och olika aktiviteter. Edsvik ses som Sollentunas stolthet och med Edsbergs slott som center för besöksplatserna kan du ha picknick i parken nära bäckarna och parkens alla växter. Du kan även ta med barnen på öppet hus i slottet eller bara njuta av utsikten över Edsviken.
     </p>
 
-    <h1 class="text-2xl uppercase pb-10">
-    Vi hjälper dig med SEO i Sollentuna
-    </h1>
-    <p class="text-left pb-5 text-sm">
-    Har du ett företag i Sollentuna och vill att nya kunder ska hitta till din sida? Som SEO-byrå är Effektify redo att hjälpa dig! Vi hjälper företag i hela Sverige att förbättra sina resultat och uppnå sina mål genom digital marknadsföring då våra tjänster inkluderar allt från SEO och SEM till annonsering på Facebook och att skapa hemsidor. Kontakta oss redan idag för hjälp med SEO Sollentuna!
-    </p>
 
-    </div>
-    </section>
+    `}
+    />
+  <ContactForm 
+    title={"Vad kul att du har hittat till oss!"}
+    desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
+    company={"Företag"}
+    name={"Namn"}
+    phone={"Telefon"}
+    email={"E-post"}
+    text={"Vad kan vi hjälpa dig med?"}
+    buttonText={"Skicka"}
+  />
     </>
 
   )
