@@ -81,7 +81,9 @@ desc={`
       videoLink={videoHeroButton}
     />
     
-    <section class="py-20 heading-container">
+    
+    {/* håller statiskt för att den är annorlunda ifrån andra headinglist */}
+    <section class="py-20 heading-container"> 
 
     <h1 class="text-lg text-white text-center pt-10 uppercase pb-5">För dig som vill veta mer om sökmotoroptimering</h1>
     <p class="text-white text-center pb-5" >Vanliga frågor om SEO i Halmstad</p>
@@ -159,32 +161,36 @@ desc={`
  
     </section>
     
+    
 <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <h1 class="text-2xl uppercase pb-5">Sökmotoroptimering</h1>
+
+    <Heading 
+    bg={"bg-white"}
+    textColor={"text-black text-3xl"}
+    titlePosition={"text-left"}
+    title={"Sökmotoroptimering"}
+    descCustomHtml={`
     <p class="text-sm text-left pb-5">
     Syftet med SEO är att synas så högt upp på Google (och andra sökmotorer) som möjligt på sökord som är relevanta för dig och ditt företag. Denna sidan är exempelvis optimerad för SEO Halmstad, för att det är mest relevant för oss samt denna sida.
     </p>
     <p class="text-sm text-left pb-5">
     Google analyserar faktorer så som huruvida din webbplats är relevant och hur den är uppbyggd, hur många, samt vilka som länkar till din webbplats och det innehåll du har på din webbplats för att sedan avgöra vilken placering du hamnar på.
         </p>
-    </div>
-    
-    <section class="bg-white">
-       <div class="pt-5 cards-container p-6">
-     <div class="custom-back max-w-sm p-6 pb-10  shadow headingSEO-card pt-10">
-        <h1 class="text-center text-xl pt-5 pb-5 text-white">Vad består SEO av?</h1>
-        <p class="text-sm text-white pb-5">
-        SEO består huvudsakligen av tre delar, analys av sökord, on-page och off-page. En analys av sökord är viktigt för att kunna finna de specifika sökfraser som är relevanta för dig och som gynnar dig och din verksamhet.
-        </p>
-        
-    </div>
-    </div> 
-    </section>
 
-
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <h1 class="text-2xl uppercase pb-5">Analys</h1>
+        <section class="bg-white">
+        <div class="pt-5 cards-container p-6">
+      <div class="custom-back max-w-sm p-6 pb-10  shadow headingSEO-card pt-10">
+         <h1 class="text-center text-xl pt-5 pb-5 text-white">Vad består SEO av?</h1>
+         <p class="text-sm text-white pb-5">
+         SEO består huvudsakligen av tre delar, analys av sökord, on-page och off-page. En analys av sökord är viktigt för att kunna finna de specifika sökfraser som är relevanta för dig och som gynnar dig och din verksamhet.
+         </p>
+         
+     </div>
+     </div> 
+     </section>  
+     
+     
+     <h1 class="text-2xl uppercase pb-5">Analys</h1>
     <p class="text-sm text-left pb-5">
     Vid denna typ av analys kollar man på konkurrenter, antal sökningar på sökordet i fråga, sökintentionen m.m. Det är viktigt att konkurrensen inte är för hög men att det fortfarande är många sökningar på sökfrasen för att det ska vara gynnsamt.
     </p>
@@ -224,6 +230,18 @@ desc={`
     <div>
     <a href='/kontakt' class="cards-video-button pt-3 pb-3 uppercase">Ready For Take Off</a>
     </div>
+    
+    `}
+    />
+
+    <div class='pt-20 heading-container text-center text-black bg-white'>
+   
+    </div>
+    
+    
+
+
+    <div class='pt-20 heading-container text-center text-black bg-white'>
     
 
     <h1 class="text-xl uppercase pt-20 pb-5">
