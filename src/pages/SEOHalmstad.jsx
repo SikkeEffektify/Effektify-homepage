@@ -3,24 +3,26 @@ import bg from '../assets/SEO-sokmotoroptimering-halmstad.jpg'
 import stats from '../assets/seo-halmstad-stats.webp'
 import { HeroButton } from '../components/HeroButton'
 import ContactForm from '../components/ContactForm'
+import videoHeroButton from '../assets/spaceloop2.mp4'
+import { HeroImage } from '../components/HeroImage.jsx'
 
 export default function SEOHalmstad() {
   return (
     <>
-    <section>
-   <div className='hero '>
-    <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg} />
-    <div class="vidContent2 hero-image-text pb-40  bg-black/60">
-        <h1 class='text-2xl pl-4 text-left uppercase text-white pb-10'>SEO Halmstad<span class="text-rose-300">.</span></h1>
-        <p class='text-left text-sm text-white'>
+
+<HeroImage
+image={bg}
+titleLeft={"SEO Halmstad"}
+desc={`
+<p class='text-left text-sm text-white'>
         Låt oss ta den rollen! På samma sätt som du lyckades hitta vår hemsida när du sökte efter SEO Halmstad kan vi hjälpa dig synas när dina potentiella kunder söker efter produkter eller tjänster som du erbjuder. Vi har lång erfarenhet och bred kunskap inom sökmotoroptimering/SEO.
         </p>
         <p class='text-left text-sm text-white'>
         Det är ingen nyhet att synlighet skapar möjligheter för företag – både genom traditionell marknadsföring och digital marknadsföring. Att öka din synlighet online ökar också dina chanser att få fler besökare till din hemsida, och därmed fler kunder som sedan genererar större försäljning. Det finns många sätt att använda sig av digital marknadsföring på, och Effektify är inte enbart en SEO-byrå, vi hjälper våra kunder med allt inom digital marknadsföring, både i Halmstad och resterande Sverige.
         </p>
-    </div>
-   </div>
-    </section>
+`}
+/>
+  
 
     <section>
     <div className='hero'>
@@ -63,7 +65,13 @@ export default function SEOHalmstad() {
     </div>
     </section>
 
-    <Hero2 />
+    <HeroButton 
+      title={"We're ready for takeoff"}
+      title2={"are you?"}
+      buttonLink={"/kontakt"}
+      buttonText={"Launch"}
+      videoLink={videoHeroButton}
+    />
     
     <section class="py-20 heading-container">
 
@@ -238,8 +246,6 @@ export default function SEOHalmstad() {
     </div>
 </section>
 
-<HeadingCity2 />
-
 
     <section>
     <div class='pt-20 heading-container text-center text-black bg-white'>
@@ -370,7 +376,16 @@ export default function SEOHalmstad() {
   </div> 
     </section>
 
-    <ContactForm/>
+    <ContactForm 
+    title={"Vad kul att du har hittat till oss!"}
+    desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
+    company={"Företag"}
+    name={"Namn"}
+    phone={"Telefon"}
+    email={"E-post"}
+    text={"Vad kan vi hjälpa dig med?"}
+    buttonText={"Skicka"}
+  />
     </>
 
   )
