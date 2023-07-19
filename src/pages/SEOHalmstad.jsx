@@ -287,29 +287,17 @@ desc={`
     `}
 
   />
-
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    
-
-    <h1 class="text-xl uppercase pt-20 pb-5">
-  
-    <br />
-    
-    </h1>
-    
-    </div>
 </section>
 
 
     <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    
-    </div>
-    
-   
-
-        <div class='pt-20 heading-container text-center text-black bg-white'>
-    <h1 class="text-2xl uppercase pb-5">SEO och Google Analytics</h1>
+  
+    <Heading 
+    bg={"bg-white"}
+    textColor={"text-black text-3xl"}
+    titlePosition={"text-left"}
+    title={"SEO och Google Analytics"}
+    descCustomHtml={`
     <p class="text-sm text-left pb-5">
     För många så är målet med SEO att öka trafiken till sin webbplats och att öka konverteringarna. För att utföra detta behöver man ett verktyg för att spåra detta. Det finns ett kostnadsfritt verktyg från Google för alla som har en webbplats som heter Google analythics som utför detta på bästa sätt.
     </p>
@@ -334,7 +322,6 @@ desc={`
     <p class="text-sm text-left pb-5">
     GSC är ett väldigt bra och hjälpsamt verktyg och avgörande för att förstå effekten av din SEO och även lokal SEO. Med detta verktyg använder vi på Effektify datan som samlats in för att förbättra hemsidan samt öka trafiken till din webbplats.
     </p>
-    </div>
 
     <section class="bg-white">
        <div class="pt-5 cards-container p-6">
@@ -352,24 +339,28 @@ desc={`
         </div>
         </div>
         </section>
-        <div class='pt-10 heading-container text-center text-black bg-white'>
-            <h1 class="text-lg uppercase pb-20 ">
-            Hör av er till oss på Effektify idag! Vi hjälper dig att komma igång med din resa upp till toppen.
-            </h1>
-         <h1 class="text-2xl uppercase pb-5">Fakta om Halmstad</h1>
-        <p class="text-sm text-left pb-5">
-        Vid slutet av år 2020 bodde det 103 754 i Halmstad, vilket gör det till Sveriges 17:e största tätort. Halmstad ligger på västkusten, i södra Halland och har tidigare tillhört både Sverige och Danmark. Idag är Halmstad en mycket populär turistort, med sina fina, kilometerlånga stränder och rika nöjesliv är det en självklarhet för många turister. Förutom detta är Halmstad även känt för musiker som Per Gessle, Marie Fredriksson, Mariette, Linnea Henriksson, Roxette och Gyllene Tider.
-        </p>
-        <p class="text-sm text-left pb-5">
-        I Halmstad finns många arbeten inom den offentliga sektorn, vilket man kan se på de 5 största arbetsgivarna i Halmstad; Halmstad kommun, Region Halland, Försvarsmakten, Martin & Servera Logistik AB och Högskolan i Halmstad.
-        </p>
-        <p class="text-sm text-left pb-5">
-        Har du ett företag i Halmstad och vill att nya kunder ska hitta din hemsida? Vi på Effektify hjälper dig gärna! Vi hjälper företag i hela Sverige att förbättra sina resultat och uppnå sina mål genom digital marknadsföring, våra tjänster inkluderar allt från SEO och Google Ads till att bygga hemsidor.
-        </p>
-        </div>
+
+        <h1 class="text-lg uppercase pb-20 ">
+        Hör av er till oss på Effektify idag! Vi hjälper dig att komma igång med din resa upp till toppen.
+        </h1>
+     <h1 class="text-2xl uppercase pb-5">Fakta om Halmstad</h1>
+    <p class="text-sm text-left pb-5">
+    Vid slutet av år 2020 bodde det 103 754 i Halmstad, vilket gör det till Sveriges 17:e största tätort. Halmstad ligger på västkusten, i södra Halland och har tidigare tillhört både Sverige och Danmark. Idag är Halmstad en mycket populär turistort, med sina fina, kilometerlånga stränder och rika nöjesliv är det en självklarhet för många turister. Förutom detta är Halmstad även känt för musiker som Per Gessle, Marie Fredriksson, Mariette, Linnea Henriksson, Roxette och Gyllene Tider.
+    </p>
+    <p class="text-sm text-left pb-5">
+    I Halmstad finns många arbeten inom den offentliga sektorn, vilket man kan se på de 5 största arbetsgivarna i Halmstad; Halmstad kommun, Region Halland, Försvarsmakten, Martin & Servera Logistik AB och Högskolan i Halmstad.
+    </p>
+    <p class="text-sm text-left pb-5">
+    Har du ett företag i Halmstad och vill att nya kunder ska hitta din hemsida? Vi på Effektify hjälper dig gärna! Vi hjälper företag i hela Sverige att förbättra sina resultat och uppnå sina mål genom digital marknadsföring, våra tjänster inkluderar allt från SEO och Google Ads till att bygga hemsidor.
+    </p>
+    `}
+
+    />
     </section>
 
 
+
+      {/* behåll samma för den är unik här */}
     <section class="py-10">
     <div id="accordion-flush" data-accordion="collapse " class='pb-5 text-center' >
     <h1 class="text-lg text-white pt-10 uppercase pb-5">För dig som behöver lokal sökmotoroptimering</h1>
