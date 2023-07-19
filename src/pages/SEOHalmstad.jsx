@@ -227,28 +227,20 @@ desc={`
     <strong class="text-rose-300"> Detta gör du med hjälp av SEO. </strong>
     </p>
 
-    <div>
-    <a href='/kontakt' class="cards-video-button pt-3 pb-3 uppercase">Ready For Take Off</a>
+    <div class="text-center">
+    <a href='/kontakt' class="cards-video-button  pt-3 pb-3 uppercase">Ready For Take Off</a>
     </div>
     
     `}
     />
 
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-   
-    </div>
     
-    
-
-
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    
-
-    <h1 class="text-xl uppercase pt-20 pb-5">
-    Google utvecklas ständigt
-    <br />
-    – därför måste också SEO göra det
-    </h1>
+<Heading 
+    bg={"bg-white"}
+    textColor={"text-black text-3xl"}
+    titlePosition={"text-left"}
+    title={"Google utvecklas ständigt därför måste också SEO göra det"}
+    descCustomHtml={`
     <p class="text-sm text-left pb-5">
     Det är ett faktum att företag som satsar på sökmotoroptimering ser en positiv skillnad på resultaten efter att denna strategi har implementerats och efter att man börjat optimera hemsidan i fråga. Arbetet med sökmotoroptimering utvecklas och ändras ständigt eftersom Google gör det, sökmotorn uppdateras ofta och därför är det av stor vikt att hänga med.
     </p>
@@ -269,12 +261,7 @@ desc={`
     <p class="text-sm text-left pb-5">
     En viktig del av lokal SEO är att tydliggöra var du befinner dig och i vilka orter du verkar på din hemsida, både för dina kunders skull, men också för Google så att sökmotorn anser din hemsida vara relevant. För att lyckas med lokal SEO behövs det även tas hänsyn till vissa tekniska åtgärder bakom hemsidan. Detta gör det lättare för Google att begripa vilka geografiska områden sökmotorn ska förknippa dig och ditt företag med.
     </p>
-    </div>
-</section>
 
-
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
     <h1 class="text-2xl uppercase pb-5">Google My Business (GMB)</h1>
     <p class="text-sm text-left pb-5">
     Om du driver ett lokalt företag som verkar inom ett avgränsat geografiskt område är det av stor vikt för dig att finnas på Google My Business. Det är viktigt då Google My Business är det resultat som Google visar om du söker efter lokala företag.
@@ -282,22 +269,44 @@ desc={`
     <p class="text-sm text-left pb-5">
     Google visar det som en lista av de olika relevanta lokala företagen ovanför de organiska sökresultaten. Google My Business är ett av de bästa sätten att få ny trafik samt nya kunder. Därför är det viktigt att optimera sin GMB sida med information om ditt företag i Halmstad för att synas på lokala resultat.
         </p>
+
+    <section class="bg-white">
+    <div class="pt-5 cards-container p-6">
+    <div class="custom-back max-w-sm p-6 pb-10  shadow headingSEO-card2 pt-10">
+    <h1 class="text-center text-xl pt-5 pb-5 text-white">Vad hittar dina kunder om dig när de söker på ditt företag i Halmstad på nätet?</h1>
+    <p class="text-sm text-white pb-5">
+    Detta kan du reglera i GMB. De ska snabbt kunna få tag på ditt telefon nummer ifall de behöver det. Även vart det finns bra tillgängliga parkeringsplatser mm är bra att ta med.
+    </p>
+    <p class="text-sm text-white pb-5">
+    Det är optimalt om dina kunder har tillgång till detta redan innan de når hemsidan. Google My Business är det enklaste och bästa sättet att få ditt företag att synas på förstasidan. Det är bevisat att de flesta inte kommer längre än till Googles första sida av sökresultat. Att synas på förstasidan är otroligt värdefullt.
+    </p>
+    </div>
+    </div>
+    </section>
+ 
+    `}
+
+  />
+
+    <div class='pt-20 heading-container text-center text-black bg-white'>
+    
+
+    <h1 class="text-xl uppercase pt-20 pb-5">
+  
+    <br />
+    
+    </h1>
+    
+    </div>
+</section>
+
+
+    <section>
+    <div class='pt-20 heading-container text-center text-black bg-white'>
+    
     </div>
     
-    <section class="bg-white">
-       <div class="pt-5 cards-container p-6">
-     <div class="custom-back max-w-sm p-6 pb-10  shadow headingSEO-card2 pt-10">
-        <h1 class="text-center text-xl pt-5 pb-5 text-white">Vad hittar dina kunder om dig när de söker på ditt företag i Halmstad på nätet?</h1>
-        <p class="text-sm text-white pb-5">
-        Detta kan du reglera i GMB. De ska snabbt kunna få tag på ditt telefon nummer ifall de behöver det. Även vart det finns bra tillgängliga parkeringsplatser mm är bra att ta med.
-        </p>
-        <p class="text-sm text-white pb-5">
-        Det är optimalt om dina kunder har tillgång till detta redan innan de når hemsidan. Google My Business är det enklaste och bästa sättet att få ditt företag att synas på förstasidan. Det är bevisat att de flesta inte kommer längre än till Googles första sida av sökresultat. Att synas på förstasidan är otroligt värdefullt.
-        </p>
-        </div>
-        </div>
-        </section>
-
+   
 
         <div class='pt-20 heading-container text-center text-black bg-white'>
     <h1 class="text-2xl uppercase pb-5">SEO och Google Analytics</h1>
