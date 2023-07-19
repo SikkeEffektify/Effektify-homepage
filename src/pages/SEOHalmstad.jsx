@@ -5,6 +5,7 @@ import { HeroButton } from '../components/HeroButton'
 import ContactForm from '../components/ContactForm'
 import videoHeroButton from '../assets/spaceloop2.mp4'
 import { HeroImage } from '../components/HeroImage.jsx'
+import { Heading } from '../components/Heading'
 
 export default function SEOHalmstad() {
   return (
@@ -47,22 +48,29 @@ desc={`
    </div>
     </section>
 
-    <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <p class="uppercase text-xs pb-5">Syns du inte så finns du inte</p>
-    <h1 class="text-lg uppercase">
-    Behöver även du hjälp med SEO i Halmstad?
-    </h1>
-    <p class="text-left pt-10 text-base pb-5">
-    SEO står för det engelska uttrycket Search Engine Optimization, vilket översatt till svenska är sökmotoroptimering. SEO består av många olika delar och är en viktig faktor för dig som vill att dina potentiella kunder ska hitta din webbplats när de gör sökningar på tjänster eller produkter som du erbjuder.
-    </p>
-    <p class="text-center pb-5 text-sm">
-    Enkelt förklarat innebär 
-    <a class="text-rose-300" target="_blank" rel="noopener noreferrer" href="/seo-sokmotoroptimering/"> SEO </a>
-    att göra din webbplats synlig på Google och andra sökmotorer.
-    </p>
-    <img class="mx-auto pt-5 drop-shadow-lg" src={stats} alt="" />
-    </div>
+    <section> 
+
+      <Heading
+      bg={"bg-white"}
+      title={"SEO Halmstad"}
+      textColor={"text-black"}
+      titlePosition={"text-center"}
+      descCustomHtml={`
+      <p class="uppercase text-xs pb-5">Syns du inte så finns du inte</p>
+      <h1 class="text-lg uppercase">
+      Behöver även du hjälp med SEO i Halmstad?
+      </h1>
+      <p class="text-left pt-10 text-base pb-5">
+      SEO står för det engelska uttrycket Search Engine Optimization, vilket översatt till svenska är sökmotoroptimering. SEO består av många olika delar och är en viktig faktor för dig som vill att dina potentiella kunder ska hitta din webbplats när de gör sökningar på tjänster eller produkter som du erbjuder.
+      </p>
+      <p class="text-center pb-5 text-sm">
+      Enkelt förklarat innebär 
+      <a class="text-rose-300" target="_blank" rel="noopener noreferrer" href="/seo-sokmotoroptimering/"> SEO </a>
+      att göra din webbplats synlig på Google och andra sökmotorer.
+      </p>
+      <img class="mx-auto pt-5 drop-shadow-lg" src="./src/assets/seo-halmstad-stats.webp" alt="" />
+      `}
+      />
     </section>
 
     <HeroButton 
