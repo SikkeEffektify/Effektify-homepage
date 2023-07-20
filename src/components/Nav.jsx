@@ -14,32 +14,30 @@ const Nav = () => {
         <a href='/kontakt' class="text-white spanNav-touch">Get in touch</a>
     </div>
     <button data-collapse-toggle="navbar-default" type="button" class=" " aria-controls="navbar-default" aria-expanded="false">
-    <img src={burgericon} alt="" />
     </button>
-    <div class="bg-black hidden w-full md:block md:w-auto" id="navbar-default">
-    <ul class="mb-4 space-y-4 md:mb-0 text-white">
-                <li>
-                    <a href="#" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                        Our Blog
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                        Terms & Conditions
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                        License
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                        Resources
-                    </a>
-                </li>
-            </ul>
-    </div>
+       <button class="" type="button" data-dropdown-toggle="dropdown" >
+       <img src={burgericon} alt="" />
+    </button>
+   
+
+<div class="text-center">
+</div>
+<div id="dropdown" class="z-10 hidden divide-y divide-gray-100 rounded-lg shadow w-44 bg-gray-700">
+    <ul class="py-2 text-sm  text-white" aria-labelledby="dropdownDefaultButton">
+      <li>
+        <a href="#" class="block px-4 py-2  hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+      </li>
+      <li>
+        <a href="#" class="block px-4 py-2  hover:bg-gray-600 dark:hover:text-white">Settings</a>
+      </li>
+      <li>
+        <a href="#" class="block px-4 py-2  hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+      </li>
+      <li>
+        <a href="#" class="block px-4 py-2  hover:bg-gray-600 dark:hover:text-white">Sign out</a>
+      </li>
+    </ul>
+</div>
   </div>
 </nav>
     </header>
