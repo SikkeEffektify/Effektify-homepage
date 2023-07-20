@@ -11,7 +11,7 @@ const Nav = () => {
         <img src={logo} class="logo" alt="Efektify Logo" />
     </a>
     <div>
-        <a href='/kontakt' class="text-white spanNav-touch">Get in touch</a>
+        <a href='/kontakt' class="text-white text-center spanNav-touch">Get in touch</a>
     </div>
     <button data-collapse-toggle="navbar-default" type="button" class=" " aria-controls="navbar-default" aria-expanded="false">
     </button>
@@ -19,22 +19,15 @@ const Nav = () => {
        <img src={burgericon} alt="" />
     </button>
    
-
-<div class="text-center">
-</div>
-<div id="dropdown" class="z-10 hidden divide-y divide-gray-100 rounded-lg shadow w-44 bg-gray-700">
-    <ul class="py-2 text-sm  text-white" aria-labelledby="dropdownDefaultButton">
-      <li>
-        <a href="#" class="block px-4 py-2  hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+<div id="dropdown" class="z-10 hidden divide-y rounded-lg shadow  navbarDrop">
+    <ul class="py-10 text-sm  text-white" aria-labelledby="dropdownDefaultButton">
+        <h1 className='text-rose-300 text-2xl px-4 pb-1 '><span className='text-white'>Search</span>.</h1>
+        <hr class="w-48 h-0.5 m-2 bg-gray-100 border-0 rounded dark:bg-gray-700" ></hr>
+      <li class="pt-3">
+        <a href="#" class="block px-4 py-2 text-base "><i class="fa-solid fa-chart-line text-rose-300 pr-2"></i>Sökmotoroptimering</a>
       </li>
-      <li>
-        <a href="#" class="block px-4 py-2  hover:bg-gray-600 dark:hover:text-white">Settings</a>
-      </li>
-      <li>
-        <a href="#" class="block px-4 py-2  hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-      </li>
-      <li>
-        <a href="#" class="block px-4 py-2  hover:bg-gray-600 dark:hover:text-white">Sign out</a>
+      <li class="pt-3">
+        <a href="#" class="block px-4 py-2 text-base"><i class="fa-solid fa-chart-column text-sky-400 pr-2"></i>Google ads</a>
       </li>
     </ul>
 </div>

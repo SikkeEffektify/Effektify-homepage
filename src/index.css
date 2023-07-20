@@ -80,3 +80,8 @@ background-size: contain;
 background-attachment: fixed;
 background-image: url(./assets/annonsering-sociala-medier-small-1.webp);
 }
+
+.navbarDrop{
+margin: 0 auto; width: 100%;
+background-color: #252525;
+}
