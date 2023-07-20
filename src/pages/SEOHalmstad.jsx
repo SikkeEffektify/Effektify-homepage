@@ -179,7 +179,7 @@ desc={`
 
         <section class="bg-white">
         <div class="pt-5 cards-container p-6">
-      <div class="custom-back max-w-sm p-6 pb-10  shadow headingSEO-card pt-10">
+      <div class="custom-back max-w-sm p-6 pb-10 mx-auto  shadow headingSEO-card pt-10">
          <h1 class="text-center text-xl pt-5 pb-5 text-white">Vad består SEO av?</h1>
          <p class="text-sm text-white pb-5">
          SEO består huvudsakligen av tre delar, analys av sökord, on-page och off-page. En analys av sökord är viktigt för att kunna finna de specifika sökfraser som är relevanta för dig och som gynnar dig och din verksamhet.
@@ -272,7 +272,7 @@ desc={`
 
     <section class="bg-white">
     <div class="pt-5 cards-container p-6">
-    <div class="custom-back max-w-sm p-6 pb-10  shadow headingSEO-card2 pt-10">
+    <div class="custom-back max-w-sm p-6 pb-10 mx-auto shadow headingSEO-card2 pt-10">
     <h1 class="text-center text-xl pt-5 pb-5 text-white">Vad hittar dina kunder om dig när de söker på ditt företag i Halmstad på nätet?</h1>
     <p class="text-sm text-white pb-5">
     Detta kan du reglera i GMB. De ska snabbt kunna få tag på ditt telefon nummer ifall de behöver det. Även vart det finns bra tillgängliga parkeringsplatser mm är bra att ta med.
@@ -325,7 +325,7 @@ desc={`
 
     <section class="bg-white">
        <div class="pt-5 cards-container p-6">
-     <div class="custom-back max-w-sm p-6 pb-10  shadow headingSEO-card pt-10">
+     <div class="custom-back max-w-sm p-6 pb-10 mx-auto  shadow headingSEO-card pt-10">
         <h1 class="text-center text-xl pt-5 pb-5 text-white">Varför ska man anlita en byrå för SEO i Halmstad?</h1>
         <p class="text-sm text-white pb-5">
         Det finns många goda själ till varför man ska anlita en SEO- byrå. Har du pengar för digital marknadsföring i din budget är detta bästa sättet att spendera dem. Vi som är experter på SEO hjälper dig med bland annat meta-sökordsfraser, vi stärker din länkprofil med både ingående och utgående länkar samt hjälper dig att skapa ett bra content på din webbplats.
