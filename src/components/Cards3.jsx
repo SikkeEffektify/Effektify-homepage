@@ -5,7 +5,7 @@ import gif from '../assets/PONG_Light_version2.gif'
 export const Cards3 = ({title1, desc1, title2, desc2, title3, desc3, title4, desc4}) => {
   return (
     <>
-    <section class="cards-1">
+    <section class="cards-1 md:pt-80">
        <div class="pt-5 cards-container ">
      <div class="max-w-sm p-6 pb-10 border border-white shadow bg-black  mx-auto pt-10">
       <a href="#">
@@ -43,7 +43,7 @@ export const Cards3 = ({title1, desc1, title2, desc2, title3, desc3, title4, des
     
     </div>
     </div>
-    <img src={gif} alt="" />
+    <img src={gif} class="md:w-2/3 mx-auto" alt="" />
     </section>
     
     </>

@@ -5,7 +5,7 @@ import flower from '../assets/effektify-blomma.png'
 export const HeadingWebb = ({titleLeft, titleRight, descLeft, DescRight, endText}) => {
   return ( 
     <section>
-    <div class='pt-10  heading-container text-left'>
+    <div class='max-md:pt-10 md:pt-40  heading-container text-left'>
     <h1 class="pt-5 text-4xl  ">
     <span class='text-white '>{titleLeft}</span>
     </h1>
