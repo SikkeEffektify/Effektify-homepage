@@ -56,8 +56,12 @@ export default function GoogleAds() {
   </div>
     </div>
 
+ 
+    </div>
+    </section>
 
     <Heading 
+      bg={"text-white"}
       titlePosition={"text-right"}
       title={"Dina kunder finns på Google"}
       textColor={"text-white"}
@@ -87,6 +91,7 @@ export default function GoogleAds() {
 
 
     <Heading 
+      bg={"text-white"}
       title={"Vad är då Google Ads?"}
       textColor={"text-white"}
       descCustomHtml={`
@@ -116,13 +121,14 @@ export default function GoogleAds() {
     `}
     />
 
-    
-    <Heading 
+
+    <Heading
+      bg={"text-white"}
       textColor={"text-white"}
       title={"Använda sig av Google Ads"}
       descCustomHtml={`
       
-      <p class="text-sm text-left pb-5">
+      <p class="text-sm text-left text-white pb-5">
       Google Ads är ett utmärkt verktyg för dig som vill
       <em class="text-rose-300"> öka din försäljning, öka antalet besökare på din webbplats eller vill ha återkommande och fler kunder. </em>
       Med Google Ads är det möjligt att specificera den målgrupp du riktar dig mot. Du har även möjlighet att rikta in annonserna geografiskt så att du syns på specifika sökord i specifika orter.
@@ -153,10 +159,6 @@ export default function GoogleAds() {
       </h1>
       `}
     />
-
- 
-    </div>
-    </section>
     
     <img src={gif} alt="" />
   <ContactForm 

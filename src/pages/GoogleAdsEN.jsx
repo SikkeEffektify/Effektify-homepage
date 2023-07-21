@@ -57,7 +57,14 @@ export default function GoogleAdsEN() {
     </div>
 
 
-    <Heading 
+
+ 
+    </div>
+    </section>
+
+
+    <Heading
+      bg={"text-white"}
       titlePosition={"text-right"}
       title={"Your customers are on Google"}
       textColor={"text-white"}
@@ -86,7 +93,8 @@ export default function GoogleAdsEN() {
     />
 
 
-    <Heading 
+    <Heading
+      bg={"text-white"}
       title={"So what is Google Ads actually?"}
       textColor={"text-white"}
       descCustomHtml={`
@@ -117,7 +125,8 @@ export default function GoogleAdsEN() {
     />
 
     
-    <Heading 
+    <Heading
+      bg={"text-white"}
       textColor={"text-white"}
       title={"Why you should use Google Ads"}
       descCustomHtml={`
@@ -153,10 +162,6 @@ export default function GoogleAdsEN() {
       </h1>
       `}
     />
-
- 
-    </div>
-    </section>
     
     <img src={gif} alt="" />
     <ContactForm 
