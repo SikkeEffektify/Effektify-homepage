@@ -10,8 +10,9 @@ export default function Services() {
 
     <Heading 
       bg={"bg-white"}
-      textColor={"text-black"}
-      title={"positions"}
+      textColor={"text-black md:text-6xl"}
+      titlePosition={"md:text-center"}
+      title={"Positions"}
       descCustomHtml={`
       <p class="text-sm text-left pb-10">Our services help companies increase their visibility and thus their sales. Whatever type of visibility is appropriate for your business, we guarantee that with the help of our specialists in each area, we can devise a strategy that will help you achieve your goals. </p>
       <p class="text-sm text-left pb-10">

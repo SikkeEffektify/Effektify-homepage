@@ -3,7 +3,7 @@ import './Hero.css'
 
 export const HeroButton = ({title, title2, buttonLink, buttonText, videoLink}) => {
   return (
-<section>
+<section class="md:pb-10">
    <div className='hero'>
     <div className="vidOverlay"></div>
     <video class="min-w-full min-h-full absolute object-cover" src={videoLink} autoPlay loop muted />

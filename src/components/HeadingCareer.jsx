@@ -7,7 +7,7 @@ import img3 from '../assets/stats3.webp'
 export const HeadingCareer = ({mainTitle, mainDesc, endText, emailMessage, jobTitle1, jobDesc1, jobTitle2, jobDesc2, jobTitle3, jobDesc3, jobTitle4, jobDesc4, jobTitle5, jobDesc5, jobTitle6, jobDesc6, jobTitle7, jobDesc7, jobTitle8, jobDesc8, jobTitle9, jobDesc9}) => {
   return (
     <>
-    <div class='pt-20 heading-container text-left text-black bg-white'>
+    <div class='max-md:pt-20 md:pt-40 heading-container text-left text-black bg-white'>
     <h1 class="text-3xl uppercase text-rose-300 pb-5">
       <span class="text-black">{mainTitle}</span>.
     </h1>

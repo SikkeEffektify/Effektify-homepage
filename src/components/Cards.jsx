@@ -5,7 +5,7 @@ export const Cards = ({underTitle1, underDesc1, underTitle2, underDesc2, underTi
   return (
     <>
     <section class="cards-1">
-       <div class="pt-5 cards-container ">
+       <div class="pt-5 cards-container">
      <div class="max-w-sm p-6 pb-10 border border-white shadow mx-auto bg-black pt-10">
       <a href="#">
         <h1 class=" cards-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white">SEARCH</span>.</h1>

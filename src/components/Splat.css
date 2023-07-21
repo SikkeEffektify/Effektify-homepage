@@ -1,14 +1,26 @@
 .splat-container{
     background-image: url(../assets/splat.svg);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    overflow: hidden;   
+}
+
+@media only screen and (max-width: 768px) {
+    .splat-container{
+    background-image: url(../assets/splat.svg);
     background-size: calc(100% + 2px) calc(100% + 2px);
     background-repeat: no-repeat;
     background-position: 50%;
-    overflow: hidden;
-
-    
+    overflow: hidden;   
 }
+
 .splat-main{
     height: 500px;
+}
+}
+
+.splat-main{
+    height: 700px;
 }
 
 .splat-content {
