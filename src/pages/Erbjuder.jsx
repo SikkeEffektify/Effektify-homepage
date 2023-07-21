@@ -171,6 +171,8 @@ export default function Erbjuder() {
       buttonText={"Launch"}
       videoLink={videoHeroButton}
     />
+
+    <div class='bg-white pt-20 max-md:hidden'></div>
     </>
   )
 }

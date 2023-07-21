@@ -38,97 +38,97 @@ export const Headinglist = (
 <div id="accordion-flush" data-accordion="collapse " class='pb-10' >
   <h2 id="accordion-flush-heading-1" class="button-no-back">
     <button type="button" class="flex button-no-back items-center justify-between w-full py-5 font-medium text-left text-white" data-accordion-target="#accordion-flush-body-1" aria-expanded="false" aria-controls="accordion-flush-body-1">
-      <span class='uppercase'>{title1}</span> 
-      <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
+      <span class='uppercase md:pl-2 '>{title1}</span> 
+      <i class="fa-solid fa-angles-down max-md:pr-2 md:pr-3 text-rose-300"></i>
     </button>
   </h2>
   <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
-    <div class="py-5 border-b" dangerouslySetInnerHTML={{__html: desc1}}>
+    <div class="py-5 border-b md:pl-2 " dangerouslySetInnerHTML={{__html: desc1}}>
     </div>
   </div> 
   <h2 id="accordion-flush-heading-2" class="button-no-back">
     <button type="button" class="flex button-no-back items-center justify-between w-full py-5 font-medium text-left text-white" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
-      <span class='uppercase'>{title2}</span>
-      <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
+      <span class='uppercase md:pl-2 '>{title2}</span>
+      <i class="fa-solid fa-angles-down max-md:pr-2 md:pr-3 text-rose-300"></i>
     </button>
   </h2>
   <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
-    <div class="py-5 border-b" dangerouslySetInnerHTML={{__html: desc2}}>
+    <div class="py-5 border-b md:pl-2 " dangerouslySetInnerHTML={{__html: desc2}}>
     </div>
   </div> 
   <h2 id="accordion-flush-heading-3" class="button-no-back">
     <button type="button" class="flex button-no-back items-center justify-between w-full py-5 font-medium text-left text-white" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
-      <span class='uppercase'>{title3}</span>
-      <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
+      <span class='uppercase md:pl-2 '>{title3}</span>
+      <i class="fa-solid fa-angles-down max-md:pr-2 md:pr-3 text-rose-300"></i>
     </button>
   </h2>
   <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
-    <div class="py-5 border-b" dangerouslySetInnerHTML={{__html: desc3}}>
+    <div class="py-5 border-b md:pl-2 " dangerouslySetInnerHTML={{__html: desc3}}>
     </div>
   </div> 
   <h2 id="accordion-flush-heading-4" class="button-no-back">
     <button type="button" class="flex button-no-back items-center justify-between w-full py-5 font-medium text-left text-white" data-accordion-target="#accordion-flush-body-4" aria-expanded="false" aria-controls="accordion-flush-body-4">
-      <span class='uppercase'>{title4}</span>
-      <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
+      <span class='uppercase md:pl-2'>{title4}</span>
+      <i class="fa-solid fa-angles-down max-md:pr-2 md:pr-3 text-rose-300"></i>
     </button>
   </h2>
   <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
-    <div class="py-5 border-b text-white" dangerouslySetInnerHTML={{__html: desc4}}>
+    <div class="py-5 border-b text-white md:pl-2" dangerouslySetInnerHTML={{__html: desc4}}>
       
     </div>
   </div> 
   <h2 id="accordion-flush-heading-5" class="button-no-back">
     <button type="button" class="flex button-no-back items-center justify-between w-full py-5 font-medium text-left text-white" data-accordion-target="#accordion-flush-body-5" aria-expanded="false" aria-controls="accordion-flush-body-5">
-      <span class='uppercase'>{title5}</span>
-      <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
+      <span class='uppercase md:pl-2'>{title5}</span>
+      <i class="fa-solid fa-angles-down max-md:pr-2 md:pr-3 text-rose-300"></i>
     </button>
   </h2>
-  <div id="accordion-flush-body-5" class="hidden" aria-labelledby="accordion-flush-heading-5">
-    <div class="py-5 border-b" dangerouslySetInnerHTML={{__html: desc5}}>
+  <div id="accordion-flush-body-5 md:pl-2" class="hidden" aria-labelledby="accordion-flush-heading-5">
+    <div class="py-5 border-b md:pl-2" dangerouslySetInnerHTML={{__html: desc5}}>
       
     </div>
   </div> 
   <h2 id="accordion-flush-heading-6" class="button-no-back">
     <button type="button" class="flex button-no-back items-center justify-between w-full py-5 font-medium text-left text-white" data-accordion-target="#accordion-flush-body-6" aria-expanded="false" aria-controls="accordion-flush-body-6">
-      <span class='uppercase'>{title6}</span>
-      <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
+      <span class='uppercase md:pl-2 '>{title6}</span>
+      <i class="fa-solid fa-angles-down max-md:pr-2 md:pr-3 text-rose-300"></i>
     </button>
   </h2>
   <div id="accordion-flush-body-6" class="hidden" aria-labelledby="accordion-flush-heading-6">
-    <div class="py-5 border-b" dangerouslySetInnerHTML={{__html: desc6}}>
+    <div class="py-5 border-b md:pl-2" dangerouslySetInnerHTML={{__html: desc6}}>
       
     </div>
   </div> 
   <h2 id="accordion-flush-heading-7" class="button-no-back">
     <button type="button" class="flex button-no-back items-center justify-between w-full py-5 font-medium text-left text-white" data-accordion-target="#accordion-flush-body-7" aria-expanded="false" aria-controls="accordion-flush-body-7">
-      <span class='uppercase'>{title7}</span>
-      <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
+      <span class='uppercase md:pl-2'>{title7}</span>
+      <i class="fa-solid fa-angles-down max-md:pr-2 md:pr-3 text-rose-300"></i>
     </button>
   </h2>
   <div id="accordion-flush-body-7" class="hidden" aria-labelledby="accordion-flush-heading-7">
-    <div class="py-5 border-b" dangerouslySetInnerHTML={{__html: desc7}}>
+    <div class="py-5 border-b md:pl-2" dangerouslySetInnerHTML={{__html: desc7}}>
      
     </div>
   </div> 
   <h2 id="accordion-flush-heading-8" class="button-no-back">
     <button type="button" class="flex button-no-back items-center justify-between w-full py-5 font-medium text-left text-white" data-accordion-target="#accordion-flush-body-8" aria-expanded="false" aria-controls="accordion-flush-body-8">
-      <span class='uppercase'>{title8}</span>
-      <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
+      <span class='uppercase md:pl-2'>{title8}</span>
+      <i class="fa-solid fa-angles-down max-md:pr-2 md:pr-3 text-rose-300"></i>
     </button>
   </h2>
   <div id="accordion-flush-body-8" class="hidden" aria-labelledby="accordion-flush-heading-8">
-    <div class="py-5 border-b" dangerouslySetInnerHTML={{__html: desc8}}>
+    <div class="py-5 border-b md:pl-2" dangerouslySetInnerHTML={{__html: desc8}}>
     
     </div>
   </div> 
   <h2 id="accordion-flush-heading-9" class="button-no-back">
     <button type="button" class="flex button-no-back items-center justify-between w-full py-5 font-medium text-left text-white" data-accordion-target="#accordion-flush-body-9" aria-expanded="false" aria-controls="accordion-flush-body-9">
-      <span class='uppercase'>{title9}</span>
-      <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
+      <span class='uppercase md:pl-2 '>{title9}</span>
+      <i class="fa-solid fa-angles-down max-md:pr-2 md:pr-3 text-rose-300"></i>
     </button>
   </h2>
   <div id="accordion-flush-body-9" class="hidden" aria-labelledby="accordion-flush-heading-9">
-    <div class="py-5 border-b" dangerouslySetInnerHTML={{__html: desc9}}>
+    <div class="py-5 border-b md:pl-2" dangerouslySetInnerHTML={{__html: desc9}}>
      
     </div>
   </div> 

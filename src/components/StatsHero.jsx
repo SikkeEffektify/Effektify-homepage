@@ -13,7 +13,7 @@ export const StatsHero = ({videoLink, videoLink2, title1, title2, desc, title3, 
         <a class="pt-40" href="#testtyp"><i class="fa-solid fa-circle-chevron-down fa-lg"></i></a>
     </div>
    </div>
-   <section class="bg-white pt-10 text-lg font-black text-black heading-container pb-10">
+   <section class="bg-white max-md:pt-10 md:pt-40 text-lg font-black text-black heading-container pb-10">
     <h2 class="uppercase">{title2}</h2>
     <p class="font-light pt-5 text-sm">
     {desc}
