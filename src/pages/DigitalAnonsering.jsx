@@ -16,7 +16,8 @@ export default function DigitalAnonsering() {
 
     <>
    <Heading 
-   bg={"bg-white pb-40 pt-20"}
+   bg={"bg-white pb-40 pt-20 md:pb-80 "}
+   titlePosition={"md:text-center"}
    textColor={"text-black"}
    title={"Digital annonsering"}
    desc={"Med en av våra persoliga specialister har annonsering aldrig varit enklare. Vi skräddarsyr en strategi baserat på djupgående analyser av önskade sökord och konkurrens för att kunna erbjuda en lösning som passar din bransch och ditt företag."}
@@ -64,7 +65,7 @@ export default function DigitalAnonsering() {
     `}
 
     endText={`
-    <p class="text-right text-xl pb-3 pr-2">Luta dig tillbaka och låt oss 
+    <p class="max-md:text-right  md:text-center text-xl pb-3 pr-2">Luta dig tillbaka och låt oss 
     <br />
     göra det vi är bra på.
     </p>
@@ -74,7 +75,8 @@ export default function DigitalAnonsering() {
      title={"Vilken platform är rätt för dig?"}
      desc={" Med hjälp av rätt strategier skapar vi anpassade lösningar för företag som vill kunna nå ut till en större marknad samtidigt som de kan se mätbara resultat."}
    />
-   <ContactForm 
+
+<ContactForm 
     title={"Vad kul att du har hittat till oss!"}
     desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
     company={"Företag"}
@@ -84,6 +86,7 @@ export default function DigitalAnonsering() {
     text={"Vad kan vi hjälpa dig med?"}
     buttonText={"Skicka"}
     />
+   
    <CardsGoogle
     title={"Öka din synlighet"}
     desc1={"Google är Sveriges i särklass största sökmotor och 95% av alla sökningar görs idag via deras plattform. I Sverige görs det varje dag mer än 50 miljoner sökningar på Google. Med siffror som dessa inser du säkert vikten av att synas högt upp i sökresultatet som Google visar upp. Konkurrensen mellan företag som vill ranka högt upp på Google är idag oerhört stor då många idag förstår betydelsen av vad en bra position innebär. Med andra ord, syns du inte så finns du inte."}
@@ -100,7 +103,10 @@ export default function DigitalAnonsering() {
       och kostnaden som du betalar varje gång en besökare klickar på just din länk bestäms av konkurrenssituationen och vilka sökord det rör sig om.
     </p>
     `}
+    
    />
+
+
     </>
 
   )

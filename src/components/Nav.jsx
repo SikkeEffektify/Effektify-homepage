@@ -19,7 +19,7 @@ const Nav = () => {
        <img src={burgericon} alt="" />
     </button>
    
-<div id="dropdown" class="z-10 hidden rounded-lg shadow navbarDrop">
+<div id="dropdown" class="z-10 hidden rounded-2xl shadow navbarDrop">
     <div class="md:flex md:justify-center md:items-center max-md:text-center">
     <ul class="py-10 text-sm  text-white" aria-labelledby="dropdownDefaultButton">
         <h1 className='text-rose-300 text-2xl px-4 pb-1 '><span className='text-white'>Search</span>.</h1>

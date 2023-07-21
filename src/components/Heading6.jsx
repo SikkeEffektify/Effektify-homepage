@@ -7,7 +7,7 @@ export const Heading6 = ({titleLeft, titleRight, descLeft, descRight, desc, endT
   return (
     
     <section>
-    <div class='bg-white pt-40 pb-10 heading-container '>
+    <div class='bg-white max-md:pt-40 md:pt-80 pb-10 heading-container '>
     <h1 class="text-5xl font-black pt-5 mb-4 tracking-tighter text-black ">
     {titleLeft}
     </h1>

@@ -8,7 +8,7 @@ export const CardsGoogle= ({title, desc1, desc2}) => {
     <>
    <section class="cards5-1">
        <div class="pt-5 cards-container ">
-     <div class="custom-back  mx-auto max-w-sm p-6 pb-60  pt-40">    
+     <div class="custom-back max-md:mx-auto max-md:max-w-sm p-6 pb-60 pt-40">    
     </div>
     </div>
     </section>

@@ -56,6 +56,7 @@ export default function Home() {
       videoLink={"https://player.vimeo.com/progressive_redirect/playback/640269040/rendition/360p/file.mp4?loc=external&signature=d0e1d5c738b95a755a14180899b17e383d9330d980a2e4d2a0fd01f98017b49c"}
     />
     <Heading
+      titlePosition={"md:text-center"}
       bg={"bg-white"}
       textColor={"text-black"} 
       title={"Fler tjänster genom partnerskap"}

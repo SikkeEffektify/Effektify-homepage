@@ -8,7 +8,7 @@ export const Heading = ({title, desc, bg, textColor, titlePosition, descCustomHt
 
   return (
     <section class={bg}>
-    <div class='pt-20 heading-container'>
+    <div class='max-md:pt-20 md:pt-40 md:w-screen heading-container'>
     <div class={titlePosition}>
     <h1 class="text-4xl pb-5  text-rose-300 ">
     <span class={textColor}>

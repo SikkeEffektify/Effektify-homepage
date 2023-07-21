@@ -32,7 +32,7 @@
 
 
 .cards2-1 .custom-back{
-    background-image: linear-gradient(180deg,rgba(0,0,0,.3) 0%,rgba(0,0,0,.8) 100%),url(https://cdn-djlbl.nitrocdn.com/vvLIgfkJzrwFbFdtNdlsbBlCOwYgFDNW/assets/images/optimized/rev-1d39e53/wp-content/uploads/2022/05/pooltime-pooler.jpeg);
+    background-image: linear-gradient(180deg,rgba(0,0,0,.3) 0%,rgba(0,0,0,.8) 100%),url(../assets/pooltime.webp);
     background-size: cover;
     border-width: 4px;
 }
@@ -57,11 +57,23 @@
     border-width: 4px;
 }
 
+@media only screen and (max-width: 768px) {
 .cards5-1 .custom-back{
     background-image: url(../assets/marknadsforing-annonser-3.jpeg);
     background-size: cover;
     background-position: right;
     
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+.cards5-1 .custom-back{
+    background-image: url(../assets/marknadsforing-annonser-3.jpeg);
+    background-size: 100%;
+    background-position: left;
+    
+    }
 }
 
 .cards-seo .custom-back{
