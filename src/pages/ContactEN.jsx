@@ -10,7 +10,7 @@ export default function ContactEN() {
     title={"Ready to start your journey?"}
     videoLink={video}
     />
-    <img src={gif} class="mx-auto" alt="" />
+    <img src={gif} class="md:pt-10 mx-auto md:w-1/2" alt="" />
     <ContactForm 
     title={"How nice that you have found us!"}
     desc={"If you have any questions or are ready to start your digital journey now, feel free to fill in a few lines or email us at"}

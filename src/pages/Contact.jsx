@@ -11,7 +11,7 @@ export default function Contact() {
     title={"Redo att starta din resa?"}
     videoLink={video}
     />
-    <img src={gif} class="mx-auto" alt="" />
+    <img src={gif} class="md:pt-10 mx-auto md:w-1/2" alt="" />
   <ContactForm 
     title={"Vad kul att du har hittat till oss!"}
     desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}

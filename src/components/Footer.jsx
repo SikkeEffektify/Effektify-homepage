@@ -14,7 +14,7 @@ export default function Footer() {
             <a href='/contact' class="uppercase footer-button" >starta din resa idag</a>
         </section>
         <section>
-            <div class="text-center pb-10 footer-list">
+            <div class="md:text-center   pb-10 footer-list">
                 <h3 class="pb-5 uppercase">Vi hjälper dig med</h3>
                 <div class='pb-2'><a href="/">Sökmotoroptimering</a></div>
                 <div class='pb-2'> <a href="/">Googgle Ads</a></div>
