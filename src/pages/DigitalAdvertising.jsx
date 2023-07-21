@@ -16,7 +16,7 @@ export default function DigitalAdvertising() {
 
     <>
    <Heading 
-   bg={"bg-white pb-40 pt-20"}
+   bg={"bg-white pb-40 pt-20 md:pb-80 "}
    textColor={"text-black"}
    title={"Digital advertising"}
    desc={"With one of our personal specialists, advertising has never been easier. We tailor a strategy based on in-depth analysis of your desired keywords and competition to provide a solution that fits your industry and your business."}
@@ -62,10 +62,10 @@ export default function DigitalAdvertising() {
     `}
 
     endText={`
-    <p class="text-right text-xl pb-3 pr-2">Sit back and let us 
+    <p class="max-md:text-right  md:text-center text-xl pb-3 pr-2">Sit back and let us 
     <br />
       do what we do best.
-    </p>
+    </p> 
     `}
    />
    <SocialCards
