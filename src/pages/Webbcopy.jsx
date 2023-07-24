@@ -31,7 +31,7 @@ export default function Webbcopy() {
    <div class='pt-5 heading-container bg-white text-black'>
     <section class="cards-seo">
        <div class="pt-5 cards-container2 pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
+     <div class="custom-back max-md:max-w-sm pb-10 border border-black shado mx-auto pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
@@ -42,45 +42,46 @@ export default function Webbcopy() {
     <Heading 
     title={"Webbcopy innehåller många delar"}
     bg={"bg-white"}
+    titlePosition={"md:text-center"}
     textColor={"text-black"}
     descCustomHtml={`
-    <p class="text-sm text-left pb-10">
+    <p class="text-sm text-left md:text-center pb-10">
     När du skriver copy för webben finns det många saker du behöver ha koll på för att Google ska visa upp din hemsida.  
     </p>
 
-    <p class="text-lg text-left pb-2">
+    <p class="text-lg text-left md:text-center pb-2">
     Sidans titel
     </p>
-    <p class="text-sm text-left pb-10">
+    <p class="text-sm text-left md:text-center pb-10">
     Det är viktigt att ha med sökordet i sidans titel för att Google ska förstå innehållet.
     </p>
 
-    <p class="text-lg text-left pb-2">
+    <p class="text-lg text-left md:text-center pb-2">
     Huvudrubriken
     </p>
-    <p class="text-sm text-left pb-10">
+    <p class="text-sm text-left md:text-center pb-10">
     Huvudrubriken förklarar för både Google och dina besökare vad din sida handlar om.
     </p>
 
 
-    <p class="text-lg text-left pb-2">
+    <p class="text-lg text-left md:text-center pb-2">
     Rätt mängd text
     </p>
-    <p class="text-sm text-left pb-5">
+    <p class="text-sm text-left md:text-center pb-5">
     Du vill inte vara sämre än dina konkurrenter. Hur mycket text din sida ska ha är en viktig sak att tänka på när du skriver webbcopy.
     </p>
 
-    <p class="text-lg text-left pb-2">
+    <p class="text-lg text-left md:text-center md:pt-5 pb-2">
     Fokusera
     </p>
-    <p class="text-sm text-left pb-5">
+    <p class="text-sm text-left md:text-center pb-5">
     Varje sida på din hemsida ska handla om en sak eller ett ämne, inte flera saker eller ämnen.
     </p>
 
-    <p class="text-lg text-left pb-2">
+    <p class="text-lg text-left md:text-center md:pt-5 pb-2 md:pb-10">
     Search intent
     </p>
-    <p class="text-sm text-left pb-5">
+    <p class="text-sm text-left md:text-center pb-5">
     Din text måste matcha sökintentionen hos dina kunder om du vill att Google ska visa upp din sida när de söker online.
     </p>
 
@@ -114,7 +115,7 @@ export default function Webbcopy() {
     <div class='heading-container fb-custom-color text-white'>
     <section class="cards-seo3">
        <div class="pt-5 cards-container2 pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
+     <div class="custom-back max-md:max-w-sm pb-10 border border-black shado mx-auto pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
