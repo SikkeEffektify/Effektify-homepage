@@ -13,8 +13,6 @@ const Nav = () => {
     <div class="max-md:text-center max-md:pl-5 md:pl-40">
         <a href='/kontakt' class="text-white spanNav-touch">Get in touch</a>
     </div>
-    <button data-collapse-toggle="navbar-default" type="button" class=" " aria-controls="navbar-default" aria-expanded="false">
-    </button>
        <button class="" type="button" data-dropdown-toggle="dropdown" >
        <img src={burgericon} alt="" />
     </button>

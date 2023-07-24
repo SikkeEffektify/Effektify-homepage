@@ -7,6 +7,8 @@ import logo from '../assets/Effektify-Vit-logo.png'
 
 export default function Footer() {
   return (
+    <>
+    <div >
     <div class="bg-black footer-container text-white text-center">
         <section class="pt-20 pb-20">
             <h1 class='uppercase pb-5'>We simplify <br /> business growth</h1>
@@ -40,5 +42,7 @@ export default function Footer() {
             </div>
         </section>
     </div>
+    </div>
+    </>
   )
 }

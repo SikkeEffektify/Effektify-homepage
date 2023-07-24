@@ -6,19 +6,24 @@ import stats3 from '../assets/Effektify-hjalper-dig-med-SEO-lokalt.webp'
 export default function SEOComponent({mainTitle1, mainDesc1, underImage1, mainTitle2, mainDesc2, underImage2, mainTitle3, mainDesc3, seoLink, seoLinkText, seoLinkButton, underButtonDesc, endTitle, endDesc, bg }) {
   return (
     <>
-    <section>
+    <section class="">
    <div className='hero '>
-    <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg} />
-    <div class="vidContent2 hero-image-text pb-40  bg-black/60">
-        <h1 class='text-5xl pl-4 text-left uppercase text-white pt-20 pb-10'>{mainTitle1}<span class="text-rose-300">.</span></h1>
+    
+    <img class=" min-w-full min-h-full absolute object-cover  hero-image" src={bg} />
+    <div class="vidContent2 hero-image-text bg-black/60  ">
+        <h1 class='text-5xl pl-4 text-left uppercase text-white pt-20  pb-10'>{mainTitle1}<span class="text-rose-300">.</span></h1>
          <div dangerouslySetInnerHTML={{__html: mainDesc1}}></div>
+        
+         
     </div>
+
    </div>
+   
     </section>
 
     <section>
-    <div class='pt-20 heading-container text-center text-black bg-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={stats} alt="" />
+    <div class='pt-20 heading-container text-center  text-black bg-white'>
+    <img class="mx-auto pt-5 drop-shadow-lg  pb-10" src={stats} alt="" />
     <div dangerouslySetInnerHTML={{__html: underImage1}}></div>
  
     </div>
