@@ -18,7 +18,10 @@ export const SocialCards = ({title, desc}) => {
       </p>
 
     </section>
-   <section class="cards-1">
+
+    <div class="md:grid md:grid-cols-5 md:pt-10">
+
+   <section class="cards-1 ">
        <div class="pt-5 cards-container ">
      <div class="max-w-sm p-6 pb-10 border border-white shadow  mx-auto bg-black pt-10">
       <img class='cards-social-icon mx-auto' src={google} alt="" />
@@ -58,6 +61,7 @@ export const SocialCards = ({title, desc}) => {
     </div>
     </div>
     </section>
+    </div>
     </>
   )
 }
