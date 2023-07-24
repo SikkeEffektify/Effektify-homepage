@@ -68,7 +68,7 @@ desc={`
       <a class="text-rose-300" target="_blank" rel="noopener noreferrer" href="/seo-sokmotoroptimering/"> SEO </a>
       att göra din webbplats synlig på Google och andra sökmotorer.
       </p>
-      <img class="mx-auto pt-5 drop-shadow-lg" src="./src/assets/seo-halmstad-stats.webp" alt="" />
+      <img class="mx-auto pt-5 pb-10 drop-shadow-lg" src="./src/assets/seo-halmstad-stats.webp" alt="" />
       `}
       />
     </section>

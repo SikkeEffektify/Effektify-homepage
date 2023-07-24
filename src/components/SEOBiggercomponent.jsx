@@ -11,7 +11,7 @@ export default function SEOBiggerComponent({mainTitle1, mainDesc1, mainTitle2, m
     <section>
    <div className='hero '>
     <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg} />
-    <div class="vidContent2 hero-image-text pb-40  bg-black/60">
+    <div class="vidContent hero-image-text pb-40  ">
         <h1 class='text-5xl pl-4 text-left uppercase text-white pt-10 pb-10'>{mainTitle1}<span class="text-rose-300">.</span></h1>
         <p class='text-left text-lg text-white'>
         {mainDesc1}
@@ -21,14 +21,14 @@ export default function SEOBiggerComponent({mainTitle1, mainDesc1, mainTitle2, m
     </section>
 
     <section>
-    <div class='pt-20 heading-container text-center text-white '>
+    <div class='pt-20 md:pt-40 heading-container text-center text-white '>
     <h1 class="text-2xl uppercase pb-10">
     {mainTitle2}
     </h1>
     <div dangerouslySetInnerHTML={{__html: mainDesc2}}></div>
     <section class="cards-seo">
        <div class="pt-5 cards-container2 pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shado  mx-auto  pt-10">
+     <div class="custom-back max-md:max-w-sm pb-10 border border-black shado  mx-auto  pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
@@ -64,7 +64,7 @@ export default function SEOBiggerComponent({mainTitle1, mainDesc1, mainTitle2, m
       <div dangerouslySetInnerHTML={{__html: mainDesc5}}></div>
       <section class="cards-seo2">
        <div class="pt-5 cards-container2 pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
+     <div class="custom-back max-md:max-w-sm pb-10 border border-black shado mx-auto pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
@@ -93,7 +93,7 @@ export default function SEOBiggerComponent({mainTitle1, mainDesc1, mainTitle2, m
     <section>
    <div className='hero '>
     <img class="min-w-full min-h-full absolute object-cover hero-image" src={bg2} />
-    <div class="vidContent2 hero-image-text pb-40  bg-black/80">
+    <div class="vidContentSEO hero-image-text pb-40  bg-black/80">
         <h1 class='text-5xl pl-4 text-left uppercase text-white pt-40 pb-10'>
         {mainTitle8}
         </h1>
@@ -103,7 +103,7 @@ export default function SEOBiggerComponent({mainTitle1, mainDesc1, mainTitle2, m
     </section>
 
     <section>
-    <div class='pt-20 heading-container text-center text-white'>
+    <div class='pt-20 md:pt-80 heading-container text-center text-white'>
       <h1 class="text-2xl uppercase pb-10">
       {mainTitle9}
       </h1>
