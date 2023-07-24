@@ -29,7 +29,9 @@ export default function LinkedInAds() {
 
       mainTitle2={"Olika typer av LinkedIn ads"}
       mainDesc2={`
+      <p class="text-center">
       <i class="fa-regular fa-square-check text-green-500 fa-2xl pb-5"></i>
+      </p>
       <h1 class="text-center text-3xl pb-5 ">
       Sponsrat innehåll
       </h1>
@@ -40,8 +42,10 @@ export default function LinkedInAds() {
       De typer av annonser som finns som sponsrat innehåll är enskilda bildannonser, videoannonser, galleriannonser och evenemangsannonser.   
       </p>
   
-  
+
+      <p class="text-center">
       <i class="fa-regular fa-square-check text-green-500 fa-2xl pb-5"></i>
+      </p>
       <h1 class="text-center text-3xl pb-5 ">
       Sponsrade meddelanden
       </h1>
@@ -52,8 +56,9 @@ export default function LinkedInAds() {
       Detta är ett bra sätt att driva konverteringar anpassade för målgruppen i fråga. Landningssidan behöver dock vara optimerad, samt mobilanpassad. Var tydlig med att förmedla vilka fördelar medlemmen har med att engagera sig i dina meddelanden.
       </p>
   
-  
+      <p class="text-center">
       <i class="fa-regular fa-square-check text-green-500 fa-2xl pb-5"></i>
+      </p>
       <h1 class="text-center text-3xl pb-5 ">
       Textannonser
       </h1>
@@ -64,9 +69,10 @@ export default function LinkedInAds() {
       Dessa Linkedin-annonser är även kända som Text Ads och placeras LinkedIn-sidor som är anpassade för denna typ av annonsering. Annonserna syns längst upp till höger av flödet. Dock enbart på desktop. Denna typ av annons är ett bra alternativ för dig som vill bygga professionella leads.
       </p>
   
-  
-  
+    
+      <p class="text-center">
       <i class="fa-regular fa-square-check text-green-500 fa-2xl pb-5"></i>
+      </p>
       <h1 class="text-center text-3xl pb-5 ">
       Dynamiska Ads
       </h1>
