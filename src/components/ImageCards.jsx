@@ -4,6 +4,7 @@ import './Cards.css'
 export const ImageCards = ({title1, desc1, title2, desc2, title3, desc3, title4, desc4}) => {
   return (
     <>
+    <div class="">
     <section class="cards2-1">
        <div class="pt-5 cards-container ">
      <div class="custom-back max-w-sm p-6 pb-10 border border-black shado  mx-auto  pt-10">
@@ -39,6 +40,7 @@ export const ImageCards = ({title1, desc1, title2, desc2, title3, desc3, title4,
       <div className='bg-white'>
       </div>
     </section>
+    </div>
     </>
   )
 }

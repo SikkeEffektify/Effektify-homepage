@@ -1,5 +1,19 @@
 .cards-video-container{
     position: relative;
+    width: 768.8px;
+    height: 434px;
+
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .cards-video-container{
+    position: relative;
     width: 312px;
     height: 460.59px;
 
@@ -8,6 +22,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
 }
 
 .cards-video-container video{
