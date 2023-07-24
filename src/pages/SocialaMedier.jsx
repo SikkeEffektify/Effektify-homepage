@@ -87,7 +87,7 @@ export default function SocialaMedier() {
     <div class='pt-10  heading-container text-white'>
     <section class="cards-google4">
        <div class="pt-5 cards-container2 pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
+     <div class="custom-back max-md:max-w-sm pb-10 border border-black shado mx-auto pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
@@ -111,49 +111,49 @@ export default function SocialaMedier() {
 
     <section class="cards-google4">
        <div class="pt-5 cards-socialm pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
+     <div class="custom-back max-md:max-w-sm pb-10 border border-black shado mx-auto pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
     </div>
     </section>
 
-    <section class="cards-socialm2">
+    <section class="cards-socialm2 md:hidden">
        <div class="pt-5 cards-container2 pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
+     <div class="custom-back max-md:max-w-sm pb-10 border border-black shado mx-auto pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
     </div>
     </section>
 
-    <Heading 
-      title={"Uppnå dina mål med Sociala medier"}
-      titlePosition={"text-right"}
-      textColor={"text-white"}
-      descCustomHtml={`
-      <p class="text-right text-sm pb-10">
-      Google är Sveriges i särklass största sökmotor och 95% av alla sökningar görs idag via deras plattform. I Sverige görs det varje dag mer än 50 miljoner sökningar på Google. Med siffror som dessa inser du säkert vikten av att synas högt upp i sökresultatet som Google visar upp. Konkurrensen mellan företag som vill ranka högt upp på Google är idag oerhört stor då många idag förstår betydelsen av vad en bra position innebär. Med andra ord, syns du inte så finns du inte.    
-      </p>
-
-
-      <p class="text-left text-sm pb-10">
-      Tillsammans med dig reder vi ut vad du vill uppnå genom att annonsera på sociala medier och vad som ska prioriteras för att nå dina mål.
-      </p>
-
-    `}
-    />
-
+    
   
 
 
     
     </div>     
     </section>
+    <Heading 
+      title={"Uppnå dina mål med Sociala medier"}
+      titlePosition={"text-right md:text-center"}
+      textColor={"text-white"}
+      descCustomHtml={`
+      <p class="text-right md:text-center text-white text-sm pb-10">
+      Google är Sveriges i särklass största sökmotor och 95% av alla sökningar görs idag via deras plattform. I Sverige görs det varje dag mer än 50 miljoner sökningar på Google. Med siffror som dessa inser du säkert vikten av att synas högt upp i sökresultatet som Google visar upp. Konkurrensen mellan företag som vill ranka högt upp på Google är idag oerhört stor då många idag förstår betydelsen av vad en bra position innebär. Med andra ord, syns du inte så finns du inte.    
+      </p>
+
+
+      <p class="text-left md:text-center text-white text-sm pb-10">
+      Tillsammans med dig reder vi ut vad du vill uppnå genom att annonsera på sociala medier och vad som ska prioriteras för att nå dina mål.
+      </p>
+
+    `}
+    />
 
     <div class="pb-20 ">
 
-    <img src={like} class="like-bg shadow" alt="" />
+    <img src={like} class="like-bg md:hidden shadow" alt="" />
  
     </div>
   

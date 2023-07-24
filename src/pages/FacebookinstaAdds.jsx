@@ -9,6 +9,7 @@ export default function FacebookinstaAdds() {
    
    <Heading 
    bg={"bg-white"}
+   titlePosition={"md:text-center"}
    textColor={"text-black"}
    title={"Facebook ads / Instagram ads"}
    desc={" Ads Manager är verktyget för dig som vill skapa annonser på Facebook, Instagram eller Messenger. Verktyget är ett allt i ett-verktyg som används för att skapa annonser, hantera annonser (så som när och var de ska köras), samt bevaka annonskampanjerna. Ads Manager är inte bara ett effektivt verktyg för annonsering, det är också skapat för att kunna användas av annonsörer med olika kunskapsnivåer. Detta verktyg låter dig skapa effektfulla annonser på både Facebook och Instagram, och du kan alltid anpassa och förbättra innehåll. Med Ads Manager kan du enkelt skapa relevanta annonser och tillhandahålla viktig information till dina potentiella kunder."}

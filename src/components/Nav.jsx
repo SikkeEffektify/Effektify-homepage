@@ -10,7 +10,7 @@ const Nav = () => {
     <a href="/" class="flex items-center">
         <img src={logo} class="logo" alt="Efektify Logo" />
     </a>
-    <div class="max-md:text-center max-md:pl-5 md:pl-40">
+    <div class="text-center max-md:pl-5 md:pr-16">
         <a href='/kontakt' class="text-white spanNav-touch">Get in touch</a>
     </div>
        <button class="" type="button" data-dropdown-toggle="dropdown" >

@@ -27,7 +27,7 @@ export default function HeadingWithLogo({mainTitle1, mainDesc1, mainTitle2 ,main
 
 
     <div class="bg-white  ">
-      <p class="text-right text-lg pb-3 pr-3">
+      <p class="text-right md:text-center text-lg pb-3 pr-3">
         {cupText}
       </p>
     <img class="flower mx-auto invert " src={img2} alt="" />
