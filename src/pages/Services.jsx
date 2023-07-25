@@ -22,6 +22,7 @@ export default function Services() {
       As we see it, it’s not about SEO or Google Ads, Facebook or TikTok. We choose tools according to the task, not the other way around.
       </p>
 
+      <div class="md:grid md:grid-cols-6 md:pb-20 md:pt-20">
       <div class="text-center pb-10">
       <a href="/en/google-ads">
       <i class="fa-solid fa-chart-column fa-2xl custom-icon"></i>
@@ -64,6 +65,7 @@ export default function Services() {
       <i class="fa-solid fa-note-sticky fa-2xl custom-icon"></i>
       <p class="text-center text-sm pt-3"> On-page</p>
       </a>
+      </div>
       </div>
       `}
       />
@@ -122,7 +124,7 @@ export default function Services() {
     <div class="whitedivider5 invert  pb-20">
       </div>
 
-    <img className='mx-auto' src={gif} alt="" />
+    <img className='mx-auto md:w-3/4' src={gif} alt="" />
     <ContactForm 
       title={"Let's play!"}
       desc={"If you have any questions or are ready to start your digital journey now, feel free to fill in a few lines or email us at"}

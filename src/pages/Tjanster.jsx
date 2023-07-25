@@ -21,6 +21,7 @@ export default function Tjanster() {
       Som vi ser det handlar det inte om SEO eller Google Ads, Facebook eller TikTok. Vi väljer verktyg enligt uppgiften, inte tvärtom.    
       </p>
 
+      <div class="md:grid md:grid-cols-6 md:pb-20 md:pt-20">
       <div class="text-center pb-10">
       <a href="/google-ads">
       <i class="fa-solid fa-chart-column fa-2xl custom-icon"></i>
@@ -63,6 +64,7 @@ export default function Tjanster() {
       <i class="fa-solid fa-note-sticky fa-2xl custom-icon"></i>
       <p class="text-center text-sm pt-3"> On-page</p>
       </a>
+      </div>
       </div>
       `}
       />
@@ -121,7 +123,7 @@ export default function Tjanster() {
     <div class="whitedivider5 invert  pb-20">
       </div>
 
-    <img className='mx-auto' src={gif} alt="" />
+    <img className='mx-auto md:w-3/4' src={gif} alt="" />
     <ContactForm 
       title={"Vad kul att du har hittat till oss!"}
       desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
