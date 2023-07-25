@@ -40,7 +40,7 @@ export default function GoogleAds() {
     <div class='pt-20 heading-container text-white'>
     <section class="cards-google">
        <div class="pt-5 cards-container2 pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
+     <div class="custom-back max-md:max-w-sm pb-10 border border-black shado mx-auto pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
@@ -52,7 +52,7 @@ export default function GoogleAds() {
   <div dir="rtl">
   <div class="relative h-32 w-32 ...">
     <div class="absolute h-14 w-14 top-0 start-0 ...">
-    <img class="pt-5 drop-shadow-lg scale-150 pb-20" src={raket} alt="" />
+    <img class="pt-5 md:pt-20 md:pb-20 drop-shadow-lg scale-150 pb-20" src={raket} alt="" />
     </div>
   </div>
     </div>
@@ -93,6 +93,7 @@ export default function GoogleAds() {
 
     <Heading 
       bg={"text-white"}
+      titlePosition={"md:text-center"}
       title={"Vad är då Google Ads?"}
       textColor={"text-white"}
       descCustomHtml={`
@@ -125,6 +126,7 @@ export default function GoogleAds() {
 
     <Heading
       bg={"text-white"}
+      titlePosition={"md:text-center"}
       textColor={"text-white"}
       title={"Använda sig av Google Ads"}
       descCustomHtml={`
@@ -136,7 +138,7 @@ export default function GoogleAds() {
       </p>
 
 
-      <h1 class="text-left pt-10 text-2xl pb-5 ">
+      <h1 class="text-left md:text-center md:pb-10 md:pt-20 pt-10 text-2xl pb-5 ">
       Skillnaden mellan
       <br />
       Google Ads och Google Adwords
@@ -161,7 +163,7 @@ export default function GoogleAds() {
       `}
     />
     
-    <img src={gif} alt="" />
+    <img class="mx-auto md:w-4/5" src={gif} alt="" />
   <ContactForm 
     title={"Vad kul att du har hittat till oss!"}
     desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
@@ -179,6 +181,7 @@ export default function GoogleAds() {
     <Heading 
       bg={"fb-custom-color"}
       textColor={"text-white"}
+      titlePosition={"md:text-center"}
       title={"Hur väljer man rätt sökord vid annonsering med Google Ads?"}
       descCustomHtml={`
       <p class="text-sm text-white text-left pb-5">
@@ -226,7 +229,7 @@ export default function GoogleAds() {
     <div class='pt-20 heading-container fb-custom-color text-white'>
     <section class="cards-google2">
        <div class="pt-5 cards-container2 pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
+     <div class="custom-back max-md:max-w-sm pb-10 border-black shadow mx-auto pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
@@ -240,6 +243,7 @@ export default function GoogleAds() {
 
       <Heading
       bg={"fb-custom-color"}
+      titlePosition={"md:text-center"}
       title={"Negativa sökord"}
       textColor={"text-white"}
       descCustomHtml={`
@@ -268,7 +272,7 @@ export default function GoogleAds() {
 
     <section class="cards-google3">
        <div class="pt-5 cards-container2 pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shadow mx-auto pt-10">
+     <div class="custom-back max-md:max-w-sm pb-10 border  shadow mx-auto pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
@@ -279,6 +283,7 @@ export default function GoogleAds() {
     <Heading 
       bg={"bg-white"}
       textColor={"text-black"}
+      titlePosition={"md:text-center"}
       title={"Olika sätt att annonsera i Google Ads "}
       descCustomHtml={`
       <p class="text-sm text-left pb-10">
@@ -294,9 +299,6 @@ export default function GoogleAds() {
       <em> App advertising. </em>
       </p>
 
-      <h1 class="text-left text-3xl pb-5 ">
-      Olika sätt att annonsera i Google Ads 
-      </h1>
       <p class="text-sm text-left pb-10">
       Det vanligaste sättet att använda sig av betald annonsering på Google är genom Google sökannonser. Baserat på vad användaren söker efter på Google så visar Google upp relevanta resultat, inte enbart organiska resultat, utan även annonser ovanför eller under det organiska sökresultatet. Målet är att din annons ska komma högt upp när en användare söker efter det du erbjuder. Det är endast när användaren väljer att klicka på din annons som du betalar så du behöver alltså bara betala per klick (
       <em>pay per click</em>
@@ -304,7 +306,7 @@ export default function GoogleAds() {
       </p>
 
 
-      <h1 class="text-left text-2xl pb-5 ">
+      <h1 class="text-left text-2xl  pb-5 ">
       Rubrik
       </h1>
       <p class="text-sm text-left pb-10">

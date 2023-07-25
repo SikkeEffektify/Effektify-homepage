@@ -40,7 +40,7 @@ export default function GoogleAdsEN() {
     <div class='pt-20 heading-container text-white'>
     <section class="cards-google">
        <div class="pt-5 cards-container2 pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
+     <div class="custom-back max-md:max-w-sm pb-10 border border-black shado mx-auto pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
@@ -96,6 +96,7 @@ export default function GoogleAdsEN() {
 
     <Heading
       bg={"text-white"}
+      titlePosition={"md:text-center"}
       title={"So what is Google Ads actually?"}
       textColor={"text-white"}
       descCustomHtml={`
@@ -128,6 +129,7 @@ export default function GoogleAdsEN() {
     
     <Heading
       bg={"text-white"}
+      titlePosition={"md:text-center"}
       textColor={"text-white"}
       title={"Why you should use Google Ads"}
       descCustomHtml={`
@@ -139,7 +141,7 @@ export default function GoogleAdsEN() {
       </p>
 
 
-      <h1 class="text-left pt-10 text-2xl pb-5 ">
+      <h1 class="text-left pt-10 md:text-center text-2xl pb-5 ">
       The difference between
       <br />
       Google Ads and Google Adwords
@@ -164,7 +166,7 @@ export default function GoogleAdsEN() {
       `}
     />
     
-    <img src={gif} alt="" />
+    <img  class="mx-auto md:w-4/5" src={gif} alt="" />
     <ContactForm 
       title={"How nice that you have found us!"}
       desc={"If you have any questions or are ready to start your digital journey now, feel free to fill in a few lines or email us at"}
@@ -230,7 +232,7 @@ export default function GoogleAdsEN() {
     <div class='pt-20 heading-container fb-custom-color text-white'>
     <section class="cards-google2">
        <div class="pt-5 cards-container2 pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
+     <div class="custom-back max-md:max-w-sm pb-10 border border-black shadow mx-auto pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
@@ -241,6 +243,7 @@ export default function GoogleAdsEN() {
 
       <Heading
       bg={"fb-custom-color"}
+      titlePosition={"md:text-center"}
       title={"Negative keywords"}
       textColor={"text-white"}
       descCustomHtml={`
@@ -269,7 +272,7 @@ export default function GoogleAdsEN() {
 
     <section class="cards-google3">
        <div class="pt-5 cards-container2 pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shadow mx-auto pt-10">
+     <div class="custom-back max-md:max-w-sm pb-10 border shadow mx-auto pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
@@ -279,6 +282,7 @@ export default function GoogleAdsEN() {
     </section>
     <Heading 
       bg={"bg-white"}
+      titlePosition={"md:text-center"}
       textColor={"text-black"}
       title={"Different ways to advertise in Google Ads"}
       descCustomHtml={`
@@ -380,7 +384,7 @@ export default function GoogleAdsEN() {
       </p>
      
 
-      <h1 class="text-left text-2xl pb-5 ">
+      <h1 class="text-left text-2xl pb-5 md:text-center md:pt-20 ">
       Need help getting started with Google Ads?
       </h1>
       <p class="text-sm text-left pb-5">
