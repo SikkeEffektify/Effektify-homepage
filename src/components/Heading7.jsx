@@ -10,10 +10,10 @@ export const Heading7 = ({smallTitle, title, desc, img, img2, img3}) => {
     <h1 class="text-lg uppercase">
     {title}
     </h1>
-    <img class="mx-auto pt-5 drop-shadow-lg" src={img} alt="" />
-    <img class="mx-auto pt-5 drop-shadow-lg" src={img2} alt="" />
-    <img class="mx-auto pt-5 drop-shadow-lg" src={img3} alt="" />
-    <p class="text-left pt-10 pb-10 text-base">{desc}</p>
+    <img class="mx-auto md:w-4/5 pt-5 drop-shadow-lg" src={img} alt="" />
+    <img class="mx-auto md:w-4/5  pt-5 drop-shadow-lg" src={img2} alt="" />
+    <img class="mx-auto md:w-4/5  pt-5 drop-shadow-lg" src={img3} alt="" />
+    <p class="text-left md:w-4/5  pt-10 pb-10 text-base">{desc}</p>
     </div>
   )
 }

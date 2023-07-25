@@ -23,11 +23,11 @@ const Nav = () => {
         <h1 className='text-rose-300 text-2xl px-4 pb-1 '><span className='text-white'>Search</span>.</h1>
         <hr class="w-48 h-0.5 m-2 max-md:mx-auto bg-gray-100 border-0 rounded dark:bg-gray-700" ></hr>
       <li class="pt-3">
-        <a href="#" class="block px-4 py-2 text-base"><i class="fa-solid fa-chart-line text-rose-300 pr-2 max-md:hidden"></i>Sökmotoroptimering</a>
+        <a href="/seo-sokmotoroptimering/" class="block px-4 py-2 text-base"><i class="fa-solid fa-chart-line text-rose-300 pr-2 max-md:hidden"></i>Sökmotoroptimering</a>
         <p class="text-xs max-md:hidden text-gray-300 px-4">Med SEO hjälper vi ert företag <br /> att synas högre upp på sökmotorer, <br /> på de sökord som är viktiga för er.</p>
       </li>
       <li class="pt-3">
-        <a href="#" class="block px-4 py-2 text-base"><i class="fa-solid fa-chart-column text-sky-400 pr-2 max-md:hidden" ></i>Google ads</a>
+        <a href="/google-ads/" class="block px-4 py-2 text-base"><i class="fa-solid fa-chart-column text-sky-400 pr-2 max-md:hidden" ></i>Google ads</a>
         <p class="text-xs max-md:hidden  text-gray-300 px-4">Med relevanta och rätt inriktade <br /> kampanjer br och annonser, <br /> ökar vi er synlighet på sökmotorerna.</p>
       </li>
     </ul>
@@ -36,19 +36,19 @@ const Nav = () => {
         <hr class="w-48 h-0.5 m-2 max-md:mx-auto bg-gray-100 border-0 rounded "></hr>
         <div class="">
       <li class="">
-        <a href="#" class="block px-4 py-2 text-base "><i class="fa-brands fa-facebook text-blue-400 pr-2 max-md:hidden"></i>Facebook Ads</a>
+        <a href="/facebook-ads-instagram-ads/" class="block px-4 py-2 text-base "><i class="fa-brands fa-facebook text-blue-400 pr-2 max-md:hidden"></i>Facebook Ads</a>
       </li>
       <li class="">
-        <a href="#" class="block px-4 py-2 text-base "><i class="fa-brands fa-instagram text-pink-300 pr-2 max-md:hidden"></i>Instagram Ads</a>
+        <a href="/facebook-ads-instagram-ads/" class="block px-4 py-2 text-base "><i class="fa-brands fa-instagram text-pink-300 pr-2 max-md:hidden"></i>Instagram Ads</a>
       </li>
       <li class="">
-        <a href="#" class="block px-4 py-2 text-base "><i class="fa-brands fa-linkedin text-blue-500 pr-2 max-md:hidden"></i>Linkedin Ads</a>
+        <a href="/linkedin-ads" class="block px-4 py-2 text-base "><i class="fa-brands fa-linkedin text-blue-500 pr-2 max-md:hidden"></i>Linkedin Ads</a>
       </li>
       <li class="">
-        <a href="#" class="block px-4 py-2 text-base "><i class="fa-brands fa-youtube text-red-500 pr-1 max-md:hidden"></i>Youtube Ads</a>
+        <a href="/digital-annonsering/" class="block px-4 py-2 text-base "><i class="fa-brands fa-youtube text-red-500 pr-1 max-md:hidden"></i>Youtube Ads</a>
       </li>
       <li class="max-md:pb-10">
-        <a href="#" class="block px-4 py-2 text-base "><i class="fa-brands fa-tiktok text-white pr-2 max-md:hidden"></i>Tiktok Ads</a>
+        <a href="/tiktok-ads/" class="block px-4 py-2 text-base "><i class="fa-brands fa-tiktok text-white pr-2 max-md:hidden"></i>Tiktok Ads</a>
       </li>
       </div>
     </ul>
@@ -56,11 +56,11 @@ const Nav = () => {
         <h1 className='text-rose-300 text-2xl px-4 pb-1 '><span className='text-white'>WEB & E-COM</span>.</h1>
         <hr class="w-48 h-0.5 m-2 max-md:mx-auto bg-gray-100 border-0 rounded dark:bg-gray-700 " ></hr>
       <li class="pt-3">
-        <a href="#" class="block px-4 py-2 text-base "><i class="fa-brands fa-wordpress text-sky-600 pr-2 max-md:hidden" ></i>Wordpress</a>
+        <a href="/webb" class="block px-4 py-2 text-base "><i class="fa-brands fa-wordpress text-sky-600 pr-2 max-md:hidden" ></i>Wordpress</a>
         <p class="text-xs text-gray-300 px-4 max-md:hidden">Världens största system för att skapa <br /> hemsidor, som idag används <br /> till  över 27% av alla webbplatser på internet.</p>
       </li>
       <li class="pt-3 max-md:pb-10">
-        <a href="#" class="block px-4 py-2 text-base"><i class="fa-brands fa-shopify text-green-400 pr-2 max-md:hidden"></i>Shopify</a>
+        <a href="/webb" class="block px-4 py-2 text-base"><i class="fa-brands fa-shopify text-green-400 pr-2 max-md:hidden"></i>Shopify</a>
         <p class="text-xs text-gray-300 px-4 max-md:hidden  ">En komplett handelsplattform som låter <br /> företag starta, utveckla och sälja <br /> produkter och tjänster online.</p>
       </li>
     </ul>

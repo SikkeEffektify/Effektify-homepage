@@ -7,7 +7,7 @@ export default function LinkedInComponent({mainTitle1, mainDesc1, underCard1Titl
     
     <section>
     <div class='pt-20 heading-container bg-white text-black'>
-    <h1 class="text-left text-5xl pb-5 ">
+    <h1 class="text-left md:text-center text-5xl pb-5 ">
        {mainTitle1}
     </h1>
 

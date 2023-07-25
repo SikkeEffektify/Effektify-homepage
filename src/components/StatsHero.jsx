@@ -14,7 +14,7 @@ export const StatsHero = ({videoLink, videoLink2, title1, title2, desc, title3, 
     </div>
    </div>
    <section class="bg-white max-md:pt-10 md:pt-40 text-lg font-black text-black heading-container pb-10">
-    <h2 class="uppercase">{title2}</h2>
+    <h2 class="uppercase md:text-center">{title2}</h2>
     <p class="font-light pt-5 text-sm">
     {desc}
     </p>

@@ -17,7 +17,8 @@ export default function GoogleAdsEN() {
     />
 
     
-    <Heading 
+    <Heading
+      titlePosition={"md:text-center"}
       title={"Google Ads "}
       textColor={"text-white"}
       descCustomHtml={`

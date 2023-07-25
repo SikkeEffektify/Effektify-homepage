@@ -21,9 +21,9 @@ export const HeadingSEO3 = ({mainTitle1, mainDesc1, mainDesc2, smallTitle1, smal
     <section class="text-black bg-white heading-container pt-5">
     <h1 class="text-lg pt-10 pb-5 uppercase text-center">{smallTitle1}</h1>
     <p class="text-sm pb-5">{smallDesc1}</p>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-5" src={img} alt="" />
+    <img class="mx-auto md:w-3/5  pt-5 drop-shadow-lg pb-5" src={img} alt="" />
     <div dangerouslySetInnerHTML={{__html: smallDesc2}}></div>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-5" src={img2} alt="" />
+    <img class="mx-auto md:w-3/5  pt-5 drop-shadow-lg pb-5" src={img2} alt="" />
     <div dangerouslySetInnerHTML={{__html: smallDesc3}}></div>
     </section>
     
@@ -33,7 +33,7 @@ export const HeadingSEO3 = ({mainTitle1, mainDesc1, mainDesc2, smallTitle1, smal
 
     <section class="bg-white heading-container">
     <p class='text-sm pb-5'>{imageText}</p>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-5" src={img3} alt="" /> 
+    <img class="mx-auto md:w-3/5  pt-5 drop-shadow-lg pb-5" src={img3} alt="" /> 
     <div dangerouslySetInnerHTML={{__html: endDesc}}></div>
 
     </section>

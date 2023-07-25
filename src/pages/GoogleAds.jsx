@@ -20,6 +20,7 @@ export default function GoogleAds() {
     <Heading 
       title={"Google Ads / Annonsering"}
       textColor={"text-white"}
+      titlePosition={"md:text-center"}
       descCustomHtml={`
       <p class="text-sm text-left text-white pb-5">
       Google är idag världens största sökmotor och det görs dagligen cirka 3,3 miljarder sökningar endast på deras plattform. Det innebär att om du vill nå ut till dina kunder på bästa sätt behöver du synas på Google. För att du ska lyckas med den digitala marknadsföringen av ditt företag behöver du arbeta med
