@@ -31,7 +31,7 @@ export const ImageCards = ({title1, desc1, title2, desc2, title3, desc3, title4,
     </section>
     <section class="cards2-4">
        <div class="pt-5 cards-container ">
-     <div class="custom-back max-w-sm p-6 pb-10 border border-black shado  mx-auto  pt-10">
+     <div class="custom-back max-w-sm p-6 pb-10 md:pb-12 border border-black shado  mx-auto  pt-10">
         <h3 class="pt-20 pb-20 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white">{title4}</span></h3>
     </div>
     </div>

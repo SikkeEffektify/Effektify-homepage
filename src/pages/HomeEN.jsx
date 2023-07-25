@@ -83,7 +83,8 @@ export default function HomeEN() {
     desc2={"Doors & windows"}
     title3={"Gipsholm"}
     desc3={"Home Textiles"}
-    title4={"Swedish Table Tennis Federation"}
+    title4={"Swedish TableTennis-Federation"}
+ 
     />
     <Heading 
     titlePosition={"text-center uppercase"}
