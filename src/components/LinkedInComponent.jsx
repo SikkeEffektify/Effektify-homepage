@@ -47,7 +47,7 @@ export default function LinkedInComponent({mainTitle1, mainDesc1, underCard1Titl
     <section>
     <div class='pt-20 heading-container linkedin-custom-color text-white'>
         
-    <h1 class="text-left text-4xl pb-5 ">
+    <h1 class="text-left md:text-center text-4xl pb-5 md:pb-10 ">
     {mainTitle3}
     </h1>
 
@@ -67,13 +67,13 @@ export default function LinkedInComponent({mainTitle1, mainDesc1, underCard1Titl
     </section>
 
 
-    <h1 class="text-left text-4xl pb-5 ">
+    <h1 class="text-left text-4xl md:text-center md:pt-10 pb-5 ">
     {underCard2Title}
     </h1>
 
     <div dangerouslySetInnerHTML={{__html: underCard2Desc}}></div>
 
-    <h1 class="text-left text-4xl pb-5 ">
+    <h1 class="text-left text-4xl md:text-center md:pt-10 pb-5 ">
     {endTitle}
     </h1>
     

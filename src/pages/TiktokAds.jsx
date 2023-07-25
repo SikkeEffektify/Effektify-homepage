@@ -36,7 +36,7 @@ export default function TiktokAds() {
       <p class="text-sm text-left pb-5">
       När man analyserar datan utifrån en makrosynpunkt ser man över den allmänna datan från alla kampanjer, och för att få ett fågelperspektiv på din samlade data är det bästa alternativet att kolla på sidan “Dashboard”. Mikrosynpunkt däremot, innebär att man fokuserar på detaljerna i kampanjerna och gräver djupare i dessa. För att bättre förstå resultatet av kampanjerna, annonsgrupperna och annonserna använder man sig av sidan “Campaign”.    
       </p>
-      <p class="text-sm text-left pb-10">
+      <p class="text-sm text-left pb-10 md:pb-40">
       Sidan “Dashboard” bör vara det första du använder dig av då du med den kan hålla dig uppdaterad vad gäller resultat, ad spend, och den allmänna statusen för dina kampanjer. På sidan “Campaign” däremot, kan du djupdyka i alla detaljer för dina kampanjer, annonsgrupper och annonser. Här kan du även göra saker så som att filtrera dina kampanjer, anpassa formatet för att att lättare analysera datan och se över detaljerad data för varje kampanj, annonsgrupp och annons.   
       </p>
       `}

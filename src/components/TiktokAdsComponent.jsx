@@ -39,7 +39,7 @@ export default function TiktokAdsComponent({mainTitle1, mainDesc1, underCard1Tit
         
     <section>
     <div class='pt-20 heading-container text-white'>
-    <h1 class="text-left text-5xl pb-5 ">
+    <h1 class="text-left md:text-center md:pb-10 text-5xl pb-5 ">
     {mainTitle2}
     </h1>
 
@@ -67,7 +67,7 @@ export default function TiktokAdsComponent({mainTitle1, mainDesc1, underCard1Tit
      <section>
     <div class='pt-20 heading-container bg-white text-black'>
 
-    <h1 class="text-left text-5xl pb-5 ">
+    <h1 class="text-left md:text-center md:pt-20 text-5xl pb-5 ">
     {mainTitle3}
     </h1>
     <div dangerouslySetInnerHTML={{__html: mainDesc3}}></div>

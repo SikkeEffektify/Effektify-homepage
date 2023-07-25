@@ -30,7 +30,9 @@ export default function LinkedInAdsEN() {
 
       mainTitle2={" Different types of LinkedIn ads"}
       mainDesc2={`
+      <p class="text-center">
       <i class="fa-regular fa-square-check text-green-500 fa-2xl pb-5"></i>
+      </p>
       <h1 class="text-center text-3xl pb-5 ">
       Sponsored content
       </h1>
@@ -41,8 +43,10 @@ export default function LinkedInAdsEN() {
       The types of ads available as sponsored content are single image ads, video ads, gallery ads and event ads.
       </p>
   
-  
+
+      <p class="text-center">
       <i class="fa-regular fa-square-check text-green-500 fa-2xl pb-5"></i>
+      </p>
       <h1 class="text-center text-3xl pb-5 ">
       Sponsored messages
       </h1>
@@ -53,8 +57,9 @@ export default function LinkedInAdsEN() {
       This is a great way to drive conversions tailored to the target audience in question. However, the landing page needs to be optimised, as well as mobile-friendly. Be clear about the benefits to the member of engaging with your messages.
       </p>
   
-  
+      <p class="text-center">
       <i class="fa-regular fa-square-check text-green-500 fa-2xl pb-5"></i>
+      </p>
       <h1 class="text-center text-3xl pb-5 ">
       Text ads
       </h1>
@@ -66,8 +71,9 @@ export default function LinkedInAdsEN() {
       </p>
   
   
-  
+      <p class="text-center">
       <i class="fa-regular fa-square-check text-green-500 fa-2xl pb-5"></i>
+      </p>
       <h1 class="text-center text-3xl pb-5 ">
       Dynamic Ads
       </h1>
@@ -126,7 +132,7 @@ export default function LinkedInAdsEN() {
       </p>
   
   
-      <h1 class="text-center text-xl pb-20 ">
+      <h1 class="text-center md:pt-20 text-xl pb-20 ">
       Do You want to advertise on TikTok instead?
       <br />
       <a class="text-rose-300 underline" href="-/en/tiktok-ads">Click Here</a>
