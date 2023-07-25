@@ -68,7 +68,7 @@ desc={`
       <a class="text-rose-300" target="_blank" rel="noopener noreferrer" href="/seo-sokmotoroptimering/"> SEO </a>
       att göra din webbplats synlig på Google och andra sökmotorer.
       </p>
-      <img class="mx-auto pt-5 pb-10 drop-shadow-lg" src="./src/assets/seo-halmstad-stats.webp" alt="" />
+      <img class="mx-auto md:w-4/5 pt-5 pb-10 drop-shadow-lg" src="./src/assets/seo-halmstad-stats.webp" alt="" />
       `}
       />
     </section>
@@ -167,7 +167,7 @@ desc={`
     <Heading 
     bg={"bg-white"}
     textColor={"text-black text-3xl"}
-    titlePosition={"text-left"}
+    titlePosition={"text-left md:text-center"}
     title={"Sökmotoroptimering"}
     descCustomHtml={`
     <p class="text-sm text-left pb-5">
@@ -238,7 +238,7 @@ desc={`
 <Heading 
     bg={"bg-white"}
     textColor={"text-black text-3xl"}
-    titlePosition={"text-left"}
+    titlePosition={"text-left md:text-center"}
     title={"Google utvecklas ständigt därför måste också SEO göra det"}
     descCustomHtml={`
     <p class="text-sm text-left pb-5">
@@ -295,7 +295,7 @@ desc={`
     <Heading 
     bg={"bg-white"}
     textColor={"text-black text-3xl"}
-    titlePosition={"text-left"}
+    titlePosition={"text-left md:text-center"}
     title={"SEO och Google Analytics"}
     descCustomHtml={`
     <p class="text-sm text-left pb-5">

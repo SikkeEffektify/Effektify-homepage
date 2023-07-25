@@ -73,7 +73,7 @@ export default function SEOBiggerComponent({mainTitle1, mainDesc1, mainTitle2, m
 
     <hr
   class="my-12 h-0.5 border-t-0 bg-black opacity-100 dark:opacity-50" />
-    <h1 class="text-2xl text-left uppercase pt-5 pb-5">
+    <h1 class="text-2xl text-left md:text-center uppercase pt-5 pb-5">
     {mainTitle6}
     </h1>
    <div dangerouslySetInnerHTML={{__html: mainDesc6}}></div>
