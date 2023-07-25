@@ -39,7 +39,7 @@ export const HeadingSEO = ({
       <section class="bg-white heading-container pb-10">
         <h1 class="text-3xl text-center pb-10">{mainTitle2}</h1>
         <p class="text-sm pb-5">{mainDesc2}</p>
-        <img class="mx-auto pt-5 drop-shadow-lg" src={img} alt="" />
+        <img class="mx-auto md:w-3/5  pt-5 drop-shadow-lg" src={img} alt="" />
         <div dangerouslySetInnerHTML={{ __html: mainDesc3 }}></div>
       </section>
 

@@ -29,7 +29,7 @@ export const HeadingSEO6 = ({mainTitle1, mainDesc1, mainTitle2, mainDesc2, cardT
 
     <div dangerouslySetInnerHTML={{__html: endList}}></div>
 
-    <img class="mx-auto pt-5 drop-shadow-lg pb-5" src={img} alt="" /> 
+    <img class="mx-auto md:w-4/5  pt-5 drop-shadow-lg pb-5" src={img} alt="" /> 
     <p class="text-sm">
     {endText}
     </p>

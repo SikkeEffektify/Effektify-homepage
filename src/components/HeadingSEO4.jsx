@@ -25,7 +25,7 @@ export const HeadingSEO4 = ({mainTitle1, mainDesc1, cardTitle1, cardDesc1, mainT
     <h1 class="text-2xl uppercase pb-5">{mainTitle2}</h1>
     <div dangerouslySetInnerHTML={{__html: mainDesc2}}></div>
 
-    <img class="mx-auto pt-5 pb-10 drop-shadow-lg" src={img} alt="" />
+    <img class="mx-auto md:w-3/6  pt-5 pb-10 drop-shadow-lg" src={img} alt="" />
     <p class='text-sm text-left pb-5'>
     {underImageDesc}
     </p>
