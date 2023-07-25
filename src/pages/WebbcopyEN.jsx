@@ -13,10 +13,11 @@ export default function WebbcopyEN() {
 
     <Heading 
     bg={"bg-white pt-10 pb-10"}
+    titlePosition={"md:text-center"}
     textColor={"text-black"}
     title={"Copy & Web copy"}
     descCustomHtml={`
-    <p class="text-sm text-left pb-10">
+    <p class="text-sm text-left md:text-center pb-10">
     Here you can learn more about how to write web copy that gets your website seen on Google.
     </p>
     <p class="text-xl text-center pb-5">Read more about
@@ -185,7 +186,7 @@ export default function WebbcopyEN() {
     <div class="blacktopdivider2 fb-custom-color pb-20">
     </div>
 
-    <img className='mx-auto' src={gif} alt="" />
+    <img className='mx-auto md:w-4/5' src={gif} alt="" />
     <ContactForm 
     title={"How nice that you have found us!"}
     desc={"If you have any questions or are ready to start your digital journey now, feel free to fill in a few lines or email us at"}
@@ -378,7 +379,7 @@ export default function WebbcopyEN() {
     <section>
       
     <div class='heading-container bg-white text-black'>
-        <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={searchintent} alt="" />
+        <img class="mx-auto md:w-3/5 pt-5 drop-shadow-lg pb-10" src={searchintent} alt="" />
     </div>
     </section>
 

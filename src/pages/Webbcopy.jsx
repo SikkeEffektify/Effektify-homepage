@@ -13,10 +13,11 @@ export default function Webbcopy() {
 
     <Heading 
     bg={"bg-white pt-10 pb-10"}
+    titlePosition={"md:text-center"}
     textColor={"text-black"}
     title={"Copy & Webbcopy"}
     descCustomHtml={`
-    <p class="text-sm text-left pb-10">
+    <p class="text-sm text-left md:text-center pb-10">
     Här kan du lära dig mer om hur du skriver texter för webben som gör att din hemsida syns på Google.
     </p>
     <p class="text-xl text-center pb-5">
@@ -188,7 +189,7 @@ export default function Webbcopy() {
     <div class="blacktopdivider2 fb-custom-color pb-20">
     </div>
 
-    <img className='mx-auto' src={gif} alt="" />
+    <img className='mx-auto md:w-3/5' src={gif} alt="" />
     <ContactForm 
     title={"Vad kul att du har hittat till oss!"}
     desc={"Har du frågor eller är redo att starta din digitala resa redan nu, är du välkommen att fylla i några rader eller maila oss på "}
@@ -332,7 +333,7 @@ export default function Webbcopy() {
 
     <section>
     <div class='heading-container  text-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg " src={sidandstitel} alt="" />
+    <img class="mx-auto md:w-4/5 pt-5 drop-shadow-lg " src={sidandstitel} alt="" />
 
     </div>
     </section>
@@ -380,7 +381,7 @@ export default function Webbcopy() {
     <section>
       
     <div class='heading-container bg-white text-black'>
-        <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={searchintent} alt="" />
+        <img class="mx-auto md:w-3/5 pt-5 drop-shadow-lg pb-10" src={searchintent} alt="" />
     </div>
     </section>
 
