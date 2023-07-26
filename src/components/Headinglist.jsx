@@ -93,6 +93,54 @@ export const Headinglist = (
 </div>
 </div> 
 
+<h2 id="accordion-flush-heading-6" class="button-no-back">
+<button type="button" class="flex button-no-back items-center justify-between w-full py-5 font-medium text-left text-white" data-accordion-target="#accordion-flush-body-6" aria-expanded="false" aria-controls="accordion-flush-body-6">
+  <span class='uppercase'>{title6}</span>
+  <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
+</button>
+</h2>
+<div id="accordion-flush-body-6" class="hidden" aria-labelledby="accordion-flush-heading-6">
+<div class="py-5 border-b">
+  <div dangerouslySetInnerHTML={{__html: desc6}}></div>
+</div>
+</div> 
+
+<h2 id="accordion-flush-heading-7" class="button-no-back">
+<button type="button" class="flex button-no-back items-center justify-between w-full py-5 font-medium text-left text-white" data-accordion-target="#accordion-flush-body-7" aria-expanded="false" aria-controls="accordion-flush-body-7">
+  <span class='uppercase'>{title7}</span>
+  <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
+</button>
+</h2>
+<div id="accordion-flush-body-7" class="hidden" aria-labelledby="accordion-flush-heading-7">
+<div class="py-5 border-b">
+  <div dangerouslySetInnerHTML={{__html: desc7}}></div>
+</div>
+</div>
+
+<h2 id="accordion-flush-heading-8" class="button-no-back">
+<button type="button" class="flex button-no-back items-center justify-between w-full py-5 font-medium text-left text-white" data-accordion-target="#accordion-flush-body-8" aria-expanded="false" aria-controls="accordion-flush-body-8">
+  <span class='uppercase'>{title8}</span>
+  <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
+</button>
+</h2>
+<div id="accordion-flush-body-8" class="hidden" aria-labelledby="accordion-flush-heading-8">
+<div class="py-5 border-b">
+  <div dangerouslySetInnerHTML={{__html: desc8}}></div>
+</div>
+</div>
+
+<h2 id="accordion-flush-heading-9" class="button-no-back">
+<button type="button" class="flex button-no-back items-center justify-between w-full py-5 font-medium text-left text-white" data-accordion-target="#accordion-flush-body-9" aria-expanded="false" aria-controls="accordion-flush-body-9">
+  <span class='uppercase'>{title9}</span>
+  <i class="fa-solid fa-angles-down pr-2 text-rose-300"></i>
+</button>
+</h2>
+<div id="accordion-flush-body-9" class="hidden" aria-labelledby="accordion-flush-heading-9">
+<div class="py-5 border-b">
+  <div dangerouslySetInnerHTML={{__html: desc9}}></div>
+</div>
+</div> 
+
 
 </div>
 
