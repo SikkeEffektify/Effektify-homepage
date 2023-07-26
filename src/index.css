@@ -86,3 +86,12 @@ background-image: url(./assets/annonsering-sociala-medier-small-1.webp);
 margin: 0 auto; width: 100%;
 background-color: #252525;
 }
+
+.lekplats{
+    filter: brightness(87%) invert(100%);
+    backface-visibility: hidden;
+    width: 50%;
+    text-align: right;
+    margin-right: 0px;
+    margin-bottom: -85px;
+}

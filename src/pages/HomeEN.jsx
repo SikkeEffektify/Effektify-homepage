@@ -74,6 +74,9 @@ export default function HomeEN() {
     buttonLink={"/en/contact-us"}
     buttonText={"Ready for takeoff"}
     />
+
+  <img className='mx-auto md:w-2/4 lekplats' src={lekplats} alt="" />
+  
     <Heading
       titlePosition={"text-center"}
       bg={""}

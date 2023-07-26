@@ -9,6 +9,7 @@ import SmallVideo from '../components/SmallVideo'
 import Splat from '../components/Splat'
 import { HeroButton } from '../components/HeroButton'
 import { HeroTypewriter } from '../components/HeroTypewriter'
+import lekplats from '../assets/varlden-som-lekplats.gif'
 
 
 
@@ -78,6 +79,10 @@ export default function Home() {
       buttonLink={"/kontakt"}
       buttonText={"Ready for takeoff"}
     />
+
+
+    <img className='mx-auto md:w-2/4 lekplats' src={lekplats} alt="" />
+
     <Heading
       titlePosition={"text-center"}
       bg={""}
