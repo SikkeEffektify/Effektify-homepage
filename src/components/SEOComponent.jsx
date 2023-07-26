@@ -10,7 +10,7 @@ export default function SEOComponent({mainTitle1, mainDesc1, underImage1, mainTi
    <div className='hero '>
     
     <img class=" min-w-full min-h-full absolute object-cover  hero-image" src={bg} />
-    <div class="vidContentSEO hero-image-text bg-black/60 md:pb-40">
+    <div class="vidContentSEO hero-image-text  md:pb-40">
         <h1 class='text-5xl pl-4 text-left uppercase text-white pb-10'>{mainTitle1}<span class="text-rose-300">.</span></h1>
          <div dangerouslySetInnerHTML={{__html: mainDesc1}}></div>
         
