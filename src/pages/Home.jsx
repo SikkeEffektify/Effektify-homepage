@@ -10,18 +10,27 @@ import Splat from '../components/Splat'
 import { HeroButton } from '../components/HeroButton'
 
 
+
+
+
 /* Videos */
 import videoHero from '../assets/City-By-Night-low.mp4'
 import videoHeroButton from '../assets/spaceloop2.mp4'
+import { HeroTypewriter } from '../components/HeroTypewriter'
 
 
 export default function Home() {
   return (
     <>
-    <Hero 
-      videoLink={videoHero}
-      title={"We love"}
-      titlePink={"marketing"}
+    <HeroTypewriter 
+     videoLink={videoHero}
+     title={"We love"}
+     typeWrite1={"Marketing"}
+     typeWrite2={"Social Media"}
+     typeWrite3={"Growth"}
+     typeWrite4={"Transparency"}
+     typeWrite5={"SEO"}
+     typeWrite6={"Our Clients"}
     />
     <Heading
       textColor={"text-white"}
