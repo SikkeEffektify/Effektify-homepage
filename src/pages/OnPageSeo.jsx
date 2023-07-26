@@ -14,11 +14,12 @@ export default function OnPageSeo() {
    <>
 
    <Heading
+   titlePosition={"md:text-center"}
    bg={"bg-white"}
    textColor={"text-black"}
    title={"On-page SEO"}
    descCustomHtml={`
-   <p class="text-left text-sm pb-5">
+   <p class="text-left text-sm pb-5 md:pt-10">
     On-page SEO innebär optimering som man gör på hemsidan för att den ska ranka högre upp på sökmotorer för att i sin tur öka trafiken, dvs. antalet besökare som söker efter det som hemsidan förmedlar.
     </p>
     <p class="text-left text-sm pb-10">
@@ -42,30 +43,30 @@ export default function OnPageSeo() {
     </p>
 
 
-    <h1 class="text-left text-2xl pb-5 ">
+    <h1 class="text-left text-2xl md:text-center pb-5 ">
     Metadata
     </h1>
-    <p class="text-left text-sm pb-10">
+    <p class="text-left text-sm md:text-center pb-10">
     Beskriver innehållet på hemsidor för sökmotorer och förklarar hur detta innehåll ska tolkas.
     </p>
 
 
-    <h1 class="text-left text-2xl pb-5 ">
+    <h1 class="text-left text-2xl md:text-center pb-5 ">
     Content
     </h1>
-    <p class="text-left text-sm pb-10">
+    <p class="text-left text-sm md:text-center pb-10">
     Innehåll i form av texter, bilder, ljud, videos och annat som finns på din hemsida.
     </p>
 
 
-    <h1 class="text-left text-2xl pb-5 ">
+    <h1 class="text-left text-2xl md:text-center pb-5 ">
     Interna länkar
     </h1>
-    <p class="text-left text-sm pb-20">
+    <p class="text-left text-sm md:text-center pb-20">
     Länkar som leder besökare och sökmotorer vidare till andras sidor på samma domän.
     </p>
 
-    <p class="text-left text-base pb-10">
+    <p class="text-left text-base pb-10" md:pb-40 md:text-center>
     Dessa delar, tillsammans med faktorer som hemsidans auktoritet, säkerhet och laddningshastighet kommer att förbättra din webbplats ranking i sökresultaten och därmed göra den mer synlig för potentiella besökare eller kunder som söker efter det som din hemsida erbjuder.
     </p>
    `}
@@ -78,14 +79,15 @@ export default function OnPageSeo() {
 
     <Heading 
     title={"Vad gör SEO på sidan så viktig?"}
+    titlePosition={"md:text-center"}
     textColor={"text-white"}
     bg={"text-white"}
     descCustomHtml={`
-    <p class="text-left text-sm pb-5">Google tittar på sidans innehåll för att avgöra om det är relevant för sökningen som görs. En del av den här processen är att leta efter viktiga sökord. Om dessa sökord hittas på din sida, i rubriker eller i brödtext, anses informationen vara mer relevant för sökningen i fråga."}</p>
+    <p class="text-left text-sm md:pt-10   pb-5">Google tittar på sidans innehåll för att avgöra om det är relevant för sökningen som görs. En del av den här processen är att leta efter viktiga sökord. Om dessa sökord hittas på din sida, i rubriker eller i brödtext, anses informationen vara mer relevant för sökningen i fråga."}</p>
     <p class="text-left text-sm pb-5">
     Vad som gör on-page SEO så viktigt är att det hjälper sökmotorerna att förstå din webbplats och innehållet som finns där, för att identifiera om den är relevant för sökningen som görs. Vad Google gör är att helt enkelt förstå vad användare faktiskt letar efter när de gör sin sökning, även kallat search intent, och att därefter leverera ett sökresultat som uppfyller avsikten bakom sökningen.    
     </p>
-    <p class="text-left text-sm pb-10">
+    <p class="text-left text-sm pb-10 md:pb-20">
     Att hålla sig uppdaterad på vad kraven är för att Google ska anse dig vara relevant är oerhört viktigt, dels för att du ska fortsätta hålla dig synlig för användare, men även för att detta är den del av optimeringen som du faktiskt kan kontrollera, till skillnad från den del som styrs av faktorer utanför sidan.  
     </p>
     `}
@@ -93,13 +95,14 @@ export default function OnPageSeo() {
 
     <section>
     <div class='heading-container text-white'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={Google} alt="" />
+    <img class="mx-auto pt-5 md:w-4/6 drop-shadow-lg pb-10" src={Google} alt="" />
     </div>
     </section>
 
     <Heading 
     bg={"text-white"}
     textColor={"text-white"}
+    titlePosition={"md:text-center"}
     title={"Korta och relevanta adresser"}
     descCustomHtml={`
     
@@ -131,6 +134,7 @@ export default function OnPageSeo() {
     <Heading 
     bg={"fb-custom-color text-white"}
     textColor={"text-white"}
+    titlePosition={"md:text-center"}
     title={"Relevant Content"}
     descCustomHtml={`
     <p class="text-left text-sm pb-5">
@@ -141,7 +145,7 @@ export default function OnPageSeo() {
     Vad som avgör hur bra innehållet på din hemsida står sig gentemot konkurrenters sidor beror på en rad element som alla väger olika tungt i Googles ögon. All text anses inte vara lika betydelsefull när det kommer till att öka din relevans, vilket gör det viktigt att veta vilka element som betyder mest.
     </p>
 
-    <h1 class="text-left text-4xl pb-5 ">
+    <h1 class="text-left text-4xl pb-5 md:text-center ">
     Naturligt & användarvänligt innehåll   
     </h1>
     <p class="text-left text-sm pb-5">
@@ -167,7 +171,7 @@ export default function OnPageSeo() {
     <div class='heading-container fb-custom-color text-white'>
     <section class="cards-seo3">
        <div class="pt-5 cards-container2 pb-10">
-     <div class="custom-back max-w-sm pb-10 border border-black shado mx-auto pt-10">
+     <div class="custom-back max-md:max-w-sm pb-10 border border-black shado mx-auto pt-10">
         <h1 class="pt-40 cards2-title text-center mb-2 font-semibold tracking-tight uppercase text-rose-300"><span class="text-white"></span></h1>
         <h2 class="pb-20 text-center cards2-under-title text-white"><span class="pl-4"></span></h2>
     </div>
@@ -180,6 +184,7 @@ export default function OnPageSeo() {
     <Heading 
     textColor={"text-black"}
     bg={"bg-white"}
+    titlePosition={"md:text-center"}
     title={"Titlar"}
     descCustomHtml={` <p class="text-left text-sm pb-5">
     Sidans titel, eller page title, är den titel som visas upp som en en länk i det organiska sökresultatet på Google. Förutom att den syns högst upp i webbläsarens fönster efter att man klickat sig in på den, finns denna titel inte synlig på hemsidan, utan är specifikt utformad för att locka till sig besökare.   
@@ -200,10 +205,8 @@ export default function OnPageSeo() {
     sökmotorer att enklare förstå vad sidan handlar om
     </p>
 
-    <h1 class="text-left text-4xl pt-5 pb-10 ">
-    Meta
-    <br />
-    beskrivning
+    <h1 class="text-left text-4xl pt-5 md:text-center pb-10 ">
+    Meta beskrivning
     </h1>
     <p class="text-left text-sm pb-5">
     När du skapar ett Ad Set kan du välja vem du vill nå, samt när och var. När du specificerar målgruppen kan du välja faktorer så som kön, ålder och geografi, men även faktorer så som målgruppens intressen och livssituation för att underlätta för Facebook att identifiera målgruppen genom insamlad data.   
@@ -233,9 +236,9 @@ export default function OnPageSeo() {
     </section>
 
     
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={Sokmotoroptimering} alt="" />
+    <img class="mx-auto pt-5 md:w-3/4 drop-shadow-lg pb-10" src={Sokmotoroptimering} alt="" />
 
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={Meta} alt="" />
+    <img class="mx-auto pt-5 md:w-3/4 drop-shadow-lg pb-10" src={Meta} alt="" />
     </div>
     <div class="whitedivider5  pb-20">
       </div>
@@ -245,6 +248,7 @@ export default function OnPageSeo() {
     <Heading 
     bg={"text-white"}
     textColor={"text-white"}
+    titlePosition={"md:text-center"}
     title={"Hemsidans Hemlighet"}
     descCustomHtml={`
     <p class="text-left text-sm pb-5">
@@ -272,6 +276,7 @@ export default function OnPageSeo() {
     </section>
     </div>
     <Heading 
+    titlePosition={"md:text-center"}
     title={"Bild optimering"}
     bg={"text-white"}
     textColor={"text-white"}
@@ -292,14 +297,14 @@ export default function OnPageSeo() {
 
     <p class="text-left text-sm pb-10">
     Då du namnger dina bilder bör du:
-    <ul class="list-disc text-base">
+    <ul class="list-disc text-base text-left">
       <li> Vara beskrivande</li> 
       <li> Vara Kortfattad </li>
       <li> Använda dig av sökord </li>
       <li> Använda streck mellan ord </li>
     </ul>   
     </p>
-    <p class="text-right text-base pb-10">
+    <p class="text-right text-base pb-10 md:pt-10">
     Vill du exempelvis lägga upp en bild på din svarta katt bör du därmed döpa den till svart-katt.jpg. Detta gör det enkelt för Google att bilda sig en uppfattning av vad bilden föreställer.
     </p>
 
@@ -314,7 +319,7 @@ export default function OnPageSeo() {
     <p class="text-left text-base pb-5">
         Då du angerer en alt-text bör du:
 
-        <ul class="list-disc text-lg pt-5">
+        <ul class="list-disc text-lg text-left pt-5">
             <li> Vara Beskrivande </li>
             <li> Vara kortfattad </li>
             <li> Använda sökord </li>
@@ -322,7 +327,7 @@ export default function OnPageSeo() {
         </ul>
     </p>
 
-    <p class="text-left text-base pb-5">
+    <p class="text-left text-base pb-5 md:pt-10">
     Enligt Google själva bör du fokusera på att ange en användbar, informationsrik text som använder sökord på ett naturligt sätt och som är i sammanhang med innehållet på sidan.
     </p>
     `}
@@ -332,7 +337,7 @@ export default function OnPageSeo() {
 
 
     <div className='heading-container'>
-    <img class="mx-auto pt-5 drop-shadow-lg pb-10" src={Namnge} alt="" />
+    <img class="mx-auto pt-5 md:w-3/4 drop-shadow-lg pb-10" src={Namnge} alt="" />
     </div>
    
 
@@ -346,6 +351,7 @@ export default function OnPageSeo() {
     bg={"fb-custom-color text-white"}
     textColor={"text-white"}
     title={"Hemsidans säkerhet"}
+    titlePosition={"md:text-center"}
     descCustomHtml={`
     <p class="text-left text-sm pb-5">
     Sökmotorer föredrar hemsidor som är säkra och undviker gärna att visa upp sidor som inte anses vara det. Genom att installera ett så kallat SSL-certifikat skyddas besökarnas kommunikation samtidigt som säkerheten hjälper din on-page SEO eftersom den då rankas den högre i den organiska sökningen.
@@ -361,7 +367,7 @@ export default function OnPageSeo() {
     Hur ser du att en webbplats är säker?
     </h1>
 
-    <ol class="list-decimal">
+    <ol class="list-decimal text-left">
     <li>
     Öppna en sida i Chrome 
     </li>
@@ -382,7 +388,7 @@ export default function OnPageSeo() {
     <div class='heading-container fb-custom-color text-white'>
    
 
-    <img class="mx-auto drop-shadow-lg" src={ssl} alt="" />
+    <img class="mx-auto drop-shadow-lg w-3/4" src={ssl} alt="" />
     
     </div>
     </section>
@@ -390,6 +396,7 @@ export default function OnPageSeo() {
     <Heading
     bg={"fb-custom-color text-white"}
     textColor={"text-white"}
+    titlePosition={"md:text-center"}
     title={"Interna länkar"}
     descCustomHtml={`
     <p class="text-left text-sm pb-5">
@@ -410,7 +417,7 @@ export default function OnPageSeo() {
     `}
     />
 
-    <img className='mx-auto' src={gif} alt="" />
+    <img className='mx-auto md:w-3/4' src={gif} alt="" />
 
     <ContactForm 
     title={"Vad kul att du har hittat till oss!"}

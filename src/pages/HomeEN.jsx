@@ -8,7 +8,7 @@ import { Hero } from '../components/Hero'
 import SmallVideo from '../components/SmallVideo'
 import Splat from '../components/Splat'
 import { HeroButton } from '../components/HeroButton'
-
+import { HeroTypewriter } from '../components/HeroTypewriter'
 
 
 /* Videos */
@@ -19,10 +19,15 @@ import videoHeroButton from '../assets/spaceloop2.mp4'
 export default function HomeEN() {
   return (
     <>
-    <Hero 
-    videoLink={videoHero}
-    title={"We love"}
-    titlePink={"marketing"}
+    <HeroTypewriter 
+     videoLink={videoHero}
+     title={"We love"}
+     typeWrite1={"Marketing"}
+     typeWrite2={"Social Media"}
+     typeWrite3={"Growth"}
+     typeWrite4={"Transparency"}
+     typeWrite5={"SEO"}
+     typeWrite6={"Our Clients"}
     />
     <Heading
       textColor={"text-white"}

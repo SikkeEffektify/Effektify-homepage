@@ -10,7 +10,7 @@ export const StatsHero = ({videoLink, videoLink2, title1, title2, desc, title3, 
     <video class="min-w-full min-h-full absolute object-cover" src={videoLink} autoPlay loop muted />
     <div class="vidContent pt-20 text-center ">
         <h1>{title1}</h1>
-        <a class="pt-40" href="#testtyp"><i class="fa-solid fa-circle-chevron-down fa-lg"></i></a>
+        {/* <a class="pt-40" href="#testtyp"><i class="fa-solid fa-circle-chevron-down fa-lg"></i></a> */}
     </div>
    </div>
    <section class="bg-white max-md:pt-10 md:pt-40 text-lg font-black text-black heading-container pb-10">

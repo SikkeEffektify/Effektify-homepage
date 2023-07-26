@@ -251,7 +251,7 @@ export default function SEOSokopt() {
           Relevanta texter, bilder och annan content på din hemsida som med hjälp av SEO optimeras för sökmotorerna.
           </p>
   
-          <li class=" pt-5 uppercase text-left text-rose-300 text-xl">
+          <li class=" pt-5 uppercase text-left  text-rose-300 text-xl">
           On-page SEO
           </li>
           <p class='text-left pt-2 text-sm'>

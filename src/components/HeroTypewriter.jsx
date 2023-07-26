@@ -14,8 +14,8 @@ export const HeroTypewriter = ({title, typeWrite1, typeWrite2, typeWrite3, typeW
     <div className="vidOverlay"></div>
     <video class="min-w-full min-h-full absolute object-cover" src={videoLink} autoPlay loop muted />
     <div class="vidContent ">
-        <h1>{title}</h1>
-        <h1>{text} <Cursor/></h1>
+        <h1 class="md:text-5xl drop-shadow-xl">{title}</h1>
+        <h1 class="md:text-5xl drop-shadow-xl">{text} <Cursor/></h1>
     </div>
    </div>
     </section>
