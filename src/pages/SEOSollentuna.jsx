@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from '../assets/seo-sollentuna-1.jpeg'
+import bg from '../assets/seo-sollentuna.jpeg'
 import ContactForm from '../components/ContactForm'
 import SEOComponent from '../components/SEOComponent'
 
