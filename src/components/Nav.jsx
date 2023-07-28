@@ -4,13 +4,13 @@ import burgericon from '../assets/hamburger.svg'
 
 const Nav = () => {
   return (
-    <header class="sticky top-0 bg-black">
+    <header class="sticky top-0 bg-black select-none">
         <nav class="navbar-padding ">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
     <a href="/" class="flex items-center">
         <img src={logo} class="logo" alt="Efektify Logo" />
     </a>
-    <div class="text-center max-md:pl-5 md:pr-16">
+    <div class="text-center max-md:pl-5 md:pr-16 select-none">
         <a href='/kontakt' class="text-white spanNav-touch">Get in touch</a>
     </div>
        <button class="" type="button" data-dropdown-toggle="dropdown" >
