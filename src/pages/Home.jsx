@@ -9,7 +9,7 @@ import SmallVideo from '../components/SmallVideo'
 import Splat from '../components/Splat'
 import { HeroButton } from '../components/HeroButton'
 import { HeroTypewriter } from '../components/HeroTypewriter'
-import lekplats from '../assets/varlden-som-lekplats.gif'
+import lekplats from '../assets/lekplats.gif'
 
 
 
