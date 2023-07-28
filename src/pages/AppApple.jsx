@@ -1,6 +1,6 @@
 import React from 'react'
 import testflight from '../assets/testflight_icon.webp'
-import appicon from '../assets/app-icon-light.png'
+import appicon from '../assets/app-icon-light2.png'
 
 export default function AppApple() {
   return (
