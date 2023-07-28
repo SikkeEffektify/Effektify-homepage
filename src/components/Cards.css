@@ -38,14 +38,14 @@
 }
 
 .cards2-2 .custom-back{
-    background-image: linear-gradient(180deg,rgba(0,0,0,.3) 0%,rgba(0,0,0,.8) 100%),url(../assets/ekstrands.webp);
+    background-image: linear-gradient(180deg,rgba(0,0,0,.3) 0%,rgba(0,0,0,.8) 100%),url(../assets/ekstrands-.webp);
     background-size: cover;
     background-position: 60% 75%;
     border-width: 4px;
 }
 
 .cards2-3 .custom-back{
-    background-image: linear-gradient(180deg,rgba(0,0,0,.3) 0%,rgba(0,0,0,.8) 100%),url(../assets/gipsholm.webp);
+    background-image: linear-gradient(180deg,rgba(0,0,0,.3) 0%,rgba(0,0,0,.8) 100%),url(../assets/gipsholm-.webp);
     background-size: cover;
     border-width: 4px;
 }
