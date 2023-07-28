@@ -78,7 +78,7 @@ function App() {
         <Route path='/en/home' element={<HomeEN />} />
         <Route path='/home' element={<Home />} />
         <Route path='/en/contact-us' element={<ContactEN />} />
-        <Route path='/kontakt' element={<Contact />} />
+        <Route path='/Effektify-homepage/kontakt' element={<Contact />} />
         <Route path='/webb' element={<Webb />} />
         <Route path='/en/web' element={<WebbEN />} />
         <Route path='/digital-annonsering' element={<DigitalAnonsering />} />
