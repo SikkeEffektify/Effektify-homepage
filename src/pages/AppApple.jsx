@@ -1,5 +1,5 @@
 import React from 'react'
-import testflight from '../assets/testflight_icon.webp'
+import testflight from '../assets/testflight_icon2.webp'
 import appicon from '../assets/app-icon-light2.png'
 
 export default function AppApple() {
