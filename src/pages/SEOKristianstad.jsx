@@ -1,8 +1,6 @@
 import React from 'react'
 import bg from '../assets/SEO-kristianstad.jpeg'
-import stats from '../assets/Effektify-hjalper-foretag-med-lokal-SEO.webp'
-import stats2 from '../assets/Effektify-hjalper-foretag-med-lokal-sokmotoroptimering.webp'
-import stats3 from '../assets/Effektify-hjalper-dig-med-SEO-lokalt.webp'
+
 import ContactForm from '../components/ContactForm'
 import SEOComponent from '../components/SEOComponent'
 

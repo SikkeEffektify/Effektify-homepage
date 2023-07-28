@@ -1,7 +1,7 @@
 import React from 'react'
-import stats from '../assets/Effektify-hjalper-foretag-med-lokal-SEO.webp'
+import stats from '../assets/Effektify-hjalper-foretag-med-lokal-seo.webp'
 import stats2 from '../assets/Effektify-hjalper-foretag-med-lokal-sokmotoroptimering.webp'
-import stats3 from '../assets/Effektify-hjalper-dig-med-SEO-lokalt.webp'
+import stats3 from '../assets/effektify-hjalper-dig-med-seo-lokal.webp'
 
 export default function SEOComponent({mainTitle1, mainDesc1, underImage1, mainTitle2, mainDesc2, underImage2, mainTitle3, mainDesc3, seoLink, seoLinkText, seoLinkButton, underButtonDesc, endTitle, endDesc, bg }) {
   return (

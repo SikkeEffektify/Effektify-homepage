@@ -1,6 +1,6 @@
 import React from 'react'
 import bg2 from '../assets/seo-google-my-business.webp'
-import stats2 from '../assets/Sökmotoroptimering-seo-1.webp'
+import stats2 from '../assets/sokmotoroptimering-seo-1.webp'
 import ContactForm from './ContactForm'
 
 
