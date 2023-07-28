@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from '../assets/seo-eskilstuna.webp'
+import bg from '../assets/seo-eskilstuna2.webp'
 
 import ContactForm from '../components/ContactForm'
 import SEOComponent from '../components/SEOComponent'
