@@ -1,7 +1,7 @@
 import React from 'react'
 import videoBg from '../assets/googleadds.mp4'
 import raket from '../assets/raket.webp'
-import gif from '../assets/pong_light_version2.gif'
+import gif from '../assets/pong_light_version.gif'
 import ContactForm from '../components/ContactForm'
 import { Hero } from '../components/Hero'
 import { Heading } from '../components/Heading'

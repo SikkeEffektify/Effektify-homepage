@@ -2,7 +2,7 @@ import React from 'react'
 import { Hero} from '../components/Hero'
 import ContactForm from '../components/ContactForm'
 import video from '../assets/clouds.mp4'
-import gif from '../assets/pong_light_version2.gif'
+import gif from '../assets/pong_light_version.gif'
 export default function ContactEN() {
   return (
     <>

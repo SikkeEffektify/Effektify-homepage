@@ -1,5 +1,5 @@
 import React from 'react'
-import gif from '../assets/pong_light_version2.gif'
+import gif from '../assets/pong_light_version.gif'
 import sidandstitel from '../assets/Sidans-titel.webp'
 import searchintent from '../assets/Exempel-pa-search-intent-nar-du-skriver-copy-for-webben.webp'
 import ContactForm from '../components/ContactForm'

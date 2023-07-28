@@ -1,5 +1,5 @@
 import React from 'react'
-import gif from '../assets/pong_light_version2.gif'
+import gif from '../assets/pong_light_version.gif'
 import ContactForm from '../components/ContactForm'
 import like from '../assets/annonsering-sociala-medier-gilla.webp'
 import { Heading } from '../components/Heading'

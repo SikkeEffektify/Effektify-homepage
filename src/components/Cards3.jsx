@@ -1,6 +1,6 @@
 import React from 'react'
 import './Cards.css'
-import gif from '../assets/pong_light_version2.gif'
+import gif from '../assets/pong_light_version.gif'
 
 export const Cards3 = ({title1, desc1, title2, desc2, title3, desc3, title4, desc4}) => {
   return (
