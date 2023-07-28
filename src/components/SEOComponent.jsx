@@ -1,5 +1,5 @@
 import React from 'react'
-import stats from '../assets/Effektify-hjalper-foretag-med-lokal-seo.webp'
+import stats from '../assets/Effektify-hjalper-foretag-med-lokal-seo-.webp'
 import stats2 from '../assets/Effektify-hjalper-foretag-med-lokal-sokmotoroptimering.webp'
 import stats3 from '../assets/effektify-hjalper-dig-med-seo-lokal.webp'
 
