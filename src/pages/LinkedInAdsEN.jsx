@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactForm from '../components/ContactForm'
-import gif from '../assets/PONG_Light_version2.gif'
+import gif from '../assets/pong_light_version2.gif'
 import LinkedInComponent from '../components/LinkedInComponent'
 
 

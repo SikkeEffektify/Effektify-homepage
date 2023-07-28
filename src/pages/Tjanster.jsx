@@ -1,7 +1,7 @@
 import React from 'react'
 import ContactForm from '../components/ContactForm'
 import img from '../assets/effektify-digitalbyra-symbol.webp'
-import gif from '../assets/PONG_Light_version2.gif'
+import gif from '../assets/pong_light_version2.gif'
 import { Heading } from '../components/Heading'
 
 export default function Tjanster() {

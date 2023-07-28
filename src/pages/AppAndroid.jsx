@@ -1,5 +1,5 @@
 import React from 'react'
-import appicon from '../assets/App-icon-light.png'
+import appicon from '../assets/app-icon-light.png'
 
 export default function AppAndroid() {
   return (

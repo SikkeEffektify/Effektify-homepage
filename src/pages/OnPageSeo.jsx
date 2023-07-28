@@ -5,7 +5,7 @@ import Meta from '../assets/Meta-beskrivning-2.webp'
 import ContactForm from '../components/ContactForm'
 import Namnge from '../assets/Namnge-bilder-ratt-satt.webp'
 import ssl from '../assets/Effektify-ssl.webp'
-import gif from '../assets/PONG_Light_version2.gif'
+import gif from '../assets/pong_light_version2.gif'
 import { Heading } from '../components/Heading'
 
 
