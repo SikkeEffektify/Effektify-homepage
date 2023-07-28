@@ -4,7 +4,7 @@ import Sokmotoroptimering from '../assets/SEO-sokmotoroptimering.webp'
 import Meta from '../assets/Meta-beskrivning-2.webp'
 import ContactForm from '../components/ContactForm'
 import Namnge from '../assets/Namnge-bilder-ratt-satt.webp'
-import ssl from '../assets/effektify-ssl.webp'
+import ssl from '../assets/effektify-ssl-.webp'
 import gif from '../assets/pong_light_version.gif'
 import { Heading } from '../components/Heading'
 
