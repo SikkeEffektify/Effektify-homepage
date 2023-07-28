@@ -1,5 +1,5 @@
 import React from 'react'
-import background from '../assets/seo-stockholm.webp'
+import background from '../assets/seo-stockholm2.webp'
 import ContactForm from '../components/ContactForm'
 import SEOBiggerComponent from '../components/SEOBiggercomponent'
 

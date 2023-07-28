@@ -1,5 +1,5 @@
 import React from 'react'
-import background from '../assets/SEO-goteborg.webp'
+import background from '../assets/seo-goteborg-.webp'
 import ContactForm from '../components/ContactForm'
 import SEOBiggerComponent from '../components/SEOBiggercomponent'
 
