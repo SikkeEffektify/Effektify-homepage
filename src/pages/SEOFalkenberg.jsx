@@ -1,5 +1,5 @@
 import React from 'react'
-import backg from '../assets/seo-falkenberg.webp'
+import backg from '../assets/seo-falkenberg2.webp'
 
 import ContactForm from '../components/ContactForm'
 import SEOComponent from '../components/SEOComponent'
